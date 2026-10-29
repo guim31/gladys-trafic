@@ -1,6 +1,6 @@
 {
   "name": "gladys-trafic",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "Gladys Assistant integration: live road traffic of French cities, from open data.",
   "type": "module",
