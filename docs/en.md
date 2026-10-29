@@ -9,6 +9,7 @@ were checked live on 2026-10-29; feedback from users of each city is welcome.
 
 ## What you get
 
+- The **national roads** run by the State (DIR): ring roads and expressways such as the Toulouse ring road (A620, A61, A621, A624), the N118 or the N136, one device per road, direction and département.
 - One **device per road** you follow: traffic level and its name (free flow, heavy, congested,
   closed), average speed (Rennes, Nantes, Strasbourg) or travel time and its usual value
   (Bordeaux), and the age of the measure.
@@ -61,6 +62,15 @@ A "road" gathers every segment of the portal bearing that name: in Rennes, a nat
 departmental road across communes, a street within its commune (the commune is in the name); in
 Nantes, both directions of a boulevard; in Strasbourg, the numbered sensors of one place of the traffic centre.
 
+### National roads (DIR)
+
+Tick **National roads (DIR)** and type the road number or the city, for example `A620` or
+`Toulouse`. Each road is offered **per direction and per département**, as "A620 Toulouse · inner
+ring": inner or outer ring for a ring road, else "northbound", "southbound"… or "direction 1" and
+"direction 2" when the reference file gives no orientation. The city is the traffic-information
+area of the point; without one, the département number ("N136 (35)"). The direction is part of the
+name, its words in the language chosen.
+
 ### Check
 
 The **Status** action of the Configuration tab lists the cities read, the number of roads known,
@@ -75,7 +85,7 @@ Each road added is a read-only device:
 | ----------------- | ------------------ | ------------------------------------------------------ |
 | Traffic           | text               | Free flow, Heavy, Congested, Closed or Unknown         |
 | Traffic level     | risk level         | 0 unknown, 1 free flow, 2 heavy, 3 congested, 4 closed |
-| Average speed     | speed (km/h)       | Rennes, Nantes, Strasbourg                             |
+| Average speed     | speed (km/h)       | Rennes, Nantes, Strasbourg, national roads             |
 | Travel time       | duration (minutes) | Bordeaux: travel time of the route                     |
 | Usual travel time | duration (minutes) | Bordeaux: the reference value published with it        |
 | Data age          | duration (minutes) | age of the newest measure                              |
@@ -130,12 +140,13 @@ The sentence follows the language chosen in the configuration.
 
 ## Data and refresh
 
-| City       | Portal and dataset                                                | Updated by the city | Segments  |
-| ---------- | ----------------------------------------------------------------- | ------------------- | --------- |
-| Rennes     | data.rennesmetropole.fr, "État du trafic en temps réel"           | every few minutes   | ~2,900    |
-| Nantes     | data.nantesmetropole.fr, "Fluidité des axes routiers"             | every few minutes   | ~890      |
-| Strasbourg | data.strasbourg.eu, "SIRAC - flux trafic en temps réel"           | every 3 minutes     | ~480      |
-| Bordeaux   | opendata.bordeaux-metropole.fr, "Temps de parcours en temps réel" | every 2.5 minutes   | 16 routes |
+| City           | Portal and dataset                                                                                                              | Updated by the city | Segments      |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------- |
+| Rennes         | data.rennesmetropole.fr, "État du trafic en temps réel"                                                                         | every few minutes   | ~2,900        |
+| Nantes         | data.nantesmetropole.fr, "Fluidité des axes routiers"                                                                           | every few minutes   | ~890          |
+| Strasbourg     | data.strasbourg.eu, "SIRAC - flux trafic en temps réel"                                                                         | every 3 minutes     | ~480          |
+| Bordeaux       | opendata.bordeaux-metropole.fr, "Temps de parcours en temps réel"                                                               | every 2.5 minutes   | 16 routes     |
+| National roads | tipi.bison-fute.gouv.fr (National Access Point), "État de circulation en temps réel sur le réseau national routier non concédé" | every 6 minutes     | ~1,000 points |
 
 The list of the segments (names, positions) is read **once a day** per city. At each refresh, one
 request per city reads **only the segments of the roads added**, filtered by the portal itself (one
@@ -146,6 +157,14 @@ those of the roads added are read.
 Bordeaux publishes no status: the level is computed from the travel time compared with its usual
 value (up to 1.3 times: free flow, up to 1.8 times: heavy, above: congested). Nantes "blocked"
 segments count as congested. The cycle counters of Strasbourg are left out.
+
+The **national roads** publish speeds and flows per measuring point, no status: the level of a
+point is deduced from its speed (60 km/h or more: free flow; 30 to 60: heavy; below 30:
+congested). A speed of 0 km/h is no measure (an empty road or a faulty loop): the point counts as
+unknown. The reference file of the points (`refDir.csv`, ~120 KB) is read once a day; the measure
+file (`qtvDir.xml`, ~1.5 MB, every point in France) is read as a stream, keeping only the points of
+the roads added, and **only when republished** since the previous read (`If-Modified-Since`
+header). Only the non-conceded roads are published: no toll motorways.
 
 ## Troubleshooting
 
@@ -169,9 +188,12 @@ segments count as congested. The cycle counters of Strasbourg are left out.
   from a navigation app.
 - Read only. Not affiliated with the metropolises.
 
+- **National roads**: only the measuring points published by the DIR (about 1,000, mostly around the big cities); the conceded (toll) motorways are not part of them. Developed without driving there: feedback welcome.
+
 ## Credits
 
 - Data: Rennes Métropole, Nantes Métropole, Eurométropole de Strasbourg (SIRAC), Bordeaux
   Métropole, under their respective open licences (Licence Ouverte / ODbL). Commune names: geo.api.gouv.fr.
 - Built from the official
   [integration template](https://github.com/GladysAssistant/integration-template-js).
+- National roads: Directions interdépartementales des routes (DIR), French ministry of transport, through the National Access Point (transport.data.gouv.fr), Licence Ouverte. Lambert-93 projection: IGN formulas.

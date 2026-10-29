@@ -3,10 +3,10 @@
   "type": "device",
   "name": "Trafic routier",
   "description": {
-    "en": "Live road traffic in French cities (open data): Rennes, Nantes, Strasbourg, Bordeaux.",
-    "fr": "Trafic routier en temps réel des métropoles (open data) : Rennes, Nantes, Strasbourg, Bordeaux.",
-    "de": "Echtzeit-Straßenverkehr französischer Städte (Open Data): Rennes, Nantes, Straßburg, Bordeaux.",
-    "es": "Tráfico en tiempo real de Rennes, Nantes, Estrasburgo y Burdeos (datos abiertos)."
+    "en": "Live road traffic in France (open data): national roads, Rennes, Nantes, Strasbourg, Bordeaux.",
+    "fr": "Trafic en temps réel (open data) : routes nationales, Rennes, Nantes, Strasbourg, Bordeaux.",
+    "de": "Echtzeitverkehr in Frankreich (Open Data): Nationalstraßen, Rennes, Nantes, Straßburg, Bordeaux.",
+    "es": "Tráfico en tiempo real en Francia: carreteras nacionales, Rennes, Nantes, Estrasburgo, Burdeos."
   },
   "version": "1.0.0",
   "docker_image": "ghcr.io/guim31/gladys-trafic:1.0.0",
@@ -18,13 +18,14 @@
   "keywords": [
     "trafic",
     "bouchons",
-    "embouteillage",
     "traffic jam",
+    "rocade",
+    "route nationale",
+    "Toulouse",
     "Rennes",
     "Nantes",
     "Strasbourg",
-    "Bordeaux",
-    "rocade"
+    "Bordeaux"
   ],
   "location": true,
   "config_schema": [
@@ -59,10 +60,10 @@
       "key": "cities",
       "type": "multi_select",
       "label": {
-        "en": "Cities",
-        "fr": "Villes",
-        "de": "Städte",
-        "es": "Ciudades"
+        "en": "Cities and networks",
+        "fr": "Villes et réseaux",
+        "de": "Städte und Netze",
+        "es": "Ciudades y redes"
       },
       "description": {
         "en": "Road traffic published live in open data. Others: see the guide.",
@@ -106,6 +107,15 @@
             "de": "Bordeaux Métropole (16 Fahrzeitstrecken)",
             "es": "Bordeaux Métropole (16 itinerarios)"
           }
+        },
+        {
+          "value": "dir",
+          "label": {
+            "en": "National roads (DIR): ring roads, expressways",
+            "fr": "Routes nationales (DIR) : rocades, voies rapides",
+            "de": "Nationalstraßen (DIR): Ringstraßen, Schnellstraßen",
+            "es": "Carreteras nacionales (DIR): rondas, vías rápidas"
+          }
         }
       ]
     },
@@ -119,16 +129,16 @@
         "es": "Vías a seguir"
       },
       "description": {
-        "en": "Part of their name, separated by commas, 3 letters at least. Bordeaux: every route is offered.",
-        "fr": "Une partie de leur nom, séparée par des virgules, 3 lettres au moins. Bordeaux : tous les itinéraires sont proposés.",
-        "de": "Ein Teil ihres Namens, durch Kommas getrennt, mindestens 3 Buchstaben. Bordeaux: alle Strecken werden angeboten.",
-        "es": "Parte de su nombre, separada por comas, 3 letras como mínimo. Burdeos: se ofrecen todos los itinerarios."
+        "en": "Part of their name, separated by commas, 3 letters at least. National roads: number or city (A620, Toulouse). Bordeaux: every route is offered.",
+        "fr": "Une partie de leur nom, séparée par des virgules, 3 lettres au moins. Routes nationales : numéro ou ville (A620, Toulouse). Bordeaux : tous les itinéraires sont proposés.",
+        "de": "Ein Teil ihres Namens, durch Kommas getrennt, mindestens 3 Buchstaben. Nationalstraßen: Nummer oder Stadt (A620, Toulouse). Bordeaux: alle Strecken werden angeboten.",
+        "es": "Parte de su nombre, separada por comas, 3 letras como mínimo. Carreteras nacionales: número o ciudad (A620, Toulouse). Burdeos: se ofrecen todos los itinerarios."
       },
       "placeholder": {
-        "en": "Route nationale 136, Patton, Schirmeck",
-        "fr": "Route nationale 136, Patton, Schirmeck",
-        "de": "Route nationale 136, Patton, Schirmeck",
-        "es": "Route nationale 136, Patton, Schirmeck"
+        "en": "Route nationale 136, Patton, A620 Toulouse",
+        "fr": "Route nationale 136, Patton, A620 Toulouse",
+        "de": "Route nationale 136, Patton, A620 Toulouse",
+        "es": "Route nationale 136, Patton, A620 Toulouse"
       }
     },
     {

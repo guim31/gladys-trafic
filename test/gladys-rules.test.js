@@ -27,7 +27,7 @@ for (const language of LANGUAGES) {
       config: {
         language,
         cities: SOURCE_KEYS,
-        roads: 'Route, Rue, Avenue, Anglais, Pasteur, Churchill, Schirmeck, Rhin, Lyon',
+        roads: 'Route, Rue, Avenue, Anglais, Pasteur, Churchill, Schirmeck, Rhin, Lyon, Toulouse',
       },
     });
     t.after(() => world.app.stop());

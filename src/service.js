@@ -59,11 +59,12 @@ class City {
   constructor(key) {
     this.key = key;
     this.source = SOURCES[key];
-    this.axes = null; // Map axisKey → { key, name, ids, lat, lon }
+    this.axes = null; // Map axisKey → { key, name, names, search, ids, segments }
     this.home = null; // { key: 'home', ids } or null
     this.catalogAt = null;
     this.catalogRetryAt = null;
     this.measures = new Map(); // segment id → measure
+    this.state = {}; // the source's own memory between reads (national roads)
     this.okAt = null;
     this.error = null;
   }
@@ -258,7 +259,9 @@ export class Traffic {
     const axes = [...(city.axes?.values() ?? [])];
     const matching = city.source.listAll
       ? axes
-      : axes.filter((axis) => this.config.terms.some((term) => fold(axis.name).includes(term)));
+      : axes.filter((axis) =>
+          this.config.terms.some((term) => fold(axis.search ?? axis.name).includes(term)),
+        );
     return matching.sort((a, b) => a.name.localeCompare(b.name, 'fr'));
   }
 
@@ -459,7 +462,7 @@ export class Traffic {
       return;
     }
     try {
-      const segments = await city.source.catalog(this.fetch);
+      const segments = await city.source.catalog(this.fetch, city.state);
       // An empty list (a renamed field, a dataset being reloaded) is a
       // failure, not a city without roads.
       if (segments.length === 0) {
@@ -471,6 +474,8 @@ export class Traffic {
           axes.set(segment.axisKey, {
             key: segment.axisKey,
             name: segment.axisName,
+            names: segment.axisNames ?? null,
+            search: segment.search ?? segment.axisName,
             ids: [],
             segments: [],
           });
@@ -506,7 +511,7 @@ export class Traffic {
       return;
     }
     try {
-      const measures = await city.source.live(this.fetch, ids);
+      const measures = await city.source.live(this.fetch, ids, city.state);
       // Kept for the segments not read this time (another road added since).
       for (const [id, measure] of measures) {
         city.measures.set(id, measure);

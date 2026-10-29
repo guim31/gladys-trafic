@@ -10,6 +10,7 @@ son bienvenidos.
 
 ## Qué obtiene
 
+- Las **carreteras nacionales** gestionadas por el Estado (DIR): rondas y vías rápidas como la ronda de Toulouse (A620, A61, A621, A624), la N118 o la N136, un dispositivo por carretera, sentido y departamento.
 - Un **dispositivo por vía** seguida: nivel de tráfico y su nombre (fluido, denso, saturado,
   cortado), velocidad media (Rennes, Nantes, Estrasburgo) o tiempo de recorrido y su valor habitual
   (Burdeos), y la antigüedad de la medida.
@@ -62,6 +63,15 @@ Una «vía» reúne todos los tramos del portal con ese nombre: en Rennes, una c
 departamental de un municipio a otro, una calle dentro de su municipio (el municipio está en el
 nombre); en Nantes, los dos sentidos de un bulevar; en Estrasburgo, los sensores numerados de un mismo lugar del centro de gestión del tráfico.
 
+### Carreteras nacionales (DIR)
+
+Marque **Carreteras nacionales (DIR)** y escriba el número de la carretera o la ciudad, por ejemplo
+`A620` o `Toulouse`. Cada carretera se ofrece **por sentido y por departamento**, como «A620
+Toulouse · anillo interior»: anillo interior o exterior para una ronda, si no «hacia el norte»,
+«hacia el sur»… o «sentido 1» y «sentido 2» cuando el archivo de referencia no da orientación. La
+ciudad es la zona de información de tráfico del punto; sin ella, el número del departamento («N136
+(35)»). El sentido forma parte del nombre, en el idioma elegido.
+
 ### Comprobar
 
 La acción **Estado** de la pestaña Configuración lista las ciudades leídas, el número de vías
@@ -76,7 +86,7 @@ Cada vía añadida es un dispositivo de solo lectura:
 | ---------------------------- | ------------------ | ------------------------------------------------------- |
 | Tráfico                      | texto              | Fluido, Denso, Saturado, Cortado o Desconocido          |
 | Nivel de tráfico             | nivel de riesgo    | 0 desconocido, 1 fluido, 2 denso, 3 saturado, 4 cortado |
-| Velocidad media              | velocidad (km/h)   | Rennes, Nantes, Estrasburgo                             |
+| Velocidad media              | velocidad (km/h)   | Rennes, Nantes, Estrasburgo, carreteras nacionales      |
 | Tiempo de recorrido          | duración (minutos) | Burdeos: tiempo de recorrido del itinerario             |
 | Tiempo de recorrido habitual | duración (minutos) | Burdeos: el valor de referencia publicado con él        |
 | Antigüedad del dato          | duración (minutos) | antigüedad de la medida más reciente                    |
@@ -135,12 +145,13 @@ La frase sigue el idioma elegido en la configuración.
 
 ## Datos y actualización
 
-| Ciudad      | Portal y conjunto de datos                                        | Actualizado por la ciudad | Tramos         |
-| ----------- | ----------------------------------------------------------------- | ------------------------- | -------------- |
-| Rennes      | data.rennesmetropole.fr, «État du trafic en temps réel»           | cada pocos minutos        | ~2900          |
-| Nantes      | data.nantesmetropole.fr, «Fluidité des axes routiers»             | cada pocos minutos        | ~890           |
-| Estrasburgo | data.strasbourg.eu, «SIRAC - flux trafic en temps réel»           | cada 3 minutos            | ~480           |
-| Burdeos     | opendata.bordeaux-metropole.fr, «Temps de parcours en temps réel» | cada 2,5 minutos          | 16 itinerarios |
+| Ciudad                | Portal y conjunto de datos                                                                                                         | Actualizado por la ciudad | Tramos         |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | -------------- |
+| Rennes                | data.rennesmetropole.fr, «État du trafic en temps réel»                                                                            | cada pocos minutos        | ~2900          |
+| Nantes                | data.nantesmetropole.fr, «Fluidité des axes routiers»                                                                              | cada pocos minutos        | ~890           |
+| Estrasburgo           | data.strasbourg.eu, «SIRAC - flux trafic en temps réel»                                                                            | cada 3 minutos            | ~480           |
+| Burdeos               | opendata.bordeaux-metropole.fr, «Temps de parcours en temps réel»                                                                  | cada 2,5 minutos          | 16 itinerarios |
+| Carreteras nacionales | tipi.bison-fute.gouv.fr (Punto de acceso nacional), «État de circulation en temps réel sur le réseau national routier non concédé» | cada 6 minutos            | ~1000 puntos   |
 
 La lista de tramos (nombres, posiciones) se lee **una vez al día** por ciudad. En cada
 actualización, una petición por ciudad lee **solo los tramos de las vías añadidas**, filtrados por
@@ -152,6 +163,15 @@ Burdeos no publica estado: el nivel se calcula a partir del tiempo de recorrido 
 valor habitual (hasta 1,3 veces: fluido, hasta 1,8 veces: denso, por encima: saturado). Los tramos
 «bloqueados» de Nantes cuentan como saturados. Los contadores de bicicletas de Estrasburgo se
 descartan.
+
+Las **carreteras nacionales** publican velocidades e intensidades por punto de medida, sin
+estado: el nivel de un punto se deduce de su velocidad (60 km/h o más: fluido; de 30 a 60: denso;
+menos de 30: saturado). Una velocidad de 0 km/h no es una medida (carretera vacía o espira
+averiada): el punto cuenta como desconocido. El archivo de referencia de los puntos (`refDir.csv`,
+~120 KB) se lee una vez al día; el archivo de medidas (`qtvDir.xml`, ~1,5 MB, todos los puntos de
+Francia) se lee en flujo, conservando solo los puntos de las carreteras añadidas, y **solo si se ha
+vuelto a publicar** desde la lectura anterior (cabecera `If-Modified-Since`). Solo se publican las
+carreteras no concedidas: no las autopistas de peaje.
 
 ## Solución de problemas
 
@@ -176,6 +196,8 @@ descartan.
   lugares): pueden diferir de una aplicación de navegación.
 - Solo lectura. Sin relación con las metrópolis.
 
+- **Carreteras nacionales**: solo los puntos de medida publicados por las DIR (unos 1000, sobre todo alrededor de las grandes ciudades); las autopistas concedidas (de peaje) no forman parte. Desarrollada sin circular por ellas: se agradecen los comentarios.
+
 ## Créditos
 
 - Datos: Rennes Métropole, Nantes Métropole, Eurométropole de Strasbourg (SIRAC), Bordeaux
@@ -183,3 +205,4 @@ descartan.
   municipios: geo.api.gouv.fr.
 - Construida a partir de la
   [plantilla de integración](https://github.com/GladysAssistant/integration-template-js) oficial.
+- Carreteras nacionales: Directions interdépartementales des routes (DIR), ministerio francés de transportes, a través del Punto de acceso nacional (transport.data.gouv.fr), Licence Ouverte. Proyección Lambert-93: fórmulas del IGN.

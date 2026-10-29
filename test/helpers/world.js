@@ -1,6 +1,6 @@
 // -----------------------------------------------------------------------------
 // A complete test world: the SDK's fake Gladys, a fake `fetch` serving the
-// real answers of the four portals (captured on 2026-10-29 around 11:59 in
+// real answers of the four portals and the files of the national roads (captured on 2026-10-29 around 11:59 in
 // Paris, see test/fixtures/sources), a manual clock, and the integration wired
 // on top through registerHandlers. Nothing touches the network.
 // -----------------------------------------------------------------------------
@@ -11,8 +11,10 @@ import { registerHandlers } from '../../src/app.js';
 
 process.env.LOG_LEVEL ??= 'silent';
 
-export const fixtureJson = (name) =>
-  JSON.parse(readFileSync(new URL(`../fixtures/sources/${name}`, import.meta.url), 'utf8'));
+export const fixtureText = (name) =>
+  readFileSync(new URL(`../fixtures/sources/${name}`, import.meta.url), 'utf8');
+
+export const fixtureJson = (name) => JSON.parse(fixtureText(name));
 
 // 2026-10-29 10:59:03 UTC, the time of the capture.
 export const FIXTURE_TIME = 1793271543230;
@@ -37,6 +39,47 @@ const DATASETS = {
   ci_tpstj_a: { city: 'bordeaux', idField: 'bm_ident' },
 };
 
+// The national roads (DIR): refDir.csv and qtvDir.xml of the Bison Futé
+// server, captured on 2026-10-29 at 17:00 in Paris (the Toulouse ring road
+// and a few odd rows), served on the clock of the other fixtures: the newest
+// measure is moved to 4 minutes before FIXTURE_TIME.
+const DIR_PATH = '/bison-fute-ouvert/publicationsDIR/QTV-DIR/';
+export const DIR_LAST_MODIFIED = 'Thu, 29 Oct 2026 10:57:00 GMT';
+
+/** The measures of qtvDir.xml as `{ id, at, flow, speed }` records (speed null: none). */
+export function dirRecords(xml) {
+  const records = [];
+  for (const [block] of xml.matchAll(/<siteMeasurements>.*?<\/siteMeasurements>/gs)) {
+    const get = (re) => re.exec(block)?.[1] ?? null;
+    records.push({
+      id: get(/id="([^"]*)"/),
+      at: Date.parse(get(/<measurementTimeDefault>([^<]*)</)),
+      flow: get(/<vehicleFlowRate>([^<]*)</),
+      speed: get(/<speed>([^<]*)</),
+    });
+  }
+  const newest = Math.max(...records.map((r) => r.at));
+  for (const record of records) {
+    record.at += FIXTURE_TIME - 4 * 60 * 1000 - newest;
+  }
+  return records;
+}
+
+/** qtvDir.xml again, from records: the head and tail of the capture around them. */
+export function dirXml(records, xml = fixtureText('dir-live.xml')) {
+  const start = xml.indexOf('<siteMeasurements>');
+  const end = xml.lastIndexOf('</siteMeasurements>') + '</siteMeasurements>'.length;
+  const blocks = records.map(
+    (r) => `<siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="${r.id}" version="1.0"/>
+            <measurementTimeDefault>${new Date(r.at).toISOString()}</measurementTimeDefault>
+            <measuredValue index="0"><measuredValue><basicData xsi:type="TrafficFlow"><vehicleFlow><vehicleFlowRate>${r.flow}</vehicleFlowRate></vehicleFlow></basicData></measuredValue></measuredValue>
+            ${r.speed === null ? '' : `<measuredValue index="0"><measuredValue><basicData xsi:type="TrafficSpeed"><averageVehicleSpeed><speed>${r.speed}</speed></averageVehicleSpeed></basicData></measuredValue></measuredValue>`}
+        </siteMeasurements>`,
+  );
+  return xml.slice(0, start) + blocks.join('\n        ') + xml.slice(end);
+}
+
 /** The ids of an ODSQL `field in (a, "b")` clause. */
 function idsOf(where) {
   const list = /\bin \((.*)\)$/.exec(where)?.[1] ?? '';
@@ -60,12 +103,20 @@ export function createFetch() {
             live: fixtureJson(`${city}-live.json`),
           };
   }
+  data.dir = {
+    catalog: fixtureText('dir-ref.csv'),
+    live: dirRecords(fixtureText('dir-live.xml')),
+    modified: DIR_LAST_MODIFIED,
+  };
   const calls = [];
   const down = new Set();
   const status = new Map();
   const fetch = async (url, init = {}) => {
     calls.push({ url, headers: init.headers ?? {} });
     const parsed = new URL(url);
+    if (parsed.host === 'tipi.bison-fute.gouv.fr' && parsed.pathname.startsWith(DIR_PATH)) {
+      return dirAnswer(parsed.pathname.slice(DIR_PATH.length), init.headers ?? {});
+    }
     const dataset = /\/datasets\/([^/]+)\/exports\/json$/.exec(parsed.pathname)?.[1];
     const spec = DATASETS[dataset];
     if (!spec) {
@@ -77,6 +128,29 @@ export function createFetch() {
     if (status.has(spec.city)) {
       return new Response('error', { status: status.get(spec.city) });
     }
+    return odsAnswer(spec, parsed);
+  };
+  const dirAnswer = (file, headers) => {
+    if (down.has('dir')) {
+      throw new TypeError('fetch failed');
+    }
+    if (status.has('dir')) {
+      return new Response('error', { status: status.get('dir') });
+    }
+    if (file === 'refDir.csv') {
+      return new Response(data.dir.catalog, { headers: { 'content-type': 'text/csv' } });
+    }
+    if (file !== 'qtvDir.xml') {
+      return new Response('not found', { status: 404 });
+    }
+    if (headers['if-modified-since'] === data.dir.modified) {
+      return new Response(null, { status: 304 });
+    }
+    return new Response(dirXml(data.dir.live), {
+      headers: { 'content-type': 'application/xml', 'last-modified': data.dir.modified },
+    });
+  };
+  const odsAnswer = (spec, parsed) => {
     const where = parsed.searchParams.get('where');
     const served = data[spec.city];
     let records;

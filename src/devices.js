@@ -106,13 +106,14 @@ export function aggregate(measures, now) {
  * @param {object} gladys
  * @param {string} sourceKey
  * @param {object} source an entry of SOURCES
- * @param {{ key: string, name: string }} axis
+ * @param {{ key: string, name: string, names?: object }} axis names: by language (national roads)
  * @param {string} language
  */
 export function buildAxisDevice(gladys, sourceKey, source, axis, language) {
   const ids = gladys.externalIds(AXIS_TYPE, axisPlatformId(sourceKey, axis.key));
   const names = NAMES[language] ?? NAMES.en;
-  const axisName = axis.key === HOME_AXIS ? names.home : axis.name;
+  const axisName =
+    axis.key === HOME_AXIS ? names.home : (axis.names?.[language] ?? axis.names?.fr ?? axis.name);
   const definitions = {
     status: { category: C.TEXT, type: T.TEXT.TEXT, min: 0, max: 0 },
     level: { category: C.RISK, type: T.RISK.INTEGER, min: 0, max: 4 },

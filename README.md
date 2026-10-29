@@ -3,7 +3,9 @@
 External integration for [Gladys Assistant](https://gladysassistant.com): the
 **live road traffic** of French metropolises, road by road, read from their
 open data portals: **Rennes Métropole, Nantes Métropole, Strasbourg** and
-**Bordeaux Métropole** (travel times of 16 routes). **No account, no key.**
+**Bordeaux Métropole** (travel times of 16 routes), and the **national roads**
+run by the State's DIR (ring roads and expressways: Toulouse ring road, N118,
+N136…). **No account, no key.**
 
 Unofficial: not affiliated with the metropolises or their traffic centres. The
 four sources were checked live on 2026-10-29, not yet on many Gladys
@@ -50,20 +52,25 @@ tab.
   A measure older than 30 minutes does not count: without any, the road is
   "unknown" and nothing is made up.
 
-| City       | Dataset                                                                                                                                      | Updated           |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Rennes     | [État du trafic en temps réel](https://data.rennesmetropole.fr/explore/dataset/etat-du-trafic-en-temps-reel/information/)                    | every few minutes |
-| Nantes     | [Fluidité des axes routiers](https://data.nantesmetropole.fr/explore/dataset/244400404_fluidite-axes-routiers-nantes-metropole/information/) | every few minutes |
-| Strasbourg | [SIRAC - flux trafic en temps réel](https://data.strasbourg.eu/explore/dataset/sirac_flux_trafic/information/)                               | every 3 minutes   |
-| Bordeaux   | [Temps de parcours en temps réel](https://opendata.bordeaux-metropole.fr/explore/dataset/ci_tpstj_a/information/)                            | every 2.5 minutes |
+| City                 | Dataset                                                                                                                                                                                              | Updated           |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| Rennes               | [État du trafic en temps réel](https://data.rennesmetropole.fr/explore/dataset/etat-du-trafic-en-temps-reel/information/)                                                                            | every few minutes |
+| Nantes               | [Fluidité des axes routiers](https://data.nantesmetropole.fr/explore/dataset/244400404_fluidite-axes-routiers-nantes-metropole/information/)                                                         | every few minutes |
+| Strasbourg           | [SIRAC - flux trafic en temps réel](https://data.strasbourg.eu/explore/dataset/sirac_flux_trafic/information/)                                                                                       | every 3 minutes   |
+| Bordeaux             | [Temps de parcours en temps réel](https://opendata.bordeaux-metropole.fr/explore/dataset/ci_tpstj_a/information/)                                                                                    | every 2.5 minutes |
+| National roads (DIR) | [État de circulation en temps réel sur le réseau national routier non concédé](https://transport.data.gouv.fr/datasets/etat-de-circulation-en-temps-reel-sur-le-reseau-national-routier-non-concede) | every 6 minutes   |
 
 ## Limitations
 
 - **Lyon** now requires an account for its traffic feed, **Grenoble**
   publishes levels without the names of the segments, **Paris** and
-  **Toulouse** only publish hourly or archived counts: not supported for now.
+  **Toulouse** only publish hourly or archived counts: their city streets are
+  not supported for now (the Toulouse ring road is, as a national road).
 - Bordeaux publishes no level: it is computed from the travel time compared
   with its usual value.
+- The national roads publish speeds, no level: 60 km/h or more is free flow,
+  30 to 60 heavy, below 30 congested. Only the ~1,000 measuring points of the
+  DIR (no toll motorways). Developed without driving there: feedback welcome.
 - The roads are the portals' own segments and names: a road renamed by the city
   becomes a new device.
 - Read only.
@@ -79,14 +86,18 @@ npx github:GladysAssistant/integration-store .   # store admission checks
 ```
 
 See [CLAUDE.md](CLAUDE.md) for the architecture and the conventions. The test
-fixtures (`test/fixtures/sources`) are the real answers of the four portals,
-captured on 2026-10-29 (a subset of the segments).
+fixtures (`test/fixtures/sources`) are the real answers of the four portals and
+of the national roads files, captured on 2026-10-29 (a subset of the segments).
 
 ## Credits
 
 - Data: Rennes Métropole, Nantes Métropole, Eurométropole de Strasbourg
   (SIRAC) and Bordeaux Métropole, under their open licences (Licence Ouverte /
   ODbL). Commune names of Rennes Métropole: geo.api.gouv.fr.
+- National roads: Directions interdépartementales des routes (DIR), French
+  ministry of transport, through the National Access Point
+  (transport.data.gouv.fr), Licence Ouverte. Lambert-93 projection: IGN
+  formulas.
 - Built from the official
   [integration template](https://github.com/GladysAssistant/integration-template-js).
 
