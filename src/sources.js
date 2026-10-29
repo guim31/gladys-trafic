@@ -375,8 +375,14 @@ export const SOURCES = {
             num(r.ident),
             {
               status,
-              // A sensor of a known state may read 0 km/h: a standstill.
-              speed: status === STATUS.UNKNOWN ? null : num(r.vitessebrp),
+              // 0 km/h on a heavy or congested arc is a standstill; on a free
+              // flowing one (many at night), a silent loop: no measure.
+              speed:
+                status === STATUS.UNKNOWN
+                  ? null
+                  : status >= STATUS.HEAVY
+                    ? num(r.vitessebrp)
+                    : positive(r.vitessebrp),
               time: null,
               usual: null,
               length: null,

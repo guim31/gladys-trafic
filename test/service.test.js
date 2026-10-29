@@ -285,8 +285,9 @@ test('Nantes, Strasbourg, Bordeaux: their own statuses, speeds and travel times'
   assert.equal(last(anglais, 'level'), 1);
   assert.equal(last(anglais, 'speed'), 16);
   assert.equal(last(schirmeck, 'level'), 2);
-  // One sensor standing still (0 km/h), the other at 30.
-  assert.equal(last(schirmeck, 'speed'), 15);
+  // Three dense sensors at a standstill (0 km/h) count; a free flowing one
+  // at 0 is a silent loop and does not.
+  assert.equal(last(schirmeck, 'speed'), 16);
   // 360 s against 128 s usually: congested.
   assert.equal(last(latule, 'level'), 3);
   assert.equal(last(latule, 'travel_time'), 6);

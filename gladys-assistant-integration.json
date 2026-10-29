@@ -6,7 +6,7 @@
     "en": "Live road traffic in French cities (open data): Rennes, Nantes, Strasbourg, Bordeaux.",
     "fr": "Trafic routier en temps réel des métropoles (open data) : Rennes, Nantes, Strasbourg, Bordeaux.",
     "de": "Echtzeit-Straßenverkehr französischer Städte (Open Data): Rennes, Nantes, Straßburg, Bordeaux.",
-    "es": "Tráfico en tiempo real de metrópolis francesas (datos abiertos): Rennes, Nantes, Burdeos…"
+    "es": "Tráfico en tiempo real de Rennes, Nantes, Estrasburgo y Burdeos (datos abiertos)."
   },
   "version": "1.0.0",
   "docker_image": "ghcr.io/guim31/gladys-trafic:1.0.0",
