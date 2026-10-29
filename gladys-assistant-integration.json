@@ -18,16 +18,14 @@
   "keywords": [
     "trafic",
     "bouchons",
-    "embouteillage",
     "traffic jam",
-    "Rennes",
-    "Nantes",
-    "Strasbourg",
-    "Bordeaux",
     "rocade",
     "route nationale",
     "Toulouse",
-    "Bison Futé"
+    "Rennes",
+    "Nantes",
+    "Strasbourg",
+    "Bordeaux"
   ],
   "location": true,
   "config_schema": [

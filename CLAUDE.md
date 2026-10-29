@@ -291,7 +291,7 @@ long, et sur un « Sie »/« Ihr… » de politesse en allemand. Le store exige 
 - Déclencheurs : un nouveau niveau ne compte qu'une fois lu deux fois de suite (hystérésis, relecture
   du 29/10). Un catalogue vide est un échec (le connu reste) ; jamais lu, il est retenté après 10 min.
   Un axe disparu du catalogue passe « Inconnu ».
-- `gladys_version` `>=5.3.0` pour `countries` et `keywords`.
+- `gladys_version` `>=5.3.0` pour `countries` et `keywords`. **10 `keywords` au plus** (schéma du store).
 
 ## Routes nationales (DIR), 1.1 (29/10/2026)
 
