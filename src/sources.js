@@ -21,12 +21,17 @@
 //   length     length in metres (weight of the segment), or null
 //   at         date of the measure in ms, or null
 //
+// A segment may also carry `axisNames` ({ en, fr, de, es }: the name of its
+// road in each language, for the device name) and `search` (more words the
+// road search of the configuration matches).
+//
 // Every source below was checked live on 2026-10-29 (test/fixtures/sources
 // holds those answers). Keys are part of the device external ids: never
 // rename one.
 // -----------------------------------------------------------------------------
 
-import { getJson } from './http.js';
+import { getBuffer, getJson, streamText } from './http.js';
+import { DIRECTIONS } from './messages.js';
 
 export const STATUS = { UNKNOWN: 0, FREE: 1, HEAVY: 2, CONGESTED: 3, CLOSED: 4 };
 
@@ -213,6 +218,235 @@ export function bordeauxStatus(actual, usual) {
     return STATUS.FREE;
   }
   return ratio <= 1.8 ? STATUS.HEAVY : STATUS.CONGESTED;
+}
+
+// --- National roads (DIR) ------------------------------------------------------
+
+const DIR_BASE = 'https://tipi.bison-fute.gouv.fr/bison-fute-ouvert/publicationsDIR/QTV-DIR';
+// 1,400 points: about 120 KB of CSV and 1.5 MB of XML in October 2026.
+const DIR_CATALOG_MAX_BYTES = 2e6;
+const DIR_LIVE_MAX_BYTES = 20e6;
+// A <siteMeasurements> block is about 1 KB: a longer text without one is no
+// DATEX II measure file.
+const DIR_MAX_PENDING = 1e6;
+
+// The speed thresholds of the national roads, in km/h: the source publishes
+// speeds, no status. At or above 60 free flow, from 30 heavy, below congested
+// (said in the docs).
+export const DIR_FREE_KMH = 60;
+export const DIR_HEAVY_KMH = 30;
+
+/**
+ * The status of a national road measuring point, from its speed. 0 km/h is
+ * no measure: an empty road at night, or a faulty loop (on 2026-10-29 at
+ * 16:48, 14 points said 0 km/h with up to 27,100 vehicles per hour counted).
+ */
+export function dirStatus(speed) {
+  if (speed === null || speed <= 0) {
+    return STATUS.UNKNOWN;
+  }
+  if (speed >= DIR_FREE_KMH) {
+    return STATUS.FREE;
+  }
+  return speed >= DIR_HEAVY_KMH ? STATUS.HEAVY : STATUS.CONGESTED;
+}
+
+// The traffic-information areas of the reference file (code_traficolor): the
+// conurbation named in the road name.
+const DIR_AREAS = {
+  BR19: 'Brive',
+  BX33: 'Bordeaux',
+  CA14: 'Caen',
+  CH36: 'Châteauroux',
+  GR38: 'Grenoble',
+  LI87: 'Limoges',
+  LY69: 'Lyon',
+  MA13: 'Marseille',
+  PO86: 'Poitiers',
+  RO76: 'Rouen',
+  ST42: 'Saint-Étienne',
+  TO31: 'Toulouse',
+};
+
+/** "N136" from "N0136", "A620" from "A620": the road number without its padding. */
+export const dirRoad = (axe) =>
+  String(axe ?? '')
+    .trim()
+    .toUpperCase()
+    .replace(/^([A-Z]+)0+(?=\d)/, '$1');
+
+/**
+ * The direction of a point: the ring of a ring road (inner, outer), else the
+ * cardinal direction, else the operator's direction (1 or 2), else none.
+ */
+export function dirDirection(row) {
+  const ring = { INTERIEUR: 'int', EXTERIEUR: 'ext' }[row.sens_giratoire];
+  const cardinal = { NORD_SUD: 'n-s', SUD_NORD: 's-n', EST_OUEST: 'e-w', OUEST_EST: 'w-e' }[
+    row.sens_cardinal
+  ];
+  const operator = { 1: 's1', 2: 's2' }[row.sens_gestionnaire];
+  return ring ?? cardinal ?? operator ?? null;
+}
+
+/** The département of a point: from its commune (INSEE code at the end of source_2), else its PR. */
+export function dirDepartment(row) {
+  const insee = /(\d[\dAB]\d{3})$/.exec(row.source_2 ?? '')?.[1];
+  if (insee) {
+    return insee.slice(0, 2);
+  }
+  return /^(\d{2}|2[AB])PR/i.exec(row.pr_debut ?? '')?.[1]?.toUpperCase() ?? null;
+}
+
+/** Latitude and longitude of a Lambert-93 point (EPSG:2154, IGN's inverse projection). */
+export function lambert93ToWgs84(x, y) {
+  const n = 0.725607765053267;
+  const c = 11754255.426096;
+  const xs = 700000;
+  const ys = 12655612.049876;
+  const e = 0.0818191910428158;
+  const lon0 = (3 * Math.PI) / 180;
+  const dx = x - xs;
+  const dy = ys - y;
+  const r = Math.hypot(dx, dy);
+  const gamma = Math.atan(dx / dy);
+  const latIso = -Math.log(r / c) / n;
+  let phi = 2 * Math.atan(Math.exp(latIso)) - Math.PI / 2;
+  for (let i = 0; i < 10; i += 1) {
+    const sin = e * Math.sin(phi);
+    phi = 2 * Math.atan(((1 + sin) / (1 - sin)) ** (e / 2) * Math.exp(latIso)) - Math.PI / 2;
+  }
+  return { lat: (phi * 180) / Math.PI, lon: ((lon0 + gamma / n) * 180) / Math.PI };
+}
+
+// The fields of refDir.csv. Its header names one more column than its rows
+// hold (October 2026: code_insee_commune has no value column): rows one field
+// short are read without it.
+const DIR_SHORT_ROW_DROPS = 'code_insee_commune';
+
+/** The rows of refDir.csv as objects keyed by the header names. */
+export function parseDirCsv(text) {
+  const [head, ...rows] = String(text)
+    .replace(/^\uFEFF/, '')
+    .split(/\r?\n/)
+    .filter((line) => line.trim());
+  const header = (head ?? '').split(';').map((name) => name.trim());
+  const short = header.filter((name) => name !== DIR_SHORT_ROW_DROPS);
+  return rows.map((line) => {
+    const fields = line.split(';');
+    const names = fields.length === header.length - 1 ? short : header;
+    return Object.fromEntries(names.map((name, i) => [name, (fields[i] ?? '').trim()]));
+  });
+}
+
+/**
+ * The catalog of the national roads: one road per number, département and
+ * direction ("A620 Toulouse · intérieur"). Points without a road are left out.
+ */
+export function dirCatalog(rows) {
+  const segments = [];
+  for (const row of rows) {
+    const road = dirRoad(row.axe);
+    if (!row.code_pme || !/^[A-Z]+\d/.test(road)) {
+      continue;
+    }
+    const department = dirDepartment(row);
+    const direction = dirDirection(row);
+    const x = [num(row.x_deb), num(row.x_fin)];
+    const y = [num(row.y_deb), num(row.y_fin)];
+    const located = [...x, ...y].every((v) => v !== null && v > 0);
+    segments.push({
+      id: row.code_pme,
+      axisKey: slug([road, department ?? '', direction ?? ''].filter(Boolean).join('-')),
+      road,
+      department,
+      direction,
+      area: DIR_AREAS[row.code_traficolor] ?? null,
+      length: positive(row.longueur),
+      ...(located
+        ? lambert93ToWgs84((x[0] + x[1]) / 2, (y[0] + y[1]) / 2)
+        : { lat: null, lon: null }),
+    });
+  }
+  // The area of a road: the most frequent one of its points (some have none).
+  const areas = new Map();
+  for (const s of segments.filter((segment) => segment.area)) {
+    const counts = areas.get(s.axisKey) ?? new Map();
+    counts.set(s.area, (counts.get(s.area) ?? 0) + 1);
+    areas.set(s.axisKey, counts);
+  }
+  const areaOf = (key) =>
+    [...(areas.get(key) ?? new Map()).entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? null;
+  return segments.map(({ id, axisKey, road, department, direction, lat, lon, length }) => {
+    const area = areaOf(axisKey);
+    const place = area ?? (department ? `(${department})` : '');
+    const names = Object.fromEntries(
+      Object.entries(DIRECTIONS).map(([language, words]) => [
+        language,
+        [`${road}${place ? ` ${place}` : ''}`, direction ? words[direction] : null]
+          .filter(Boolean)
+          .join(' · '),
+      ]),
+    );
+    return {
+      id,
+      axisKey,
+      axisName: names.fr,
+      axisNames: names,
+      search: Object.values(names).join(' '),
+      lat,
+      lon,
+      length,
+    };
+  });
+}
+
+/**
+ * The measures of some points of qtvDir.xml (DATEX II 2.0
+ * MeasuredDataPublication), read piece by piece: each <siteMeasurements>
+ * block is parsed and dropped, only the points wanted are kept.
+ */
+export class DirMeasureParser {
+  constructor(wanted, lengths = new Map()) {
+    this.wanted = wanted;
+    this.lengths = lengths;
+    this.pending = '';
+    this.measures = new Map();
+    this.blocks = 0;
+  }
+
+  push(text) {
+    this.pending += text;
+    for (;;) {
+      const end = this.pending.indexOf('</siteMeasurements>');
+      if (end === -1) {
+        break;
+      }
+      this.block(this.pending.slice(0, end));
+      this.blocks += 1;
+      this.pending = this.pending.slice(end + '</siteMeasurements>'.length);
+    }
+    if (this.pending.length > DIR_MAX_PENDING) {
+      throw new Error('not a DATEX II measure file');
+    }
+  }
+
+  block(text) {
+    const id = /<measurementSiteReference\b[^>]*\bid="([^"]*)"/.exec(text)?.[1];
+    if (!id || !this.wanted.has(id)) {
+      return;
+    }
+    const value = (tag) => num(new RegExp(`<${tag}>([^<]*)</${tag}>`).exec(text)?.[1]);
+    const speed = value('speed');
+    const status = dirStatus(speed);
+    this.measures.set(id, {
+      status,
+      speed: status === STATUS.UNKNOWN ? null : Math.round(speed * 10) / 10,
+      time: null,
+      usual: null,
+      length: this.lengths.get(id) ?? null,
+      at: time(/<measurementTimeDefault>([^<]*)</.exec(text)?.[1]),
+    });
+  }
 }
 
 export const SOURCES = {
@@ -448,6 +682,55 @@ export const SOURCES = {
         LIVE_MAX_BYTES,
       );
     },
+  },
+};
+
+// The national roads of the DIR (Directions interdépartementales des routes),
+// "État de circulation en temps réel sur le réseau national routier non
+// concédé" (Point d'accès national, data.gouv.fr): about 1,400 measuring
+// points (flow, speed) every 6 minutes. The reference file (refDir.csv) is the
+// catalog; the measure file (qtvDir.xml, 1.5 MB, every point) is read as a
+// stream at most once per publication (ETag), only the points followed kept.
+SOURCES.dir = {
+  name: 'Routes nationales (DIR)',
+  publisher: 'Ministère chargé des transports (DIR, Bison Futé)',
+  dataset:
+    'https://transport.data.gouv.fr/datasets/etat-de-circulation-en-temps-reel-sur-le-reseau-national-routier-non-concede',
+  hasSpeed: true,
+  hasTravelTime: false,
+  listAll: false,
+  // `state` is the city's own memory (src/service.js): `lengths` of the
+  // points from the catalog, `cache` { since, signature, measures } of the
+  // last file read.
+  async catalog(fetch, state = {}) {
+    const { body } = await getBuffer(fetch, `${DIR_BASE}/refDir.csv`, {
+      maxBytes: DIR_CATALOG_MAX_BYTES,
+      accept: 'text/csv',
+    });
+    const segments = dirCatalog(parseDirCsv(body.toString('utf8')));
+    state.lengths = new Map(segments.map((segment) => [segment.id, segment.length]));
+    return segments;
+  },
+  async live(fetch, ids, state = {}) {
+    const wanted = new Set(ids.map(String));
+    const signature = [...wanted].sort().join(',');
+    const cached = state.cache?.signature === signature ? state.cache : null;
+    const parser = new DirMeasureParser(wanted, state.lengths);
+    // Same points as last time: a file not republished since is not read again.
+    const { lastModified, notModified } = await streamText(
+      fetch,
+      `${DIR_BASE}/qtvDir.xml`,
+      { maxBytes: DIR_LIVE_MAX_BYTES, since: cached?.since ?? null, timeoutMs: 60000 },
+      (text) => parser.push(text),
+    );
+    if (notModified) {
+      return cached.measures;
+    }
+    if (parser.blocks === 0) {
+      throw new Error('no measure in the national roads file');
+    }
+    state.cache = { since: lastModified, signature, measures: parser.measures };
+    return parser.measures;
   },
 };
 

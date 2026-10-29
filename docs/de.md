@@ -9,6 +9,7 @@ wurden am 29.10.2026 live geprüft; Rückmeldungen aus jeder Stadt sind willkomm
 
 ## Was du bekommst
 
+- Die **Nationalstraßen** in staatlicher Hand (DIR): Ringstraßen und Schnellstraßen wie die Ringstraße von Toulouse (A620, A61, A621, A624), die N118 oder die N136, ein Gerät pro Straße, Richtung und Département.
 - Ein **Gerät pro Straße**, der du folgst: Verkehrsstufe und ihr Name (flüssig, dicht, Stau,
   gesperrt), Durchschnittsgeschwindigkeit (Rennes, Nantes, Straßburg) oder Fahrzeit und ihr
   üblicher Wert (Bordeaux) sowie das Alter der Messung.
@@ -65,6 +66,15 @@ Eine „Straße“ fasst alle Abschnitte des Portals mit diesem Namen zusammen: 
 oder Departementsstraße über Gemeinden hinweg, eine Straße innerhalb ihrer Gemeinde (die Gemeinde
 steht im Namen); in Nantes beide Richtungen eines Boulevards; in Straßburg die nummerierten Sensoren eines Orts der Verkehrszentrale.
 
+### Nationalstraßen (DIR)
+
+Kreuze **Nationalstraßen (DIR)** an und gib die Straßennummer oder die Stadt ein, zum Beispiel
+`A620` oder `Toulouse`. Jede Straße wird **pro Richtung und pro Département** angeboten, als „A620
+Toulouse · Innenring“: Innen- oder Außenring bei einer Ringstraße, sonst „Richtung Norden“,
+„Richtung Süden“… oder „Richtung 1“ und „Richtung 2“, wenn die Referenzdatei keine Ausrichtung
+angibt. Die Stadt ist die Verkehrsinformationszone des Messpunkts; ohne sie die Nummer des
+Départements („N136 (35)“). Die Richtung steht im Namen, in der gewählten Sprache.
+
 ### Prüfen
 
 Die Aktion **Status** im Tab Konfiguration listet die gelesenen Städte, die Zahl der bekannten
@@ -79,7 +89,7 @@ Jede hinzugefügte Straße ist ein schreibgeschütztes Gerät:
 | ---------------------------- | ---------------------- | --------------------------------------------------- |
 | Verkehr                      | Text                   | Flüssig, Dicht, Stau, Gesperrt oder Unbekannt       |
 | Verkehrsstufe                | Risikostufe            | 0 unbekannt, 1 flüssig, 2 dicht, 3 Stau, 4 gesperrt |
-| Durchschnittsgeschwindigkeit | Geschwindigkeit (km/h) | Rennes, Nantes, Straßburg                           |
+| Durchschnittsgeschwindigkeit | Geschwindigkeit (km/h) | Rennes, Nantes, Straßburg, Nationalstraßen          |
 | Fahrzeit                     | Dauer (Minuten)        | Bordeaux: Fahrzeit der Strecke                      |
 | Übliche Fahrzeit             | Dauer (Minuten)        | Bordeaux: der mit ihr veröffentlichte Referenzwert  |
 | Alter der Daten              | Dauer (Minuten)        | Alter der neuesten Messung                          |
@@ -139,12 +149,13 @@ Der Satz folgt der in der Konfiguration gewählten Sprache.
 
 ## Daten und Aktualisierung
 
-| Stadt     | Portal und Datensatz                                              | Von der Stadt aktualisiert | Abschnitte  |
-| --------- | ----------------------------------------------------------------- | -------------------------- | ----------- |
-| Rennes    | data.rennesmetropole.fr, „État du trafic en temps réel“           | alle paar Minuten          | ~2.900      |
-| Nantes    | data.nantesmetropole.fr, „Fluidité des axes routiers“             | alle paar Minuten          | ~890        |
-| Straßburg | data.strasbourg.eu, „SIRAC - flux trafic en temps réel“           | alle 3 Minuten             | ~480        |
-| Bordeaux  | opendata.bordeaux-metropole.fr, „Temps de parcours en temps réel“ | alle 2,5 Minuten           | 16 Strecken |
+| Stadt           | Portal und Datensatz                                                                                                              | Von der Stadt aktualisiert | Abschnitte    |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ------------- |
+| Rennes          | data.rennesmetropole.fr, „État du trafic en temps réel“                                                                           | alle paar Minuten          | ~2.900        |
+| Nantes          | data.nantesmetropole.fr, „Fluidité des axes routiers“                                                                             | alle paar Minuten          | ~890          |
+| Straßburg       | data.strasbourg.eu, „SIRAC - flux trafic en temps réel“                                                                           | alle 3 Minuten             | ~480          |
+| Bordeaux        | opendata.bordeaux-metropole.fr, „Temps de parcours en temps réel“                                                                 | alle 2,5 Minuten           | 16 Strecken   |
+| Nationalstraßen | tipi.bison-fute.gouv.fr (Nationaler Zugangspunkt), „État de circulation en temps réel sur le réseau national routier non concédé“ | alle 6 Minuten             | ~1.000 Punkte |
 
 Die Liste der Abschnitte (Namen, Positionen) wird **einmal am Tag** pro Stadt gelesen. Bei jeder
 Aktualisierung liest eine Anfrage pro Stadt **nur die Abschnitte der hinzugefügten Straßen**,
@@ -157,6 +168,15 @@ Bordeaux veröffentlicht keinen Zustand: die Stufe wird aus der Fahrzeit im Verg
 üblichen Wert berechnet (bis 1,3-fach: flüssig, bis 1,8-fach: dicht, darüber: Stau). Die
 „blockierten“ Abschnitte von Nantes zählen als Stau. Die Fahrradzähler von Straßburg werden
 ausgelassen.
+
+Die **Nationalstraßen** veröffentlichen Geschwindigkeiten und Verkehrsmengen pro Messpunkt,
+keinen Zustand: die Stufe eines Punkts wird aus seiner Geschwindigkeit abgeleitet (60 km/h oder
+mehr: flüssig; 30 bis 60: dicht; unter 30: Stau). Eine Geschwindigkeit von 0 km/h ist keine Messung
+(leere Straße oder defekte Schleife): der Punkt zählt als unbekannt. Die Referenzdatei der Punkte
+(`refDir.csv`, ~120 KB) wird einmal am Tag gelesen; die Messdatei (`qtvDir.xml`, ~1,5 MB, alle
+Punkte Frankreichs) wird als Datenstrom gelesen, nur die Punkte der hinzugefügten Straßen werden
+behalten, und **nur wenn sie neu veröffentlicht wurde** (Header `If-Modified-Since`). Nur die nicht
+konzessionierten Straßen werden veröffentlicht: keine mautpflichtigen Autobahnen.
 
 ## Fehlerbehebung
 
@@ -182,6 +202,8 @@ ausgelassen.
   einer Navigations-App abweichen.
 - Nur lesend. Ohne Verbindung zu den Großstädten.
 
+- **Nationalstraßen**: nur die von den DIR veröffentlichten Messpunkte (etwa 1.000, vor allem rund um die Großstädte); die konzessionierten (mautpflichtigen) Autobahnen gehören nicht dazu. Ohne Fahrten vor Ort entwickelt: Rückmeldungen willkommen.
+
 ## Danksagung
 
 - Daten: Rennes Métropole, Nantes Métropole, Eurométropole de Strasbourg (SIRAC), Bordeaux
@@ -189,3 +211,4 @@ ausgelassen.
   geo.api.gouv.fr.
 - Erstellt aus der offiziellen
   [Integrationsvorlage](https://github.com/GladysAssistant/integration-template-js).
+- Nationalstraßen: Directions interdépartementales des routes (DIR), französisches Verkehrsministerium, über den Nationalen Zugangspunkt (transport.data.gouv.fr), Licence Ouverte. Lambert-93-Projektion: Formeln des IGN.

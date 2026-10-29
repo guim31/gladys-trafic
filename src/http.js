@@ -1,7 +1,8 @@
 // -----------------------------------------------------------------------------
 // HTTP downloads of the open data portals: a timeout on every request, a size
 // cap on every body (the sandbox has 256 MB), and conditional requests
-// (ETag / If-None-Match) when the server supports them.
+// (ETag / If-None-Match, or Last-Modified / If-Modified-Since) when the server
+// supports them.
 //
 // `fetch` is injectable: the tests never touch the network.
 // -----------------------------------------------------------------------------
@@ -42,7 +43,8 @@ export function hostOf(url) {
   }
 }
 
-async function readCapped(response, url, maxBytes) {
+/** Reads a body chunk by chunk, `onChunk(bytes)` for each one, within `maxBytes`. */
+async function readChunks(response, url, maxBytes, onChunk) {
   const declared = Number(response.headers?.get?.('content-length'));
   if (declared > maxBytes) {
     await response.body?.cancel?.().catch(() => {});
@@ -53,10 +55,10 @@ async function readCapped(response, url, maxBytes) {
     if (buffer.length > maxBytes) {
       throw new HttpError(`${hostOf(url)}: response too large`);
     }
-    return buffer;
+    onChunk(buffer);
+    return;
   }
   const reader = response.body.getReader();
-  const chunks = [];
   let size = 0;
   for (;;) {
     const { done, value } = await reader.read();
@@ -68,27 +70,69 @@ async function readCapped(response, url, maxBytes) {
       await reader.cancel().catch(() => {});
       throw new HttpError(`${hostOf(url)}: response too large`);
     }
-    chunks.push(value);
+    try {
+      onChunk(value);
+    } catch (err) {
+      await reader.cancel().catch(() => {});
+      throw err;
+    }
   }
-  return Buffer.concat(chunks, size);
+}
+
+async function readCapped(response, url, maxBytes) {
+  const chunks = [];
+  await readChunks(response, url, maxBytes, (chunk) => chunks.push(chunk));
+  return Buffer.concat(chunks);
 }
 
 /**
  * GET a body into memory. With `etag`, a 304 resolves `{ notModified: true }`.
  * @returns {Promise<{ body: Buffer|null, etag: string|null, notModified: boolean }>}
  */
-export async function getBuffer(
+export async function getBuffer(fetchImpl, url, options = {}) {
+  const response = await open(fetchImpl, url, options);
+  if (response.status === 304) {
+    return { body: null, etag: options.etag ?? null, notModified: true };
+  }
+  const body = await readCapped(response, url, options.maxBytes ?? 20e6);
+  return { body, etag: response.headers?.get?.('etag') ?? null, notModified: false };
+}
+
+/**
+ * GET a text document without holding it whole: `onText(text)` receives it
+ * piece by piece, decoded as UTF-8 (a large file of which a few records are
+ * kept). With `since` (a Last-Modified date), a 304 resolves
+ * `{ notModified: true }` and calls nothing. (The ETag of a gzipped Apache
+ * answer never matches: Apache adds "-gzip" to it, then compares without.)
+ * @returns {Promise<{ lastModified: string|null, notModified: boolean }>}
+ */
+export async function streamText(fetchImpl, url, options = {}, onText) {
+  const response = await open(fetchImpl, url, { accept: 'application/xml', ...options });
+  if (response.status === 304) {
+    return { lastModified: options.since ?? null, notModified: true };
+  }
+  const decoder = new TextDecoder('utf-8');
+  await readChunks(response, url, options.maxBytes ?? 20e6, (chunk) =>
+    onText(decoder.decode(chunk, { stream: true })),
+  );
+  onText(decoder.decode());
+  return { lastModified: response.headers?.get?.('last-modified') ?? null, notModified: false };
+}
+
+/** Sends a GET; resolves the response when 2xx or 304, throws an HttpError otherwise. */
+async function open(
   fetchImpl,
   url,
-  { timeoutMs = 20000, maxBytes = 20e6, etag = null } = {},
+  { timeoutMs = 20000, etag = null, since = null, accept = 'application/json' } = {},
 ) {
   let response;
   try {
     response = await fetchImpl(url, {
       headers: {
         'user-agent': USER_AGENT,
-        accept: 'application/json',
+        accept,
         ...(etag ? { 'if-none-match': etag } : {}),
+        ...(since ? { 'if-modified-since': since } : {}),
       },
       redirect: 'follow',
       signal: AbortSignal.timeout(timeoutMs),
@@ -99,7 +143,7 @@ export async function getBuffer(
   }
   if (response.status === 304) {
     await response.body?.cancel?.().catch(() => {});
-    return { body: null, etag, notModified: true };
+    return response;
   }
   if (!response.ok) {
     await response.body?.cancel?.().catch(() => {});
@@ -109,8 +153,7 @@ export async function getBuffer(
       retryAfterMs(response),
     );
   }
-  const body = await readCapped(response, url, maxBytes);
-  return { body, etag: response.headers?.get?.('etag') ?? null, notModified: false };
+  return response;
 }
 
 /** Parses a JSON body, or says which host sent something else. */

@@ -49,7 +49,7 @@ test('Bordeaux: the status is the ratio of the travel time to its usual value', 
   assert.equal(bordeauxStatus(null, 100), STATUS.UNKNOWN);
 });
 
-test('every catalog of the fixtures reads, with positions except for Bordeaux', async () => {
+test('every catalog of the fixtures reads, with positions except for Bordeaux and some national road points', async () => {
   const { fetch } = createFetch();
   for (const [key, source] of Object.entries(SOURCES)) {
     const segments = await source.catalog(fetch);
@@ -57,7 +57,8 @@ test('every catalog of the fixtures reads, with positions except for Bordeaux', 
     for (const segment of segments) {
       assert.match(segment.axisKey, /^[a-z0-9-]+$/, `${key}: ${segment.axisKey}`);
       assert.ok(segment.axisName, key);
-      if (key !== 'bordeaux') {
+      // Some points of the national roads have no coordinates in their reference file.
+      if (key !== 'bordeaux' && !(key === 'dir' && segment.id.startsWith('MWJ35'))) {
         assert.ok(Number.isFinite(segment.lat) && Number.isFinite(segment.lon), key);
       }
     }

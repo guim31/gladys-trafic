@@ -38,14 +38,15 @@ src/sources.js                    one adapter per open data portal -> segments a
 src/devices.js                    the Gladys device of a road, aggregation of its segments, states
 src/scenes.js                     scene action handler (manifest `scene_actions`)
 src/widgets.js                    dashboard widget handler (manifest `widgets`)
-src/http.js                       downloads: timeouts, size caps
+src/http.js                       downloads: timeouts, size caps, conditional reads, text streams
 src/messages.js                   texts sent from the container (en, fr, de, es)
 src/config.js                     DEFAULT_CONFIG (mirrors the manifest defaults) + normalization
 gladys-assistant-integration.json manifest: config, action, widget, scene triggers and action
 docs/{en,fr,de,es}.md             user documentation, re-hosted by Gladys (en and fr mandatory)
 test/                             node --test, against the SDK's fake Gladys (integration-sdk/testing)
-test/helpers/world.js             fake Gladys + fake ODS exports on the fixtures + manual clock
+test/helpers/world.js             fake Gladys + fake ODS exports and DIR files on the fixtures + manual clock
 test/fixtures/sources             real answers of the four portals (2026-10-29, ~11:59 Paris)
+                                  and of the DIR files (dir-*, 17:00 Paris, moved to the same clock)
 .github/scripts/release.mjs       release helpers (manifest bump, changelog), tested in test/
 ```
 
@@ -291,3 +292,25 @@ long, et sur un « Sie »/« Ihr… » de politesse en allemand. Le store exige 
   du 29/10). Un catalogue vide est un échec (le connu reste) ; jamais lu, il est retenté après 10 min.
   Un axe disparu du catalogue passe « Inconnu ».
 - `gladys_version` `>=5.3.0` pour `countries` et `keywords`.
+
+## Routes nationales (DIR), 1.1 (29/10/2026)
+
+- Source : `https://tipi.bison-fute.gouv.fr/bison-fute-ouvert/publicationsDIR/QTV-DIR/` (HTTPS
+  vérifié), sans clé. `refDir.csv` (~1 400 lignes, ~1 000 avec une route) : catalogue, lu une fois
+  par jour ; `qtvDir.xml` (DATEX II 2.0, ~1,5 Mo, débit et vitesse par point, toutes les 6 min) :
+  lu en flux (`streamText`, analyse bloc par bloc de `<siteMeasurements>`), seuls les points des
+  axes ajoutés gardés.
+- **Pièges du CSV** : l'en-tête a 20 colonnes, les lignes 19 (`code_insee_commune` sans
+  colonne) ; `source_2` finit par le code INSEE de la commune (département = ses 2 premiers
+  chiffres) ; ~160 points sans coordonnées ni sens (DIRO : sens 1/2 de `sens_gestionnaire`) ;
+  coordonnées en Lambert 93 (conversion IGN dans `sources.js`) ; routes écrites `N0136`.
+- **Piège HTTP** : l'ETag d'Apache servi en gzip (`…-gzip`) ne donne jamais 304 ; `If-Modified-Since`
+  sur `Last-Modified`, si. Le cache (dernière date, points, mesures) est dans `city.state`, propre à
+  chaque instance, pas dans le module.
+- **Axe** = route + département + sens (`a620-31-int`) : sens giratoire (intérieur/extérieur), sinon
+  cardinal, sinon sens gestionnaire. Nom traduit (`axisNames`, `DIRECTIONS` de `messages.js`), ville
+  de la zone `code_traficolor` (TO31 → Toulouse), sinon « (35) ».
+- **État** déduit de la vitesse : ≥ 60 fluide, ≥ 30 dense, sinon saturé. **0 km/h = pas de mesure** :
+  le 29/10 à 16 h 48, 14 points à 0 km/h avec jusqu'à 27 100 véh/h (boucles en panne). Pondération
+  par `longueur` du référentiel. `TRAFICOLOR-DIR/` (fichiers horodatés par région, pas de Toulouse)
+  écarté.

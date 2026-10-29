@@ -10,6 +10,7 @@ ville sont les bienvenus.
 
 ## Ce que vous obtenez
 
+- Les **routes nationales** gérées par l'État (DIR) : rocades et voies rapides comme la rocade de Toulouse (A620, A61, A621, A624), la N118 ou la N136, un appareil par route, par sens et par département.
 - Un **appareil par axe** suivi : niveau de trafic et son nom (fluide, dense, saturé, coupé),
   vitesse moyenne (Rennes, Nantes, Strasbourg) ou temps de parcours et sa valeur habituelle
   (Bordeaux), et l'âge de la mesure.
@@ -62,6 +63,15 @@ Un « axe » réunit tous les tronçons du portail qui portent ce nom : à Renne
 ou départementale d'une commune à l'autre, une rue dans sa commune (la commune est dans le nom) ; à
 Nantes, les deux sens d'un boulevard ; à Strasbourg, les capteurs numérotés d'un même endroit du centre de gestion du trafic.
 
+### Routes nationales (DIR)
+
+Cochez **Routes nationales (DIR)** et tapez le numéro de la route ou la ville, par exemple `A620`
+ou `Toulouse`. Chaque route est proposée **par sens et par département**, sous la forme « A620
+Toulouse · intérieur » : intérieur ou extérieur pour une rocade, sinon « vers le nord », « vers le
+sud »… ou « sens 1 » et « sens 2 » quand le référentiel ne donne pas d'orientation. La ville est
+celle de la zone d'information trafic du point ; sans elle, le numéro du département (« N136 (35)
+»). Le sens est dans le nom, les mots suivant la langue choisie.
+
 ### Vérifier
 
 L'action **État** de l'onglet Configuration liste les villes lues, le nombre d'axes connus,
@@ -76,7 +86,7 @@ Chaque axe ajouté est un appareil en lecture seule :
 | -------------------------- | ---------------- | -------------------------------------------------- |
 | Trafic                     | texte            | Fluide, Dense, Saturé, Coupé ou Inconnu            |
 | Niveau de trafic           | niveau de risque | 0 inconnu, 1 fluide, 2 dense, 3 saturé, 4 coupé    |
-| Vitesse moyenne            | vitesse (km/h)   | Rennes, Nantes, Strasbourg                         |
+| Vitesse moyenne            | vitesse (km/h)   | Rennes, Nantes, Strasbourg, routes nationales      |
 | Temps de parcours          | durée (minutes)  | Bordeaux : temps de parcours de l'itinéraire       |
 | Temps de parcours habituel | durée (minutes)  | Bordeaux : la valeur de référence publiée avec lui |
 | Âge de la donnée           | durée (minutes)  | âge de la mesure la plus récente                   |
@@ -135,12 +145,13 @@ La phrase suit la langue choisie dans la configuration.
 
 ## Données et rafraîchissement
 
-| Ville      | Portail et jeu de données                                           | Mise à jour par la ville | Tronçons       |
-| ---------- | ------------------------------------------------------------------- | ------------------------ | -------------- |
-| Rennes     | data.rennesmetropole.fr, « État du trafic en temps réel »           | toutes les quelques min  | ~2 900         |
-| Nantes     | data.nantesmetropole.fr, « Fluidité des axes routiers »             | toutes les quelques min  | ~890           |
-| Strasbourg | data.strasbourg.eu, « SIRAC - flux trafic en temps réel »           | toutes les 3 minutes     | ~480           |
-| Bordeaux   | opendata.bordeaux-metropole.fr, « Temps de parcours en temps réel » | toutes les 2 min 30      | 16 itinéraires |
+| Ville             | Portail et jeu de données                                                                                                          | Mise à jour par la ville | Tronçons       |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | -------------- |
+| Rennes            | data.rennesmetropole.fr, « État du trafic en temps réel »                                                                          | toutes les quelques min  | ~2 900         |
+| Nantes            | data.nantesmetropole.fr, « Fluidité des axes routiers »                                                                            | toutes les quelques min  | ~890           |
+| Strasbourg        | data.strasbourg.eu, « SIRAC - flux trafic en temps réel »                                                                          | toutes les 3 minutes     | ~480           |
+| Bordeaux          | opendata.bordeaux-metropole.fr, « Temps de parcours en temps réel »                                                                | toutes les 2 min 30      | 16 itinéraires |
+| Routes nationales | tipi.bison-fute.gouv.fr (Point d'accès national), « État de circulation en temps réel sur le réseau national routier non concédé » | toutes les 6 minutes     | ~1 000 points  |
 
 La liste des tronçons (noms, positions) est lue **une fois par jour** par ville. À chaque
 rafraîchissement, une requête par ville lit **seulement les tronçons des axes ajoutés**, filtrés
@@ -152,6 +163,15 @@ Bordeaux ne publie pas d'état : le niveau est calculé à partir du temps de pa
 valeur habituelle (jusqu'à 1,3 fois : fluide, jusqu'à 1,8 fois : dense, au-delà : saturé). Les
 tronçons « bloqués » de Nantes comptent comme saturés. Les compteurs vélo de Strasbourg sont
 écartés.
+
+Les **routes nationales** publient des vitesses et des débits par point de mesure, pas d'état :
+le niveau d'un point est déduit de sa vitesse (60 km/h ou plus : fluide ; de 30 à 60 : dense ;
+moins de 30 : saturé). Une vitesse de 0 km/h n'est pas une mesure (route vide ou boucle en
+panne) : le point compte comme inconnu. Le référentiel des points (`refDir.csv`, ~120 Ko) est lu
+une fois par jour ; le fichier des mesures (`qtvDir.xml`, ~1,5 Mo, tous les points de France) est
+lu en flux, seuls les points des routes ajoutées étant gardés, et **seulement s'il a été republié**
+depuis la lecture précédente (en-tête `If-Modified-Since`). Seules les routes non concédées sont
+publiées : pas les autoroutes à péage.
 
 ## Dépannage
 
@@ -177,6 +197,8 @@ tronçons « bloqués » de Nantes comptent comme saturés. Les compteurs vélo 
   différer d'une application de navigation.
 - Lecture seule. Sans lien avec les métropoles.
 
+- **Routes nationales** : seuls les points de mesure publiés par les DIR (environ 1 000, surtout autour des grandes villes) ; les autoroutes concédées (à péage) n'en font pas partie. Développée sans y rouler : les retours sont les bienvenus.
+
 ## Crédits
 
 - Données : Rennes Métropole, Nantes Métropole, Eurométropole de Strasbourg (SIRAC), Bordeaux
@@ -184,3 +206,4 @@ tronçons « bloqués » de Nantes comptent comme saturés. Les compteurs vélo 
   geo.api.gouv.fr.
 - Construite à partir du
   [modèle d'intégration](https://github.com/GladysAssistant/integration-template-js) officiel.
+- Routes nationales : Directions interdépartementales des routes (DIR), ministère chargé des transports, via le Point d'accès national (transport.data.gouv.fr), Licence Ouverte. Projection Lambert-93 : formules de l'IGN.

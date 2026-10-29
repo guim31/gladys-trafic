@@ -10,6 +10,16 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+### Added
+
+- National roads run by the State (DIR, Bison Futé open data): ring roads and
+  expressways such as the Toulouse ring road (A620, A61, A621, A624), the N118
+  or the N136. Tick "National roads (DIR)", type a road number or a city: one
+  device per road, direction and département, with the same traffic level,
+  average speed, data age and scene triggers as the cities, and the national
+  roads around the house. The level is deduced from the speed (60 km/h or more
+  free flow, 30 to 60 heavy, below 30 congested).
+
 ## [1.0.0] - 2026-10-29
 
 ### Added

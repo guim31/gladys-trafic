@@ -53,6 +53,51 @@ export const NAMES = {
   },
 };
 
+// The directions of the national roads (src/sources.js, dirDirection), part
+// of the device names: frozen when the device is created.
+export const DIRECTIONS = {
+  en: {
+    int: 'inner ring',
+    ext: 'outer ring',
+    'n-s': 'southbound',
+    's-n': 'northbound',
+    'e-w': 'westbound',
+    'w-e': 'eastbound',
+    s1: 'direction 1',
+    s2: 'direction 2',
+  },
+  fr: {
+    int: 'intérieur',
+    ext: 'extérieur',
+    'n-s': 'vers le sud',
+    's-n': 'vers le nord',
+    'e-w': "vers l'ouest",
+    'w-e': "vers l'est",
+    s1: 'sens 1',
+    s2: 'sens 2',
+  },
+  de: {
+    int: 'Innenring',
+    ext: 'Außenring',
+    'n-s': 'Richtung Süden',
+    's-n': 'Richtung Norden',
+    'e-w': 'Richtung Westen',
+    'w-e': 'Richtung Osten',
+    s1: 'Richtung 1',
+    s2: 'Richtung 2',
+  },
+  es: {
+    int: 'anillo interior',
+    ext: 'anillo exterior',
+    'n-s': 'hacia el sur',
+    's-n': 'hacia el norte',
+    'e-w': 'hacia el oeste',
+    'w-e': 'hacia el este',
+    s1: 'sentido 1',
+    s2: 'sentido 2',
+  },
+};
+
 // The traffic levels, by STATUS code: 0 unknown … 4 closed.
 export const LEVELS = {
   en: ['unknown', 'free flow', 'heavy', 'congested', 'closed'],
