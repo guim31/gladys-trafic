@@ -287,4 +287,7 @@ long, et sur un « Sie »/« Ihr… » de politesse en allemand. Le store exige 
 - **Autour de la maison** : `getHouses()` (manifeste `location: true`, cœur ≥ 5.2.0), première maison
   localisée, les 40 tronçons les plus proches dans le rayon, calculés dans le conteneur. Au centre de
   Rennes, aucun tronçon à moins de 500 m (rues piétonnes) : 1 km par défaut.
+- Déclencheurs : un nouveau niveau ne compte qu'une fois lu deux fois de suite (hystérésis, relecture
+  du 29/10). Un catalogue vide est un échec (le connu reste) ; jamais lu, il est retenté après 10 min.
+  Un axe disparu du catalogue passe « Inconnu ».
 - `gladys_version` `>=5.3.0` pour `countries` et `keywords`.

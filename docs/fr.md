@@ -60,8 +60,7 @@ proposent. Un axe ajouté reste lu même si vous changez la recherche ensuite.
 
 Un « axe » réunit tous les tronçons du portail qui portent ce nom : à Rennes, une route nationale
 ou départementale d'une commune à l'autre, une rue dans sa commune (la commune est dans le nom) ; à
-Nantes, les deux sens d'un boulevard ; à Strasbourg, un point de mesure du centre de gestion du
-trafic.
+Nantes, les deux sens d'un boulevard ; à Strasbourg, les capteurs numérotés d'un même endroit du centre de gestion du trafic.
 
 ### Vérifier
 
@@ -111,7 +110,7 @@ Le champ **Axes** filtre les axes concernés ; vide, n'importe quel axe suivi. L
 disponibles pour les actions suivantes : axe, ville, trafic (le niveau en toutes lettres), vitesse
 moyenne.
 
-Les déclencheurs comparent deux niveaux connus successifs de l'axe : rien ne se déclenche au retour
+Un nouveau niveau compte une fois lu **deux fois de suite** (un rafraîchissement de plus) : un axe qui hésite autour d'un seuil ne déclenche pas à chaque cycle. Les déclencheurs comparent deux niveaux connus successifs de l'axe : rien ne se déclenche au retour
 d'un portail après une longue panne, ni tant que l'axe est inconnu.
 
 ## Action de scène

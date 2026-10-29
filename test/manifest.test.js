@@ -115,7 +115,7 @@ test('the event data of every trigger carries its declared fields and variables'
     summary: { level, speed: 30, time: null, usual: null, at: world.clock.now() },
   });
   const events = [];
-  for (const level of [STATUS.FREE, STATUS.CONGESTED, STATUS.FREE]) {
+  for (const level of [STATUS.FREE, STATUS.CONGESTED, STATUS.CONGESTED, STATUS.FREE, STATUS.FREE]) {
     events.push(...world.service.axisEvents(found(level)));
   }
   for (const trigger of manifest.scene_triggers) {

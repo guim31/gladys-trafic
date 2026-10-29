@@ -124,6 +124,8 @@ export const REPORTS = {
     error: ({ error }) => `Last error: ${error}`,
     home: ({ count }) => `Around the house: ${count} segment${count === 1 ? '' : 's'}.`,
     noHouse: 'Around the house: no located house in Gladys.',
+    tooMany: ({ count, max }) =>
+      `${count} roads match the search, only the first ${max} are offered: make it more precise.`,
     watched: ({ count }) => `${count} road${count === 1 ? '' : 's'} added to Gladys.`,
   },
   fr: {
@@ -135,6 +137,8 @@ export const REPORTS = {
     error: ({ error }) => `Dernière erreur : ${error}`,
     home: ({ count }) => `Autour de la maison : ${count} tronçon${count > 1 ? 's' : ''}.`,
     noHouse: 'Autour de la maison : aucune maison localisée dans Gladys.',
+    tooMany: ({ count, max }) =>
+      `${count} axes correspondent à la recherche, seuls les ${max} premiers sont proposés : précisez-la.`,
     watched: ({ count }) =>
       `${count} axe${count > 1 ? 's' : ''} ajouté${count > 1 ? 's' : ''} à Gladys.`,
   },
@@ -146,6 +150,8 @@ export const REPORTS = {
     error: ({ error }) => `Letzter Fehler: ${error}`,
     home: ({ count }) => `Rund ums Haus: ${count} ${count === 1 ? 'Abschnitt' : 'Abschnitte'}.`,
     noHouse: 'Rund ums Haus: kein Haus mit Standort in Gladys.',
+    tooMany: ({ count, max }) =>
+      `${count} Straßen passen zur Suche, nur die ersten ${max} werden angeboten: mach sie genauer.`,
     watched: ({ count }) => `${count} ${count === 1 ? 'Straße' : 'Straßen'} zu Gladys hinzugefügt.`,
   },
   es: {
@@ -157,6 +163,8 @@ export const REPORTS = {
     error: ({ error }) => `Último error: ${error}`,
     home: ({ count }) => `Alrededor de la casa: ${count} tramo${count === 1 ? '' : 's'}.`,
     noHouse: 'Alrededor de la casa: ninguna casa localizada en Gladys.',
+    tooMany: ({ count, max }) =>
+      `${count} vías coinciden con la búsqueda, solo se ofrecen las ${max} primeras: precísela.`,
     watched: ({ count }) =>
       `${count} vía${count === 1 ? '' : 's'} añadida${count === 1 ? '' : 's'} a Gladys.`,
   },

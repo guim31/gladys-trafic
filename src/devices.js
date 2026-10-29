@@ -69,8 +69,15 @@ export function aggregate(measures, now) {
   if (known.length === 0) {
     return { level: STATUS.UNKNOWN, speed: null, time: null, usual: null, at: newest(all) };
   }
-  const byLength = known.every((m) => m.length !== null);
-  const weight = (m) => (byLength ? m.length : 1);
+  // A segment without a length weighs the median length of the others, so
+  // that one missing length does not turn the whole road into one vote per
+  // segment; without any length (Strasbourg), one vote per segment.
+  const lengths = known
+    .map((m) => m.length)
+    .filter((l) => l !== null)
+    .sort((a, b) => a - b);
+  const median = lengths.length > 0 ? lengths[Math.floor(lengths.length / 2)] : 1;
+  const weight = (m) => m.length ?? median;
   const total = known.reduce((sum, m) => sum + weight(m), 0);
   let level = STATUS.FREE;
   for (const candidate of [STATUS.CLOSED, STATUS.CONGESTED, STATUS.HEAVY]) {

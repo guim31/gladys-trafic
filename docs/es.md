@@ -60,8 +60,7 @@ ofrecen. Una vía añadida se sigue leyendo aunque cambie la búsqueda después.
 
 Una «vía» reúne todos los tramos del portal con ese nombre: en Rennes, una carretera nacional o
 departamental de un municipio a otro, una calle dentro de su municipio (el municipio está en el
-nombre); en Nantes, los dos sentidos de un bulevar; en Estrasburgo, un punto de medida del centro
-de gestión del tráfico.
+nombre); en Nantes, los dos sentidos de un bulevar; en Estrasburgo, los sensores numerados de un mismo lugar del centro de gestión del tráfico.
 
 ### Comprobar
 
@@ -110,7 +109,7 @@ El campo **Vías** filtra las vías afectadas; vacío, cualquier vía vigilada. 
 disponibles para las acciones siguientes: vía, ciudad, tráfico (el nivel en palabras), velocidad
 media.
 
-Los disparadores comparan dos niveles conocidos sucesivos de la vía: nada se dispara cuando un
+Un nuevo nivel cuenta una vez leído **dos veces seguidas** (una actualización más): una vía que oscila alrededor de un umbral no dispara en cada ciclo. Los disparadores comparan dos niveles conocidos sucesivos de la vía: nada se dispara cuando un
 portal vuelve tras una larga avería, ni mientras la vía está desconocida.
 
 ## Acción de escena

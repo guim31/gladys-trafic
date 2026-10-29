@@ -237,12 +237,16 @@ test('triggers: a road turning heavy, then congested, then clear again', async (
   const ids = rennesIds(world, RN136);
   const set = (trafficstatus) =>
     setLive(world, 'rennes', (r) => ids.has(r.predefinedlocationreference), { trafficstatus });
+  // Each new level counts once read twice in a row.
   set('heavy');
+  await cycle(world);
+  assert.deepEqual(world.fake.sceneEvents, []);
   await cycle(world);
   set('congested');
   await cycle(world);
   await cycle(world);
   set('freeFlow');
+  await cycle(world);
   await cycle(world);
   const events = world.fake.sceneEvents.map((e) => [e.key, e.data.level ?? null, e.data.status]);
   assert.deepEqual(events, [
@@ -263,6 +267,7 @@ test('a jump from free flow to congested fires both levels at once', async (t) =
   await create(world, RN136);
   setLive(world, 'rennes', () => true, { trafficstatus: 'congested' });
   await cycle(world);
+  await cycle(world);
   assert.deepEqual(
     world.fake.sceneEvents.map((e) => e.data.level),
     ['heavy', 'congested'],
@@ -280,7 +285,8 @@ test('Nantes, Strasbourg, Bordeaux: their own statuses, speeds and travel times'
   assert.equal(last(anglais, 'level'), 1);
   assert.equal(last(anglais, 'speed'), 16);
   assert.equal(last(schirmeck, 'level'), 2);
-  assert.equal(last(schirmeck, 'speed'), 26);
+  // One sensor standing still (0 km/h), the other at 30.
+  assert.equal(last(schirmeck, 'speed'), 15);
   // 360 s against 128 s usually: congested.
   assert.equal(last(latule, 'level'), 3);
   assert.equal(last(latule, 'travel_time'), 6);
@@ -402,4 +408,72 @@ test('the integration reads on its own timer, without any poll from Gladys', asy
   t.mock.timers.tick(120 * 1000);
   await app.service.refreshing;
   assert.equal(reads(), 4);
+});
+
+test('a road hovering around a threshold fires nothing', async (t) => {
+  const world = await createWorld();
+  t.after(() => world.app.stop());
+  await create(world, RN136);
+  const ids = rennesIds(world, RN136);
+  for (let i = 0; i < 6; i += 1) {
+    setLive(world, 'rennes', (r) => ids.has(r.predefinedlocationreference), {
+      trafficstatus: i % 2 === 0 ? 'heavy' : 'freeFlow',
+    });
+    await cycle(world);
+  }
+  assert.deepEqual(world.fake.sceneEvents, []);
+});
+
+test('a road gone from the catalog becomes unknown, an empty catalog is not believed', async (t) => {
+  const world = await createWorld();
+  t.after(() => world.app.stop());
+  const device = await create(world, RN136);
+  const level = () => world.fake.lastState(featureId(device, 'level'));
+  assert.equal(level(), 1);
+  const fresh = () =>
+    setLive(world, 'rennes', () => true, { datetime: new Date(world.clock.now()).toISOString() });
+  // An empty answer: the known catalog stays.
+  world.network.data.rennes.catalog = [];
+  world.clock.advance(CATALOG_MAX_AGE_MS);
+  fresh();
+  await cycle(world, 1);
+  assert.ok(world.service.city('rennes').axes.has('route-nationale-136'));
+  assert.equal(level(), 1);
+  // A real catalog without the road, an hour later.
+  world.network.data.rennes.catalog = createFetch().data.rennes.catalog.filter(
+    (r) => r.denomination !== RN136,
+  );
+  world.clock.advance(3600 * 1000);
+  fresh();
+  await cycle(world, 1);
+  assert.equal(level(), 0);
+  assert.equal(world.fake.lastState(featureId(device, 'status')), 'Inconnu');
+});
+
+test('a catalog never read is tried again after 10 minutes, not at every cycle', async (t) => {
+  const network = createFetch();
+  network.down.add('rennes');
+  const world = await createWorld({ network });
+  t.after(() => world.app.stop());
+  const count = () => network.calls.length;
+  assert.equal(count(), 1);
+  await cycle(world, 180);
+  await cycle(world, 180);
+  assert.equal(count(), 1);
+  network.down.delete('rennes');
+  await cycle(world, 300);
+  assert.ok(discovered(world, RN136));
+});
+
+test('a search matching too many roads: 50 offered, the status says so', async (t) => {
+  const world = await createWorld({
+    config: { cities: ['rennes'], roads: 'rue, route, avenue, boulevard' },
+  });
+  t.after(() => world.app.stop());
+  const message = await action(world, 'status');
+  if (world.service.matchingAxes(world.service.city('rennes')).length > 50) {
+    assert.match(message.fr, /seuls les 50 premiers/);
+  } else {
+    assert.doesNotMatch(message.fr, /premiers/);
+  }
 });

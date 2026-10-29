@@ -375,7 +375,8 @@ export const SOURCES = {
             num(r.ident),
             {
               status,
-              speed: status === STATUS.UNKNOWN ? null : positive(r.vitessebrp),
+              // A sensor of a known state may read 0 km/h: a standstill.
+              speed: status === STATUS.UNKNOWN ? null : num(r.vitessebrp),
               time: null,
               usual: null,
               length: null,

@@ -63,8 +63,7 @@ danach änderst.
 
 Eine „Straße“ fasst alle Abschnitte des Portals mit diesem Namen zusammen: in Rennes eine National-
 oder Departementsstraße über Gemeinden hinweg, eine Straße innerhalb ihrer Gemeinde (die Gemeinde
-steht im Namen); in Nantes beide Richtungen eines Boulevards; in Straßburg ein Messpunkt der
-Verkehrszentrale.
+steht im Namen); in Nantes beide Richtungen eines Boulevards; in Straßburg die nummerierten Sensoren eines Orts der Verkehrszentrale.
 
 ### Prüfen
 
@@ -114,7 +113,7 @@ Das Feld **Straßen** filtert die betroffenen Straßen; leer: jede überwachte S
 für die folgenden Aktionen: Straße, Stadt, Verkehr (die Stufe als Wort),
 Durchschnittsgeschwindigkeit.
 
-Die Auslöser vergleichen zwei aufeinanderfolgende bekannte Stufen der Straße: nichts wird
+Eine neue Stufe zählt erst, wenn sie **zweimal hintereinander** gelesen wurde (eine Aktualisierung mehr): eine Straße, die um eine Schwelle pendelt, löst nicht bei jedem Zyklus aus. Die Auslöser vergleichen zwei aufeinanderfolgende bekannte Stufen der Straße: nichts wird
 ausgelöst, wenn ein Portal nach einem langen Ausfall zurückkommt, und nichts, solange die Straße
 unbekannt ist.
 

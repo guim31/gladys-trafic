@@ -34,6 +34,8 @@ export const HEARTBEAT_MS = 6 * 3600 * 1000;
 export const CATALOG_MAX_AGE_MS = 24 * 3600 * 1000;
 // A failed catalog read is tried again after this, the known one kept.
 const CATALOG_RETRY_MS = 3600 * 1000;
+// A city whose catalog was never read: tried again after this.
+export const CATALOG_FIRST_RETRY_MS = 10 * 60 * 1000;
 // Roads offered per city in the Discover tab (a short search term).
 export const MAX_DISCOVERED = 50;
 // Segments of the "around the house" device, the nearest ones.
@@ -60,6 +62,7 @@ class City {
     this.axes = null; // Map axisKey → { key, name, ids, lat, lon }
     this.home = null; // { key: 'home', ids } or null
     this.catalogAt = null;
+    this.catalogRetryAt = null;
     this.measures = new Map(); // segment id → measure
     this.okAt = null;
     this.error = null;
@@ -256,7 +259,12 @@ export class Traffic {
     const matching = city.source.listAll
       ? axes
       : axes.filter((axis) => this.config.terms.some((term) => fold(axis.name).includes(term)));
-    return matching.sort((a, b) => a.name.localeCompare(b.name, 'fr')).slice(0, MAX_DISCOVERED);
+    return matching.sort((a, b) => a.name.localeCompare(b.name, 'fr'));
+  }
+
+  /** The roads offered in the Discover tab: the first MAX_DISCOVERED matches. */
+  offeredAxes(city) {
+    return this.matchingAxes(city).slice(0, MAX_DISCOVERED);
   }
 
   /** The state of a watched road: `{ city, axis, summary }`, summary null before any read. */
@@ -268,9 +276,11 @@ export class Traffic {
     const city = this.city(entry.key);
     const axis = this.axis(city, entry.axisKey);
     let summary = null;
-    if (axis && city.okAt !== null) {
+    // Once the city's roads are known, a road gone from the catalog or not
+    // read yet is "unknown": its last level must not stay in Gladys.
+    if (city.axes) {
       summary = aggregate(
-        axis.ids.map((id) => city.measures.get(id)),
+        (axis?.ids ?? []).map((id) => city.measures.get(id)),
         this.now(),
       );
       // The sum of the travel times of scattered segments is no travel time:
@@ -306,7 +316,7 @@ export class Traffic {
       if (!city?.axes) {
         continue;
       }
-      for (const axis of this.matchingAxes(city)) {
+      for (const axis of this.offeredAxes(city)) {
         add(key, axis);
       }
       if (this.homeAxis(city)) {
@@ -445,8 +455,16 @@ export class Traffic {
     if (city.axes && now - city.catalogAt < CATALOG_MAX_AGE_MS) {
       return;
     }
+    if (!city.axes && city.catalogRetryAt !== null && now < city.catalogRetryAt) {
+      return;
+    }
     try {
       const segments = await city.source.catalog(this.fetch);
+      // An empty list (a renamed field, a dataset being reloaded) is a
+      // failure, not a city without roads.
+      if (segments.length === 0) {
+        throw new Error('empty segment list');
+      }
       const axes = new Map();
       for (const segment of segments) {
         if (!axes.has(segment.axisKey)) {
@@ -467,6 +485,8 @@ export class Traffic {
       logger.debug(`${city.source.name}: ${segments.length} segments, ${axes.size} roads`);
     } catch (err) {
       if (!city.axes) {
+        // Never read yet: tried again in a few minutes, not at every cycle.
+        city.catalogRetryAt = now + CATALOG_FIRST_RETRY_MS;
         this.failed(city, err);
         return;
       }
@@ -521,12 +541,24 @@ export class Traffic {
       return [];
     }
     const now = this.now();
-    const previous = this.levels.get(entry.deviceId);
-    this.levels.set(entry.deviceId, { level, at: now });
+    const state = this.levels.get(entry.deviceId);
     // A level known long ago (the portal back after an outage) would fire
     // changes that are no longer news.
     const window = 2 * this.config.refreshSeconds * 1000 + 30 * 60 * 1000;
-    if (!previous || now - previous.at > window || previous.level === level) {
+    if (!state || now - state.at > window) {
+      this.levels.set(entry.deviceId, { confirmed: level, candidate: level, at: now });
+      return [];
+    }
+    // A new level counts once read twice in a row: a road hovering around a
+    // threshold does not fire "jam" then "clear" at every cycle.
+    const confirmed = level === state.candidate && level !== state.confirmed;
+    const previous = { level: state.confirmed };
+    this.levels.set(entry.deviceId, {
+      confirmed: confirmed ? level : state.confirmed,
+      candidate: level,
+      at: now,
+    });
+    if (!confirmed) {
       return [];
     }
     const data = {
@@ -598,6 +630,10 @@ export class Traffic {
           : render(REPORTS, 'read', { age: Math.round((now - city.okAt) / 1000) }),
         city.error ? render(REPORTS, 'error', { error: city.error }) : null,
       );
+      const matches = city.source.listAll ? 0 : this.matchingAxes(city).length;
+      if (this.config.cities.includes(key) && matches > MAX_DISCOVERED) {
+        blocks.push(render(REPORTS, 'tooMany', { count: matches, max: MAX_DISCOVERED }));
+      }
       const home = this.homeAxis(city);
       if (home) {
         blocks.push(render(REPORTS, 'home', { count: home.ids.length }));

@@ -59,7 +59,7 @@ them. A road added stays read even if you change the search afterwards.
 
 A "road" gathers every segment of the portal bearing that name: in Rennes, a national or
 departmental road across communes, a street within its commune (the commune is in the name); in
-Nantes, both directions of a boulevard; in Strasbourg, one measuring point of the traffic centre.
+Nantes, both directions of a boulevard; in Strasbourg, the numbered sensors of one place of the traffic centre.
 
 ### Check
 
@@ -106,7 +106,7 @@ Colors: **green** free flow, **orange** heavy, **red** congested or closed, **gr
 The **Roads** field filters the roads concerned; empty, any watched road. The variables available
 to the next actions: road, city, traffic (the level as a word), average speed.
 
-Triggers compare two successive known levels of the road: nothing fires when a portal comes back
+A new level counts once read **twice in a row** (one more refresh): a road hovering around a threshold does not fire at every cycle. Triggers compare two successive known levels of the road: nothing fires when a portal comes back
 after a long outage, nor while the road is unknown.
 
 ## Scene action
