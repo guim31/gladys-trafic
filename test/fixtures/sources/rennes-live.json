@@ -1,0 +1,5578 @@
+[
+  {
+    "predefinedlocationreference": "10273_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 60,
+    "traveltime": 12,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10273_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 77,
+    "traveltime": 9,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10274_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 67,
+    "traveltime": 10,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10274_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 78,
+    "traveltime": 8,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10275_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 67,
+    "traveltime": 15,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10275_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 80,
+    "traveltime": 13,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10277_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 67,
+    "traveltime": 23,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10277_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 80,
+    "traveltime": 19,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10279_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 67,
+    "traveltime": 15,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10279_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 76,
+    "traveltime": 13,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10281_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 67,
+    "traveltime": 21,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10281_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 73,
+    "traveltime": 19,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10315_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 67,
+    "traveltime": 8,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "10315_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 79,
+    "traveltime": 7,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "11777_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 52,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "11777_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 36,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "12060_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 67,
+    "traveltime": 11,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "12060_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 78,
+    "traveltime": 9,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1242_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 65,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1242_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 55,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1285_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 55,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1285_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 55,
+    "traveltime": 1,
+    "traveltimereliability": 65,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "13514",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 37,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "13515",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 40,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "13516",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 34,
+    "traveltime": 3,
+    "traveltimereliability": 10,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "15029_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 59,
+    "traveltime": 41,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "15029_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 58,
+    "traveltime": 43,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "15113",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 34,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "15114",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 36,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "15117",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 38,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "15118",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 38,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "15119",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 27,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "15120",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 39,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "15121",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "15122",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 5,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1601898",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 77,
+    "traveltime": 20,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1601931_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 46,
+    "traveltime": 6,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1601931_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 8,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1602158_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 1,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1602158_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 19,
+    "traveltime": 1,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1602398",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 39,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1627",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1628",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 37,
+    "traveltime": 3,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1629",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 38,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1630",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 40,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1631",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 37,
+    "traveltime": 3,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1639",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 35,
+    "traveltime": 9,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1677687",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 1,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1677691",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1677693",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 35,
+    "traveltime": 2,
+    "traveltimereliability": 52,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1678750",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 34,
+    "traveltime": 3,
+    "traveltimereliability": 70,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680014",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 89,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680016",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 97,
+    "traveltime": 12,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680022",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 100,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680024",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 90,
+    "traveltime": 9,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680116",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 49,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680119",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 49,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680121",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 46,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680123",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 45,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680337",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 6,
+    "traveltime": 39,
+    "traveltimereliability": 52,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680514_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 24,
+    "traveltime": 18,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680514_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 9,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680549_D",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 11,
+    "traveltime": 58,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680549_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 35,
+    "traveltime": 18,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680561_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 24,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680561_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 1,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1721",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 56,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1722",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 29,
+    "traveltime": 5,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1723",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 23,
+    "traveltime": 7,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "18391_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 68,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "18391_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 66,
+    "traveltime": 4,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1853",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 89,
+    "traveltime": 27,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1855",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 92,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1856",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 88,
+    "traveltime": 10,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "19040",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 31,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1910886",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 7,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "19628",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 8,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "19629",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 90,
+    "traveltime": 1,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "19630",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 43,
+    "traveltime": 5,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "19631",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 90,
+    "traveltime": 1,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "19632",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 62,
+    "traveltime": 1,
+    "traveltimereliability": 50,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "20525",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 44,
+    "traveltime": 4,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "20526",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 50,
+    "traveltime": 3,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "20527",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 37,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "20528",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 40,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "25930",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 46,
+    "traveltime": 3,
+    "traveltimereliability": 87,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "25931",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 51,
+    "traveltime": 4,
+    "traveltimereliability": 98,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "25932",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 40,
+    "traveltime": 4,
+    "traveltimereliability": 85,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "25933",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 36,
+    "traveltime": 4,
+    "traveltimereliability": 98,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "25989",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 22,
+    "traveltime": 5,
+    "traveltimereliability": 20,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "25990",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "25991",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "25992",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 4,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "26393",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 24,
+    "traveltime": 3,
+    "traveltimereliability": 52,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "26394",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 24,
+    "traveltime": 3,
+    "traveltimereliability": 52,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "26395",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 39,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "26396",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 39,
+    "traveltime": 1,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "282910_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "282910_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "28854",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 51,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "28855",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 68,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "28867",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 56,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "28868",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 51,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "30022",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 90,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "30023",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 89,
+    "traveltime": 57,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "31550",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 72,
+    "traveltime": 13,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "31551",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 89,
+    "traveltime": 8,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "31553",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 85,
+    "traveltime": 12,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "31673",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 90,
+    "traveltime": 14,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "31674",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 94,
+    "traveltime": 14,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "31880",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "32118",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 93,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "32785",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 36,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "32786",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 25,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "32788",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 27,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "32790",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 34,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "32791",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 39,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "32794",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 16,
+    "traveltime": 4,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "32796",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 21,
+    "traveltime": 3,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "34744",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 95,
+    "traveltime": 35,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "34745",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 93,
+    "traveltime": 35,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35072",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 93,
+    "traveltime": 28,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35077",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 97,
+    "traveltime": 43,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35086",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 93,
+    "traveltime": 44,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35096",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 91,
+    "traveltime": 18,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35098",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 94,
+    "traveltime": 40,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35942",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 27,
+    "traveltime": 2,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35943",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 34,
+    "traveltime": 2,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35944",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 31,
+    "traveltime": 3,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35945",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 30,
+    "traveltime": 3,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35953",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 36,
+    "traveltime": 3,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35954",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 28,
+    "traveltime": 3,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35955",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 29,
+    "traveltime": 4,
+    "traveltimereliability": 55,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "35956",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 29,
+    "traveltime": 1,
+    "traveltimereliability": 55,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "36005",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 24,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "36006",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 20,
+    "traveltime": 4,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "36007",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 19,
+    "traveltime": 3,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37207",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 36,
+    "traveltime": 2,
+    "traveltimereliability": 55,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37208",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 39,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37209",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 38,
+    "traveltime": 2,
+    "traveltimereliability": 55,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37730",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 43,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37737",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 97,
+    "traveltime": 42,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37749",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 91,
+    "traveltime": 42,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37750",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 95,
+    "traveltime": 28,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37751",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 77,
+    "traveltime": 13,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37753",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 89,
+    "traveltime": 30,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37784",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 29,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37785",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 39,
+    "traveltime": 2,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37786",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 25,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37818",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 94,
+    "traveltime": 49,
+    "traveltimereliability": 73,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37819",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 94,
+    "traveltime": 59,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37822",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 103,
+    "traveltime": 8,
+    "traveltimereliability": 73,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37826",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 37,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37827",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 47,
+    "traveltime": 1,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37941",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 97,
+    "traveltime": 51,
+    "traveltimereliability": 83,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37947",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 93,
+    "traveltime": 8,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37948",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 79,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37949",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 91,
+    "traveltime": 76,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37950",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 8,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "37970",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 16,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "38067",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 89,
+    "traveltime": 12,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "38070",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 99,
+    "traveltime": 9,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "38310",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 28,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "38311",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 3,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "38317",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "38318",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 97,
+    "traveltime": 27,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "38319",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 23,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "39618",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "39619",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "40185_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 52,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "40185_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 36,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "41729",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 39,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42375",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 1,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42383",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 42,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42384",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 26,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42385",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42386",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42938_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 27,
+    "traveltime": 11,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42938_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 6,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42939_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 46,
+    "traveltime": 5,
+    "traveltimereliability": 55,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42939_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 4,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42940_D",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 12,
+    "traveltime": 37,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42940_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 47,
+    "traveltime": 9,
+    "traveltimereliability": 30,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42941_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 4,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42941_G",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 2,
+    "traveltime": 75,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42978_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 16,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42978_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 19,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42983_D",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 8,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "42983_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 8,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43027_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 46,
+    "traveltime": 6,
+    "traveltimereliability": 55,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43027_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 47,
+    "traveltime": 5,
+    "traveltimereliability": 30,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43046_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 17,
+    "traveltime": 17,
+    "traveltimereliability": 42,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43046_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 6,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43047_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 23,
+    "traveltime": 8,
+    "traveltimereliability": 42,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43047_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 3,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43048_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 9,
+    "traveltimereliability": 42,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43048_G",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 11,
+    "traveltime": 23,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43049_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 30,
+    "traveltime": 4,
+    "traveltimereliability": 42,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43049_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 19,
+    "traveltime": 6,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43099",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 17,
+    "traveltime": 5,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43352_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 30,
+    "traveltime": 16,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43451_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 37,
+    "traveltime": 12,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43627",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 21,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43658_D",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 15,
+    "traveltime": 12,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43658_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 5,
+    "traveltimereliability": 42,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43718_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 4,
+    "traveltimereliability": 55,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43718_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 42,
+    "traveltime": 4,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43719_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 13,
+    "traveltimereliability": 55,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43719_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 48,
+    "traveltime": 9,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43720_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 25,
+    "traveltime": 9,
+    "traveltimereliability": 70,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43720_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 15,
+    "traveltime": 14,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43724_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 26,
+    "traveltime": 15,
+    "traveltimereliability": 42,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43724_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 29,
+    "traveltime": 14,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43736_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 18,
+    "traveltime": 12,
+    "traveltimereliability": 73,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43736_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 6,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43743_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 40,
+    "traveltimereliability": 35,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43744_D",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 39,
+    "traveltime": 6,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43744_G",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 1,
+    "traveltime": 259,
+    "traveltimereliability": 25,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43748",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 22,
+    "traveltime": 9,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43757",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 13,
+    "traveltime": 8,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43758",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 11,
+    "traveltime": 27,
+    "traveltimereliability": 59,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43786_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 37,
+    "traveltime": 17,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43786_G",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 12,
+    "traveltime": 52,
+    "traveltimereliability": 30,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43787_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 47,
+    "traveltime": 3,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43787_G",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 13,
+    "traveltime": 10,
+    "traveltimereliability": 52,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43788_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 47,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43788_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 2,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43789_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 48,
+    "traveltime": 6,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43789_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 9,
+    "traveltimereliability": 40,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43790_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 45,
+    "traveltime": 5,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43790_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 48,
+    "traveltime": 5,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43791_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 44,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43791_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 3,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43792_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 10,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43792_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 6,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43819",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 17,
+    "traveltime": 27,
+    "traveltimereliability": 58,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43821",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 27,
+    "traveltime": 10,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43828_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 18,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43828_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 11,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43972",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 9,
+    "traveltime": 36,
+    "traveltimereliability": 27,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44231_D",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 10,
+    "traveltime": 27,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44231_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 26,
+    "traveltime": 10,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44232_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 41,
+    "traveltime": 5,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44232_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 22,
+    "traveltime": 10,
+    "traveltimereliability": 65,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44234_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 40,
+    "traveltime": 9,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44234_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 18,
+    "traveltime": 19,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44293",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 9,
+    "traveltime": 32,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44303_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 3,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44303_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 45,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44304_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 21,
+    "traveltime": 21,
+    "traveltimereliability": 73,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44304_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 40,
+    "traveltime": 11,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44322_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 40,
+    "traveltime": 56,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44322_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 74,
+    "traveltimereliability": 66,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44328",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 41,
+    "traveltime": 12,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44868",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 70,
+    "traveltime": 6,
+    "traveltimereliability": 25,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44880",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 17,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44882",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 83,
+    "traveltime": 12,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44884",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 94,
+    "traveltime": 14,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44920",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44948",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 82,
+    "traveltime": 13,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44966",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 88,
+    "traveltime": 11,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45012_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 37,
+    "traveltime": 1,
+    "traveltimereliability": 55,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45012_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 21,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45028_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 36,
+    "traveltime": 24,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45028_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 39,
+    "traveltime": 22,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45029_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 34,
+    "traveltime": 10,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45029_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 31,
+    "traveltime": 11,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45106_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 43,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45106_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 40,
+    "traveltime": 4,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45169",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 31,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45240",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 71,
+    "traveltime": 7,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45241",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 72,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45306",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 81,
+    "traveltime": 7,
+    "traveltimereliability": 52,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45327",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 77,
+    "traveltime": 8,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45630",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 85,
+    "traveltime": 13,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46771",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 90,
+    "traveltime": 9,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46821_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 27,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46821_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 18,
+    "traveltime": 46,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46923_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 37,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46923_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 42,
+    "traveltime": 1,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47061",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 21,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47239",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47410",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 92,
+    "traveltime": 15,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47411",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 91,
+    "traveltime": 14,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47416",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 92,
+    "traveltime": 13,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47418",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 91,
+    "traveltime": 16,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47480",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 94,
+    "traveltime": 48,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47481",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 90,
+    "traveltime": 51,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47537_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 37,
+    "traveltime": 9,
+    "traveltimereliability": 59,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47537_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 6,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "48758",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 56,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "48759",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 59,
+    "traveltime": 1,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "489972",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 92,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "49026",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 28,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "491005_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 22,
+    "traveltime": 6,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "491005_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 18,
+    "traveltime": 8,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "491714_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 36,
+    "traveltime": 7,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "491714_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 36,
+    "traveltime": 7,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "491735_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 33,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "491735_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 32,
+    "traveltime": 5,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "491794_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 44,
+    "traveltime": 4,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "491794_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 5,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "491877",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 44,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "49315_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 21,
+    "traveltime": 9,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "49315_G",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 12,
+    "traveltime": 16,
+    "traveltimereliability": 30,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "50571",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 3,
+    "traveltimereliability": 25,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "50625",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 29,
+    "traveltime": 7,
+    "traveltimereliability": 25,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "5064_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 67,
+    "traveltime": 8,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "5064_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 66,
+    "traveltime": 8,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "51474_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 17,
+    "traveltime": 2,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "51474_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 1,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "52107_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 46,
+    "traveltime": 10,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "52107_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 47,
+    "traveltime": 10,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53428",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 82,
+    "traveltime": 57,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53623",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 43,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53624",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 40,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53625",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 37,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53702",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 84,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53944",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 43,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53946",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 43,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53987",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 34,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54067",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 93,
+    "traveltime": 10,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54223_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 18,
+    "traveltime": 4,
+    "traveltimereliability": 42,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54223_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 33,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54227",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 90,
+    "traveltime": 10,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54234",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 44,
+    "traveltime": 1,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54239",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 22,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54241",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 24,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54438_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 38,
+    "traveltime": 1,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54438_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 29,
+    "traveltime": 2,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54440_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 38,
+    "traveltime": 7,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54440_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 31,
+    "traveltime": 9,
+    "traveltimereliability": 15,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54444_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 36,
+    "traveltime": 1,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54444_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 2,
+    "traveltimereliability": 10,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54447_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 15,
+    "traveltime": 35,
+    "traveltimereliability": 58,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54447_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 11,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54448_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 26,
+    "traveltime": 6,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54448_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 3,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54449_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 15,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54449_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 15,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54453_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 41,
+    "traveltime": 4,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54453_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 4,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54455",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54457",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 13,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54460",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 9,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54463_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 22,
+    "traveltime": 14,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54463_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 10,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54466_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 19,
+    "traveltime": 39,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54466_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 19,
+    "traveltime": 42,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54489",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 18,
+    "traveltime": 2,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54882",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 26,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54883",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 17,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54884",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 30,
+    "traveltime": 1,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54885",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 30,
+    "traveltime": 1,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54886",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 21,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54887",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 23,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54888",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 20,
+    "traveltime": 1,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54889",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 20,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55591",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 39,
+    "traveltime": 1,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55592",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 20,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55593",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 20,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55595",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 20,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55596",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 21,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55597",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 25,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "563844_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 40,
+    "traveltime": 22,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "563844_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 46,
+    "traveltime": 19,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "564067_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 61,
+    "traveltime": 20,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "564067_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 64,
+    "traveltime": 20,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "5651",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 45,
+    "traveltime": 1,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "5652",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 38,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "5653",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 17,
+    "traveltime": 3,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "5654",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 35,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "565682_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 52,
+    "traveltime": 18,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "565682_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 47,
+    "traveltime": 20,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "5663_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 60,
+    "traveltime": 44,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "5663_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 64,
+    "traveltime": 41,
+    "traveltimereliability": 42,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "566419",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 20,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "5664_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 66,
+    "traveltime": 2,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "5664_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 69,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "566706_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 5,
+    "traveltimereliability": 42,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "566706_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 4,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "566924_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 37,
+    "traveltime": 8,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "566924_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 28,
+    "traveltime": 11,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56872",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 24,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56874",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 85,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56926",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 81,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "57009",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 74,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "57011",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 7,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63308",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63903",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 93,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "64104_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 3,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "64104_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 42,
+    "traveltime": 3,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "6615_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 51,
+    "traveltime": 12,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "6615_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 35,
+    "traveltime": 16,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "6616",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 25,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "6619",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 37,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "6620",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 38,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "6621",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 29,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "6622",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 38,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "6623",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 37,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "6643",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 44,
+    "traveltime": 15,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "6644",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 36,
+    "traveltime": 19,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "6669_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 65,
+    "traveltime": 77,
+    "traveltimereliability": 63,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "6669_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 58,
+    "traveltime": 87,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "67816",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 35,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "67820",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 35,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "67821",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 35,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "68070",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 29,
+    "traveltime": 1,
+    "traveltimereliability": 55,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "68815",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 20,
+    "traveltime": 5,
+    "traveltimereliability": 52,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "71494",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 53,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "71496",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 20,
+    "traveltime": 12,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "71497",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 31,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "74067",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "74457_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 46,
+    "traveltime": 22,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "74457_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 51,
+    "traveltime": 20,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75348",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 28,
+    "traveltime": 1,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75353",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 1,
+    "traveltimereliability": 52,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75358",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 31,
+    "traveltime": 2,
+    "traveltimereliability": 52,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75359",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 28,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75385",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 25,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75812",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75813",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 84,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75814",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75815",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 84,
+    "traveltime": 16,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75821",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 84,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75823",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 81,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75866",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 10,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75867",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 105,
+    "traveltime": 11,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75869",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 91,
+    "traveltime": 58,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75883",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75884",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 75,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75885",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 85,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75886",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 75,
+    "traveltime": 8,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "7864_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 67,
+    "traveltime": 53,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "7864_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 70,
+    "traveltime": 51,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "790_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 59,
+    "traveltime": 14,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "790_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 57,
+    "traveltime": 14,
+    "traveltimereliability": 93,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "791_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 53,
+    "traveltime": 16,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "791_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 23,
+    "traveltime": 37,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "7995_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 62,
+    "traveltime": 17,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "7995_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 72,
+    "traveltime": 14,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "862_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 60,
+    "traveltime": 18,
+    "traveltimereliability": 97,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "862_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 60,
+    "traveltime": 18,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "863_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 67,
+    "traveltime": 10,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "863_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 64,
+    "traveltime": 11,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "8963_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 61,
+    "traveltime": 7,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "8963_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 58,
+    "traveltime": 7,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "8974_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 42,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "8974_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 40,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "8976_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 50,
+    "traveltime": 7,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "8976_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 59,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "8977_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 53,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "8977_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 62,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9057_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 84,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9057_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 63,
+    "traveltime": 8,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9058_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 72,
+    "traveltime": 19,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9058_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 66,
+    "traveltime": 21,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9059_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 63,
+    "traveltime": 10,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9059_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 61,
+    "traveltime": 10,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9068_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 55,
+    "traveltime": 33,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9068_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 36,
+    "traveltime": 50,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9070_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 79,
+    "traveltime": 26,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9070_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 73,
+    "traveltime": 28,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9073",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 82,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9074",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 85,
+    "traveltime": 10,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9082_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 68,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9082_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 72,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9090_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 53,
+    "traveltime": 26,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9090_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 69,
+    "traveltime": 19,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9199",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 39,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9200",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 83,
+    "traveltime": 2,
+    "traveltimereliability": 12,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9201",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 29,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9202",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 38,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9203",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9204",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 31,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9378",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 80,
+    "traveltime": 15,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9379",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 13,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9588_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 70,
+    "traveltime": 9,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9588_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 71,
+    "traveltime": 9,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9625_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 63,
+    "traveltime": 5,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9625_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 69,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9745_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 53,
+    "traveltime": 3,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9745_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 44,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9757_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 52,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9757_G",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 13,
+    "traveltime": 9,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9758_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 52,
+    "traveltime": 6,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9758_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 25,
+    "traveltime": 12,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9834_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 55,
+    "traveltime": 36,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9834_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 74,
+    "traveltime": 27,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9917_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 41,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9917_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 4,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9921_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 34,
+    "traveltime": 44,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9921_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 47,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1637",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 38,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1640",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 31,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1641",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 27,
+    "traveltime": 6,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1642",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 23,
+    "traveltime": 4,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680594",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 38,
+    "traveltime": 1,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680595",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 1,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680596",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 38,
+    "traveltime": 1,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680597",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 1,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680604",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 3,
+    "traveltimereliability": 55,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1852",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 13,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1857",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 89,
+    "traveltime": 24,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1858",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 85,
+    "traveltime": 11,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1859",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 90,
+    "traveltime": 11,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "41721",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 12,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "41722",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 13,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "41758",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 84,
+    "traveltime": 16,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "41759",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 16,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "41760",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 80,
+    "traveltime": 17,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43449_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 29,
+    "traveltime": 8,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43449_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 21,
+    "traveltime": 10,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43450_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 25,
+    "traveltime": 12,
+    "traveltimereliability": 48,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43450_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 43,
+    "traveltime": 7,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43451_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 43,
+    "traveltime": 11,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43452_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 33,
+    "traveltime": 5,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43452_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 43,
+    "traveltime": 4,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43622_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 41,
+    "traveltime": 2,
+    "traveltimereliability": 42,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43622_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 28,
+    "traveltime": 3,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43623_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 38,
+    "traveltime": 5,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43623_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 25,
+    "traveltime": 8,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43624_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 15,
+    "traveltime": 16,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43624_G",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 12,
+    "traveltime": 20,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43625_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 36,
+    "traveltime": 10,
+    "traveltimereliability": 42,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43625_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 21,
+    "traveltime": 18,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43657_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 25,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43657_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 45,
+    "traveltime": 2,
+    "traveltimereliability": 42,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43659_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 32,
+    "traveltime": 5,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43659_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 11,
+    "traveltime": 13,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44071_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 42,
+    "traveltime": 6,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44071_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 17,
+    "traveltime": 18,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44080",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 22,
+    "traveltime": 5,
+    "traveltimereliability": 40,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44934",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 79,
+    "traveltime": 25,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45637",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 13,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45642",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 85,
+    "traveltime": 25,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45725",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 87,
+    "traveltime": 36,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46230",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 16,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46265",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 88,
+    "traveltime": 8,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46266",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 85,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46267",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 81,
+    "traveltime": 10,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46268",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 78,
+    "traveltime": 19,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46716",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 83,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46717",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 85,
+    "traveltime": 44,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "46718",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 84,
+    "traveltime": 12,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47057",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 69,
+    "traveltime": 12,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47058",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 82,
+    "traveltime": 23,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47059",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 89,
+    "traveltime": 14,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47060",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 11,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47107",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 88,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47111",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 90,
+    "traveltime": 20,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47238",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 82,
+    "traveltime": 7,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47240",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 70,
+    "traveltime": 21,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47241",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 91,
+    "traveltime": 11,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47242",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 91,
+    "traveltime": 14,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47243",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 85,
+    "traveltime": 17,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47299",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 38,
+    "traveltime": 9,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "47306",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 88,
+    "traveltime": 23,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "48958_D",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 3,
+    "traveltime": 67,
+    "traveltimereliability": 63,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "48958_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 19,
+    "traveltime": 12,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "50079_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 24,
+    "traveltime": 9,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "50079_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 43,
+    "traveltime": 5,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "50573_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 42,
+    "traveltime": 5,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "50573_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 30,
+    "traveltime": 6,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53675",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53676",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 43,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53678",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 42,
+    "traveltime": 1,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54334_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 1,
+    "traveltimereliability": 73,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54334_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 22,
+    "traveltime": 2,
+    "traveltimereliability": 50,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "54337",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 22,
+    "traveltime": 37,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55446",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 14,
+    "traveltime": 6,
+    "traveltimereliability": 99,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55447",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 18,
+    "traveltime": 3,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55448",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 21,
+    "traveltime": 3,
+    "traveltimereliability": 74,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55449",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 22,
+    "traveltime": 3,
+    "traveltimereliability": 74,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55820",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 29,
+    "traveltime": 1,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55821",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 14,
+    "traveltime": 9,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55822",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 25,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55823",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 27,
+    "traveltime": 2,
+    "traveltimereliability": 17,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55824",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 25,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55827",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 42,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "55830",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 41,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56019",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 28,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56118",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 20,
+    "traveltime": 2,
+    "traveltimereliability": 32,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56124",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 41,
+    "traveltime": 2,
+    "traveltimereliability": 38,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56125",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 41,
+    "traveltime": 1,
+    "traveltimereliability": 38,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56170",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56179",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 2,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56180",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56181",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 3,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56182",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56183",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56223",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 8,
+    "traveltime": 6,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56229",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 7,
+    "traveltime": 20,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56231",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 15,
+    "traveltime": 6,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56232",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 12,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56247",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 19,
+    "traveltime": 1,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56254",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 21,
+    "traveltime": 2,
+    "traveltimereliability": 20,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56255",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 22,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56256",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 19,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56298",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 23,
+    "traveltime": 2,
+    "traveltimereliability": 12,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56300",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 15,
+    "traveltime": 2,
+    "traveltimereliability": 20,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56333",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 8,
+    "traveltime": 12,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "566457",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56925",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 90,
+    "traveltime": 39,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "59837",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 15,
+    "traveltime": 4,
+    "traveltimereliability": 20,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63045_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 35,
+    "traveltime": 4,
+    "traveltimereliability": 45,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63045_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 43,
+    "traveltime": 4,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63934",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 2,
+    "traveltimereliability": 25,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63940",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 25,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63941",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 26,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63942",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 27,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63943",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 26,
+    "traveltime": 3,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63944",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 34,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63950",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63951",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 36,
+    "traveltime": 2,
+    "traveltimereliability": 52,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63952",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 51,
+    "traveltime": 0,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63953",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 49,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "65682",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 53,
+    "traveltime": 22,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75387",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 26,
+    "traveltime": 3,
+    "traveltimereliability": 99,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75820",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 88,
+    "traveltime": 22,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75825",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 82,
+    "traveltime": 5,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75829",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 81,
+    "traveltime": 8,
+    "traveltimereliability": 38,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9128",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 81,
+    "traveltime": 34,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9131",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 89,
+    "traveltime": 7,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9132",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 83,
+    "traveltime": 25,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9146",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 4,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9179",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 77,
+    "traveltime": 23,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9180",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 88,
+    "traveltime": 21,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9182",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 7,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "9183",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 76,
+    "traveltime": 6,
+    "traveltimereliability": 38,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1677832",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 14,
+    "traveltime": 23,
+    "traveltimereliability": 50,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1679794",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1679796",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 1,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1679798",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 2,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1679800",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 45,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680335",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 13,
+    "traveltime": 22,
+    "traveltimereliability": 38,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "1680340",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 17,
+    "traveltime": 6,
+    "traveltimereliability": 50,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "31552",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 88,
+    "traveltime": 8,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43105_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 47,
+    "traveltime": 5,
+    "traveltimereliability": 20,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43105_G",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 6,
+    "traveltime": 41,
+    "traveltimereliability": 50,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43338_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 6,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43338_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 4,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43339_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 7,
+    "traveltimereliability": 25,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43339_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 5,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43340_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 38,
+    "traveltime": 1,
+    "traveltimereliability": 25,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43340_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 1,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43341_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 49,
+    "traveltime": 4,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43341_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 4,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43342_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 47,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43342_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 2,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43343_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 43,
+    "traveltime": 8,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43343_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 7,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43345_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 41,
+    "traveltime": 7,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43345_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 30,
+    "traveltime": 10,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43347_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 42,
+    "traveltime": 3,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43347_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 30,
+    "traveltime": 5,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43352_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 12,
+    "traveltime": 39,
+    "traveltimereliability": 74,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43353_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 31,
+    "traveltime": 9,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43353_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 26,
+    "traveltime": 11,
+    "traveltimereliability": 38,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43379_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 43,
+    "traveltime": 5,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43379_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 30,
+    "traveltime": 7,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43413_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 32,
+    "traveltime": 5,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43413_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 30,
+    "traveltime": 6,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43743_D",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 25,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43746",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 13,
+    "traveltime": 17,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43747",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 16,
+    "traveltime": 26,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43751",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 16,
+    "traveltime": 35,
+    "traveltimereliability": 57,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43774_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 6,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43774_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 34,
+    "traveltime": 6,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43775_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 15,
+    "traveltime": 26,
+    "traveltimereliability": 38,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43775_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 33,
+    "traveltime": 12,
+    "traveltimereliability": 58,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43826_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 32,
+    "traveltime": 9,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "43826_G",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 34,
+    "traveltime": 8,
+    "traveltimereliability": 74,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "44939",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 91,
+    "traveltime": 45,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45242",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 93,
+    "traveltime": 12,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "45246",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 89,
+    "traveltime": 28,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "48915_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 47,
+    "traveltime": 3,
+    "traveltimereliability": 20,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "48915_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 45,
+    "traveltime": 3,
+    "traveltimereliability": 48,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "48916",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 13,
+    "traveltime": 13,
+    "traveltimereliability": 38,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "48993_D",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 12,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "48993_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 7,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "50087",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 13,
+    "traveltime": 20,
+    "traveltimereliability": 38,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "50107_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 47,
+    "traveltime": 11,
+    "traveltimereliability": 20,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "50107_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 39,
+    "traveltime": 14,
+    "traveltimereliability": 48,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53130_D",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 47,
+    "traveltime": 6,
+    "traveltimereliability": 20,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53130_G",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 37,
+    "traveltime": 7,
+    "traveltimereliability": 48,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53375_D",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 8,
+    "traveltime": 12,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53375_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 30,
+    "traveltime": 3,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53427",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 86,
+    "traveltime": 50,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53989",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 42,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53995",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 38,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53997",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 11,
+    "traveltime": 6,
+    "traveltimereliability": 55,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "53999",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 29,
+    "traveltime": 2,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "56598",
+    "trafficstatus": "heavy",
+    "averagevehiclespeed": 30,
+    "traveltime": 2,
+    "traveltimereliability": 75,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63409_D",
+    "trafficstatus": "congested",
+    "averagevehiclespeed": 15,
+    "traveltime": 8,
+    "traveltimereliability": 60,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "63409_G",
+    "trafficstatus": "unknown",
+    "averagevehiclespeed": 50,
+    "traveltime": 2,
+    "traveltimereliability": 0,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  },
+  {
+    "predefinedlocationreference": "75868",
+    "trafficstatus": "freeFlow",
+    "averagevehiclespeed": 89,
+    "traveltime": 8,
+    "traveltimereliability": 100,
+    "datetime": "2026-10-29T11:54:00+01:00"
+  }
+]

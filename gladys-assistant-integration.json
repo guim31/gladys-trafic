@@ -1,177 +1,619 @@
 {
   "manifest_version": 1,
   "type": "device",
-  "name": "Demo Devices Template",
+  "name": "Trafic routier",
   "description": {
-    "en": "Starter template showing sensors, a switch, a dimmable light and a smart plug.",
-    "fr": "Template de démarrage : capteurs, interrupteur, lampe variable et prise connectée."
+    "en": "Live road traffic in French cities (open data): Rennes, Nantes, Strasbourg, Bordeaux.",
+    "fr": "Trafic routier en temps réel des métropoles (open data) : Rennes, Nantes, Strasbourg, Bordeaux.",
+    "de": "Echtzeit-Straßenverkehr französischer Städte (Open Data): Rennes, Nantes, Straßburg, Bordeaux.",
+    "es": "Tráfico en tiempo real de Rennes, Nantes, Estrasburgo y Burdeos (datos abiertos)."
   },
   "version": "1.0.0",
-  "docker_image": "ghcr.io/gladysassistant/integration-template-js:1.0.0",
-  "gladys_version": ">=5.1.0",
-  "cover_image": "https://raw.githubusercontent.com/GladysAssistant/integration-template-js/master/cover.png",
-  "categories": ["lighting", "security", "environment"],
-  "transports": ["local", "cloud"],
+  "docker_image": "ghcr.io/guim31/gladys-trafic:1.0.0",
+  "gladys_version": ">=5.3.0",
+  "cover_image": "https://raw.githubusercontent.com/guim31/gladys-trafic/main/cover.png",
+  "categories": ["services"],
+  "transports": ["cloud"],
+  "countries": ["FR"],
+  "keywords": [
+    "trafic",
+    "bouchons",
+    "embouteillage",
+    "traffic jam",
+    "Rennes",
+    "Nantes",
+    "Strasbourg",
+    "Bordeaux",
+    "rocade"
+  ],
+  "location": true,
   "config_schema": [
     {
       "key": "intro",
       "type": "section",
-      "label": { "en": "Getting started", "fr": "Pour commencer" },
+      "label": {
+        "en": "How it works",
+        "fr": "Fonctionnement",
+        "de": "So funktioniert es",
+        "es": "Funcionamiento"
+      },
       "description": {
-        "en": "The demo weather station reads real data from the free Open-Meteo API: pick the coordinates to observe. No account, no API key.",
-        "fr": "La station météo de démonstration lit de vraies données via l'API gratuite Open-Meteo : choisissez les coordonnées à observer. Pas de compte, pas de clé d'API."
+        "en": "Tick your cities, type the roads you take and save: they appear in the Discover tab, with the segments around your house. Add the ones you want to Gladys. No account, no key.",
+        "fr": "Cochez vos villes, tapez les axes que vous empruntez et enregistrez : ils apparaissent dans l'onglet Découverte, avec les tronçons autour de votre maison. Ajoutez ceux qui vous intéressent à Gladys. Sans compte ni clé.",
+        "de": "Kreuze deine Städte an, gib die Straßen ein, die du fährst, und speichere: Die Straßen erscheinen im Tab „Entdecken“, mit den Abschnitten rund um dein Haus. Füge die gewünschten zu Gladys hinzu. Kein Konto, kein Schlüssel.",
+        "es": "Marque sus ciudades, escriba las vías que usa y guarde: aparecen en la pestaña Descubrir, con los tramos alrededor de su casa. Añada a Gladys las que le interesen. Sin cuenta ni clave."
       },
       "links": [
         {
-          "url": "https://open-meteo.com/en/docs",
-          "label": { "en": "Open-Meteo documentation", "fr": "Documentation Open-Meteo" }
+          "url": "https://github.com/guim31/gladys-trafic/blob/main/docs/en.md",
+          "label": {
+            "en": "Setup guide",
+            "fr": "Guide de configuration",
+            "de": "Einrichtungsanleitung",
+            "es": "Guía de configuración"
+          }
         }
       ]
     },
     {
-      "key": "latitude",
-      "type": "number",
-      "label": { "en": "Latitude", "fr": "Latitude" },
-      "description": {
-        "en": "Latitude used for the demo weather sensor.",
-        "fr": "Latitude utilisée par le capteur météo de démonstration."
+      "key": "cities",
+      "type": "multi_select",
+      "label": {
+        "en": "Cities",
+        "fr": "Villes",
+        "de": "Städte",
+        "es": "Ciudades"
       },
-      "placeholder": { "en": "e.g. 48.8566", "fr": "ex. 48.8566" },
-      "required": true,
-      "default": 48.8566,
-      "min": -90,
-      "max": 90
-    },
-    {
-      "key": "longitude",
-      "type": "number",
-      "label": { "en": "Longitude", "fr": "Longitude" },
       "description": {
-        "en": "Longitude used for the demo weather sensor.",
-        "fr": "Longitude utilisée par le capteur météo de démonstration."
+        "en": "Road traffic published live in open data. Others: see the guide.",
+        "fr": "Trafic publié en direct en open data. Autres villes : voir le guide.",
+        "de": "Live als Open Data veröffentlichter Verkehr. Andere Städte: siehe Anleitung.",
+        "es": "Tráfico publicado en directo en datos abiertos. Otras ciudades: vea la guía."
       },
-      "placeholder": { "en": "e.g. 2.3522", "fr": "ex. 2.3522" },
-      "required": true,
-      "default": 2.3522,
-      "min": -180,
-      "max": 180
-    },
-    {
-      "key": "unit",
-      "type": "select",
-      "label": { "en": "Temperature unit", "fr": "Unité de température" },
-      "required": false,
-      "default": "celsius",
       "options": [
-        { "value": "celsius", "label": { "en": "Celsius", "fr": "Celsius" } },
-        { "value": "fahrenheit", "label": { "en": "Fahrenheit", "fr": "Fahrenheit" } }
+        {
+          "value": "rennes",
+          "label": {
+            "en": "Rennes Métropole",
+            "fr": "Rennes Métropole",
+            "de": "Rennes Métropole",
+            "es": "Rennes Métropole"
+          }
+        },
+        {
+          "value": "nantes",
+          "label": {
+            "en": "Nantes Métropole",
+            "fr": "Nantes Métropole",
+            "de": "Nantes Métropole",
+            "es": "Nantes Métropole"
+          }
+        },
+        {
+          "value": "strasbourg",
+          "label": {
+            "en": "Strasbourg",
+            "fr": "Strasbourg",
+            "de": "Straßburg",
+            "es": "Estrasburgo"
+          }
+        },
+        {
+          "value": "bordeaux",
+          "label": {
+            "en": "Bordeaux Métropole (16 travel time routes)",
+            "fr": "Bordeaux Métropole (16 itinéraires)",
+            "de": "Bordeaux Métropole (16 Fahrzeitstrecken)",
+            "es": "Bordeaux Métropole (16 itinerarios)"
+          }
+        }
       ]
     },
     {
-      "key": "poll_frequency",
-      "type": "number",
-      "label": { "en": "Refresh interval (s)", "fr": "Intervalle de rafraîchissement (s)" },
-      "description": {
-        "en": "How often sensors are polled, in seconds (one minute minimum).",
-        "fr": "Fréquence d'interrogation des capteurs, en secondes (une minute minimum)."
+      "key": "roads",
+      "type": "string",
+      "label": {
+        "en": "Roads to follow",
+        "fr": "Axes à suivre",
+        "de": "Zu überwachende Straßen",
+        "es": "Vías a seguir"
       },
-      "required": false,
-      "default": 300,
-      "min": 60,
-      "max": 3600
+      "description": {
+        "en": "Part of their name, separated by commas, 3 letters at least. Bordeaux: every route is offered.",
+        "fr": "Une partie de leur nom, séparée par des virgules, 3 lettres au moins. Bordeaux : tous les itinéraires sont proposés.",
+        "de": "Ein Teil ihres Namens, durch Kommas getrennt, mindestens 3 Buchstaben. Bordeaux: alle Strecken werden angeboten.",
+        "es": "Parte de su nombre, separada por comas, 3 letras como mínimo. Burdeos: se ofrecen todos los itinerarios."
+      },
+      "placeholder": {
+        "en": "Route nationale 136, Patton, Schirmeck",
+        "fr": "Route nationale 136, Patton, Schirmeck",
+        "de": "Route nationale 136, Patton, Schirmeck",
+        "es": "Route nationale 136, Patton, Schirmeck"
+      }
+    },
+    {
+      "key": "home_radius",
+      "type": "select",
+      "default": "1000",
+      "label": {
+        "en": "Around the house",
+        "fr": "Autour de la maison",
+        "de": "Rund ums Haus",
+        "es": "Alrededor de la casa"
+      },
+      "description": {
+        "en": "One more device: the segments within this distance of the house located in Gladys.",
+        "fr": "Un appareil de plus : les tronçons à cette distance de la maison localisée dans Gladys.",
+        "de": "Ein weiteres Gerät: die Abschnitte in diesem Umkreis des in Gladys verorteten Hauses.",
+        "es": "Un dispositivo más: los tramos a esta distancia de la casa ubicada en Gladys."
+      },
+      "options": [
+        {
+          "value": "0",
+          "label": {
+            "en": "Off",
+            "fr": "Désactivé",
+            "de": "Aus",
+            "es": "Desactivado"
+          }
+        },
+        {
+          "value": "500",
+          "label": {
+            "en": "500 m",
+            "fr": "500 m",
+            "de": "500 m",
+            "es": "500 m"
+          }
+        },
+        {
+          "value": "1000",
+          "label": {
+            "en": "1 km",
+            "fr": "1 km",
+            "de": "1 km",
+            "es": "1 km"
+          }
+        },
+        {
+          "value": "2000",
+          "label": {
+            "en": "2 km",
+            "fr": "2 km",
+            "de": "2 km",
+            "es": "2 km"
+          }
+        },
+        {
+          "value": "3000",
+          "label": {
+            "en": "3 km",
+            "fr": "3 km",
+            "de": "3 km",
+            "es": "3 km"
+          }
+        }
+      ]
+    },
+    {
+      "key": "refresh_interval",
+      "type": "select",
+      "default": "180",
+      "label": {
+        "en": "Refresh",
+        "fr": "Rafraîchissement",
+        "de": "Aktualisierung",
+        "es": "Actualización"
+      },
+      "options": [
+        {
+          "value": "120",
+          "label": {
+            "en": "Every 2 minutes",
+            "fr": "Toutes les 2 minutes",
+            "de": "Alle 2 Minuten",
+            "es": "Cada 2 minutos"
+          }
+        },
+        {
+          "value": "180",
+          "label": {
+            "en": "Every 3 minutes",
+            "fr": "Toutes les 3 minutes",
+            "de": "Alle 3 Minuten",
+            "es": "Cada 3 minutos"
+          }
+        },
+        {
+          "value": "300",
+          "label": {
+            "en": "Every 5 minutes",
+            "fr": "Toutes les 5 minutes",
+            "de": "Alle 5 Minuten",
+            "es": "Cada 5 minutos"
+          }
+        }
+      ]
+    },
+    {
+      "key": "language",
+      "type": "select",
+      "default": "fr",
+      "label": {
+        "en": "Language of names and messages",
+        "fr": "Langue des noms et messages",
+        "de": "Sprache der Namen und Nachrichten",
+        "es": "Idioma de nombres y mensajes"
+      },
+      "description": {
+        "en": "Feature names are fixed when a device is added.",
+        "fr": "Les noms des fonctionnalités sont figés à l'ajout de l'appareil.",
+        "de": "Die Namen der Funktionen werden beim Hinzufügen festgelegt.",
+        "es": "Los nombres de las funciones se fijan al añadir el dispositivo."
+      },
+      "options": [
+        {
+          "value": "en",
+          "label": {
+            "en": "English",
+            "fr": "Anglais",
+            "de": "Englisch",
+            "es": "Inglés"
+          }
+        },
+        {
+          "value": "fr",
+          "label": {
+            "en": "French",
+            "fr": "Français",
+            "de": "Französisch",
+            "es": "Francés"
+          }
+        },
+        {
+          "value": "de",
+          "label": {
+            "en": "German",
+            "fr": "Allemand",
+            "de": "Deutsch",
+            "es": "Alemán"
+          }
+        },
+        {
+          "value": "es",
+          "label": {
+            "en": "Spanish",
+            "fr": "Espagnol",
+            "de": "Spanisch",
+            "es": "Español"
+          }
+        }
+      ]
     }
   ],
   "actions": [
     {
-      "key": "test_weather",
-      "label": { "en": "Test the weather provider", "fr": "Tester le fournisseur météo" },
-      "timeout_seconds": 30
-    },
-    {
-      "key": "identify",
-      "label": { "en": "Identify a device", "fr": "Identifier un appareil" },
-      "fields": [
-        {
-          "key": "device",
-          "type": "select",
-          "source": "devices",
-          "label": { "en": "Device", "fr": "Appareil" },
-          "required": true
-        }
-      ]
+      "key": "status",
+      "label": {
+        "en": "Status",
+        "fr": "État",
+        "de": "Status",
+        "es": "Estado"
+      },
+      "description": {
+        "en": "Cities read, roads known, segments around the house, last readings and errors.",
+        "fr": "Villes lues, axes connus, tronçons autour de la maison, dernières lectures et erreurs.",
+        "de": "Gelesene Städte, bekannte Straßen, Abschnitte rund ums Haus, letzte Abfragen und Fehler.",
+        "es": "Ciudades leídas, vías conocidas, tramos alrededor de la casa, últimas lecturas y errores."
+      },
+      "timeout_seconds": 30,
+      "fields": []
     }
   ],
   "scene_triggers": [
     {
-      "key": "motion_detected",
-      "label": { "en": "Motion detected", "fr": "Mouvement détecté" },
+      "key": "traffic_jam",
+      "label": {
+        "en": "Traffic jam on a road",
+        "fr": "Bouchon sur un axe",
+        "de": "Stau auf einer Straße",
+        "es": "Atasco en una vía"
+      },
       "description": {
-        "en": "A demo motion sensor saw a person or an animal move.",
-        "fr": "Un détecteur de démonstration a vu bouger une personne ou un animal."
+        "en": "A watched road becomes heavy or congested.",
+        "fr": "Un axe suivi devient dense ou saturé.",
+        "de": "Eine überwachte Straße wird dicht oder staut sich.",
+        "es": "Una vía vigilada se vuelve densa o saturada."
       },
       "fields": [
         {
-          "key": "device",
-          "type": "select",
+          "key": "axis",
+          "type": "multi_select",
           "source": "devices",
-          "label": { "en": "Sensor", "fr": "Détecteur" }
+          "required": false,
+          "label": {
+            "en": "Roads",
+            "fr": "Axes",
+            "de": "Straßen",
+            "es": "Vías"
+          },
+          "description": {
+            "en": "Empty: any watched road.",
+            "fr": "Vide : n'importe quel axe suivi.",
+            "de": "Leer: jede überwachte Straße.",
+            "es": "Vacío: cualquier vía vigilada."
+          }
         },
         {
-          "key": "target",
-          "type": "multi_select",
-          "label": { "en": "What moved", "fr": "Ce qui a bougé" },
+          "key": "level",
+          "type": "select",
+          "required": true,
+          "label": {
+            "en": "Level reached",
+            "fr": "Niveau atteint",
+            "de": "Erreichte Stufe",
+            "es": "Nivel alcanzado"
+          },
           "options": [
-            { "value": "person", "label": { "en": "Person", "fr": "Personne" } },
-            { "value": "animal", "label": { "en": "Animal", "fr": "Animal" } }
+            {
+              "value": "heavy",
+              "label": {
+                "en": "Heavy",
+                "fr": "Dense",
+                "de": "Dicht",
+                "es": "Denso"
+              }
+            },
+            {
+              "value": "congested",
+              "label": {
+                "en": "Congested",
+                "fr": "Saturé",
+                "de": "Stau",
+                "es": "Saturado"
+              }
+            }
           ]
         }
       ],
       "variables": [
         {
-          "key": "target",
+          "key": "axis_name",
           "type": "string",
-          "label": { "en": "What moved", "fr": "Ce qui a bougé" }
+          "label": {
+            "en": "Road",
+            "fr": "Axe",
+            "de": "Straße",
+            "es": "Vía"
+          }
+        },
+        {
+          "key": "city",
+          "type": "string",
+          "label": {
+            "en": "City",
+            "fr": "Ville",
+            "de": "Stadt",
+            "es": "Ciudad"
+          }
+        },
+        {
+          "key": "status",
+          "type": "string",
+          "label": {
+            "en": "Traffic",
+            "fr": "Trafic",
+            "de": "Verkehr",
+            "es": "Tráfico"
+          }
+        },
+        {
+          "key": "speed",
+          "type": "number",
+          "label": {
+            "en": "Average speed (km/h)",
+            "fr": "Vitesse moyenne (km/h)",
+            "de": "Durchschnittsgeschwindigkeit (km/h)",
+            "es": "Velocidad media (km/h)"
+          }
+        }
+      ]
+    },
+    {
+      "key": "traffic_clear",
+      "label": {
+        "en": "Road clear again",
+        "fr": "Axe redevenu fluide",
+        "de": "Straße wieder frei",
+        "es": "Vía de nuevo fluida"
+      },
+      "description": {
+        "en": "A watched road that was heavy or congested flows freely again.",
+        "fr": "Un axe suivi qui était dense ou saturé redevient fluide.",
+        "de": "Eine überwachte Straße, die dicht oder gestaut war, ist wieder flüssig.",
+        "es": "Una vía vigilada que estaba densa o saturada vuelve a ser fluida."
+      },
+      "fields": [
+        {
+          "key": "axis",
+          "type": "multi_select",
+          "source": "devices",
+          "required": false,
+          "label": {
+            "en": "Roads",
+            "fr": "Axes",
+            "de": "Straßen",
+            "es": "Vías"
+          },
+          "description": {
+            "en": "Empty: any watched road.",
+            "fr": "Vide : n'importe quel axe suivi.",
+            "de": "Leer: jede überwachte Straße.",
+            "es": "Vacío: cualquier vía vigilada."
+          }
+        }
+      ],
+      "variables": [
+        {
+          "key": "axis_name",
+          "type": "string",
+          "label": {
+            "en": "Road",
+            "fr": "Axe",
+            "de": "Straße",
+            "es": "Vía"
+          }
+        },
+        {
+          "key": "city",
+          "type": "string",
+          "label": {
+            "en": "City",
+            "fr": "Ville",
+            "de": "Stadt",
+            "es": "Ciudad"
+          }
+        },
+        {
+          "key": "status",
+          "type": "string",
+          "label": {
+            "en": "Traffic",
+            "fr": "Trafic",
+            "de": "Verkehr",
+            "es": "Tráfico"
+          }
+        },
+        {
+          "key": "speed",
+          "type": "number",
+          "label": {
+            "en": "Average speed (km/h)",
+            "fr": "Vitesse moyenne (km/h)",
+            "de": "Durchschnittsgeschwindigkeit (km/h)",
+            "es": "Velocidad media (km/h)"
+          }
         }
       ]
     }
   ],
   "scene_actions": [
     {
-      "key": "identify_device",
-      "label": { "en": "Identify a device", "fr": "Identifier un appareil" },
+      "key": "traffic_summary",
+      "label": {
+        "en": "Traffic in one sentence",
+        "fr": "État du trafic en une phrase",
+        "de": "Verkehrslage in einem Satz",
+        "es": "Estado del tráfico en una frase"
+      },
       "description": {
-        "en": "Make a device signal itself (the demo light blinks).",
-        "fr": "Fait se signaler un appareil (la lampe de démonstration clignote)."
+        "en": "The traffic on your watched roads, as a sentence ready to send or say.",
+        "fr": "Le trafic sur vos axes suivis, en une phrase prête à envoyer ou à dire.",
+        "de": "Der Verkehr auf deinen überwachten Straßen, als fertiger Satz zum Senden oder Vorlesen.",
+        "es": "El tráfico en sus vías vigiladas, en una frase lista para enviar o decir."
       },
       "timeout_seconds": 15,
       "fields": [
         {
-          "key": "device",
-          "type": "select",
+          "key": "axes",
+          "type": "multi_select",
           "source": "devices",
-          "label": { "en": "Device", "fr": "Appareil" },
-          "required": true
+          "required": false,
+          "label": {
+            "en": "Roads",
+            "fr": "Axes",
+            "de": "Straßen",
+            "es": "Vías"
+          },
+          "description": {
+            "en": "Empty: every watched road.",
+            "fr": "Vide : tous les axes suivis.",
+            "de": "Leer: alle überwachten Straßen.",
+            "es": "Vacío: todas las vías vigiladas."
+          }
         }
       ],
       "outputs": [
         {
-          "key": "signalled",
-          "type": "boolean",
-          "label": { "en": "Device signalled", "fr": "Appareil signalé" }
+          "key": "sentence",
+          "type": "string",
+          "label": {
+            "en": "Sentence",
+            "fr": "Phrase",
+            "de": "Satz",
+            "es": "Frase"
+          }
+        },
+        {
+          "key": "worst_level",
+          "type": "number",
+          "label": {
+            "en": "Worst level (0 unknown … 4 closed)",
+            "fr": "Pire niveau (0 inconnu … 4 coupé)",
+            "de": "Schlechteste Stufe (0 unbekannt … 4 gesperrt)",
+            "es": "Peor nivel (0 desconocido … 4 cortado)"
+          }
+        },
+        {
+          "key": "jammed",
+          "type": "number",
+          "label": {
+            "en": "Roads heavy or worse",
+            "fr": "Axes denses ou pire",
+            "de": "Straßen dicht oder schlechter",
+            "es": "Vías densas o peor"
+          }
         }
       ]
     }
   ],
   "widgets": [
     {
-      "key": "demo_status",
-      "label": { "en": "Demo status", "fr": "État de la démo" },
-      "description": {
-        "en": "Live temperature and plug power, plug connection and observed location.",
-        "fr": "Température et puissance en direct, connexion de la prise, position observée."
+      "key": "traffic",
+      "label": {
+        "en": "Road traffic",
+        "fr": "Trafic routier",
+        "de": "Straßenverkehr",
+        "es": "Tráfico"
       },
-      "icon": "activity",
-      "action_timeout_seconds": 15
+      "description": {
+        "en": "Your watched roads, colored by traffic.",
+        "fr": "Vos axes suivis, en couleur selon le trafic.",
+        "de": "Deine überwachten Straßen, farbig nach Verkehr.",
+        "es": "Sus vías vigiladas, en color según el tráfico."
+      },
+      "icon": "navigation",
+      "settings": [
+        {
+          "key": "axes",
+          "type": "multi_select",
+          "source": "devices",
+          "required": false,
+          "label": {
+            "en": "Roads shown",
+            "fr": "Axes affichés",
+            "de": "Angezeigte Straßen",
+            "es": "Vías mostradas"
+          },
+          "description": {
+            "en": "Empty: every watched road (10 at most).",
+            "fr": "Vide : tous les axes suivis (10 au plus).",
+            "de": "Leer: alle überwachten Straßen (höchstens 10).",
+            "es": "Vacío: todas las vías vigiladas (10 como máximo)."
+          }
+        },
+        {
+          "key": "show_details",
+          "type": "boolean",
+          "default": true,
+          "label": {
+            "en": "Show the speed or travel time",
+            "fr": "Afficher la vitesse ou le temps de parcours",
+            "de": "Geschwindigkeit oder Fahrzeit zeigen",
+            "es": "Mostrar la velocidad o el tiempo de recorrido"
+          }
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,114 @@
+[
+  {
+    "bm_ident": 20,
+    "bm_libelle": "Boulevards: Rond point JJBosc à la Barrière Ornano",
+    "bm_actuel": 810,
+    "bm_ref": 736,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 21,
+    "bm_libelle": "Boulevards: Barrière Ornano à la Place Latule",
+    "bm_actuel": 810,
+    "bm_ref": 1171,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 22,
+    "bm_libelle": "Boulevards: Place Latule à la Barrière Ornano",
+    "bm_actuel": 900,
+    "bm_ref": 807,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 23,
+    "bm_libelle": "Boulevards: Barrière Ornano au Rond point JJBosc",
+    "bm_actuel": 900,
+    "bm_ref": 942,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 24,
+    "bm_libelle": "Quais: Rond point JJBosc à la Place Latule",
+    "bm_actuel": 1020,
+    "bm_ref": 1220,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 25,
+    "bm_libelle": "Quais: Place Latule à Rond point JJBosc",
+    "bm_actuel": 1020,
+    "bm_ref": 1039,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 26,
+    "bm_libelle": "Cours: Pont Saint Jean à la rue Lucien Faure via la Victoire et Gambetta",
+    "bm_actuel": 1380,
+    "bm_ref": 1298,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 27,
+    "bm_libelle": "Cours: Rue Lucien Faure au Pont Saint Jean via la Victoire et Gambetta",
+    "bm_actuel": 1260,
+    "bm_ref": 1308,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 28,
+    "bm_libelle": "Thiers : Pont de Pierre à la Mairie de Cenon",
+    "bm_actuel": 540,
+    "bm_ref": 458,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 29,
+    "bm_libelle": "Thiers : Mairie de Cenon au Pont de Pierre",
+    "bm_actuel": 540,
+    "bm_ref": 537,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 30,
+    "bm_libelle": "Joliot Curie : Pont Saint Jean à Avenue Thiers",
+    "bm_actuel": 240,
+    "bm_ref": 225,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 31,
+    "bm_libelle": "Joliot Curie : Avenue Thiers au Pont Saint Jean",
+    "bm_actuel": 240,
+    "bm_ref": 234,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 32,
+    "bm_libelle": "Aliénor: Place Latule à la Rocade",
+    "bm_actuel": 120,
+    "bm_ref": 118,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 33,
+    "bm_libelle": "Aliénor: Rocade à la Place Latule",
+    "bm_actuel": 360,
+    "bm_ref": 128,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 34,
+    "bm_libelle": "4 pavillons : Mairie de Cenon à la Rocade",
+    "bm_actuel": 240,
+    "bm_ref": 122,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  },
+  {
+    "bm_ident": 35,
+    "bm_libelle": "4 pavillons : Rocade à la Mairie de Cenon",
+    "bm_actuel": 240,
+    "bm_ref": 203,
+    "bm_mdate": "2026-10-29T10:50:00+00:00"
+  }
+]

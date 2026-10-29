@@ -1,0 +1,1062 @@
+[
+  {
+    "cha_id": 5043,
+    "cha_lib": "Anglais I5",
+    "geo_point_2d": { "lon": -1.5767680248223672, "lat": 47.22857237910874 }
+  },
+  {
+    "cha_id": 5761,
+    "cha_lib": "Guist'hau P1",
+    "geo_point_2d": { "lon": -1.564079181882234, "lat": 47.215445694281854 }
+  },
+  {
+    "cha_id": 5759,
+    "cha_lib": "Herriot P",
+    "geo_point_2d": { "lon": -1.5598980360890247, "lat": 47.2184640017974 }
+  },
+  {
+    "cha_id": 369,
+    "cha_lib": "D'Arc",
+    "geo_point_2d": { "lon": -1.557087476682425, "lat": 47.220592285497794 }
+  },
+  {
+    "cha_id": 342,
+    "cha_lib": "Sully P1",
+    "geo_point_2d": { "lon": -1.550315095910796, "lat": 47.22072853578614 }
+  },
+  {
+    "cha_id": 29,
+    "cha_lib": "Fosse I4",
+    "geo_point_2d": { "lon": -1.563953386905017, "lat": 47.209704549923266 }
+  },
+  {
+    "cha_id": 436,
+    "cha_lib": "Brissoneau",
+    "geo_point_2d": { "lon": -1.569999172032816, "lat": 47.208835287675896 }
+  },
+  {
+    "cha_id": 21,
+    "cha_lib": "Michel P",
+    "geo_point_2d": { "lon": -1.5602248172402775, "lat": 47.20955126214902 }
+  },
+  {
+    "cha_id": 318,
+    "cha_lib": "Veil I2",
+    "geo_point_2d": { "lon": -1.555973122088983, "lat": 47.21105365256628 }
+  },
+  {
+    "cha_id": 415,
+    "cha_lib": "Mercoeur",
+    "geo_point_2d": { "lon": -1.5605281079661402, "lat": 47.217356115363344 }
+  },
+  {
+    "cha_id": 5228,
+    "cha_lib": "Patton P",
+    "geo_point_2d": { "lon": -1.546806896732254, "lat": 47.215793067359755 }
+  },
+  {
+    "cha_id": 2133,
+    "cha_lib": "Stalingrad P4",
+    "geo_point_2d": { "lon": -1.5446345541370143, "lat": 47.21725260524682 }
+  },
+  {
+    "cha_id": 5348,
+    "cha_lib": "Leclerc",
+    "geo_point_2d": { "lon": -1.5512808706291437, "lat": 47.218266923288795 }
+  },
+  {
+    "cha_id": 5160,
+    "cha_lib": "Anglais I6",
+    "geo_point_2d": { "lon": -1.573816061799717, "lat": 47.22916889311564 }
+  },
+  {
+    "cha_id": 43,
+    "cha_lib": "Anglais P2",
+    "geo_point_2d": { "lon": -1.5786248581384508, "lat": 47.22849959036222 }
+  },
+  {
+    "cha_id": 759,
+    "cha_lib": "Herriot I",
+    "geo_point_2d": { "lon": -1.5602077510672965, "lat": 47.21831835447037 }
+  },
+  {
+    "cha_id": 5021,
+    "cha_lib": "Michel I",
+    "geo_point_2d": { "lon": -1.559925324206994, "lat": 47.20978294765807 }
+  },
+  {
+    "cha_id": 5232,
+    "cha_lib": "Nations Unies P",
+    "geo_point_2d": { "lon": -1.5603300490240457, "lat": 47.210622825839465 }
+  },
+  {
+    "cha_id": 5285,
+    "cha_lib": "Veil P2",
+    "geo_point_2d": { "lon": -1.555879231256956, "lat": 47.2099191846314 }
+  },
+  {
+    "cha_id": 5359,
+    "cha_lib": "Philippot I1",
+    "geo_point_2d": { "lon": -1.555503458354619, "lat": 47.21180007977115 }
+  },
+  {
+    "cha_id": 325,
+    "cha_lib": "Madeleine I2",
+    "geo_point_2d": { "lon": -1.550784589875132, "lat": 47.21030682755191 }
+  },
+  {
+    "cha_id": 184,
+    "cha_lib": "Roch I2",
+    "geo_point_2d": { "lon": -1.5494422399160261, "lat": 47.204449277774444 }
+  },
+  {
+    "cha_id": 761,
+    "cha_lib": "Guist'hau I5",
+    "geo_point_2d": { "lon": -1.5642793181360493, "lat": 47.21518920575772 }
+  },
+  {
+    "cha_id": 352,
+    "cha_lib": "Strasbourg I1",
+    "geo_point_2d": { "lon": -1.554032942647853, "lat": 47.218962420255664 }
+  },
+  {
+    "cha_id": 5352,
+    "cha_lib": "Strasbourg P3",
+    "geo_point_2d": { "lon": -1.5537014177439896, "lat": 47.219047905899224 }
+  },
+  {
+    "cha_id": 433,
+    "cha_lib": "Fosse I2",
+    "geo_point_2d": { "lon": -1.5683327070979116, "lat": 47.20849742157078 }
+  },
+  {
+    "cha_id": 5832,
+    "cha_lib": "Hotel de Ville I2",
+    "geo_point_2d": { "lon": -1.5558912510165734, "lat": 47.21768206273367 }
+  },
+  {
+    "cha_id": 400,
+    "cha_lib": "Felibien I1",
+    "geo_point_2d": { "lon": -1.5658354470934936, "lat": 47.22074373602539 }
+  },
+  {
+    "cha_id": 778,
+    "cha_lib": "Viarme I4",
+    "geo_point_2d": { "lon": -1.5626133821649206, "lat": 47.2203710831242 }
+  },
+  {
+    "cha_id": 408,
+    "cha_lib": "Porte Neuve I",
+    "geo_point_2d": { "lon": -1.5616138812389002, "lat": 47.21945836154627 }
+  },
+  {
+    "cha_id": 314,
+    "cha_lib": "Estuaire I5",
+    "geo_point_2d": { "lon": -1.5547400509606484, "lat": 47.20432259083635 }
+  },
+  {
+    "cha_id": 2129,
+    "cha_lib": "Prairie Duc P2",
+    "geo_point_2d": { "lon": -1.5593751105403415, "lat": 47.20499248951845 }
+  },
+  {
+    "cha_id": 2130,
+    "cha_lib": "Prairie Duc P3",
+    "geo_point_2d": { "lon": -1.5614900424953875, "lat": 47.20479043021844 }
+  },
+  {
+    "cha_id": 297,
+    "cha_lib": "Calvaire I2",
+    "geo_point_2d": { "lon": -1.5587312268595395, "lat": 47.215720466662376 }
+  },
+  {
+    "cha_id": 338,
+    "cha_lib": "Gambetta P2",
+    "geo_point_2d": { "lon": -1.546458289817744, "lat": 47.22033332069447 }
+  },
+  {
+    "cha_id": 313,
+    "cha_lib": "Estuaire I4",
+    "geo_point_2d": { "lon": -1.557275415069343, "lat": 47.20407235479645 }
+  },
+  {
+    "cha_id": 265,
+    "cha_lib": "Voltaire I1",
+    "geo_point_2d": { "lon": -1.564839374053021, "lat": 47.21225724427535 }
+  },
+  {
+    "cha_id": 362,
+    "cha_lib": "Franklin",
+    "geo_point_2d": { "lon": -1.5630588783917236, "lat": 47.21403211142365 }
+  },
+  {
+    "cha_id": 420,
+    "cha_lib": "Calvaire I1",
+    "geo_point_2d": { "lon": -1.562062672447841, "lat": 47.21520642524317 }
+  },
+  {
+    "cha_id": 5005,
+    "cha_lib": "D'Orves I",
+    "geo_point_2d": { "lon": -1.5512168863487625, "lat": 47.21369782621179 }
+  },
+  {
+    "cha_id": 5344,
+    "cha_lib": "Ceineray I",
+    "geo_point_2d": { "lon": -1.5531654535466446, "lat": 47.22063391403803 }
+  },
+  {
+    "cha_id": 364,
+    "cha_lib": "Jaures P2",
+    "geo_point_2d": { "lon": -1.5616430797162995, "lat": 47.218406021581636 }
+  },
+  {
+    "cha_id": 5406,
+    "cha_lib": "Hélié",
+    "geo_point_2d": { "lon": -1.5629090047615293, "lat": 47.21841101716948 }
+  },
+  {
+    "cha_id": 406,
+    "cha_lib": "Helie",
+    "geo_point_2d": { "lon": -1.5630047388506985, "lat": 47.2182098187474 }
+  },
+  {
+    "cha_id": 5136,
+    "cha_lib": "Audibert P",
+    "geo_point_2d": { "lon": -1.5493538704063696, "lat": 47.20768357532907 }
+  },
+  {
+    "cha_id": 221,
+    "cha_lib": "Bellamy I7",
+    "geo_point_2d": { "lon": -1.555327807869236, "lat": 47.220543897801456 }
+  },
+  {
+    "cha_id": 7139,
+    "cha_lib": "Gigant",
+    "geo_point_2d": { "lon": -1.5698448170066592, "lat": 47.21443892977581 }
+  },
+  {
+    "cha_id": 5432,
+    "cha_lib": "Fosse P2",
+    "geo_point_2d": { "lon": -1.5672666569563078, "lat": 47.20909980991106 }
+  },
+  {
+    "cha_id": 444,
+    "cha_lib": "Pasteur I2",
+    "geo_point_2d": { "lon": -1.5803451355006422, "lat": 47.21233179730966 }
+  },
+  {
+    "cha_id": 437,
+    "cha_lib": "Bruneliere",
+    "geo_point_2d": { "lon": -1.568961250658362, "lat": 47.20934960247931 }
+  },
+  {
+    "cha_id": 828,
+    "cha_lib": "Paris I5",
+    "geo_point_2d": { "lon": -1.5163150585027498, "lat": 47.252730893404845 }
+  },
+  {
+    "cha_id": 829,
+    "cha_lib": "Paris I6",
+    "geo_point_2d": { "lon": -1.5182046817673127, "lat": 47.25134465142637 }
+  },
+  {
+    "cha_id": 560,
+    "cha_lib": "Verrerie I2",
+    "geo_point_2d": { "lon": -1.566979017337825, "lat": 47.209818221297105 }
+  },
+  {
+    "cha_id": 5560,
+    "cha_lib": "Verrerie P1",
+    "geo_point_2d": { "lon": -1.5667647559741948, "lat": 47.210148415497144 }
+  },
+  {
+    "cha_id": 567,
+    "cha_lib": "Geslin I1",
+    "geo_point_2d": { "lon": -1.5666777838968236, "lat": 47.21538092374375 }
+  },
+  {
+    "cha_id": 5584,
+    "cha_lib": "Lamoricière P2",
+    "geo_point_2d": { "lon": -1.5718013601654695, "lat": 47.21362127203449 }
+  },
+  {
+    "cha_id": 210,
+    "cha_lib": "Lamoricière I2",
+    "geo_point_2d": { "lon": -1.5711217744049164, "lat": 47.2111693483264 }
+  },
+  {
+    "cha_id": 566,
+    "cha_lib": "Descartes P2",
+    "geo_point_2d": { "lon": -1.5652894280782776, "lat": 47.21663214196555 }
+  },
+  {
+    "cha_id": 5558,
+    "cha_lib": "Rosière P2",
+    "geo_point_2d": { "lon": -1.5672225601579663, "lat": 47.21371456209652 }
+  },
+  {
+    "cha_id": 559,
+    "cha_lib": "Verrerie I1",
+    "geo_point_2d": { "lon": -1.5671841123052175, "lat": 47.210987574395105 }
+  },
+  {
+    "cha_id": 561,
+    "cha_lib": "Flandres P1",
+    "geo_point_2d": { "lon": -1.565800944071307, "lat": 47.210595359537905 }
+  },
+  {
+    "cha_id": 5550,
+    "cha_lib": "Gache I1",
+    "geo_point_2d": { "lon": -1.5458056909917435, "lat": 47.206040224502786 }
+  },
+  {
+    "cha_id": 147,
+    "cha_lib": "Baco P",
+    "geo_point_2d": { "lon": -1.548873390265658, "lat": 47.21435897584868 }
+  },
+  {
+    "cha_id": 5147,
+    "cha_lib": "Baco I",
+    "geo_point_2d": { "lon": -1.5488070878356563, "lat": 47.2141606419403 }
+  },
+  {
+    "cha_id": 317,
+    "cha_lib": "Maison Rouge P",
+    "geo_point_2d": { "lon": -1.5517491905805512, "lat": 47.21287215254635 }
+  },
+  {
+    "cha_id": 403,
+    "cha_lib": "Doumergue I2",
+    "geo_point_2d": { "lon": -1.544876592728275, "lat": 47.2083344082597 }
+  },
+  {
+    "cha_id": 7133,
+    "cha_lib": "Stalingrad I1",
+    "geo_point_2d": { "lon": -1.5444811962092029, "lat": 47.21720370804628 }
+  },
+  {
+    "cha_id": 5587,
+    "cha_lib": "Rieux I",
+    "geo_point_2d": { "lon": -1.5441773471272011, "lat": 47.211439124169104 }
+  },
+  {
+    "cha_id": 100053,
+    "cha_lib": "Baudry I2",
+    "geo_point_2d": { "lon": -1.544080333488688, "lat": 47.21888538821268 }
+  },
+  {
+    "cha_id": 100078,
+    "cha_lib": "HALIMI2",
+    "geo_point_2d": { "lon": -1.5573491675379048, "lat": 47.20259309841957 }
+  },
+  {
+    "cha_id": 100083,
+    "cha_lib": "HALIMI P3",
+    "geo_point_2d": { "lon": -1.56039785299329, "lat": 47.20269398198812 }
+  },
+  {
+    "cha_id": 100084,
+    "cha_lib": "HALIMI P2",
+    "geo_point_2d": { "lon": -1.5575582085522492, "lat": 47.202958238768126 }
+  },
+  {
+    "cha_id": 100086,
+    "cha_lib": "CA FOSSE VERS OUEST",
+    "geo_point_2d": { "lon": -1.5623101070887704, "lat": 47.21063748300016 }
+  },
+  {
+    "cha_id": 100087,
+    "cha_lib": "Estuaire vers Ouest",
+    "geo_point_2d": { "lon": -1.5633639867704585, "lat": 47.20377192378139 }
+  },
+  {
+    "cha_id": 365,
+    "cha_lib": "Jaures P1",
+    "geo_point_2d": { "lon": -1.559980915772158, "lat": 47.2195812970632 }
+  },
+  {
+    "cha_id": 353,
+    "cha_lib": "Strasbourg I2",
+    "geo_point_2d": { "lon": -1.5523952003125716, "lat": 47.21704889152568 }
+  },
+  {
+    "cha_id": 5416,
+    "cha_lib": "50 Otages I4",
+    "geo_point_2d": { "lon": -1.5561933624522826, "lat": 47.21906941649583 }
+  },
+  {
+    "cha_id": 5415,
+    "cha_lib": "Mercoeur",
+    "geo_point_2d": { "lon": -1.5608067526025076, "lat": 47.21762047060103 }
+  },
+  {
+    "cha_id": 771,
+    "cha_lib": "Madeleine I3",
+    "geo_point_2d": { "lon": -1.551898576587712, "lat": 47.21171643951423 }
+  },
+  {
+    "cha_id": 355,
+    "cha_lib": "Kennedy P",
+    "geo_point_2d": { "lon": -1.5488416049192468, "lat": 47.214951884162076 }
+  },
+  {
+    "cha_id": 5319,
+    "cha_lib": "Bonduelle P1",
+    "geo_point_2d": { "lon": -1.5445334266167625, "lat": 47.212725732721935 }
+  },
+  {
+    "cha_id": 139,
+    "cha_lib": "Bureau I",
+    "geo_point_2d": { "lon": -1.5631283610338058, "lat": 47.2056838034638 }
+  },
+  {
+    "cha_id": 142,
+    "cha_lib": "Prairie Duc P1",
+    "geo_point_2d": { "lon": -1.5565520000363748, "lat": 47.205273650368845 }
+  },
+  {
+    "cha_id": 348,
+    "cha_lib": "Leclerc",
+    "geo_point_2d": { "lon": -1.5514765559824057, "lat": 47.21848039162825 }
+  },
+  {
+    "cha_id": 107,
+    "cha_lib": "Paris I5a",
+    "geo_point_2d": { "lon": -1.5145723949402021, "lat": 47.25410531835047 }
+  },
+  {
+    "cha_id": 323,
+    "cha_lib": "Magellan P5",
+    "geo_point_2d": { "lon": -1.549075513198776, "lat": 47.209094756150805 }
+  },
+  {
+    "cha_id": 166,
+    "cha_lib": "Paris I5b",
+    "geo_point_2d": { "lon": -1.5140838903979825, "lat": 47.25401935557773 }
+  },
+  {
+    "cha_id": 5770,
+    "cha_lib": "Felibien P1",
+    "geo_point_2d": { "lon": -1.5640396091782676, "lat": 47.22092680771147 }
+  },
+  {
+    "cha_id": 138,
+    "cha_lib": "Blanc I",
+    "geo_point_2d": { "lon": -1.5545988065027985, "lat": 47.20646128529258 }
+  },
+  {
+    "cha_id": 5148,
+    "cha_lib": "Hugo P1",
+    "geo_point_2d": { "lon": -1.5531076691304466, "lat": 47.204403511046955 }
+  },
+  {
+    "cha_id": 148,
+    "cha_lib": "Hugo I4",
+    "geo_point_2d": { "lon": -1.5529064108429358, "lat": 47.20462390300932 }
+  },
+  {
+    "cha_id": 5202,
+    "cha_lib": "Hugo P2",
+    "geo_point_2d": { "lon": -1.5506617093663113, "lat": 47.20310232086871 }
+  },
+  {
+    "cha_id": 359,
+    "cha_lib": "Philippot P3",
+    "geo_point_2d": { "lon": -1.5557806013438706, "lat": 47.21206055269779 }
+  },
+  {
+    "cha_id": 5357,
+    "cha_lib": "Philippot I3",
+    "geo_point_2d": { "lon": -1.5529180405010599, "lat": 47.21297084059252 }
+  },
+  {
+    "cha_id": 357,
+    "cha_lib": "Philippot P1",
+    "geo_point_2d": { "lon": -1.5531918273755556, "lat": 47.21310193311255 }
+  },
+  {
+    "cha_id": 22,
+    "cha_lib": "Churchill I2",
+    "geo_point_2d": { "lon": -1.610602055681763, "lat": 47.20939071497992 }
+  },
+  {
+    "cha_id": 5131,
+    "cha_lib": "Carnot P2",
+    "geo_point_2d": { "lon": -1.545700964900396, "lat": 47.21416558621941 }
+  },
+  {
+    "cha_id": 131,
+    "cha_lib": "Carnot I1",
+    "geo_point_2d": { "lon": -1.545447928723539, "lat": 47.2143515910268 }
+  },
+  {
+    "cha_id": 5130,
+    "cha_lib": "Briand P1",
+    "geo_point_2d": { "lon": -1.5426880029517545, "lat": 47.210498679247216 }
+  },
+  {
+    "cha_id": 331,
+    "cha_lib": "Martyrs I4",
+    "geo_point_2d": { "lon": -1.5480310916494835, "lat": 47.206576612612224 }
+  },
+  {
+    "cha_id": 136,
+    "cha_lib": "Audibert I",
+    "geo_point_2d": { "lon": -1.5488863926200855, "lat": 47.20781439326639 }
+  },
+  {
+    "cha_id": 410,
+    "cha_lib": "Bodiguel",
+    "geo_point_2d": { "lon": -1.5611006794524953, "lat": 47.2219136638897 }
+  },
+  {
+    "cha_id": 428,
+    "cha_lib": "Marceau",
+    "geo_point_2d": { "lon": -1.5640512222471799, "lat": 47.21570615789589 }
+  },
+  {
+    "cha_id": 760,
+    "cha_lib": "Cassini",
+    "geo_point_2d": { "lon": -1.5649022637111725, "lat": 47.215071637125796 }
+  },
+  {
+    "cha_id": 5354,
+    "cha_lib": "Strasbourg P1",
+    "geo_point_2d": { "lon": -1.5506154245298585, "lat": 47.215450724478515 }
+  },
+  {
+    "cha_id": 5185,
+    "cha_lib": "Roch P2",
+    "geo_point_2d": { "lon": -1.5533862314247746, "lat": 47.202695637955856 }
+  },
+  {
+    "cha_id": 351,
+    "cha_lib": "Hotel de Ville P1",
+    "geo_point_2d": { "lon": -1.5540298187482062, "lat": 47.21790118509599 }
+  },
+  {
+    "cha_id": 432,
+    "cha_lib": "Fosse I3",
+    "geo_point_2d": { "lon": -1.5672826685305576, "lat": 47.208810062038935 }
+  },
+  {
+    "cha_id": 360,
+    "cha_lib": "Eboue",
+    "geo_point_2d": { "lon": -1.557880509316742, "lat": 47.211365409569154 }
+  },
+  {
+    "cha_id": 770,
+    "cha_lib": "Felibien I2",
+    "geo_point_2d": { "lon": -1.5638439824159776, "lat": 47.22078845056929 }
+  },
+  {
+    "cha_id": 5369,
+    "cha_lib": "D'Arc",
+    "geo_point_2d": { "lon": -1.5573828391359426, "lat": 47.22072779861807 }
+  },
+  {
+    "cha_id": 768,
+    "cha_lib": "Guist'hau I2",
+    "geo_point_2d": { "lon": -1.5687151883724646, "lat": 47.2174447557796 }
+  },
+  {
+    "cha_id": 769,
+    "cha_lib": "Guist'hau I3",
+    "geo_point_2d": { "lon": -1.5666705274374624, "lat": 47.216402213386424 }
+  },
+  {
+    "cha_id": 5297,
+    "cha_lib": "Calvaire P1",
+    "geo_point_2d": { "lon": -1.5587816039523301, "lat": 47.21586116235375 }
+  },
+  {
+    "cha_id": 5795,
+    "cha_lib": "Carnot P1",
+    "geo_point_2d": { "lon": -1.5470057319876678, "lat": 47.215426564353535 }
+  },
+  {
+    "cha_id": 5360,
+    "cha_lib": "Eboue",
+    "geo_point_2d": { "lon": -1.5579328166714586, "lat": 47.211601104823565 }
+  },
+  {
+    "cha_id": 264,
+    "cha_lib": "Gresset P3",
+    "geo_point_2d": { "lon": -1.5645250302186946, "lat": 47.21179889263585 }
+  },
+  {
+    "cha_id": 441,
+    "cha_lib": "Racine",
+    "geo_point_2d": { "lon": -1.5642718381855136, "lat": 47.21386970625562 }
+  },
+  {
+    "cha_id": 282,
+    "cha_lib": "Lafayette",
+    "geo_point_2d": { "lon": -1.561647053578349, "lat": 47.216236370553645 }
+  },
+  {
+    "cha_id": 283,
+    "cha_lib": "Budapest",
+    "geo_point_2d": { "lon": -1.5602760916310519, "lat": 47.21626523403218 }
+  },
+  {
+    "cha_id": 344,
+    "cha_lib": "Ceineray P",
+    "geo_point_2d": { "lon": -1.5532885267079055, "lat": 47.22083716657409 }
+  },
+  {
+    "cha_id": 368,
+    "cha_lib": "Cassegrain",
+    "geo_point_2d": { "lon": -1.5588242777227332, "lat": 47.21897574795582 }
+  },
+  {
+    "cha_id": 5368,
+    "cha_lib": "Cassegrain",
+    "geo_point_2d": { "lon": -1.558486128481905, "lat": 47.218736143162616 }
+  },
+  {
+    "cha_id": 5363,
+    "cha_lib": "Berruyer P",
+    "geo_point_2d": { "lon": -1.5637031145837876, "lat": 47.21624935385996 }
+  },
+  {
+    "cha_id": 31,
+    "cha_lib": "Tbilissi P",
+    "geo_point_2d": { "lon": -1.5413343530910186, "lat": 47.213006747460796 }
+  },
+  {
+    "cha_id": 5031,
+    "cha_lib": "Tbilissi I",
+    "geo_point_2d": { "lon": -1.540978625928932, "lat": 47.21283547623436 }
+  },
+  {
+    "cha_id": 5798,
+    "cha_lib": "Anne Bretagne P",
+    "geo_point_2d": { "lon": -1.5656780819940024, "lat": 47.207706124601835 }
+  },
+  {
+    "cha_id": 798,
+    "cha_lib": "Anne Bretagne I",
+    "geo_point_2d": { "lon": -1.5651940695020086, "lat": 47.20791083344816 }
+  },
+  {
+    "cha_id": 7131,
+    "cha_lib": "Prairie Duc P4",
+    "geo_point_2d": { "lon": -1.5648838031654844, "lat": 47.20440364637692 }
+  },
+  {
+    "cha_id": 5828,
+    "cha_lib": "Paris P3",
+    "geo_point_2d": { "lon": -1.5159516315788255, "lat": 47.25256659036225 }
+  },
+  {
+    "cha_id": 5221,
+    "cha_lib": "Bellamy P1",
+    "geo_point_2d": { "lon": -1.5549647558838093, "lat": 47.22071661251792 }
+  },
+  {
+    "cha_id": 5440,
+    "cha_lib": "Copernic P2",
+    "geo_point_2d": { "lon": -1.5663130237386058, "lat": 47.21465737224674 }
+  },
+  {
+    "cha_id": 440,
+    "cha_lib": "Copernic I1",
+    "geo_point_2d": { "lon": -1.5663655679376254, "lat": 47.21454797311298 }
+  },
+  {
+    "cha_id": 51,
+    "cha_lib": "Pasteur I1",
+    "geo_point_2d": { "lon": -1.583482773891184, "lat": 47.21325955649162 }
+  },
+  {
+    "cha_id": 5051,
+    "cha_lib": "Pasteur P2",
+    "geo_point_2d": { "lon": -1.583246520519745, "lat": 47.213497188424455 }
+  },
+  {
+    "cha_id": 108,
+    "cha_lib": "Paris I7",
+    "geo_point_2d": { "lon": -1.5203084800520035, "lat": 47.24957205989051 }
+  },
+  {
+    "cha_id": 5567,
+    "cha_lib": "Geslin P1",
+    "geo_point_2d": { "lon": -1.566512316433701, "lat": 47.21531326467448 }
+  },
+  {
+    "cha_id": 5083,
+    "cha_lib": "Bellamy P2",
+    "geo_point_2d": { "lon": -1.5563478596449851, "lat": 47.22239570266412 }
+  },
+  {
+    "cha_id": 5565,
+    "cha_lib": "Descartes I2",
+    "geo_point_2d": { "lon": -1.5640258412741996, "lat": 47.21706135339074 }
+  },
+  {
+    "cha_id": 558,
+    "cha_lib": "Rosière I1",
+    "geo_point_2d": { "lon": -1.5673440269478764, "lat": 47.21368774587939 }
+  },
+  {
+    "cha_id": 5568,
+    "cha_lib": "Rosière P1",
+    "geo_point_2d": { "lon": -1.5670314643776289, "lat": 47.21225162529876 }
+  },
+  {
+    "cha_id": 562,
+    "cha_lib": "Flandres P2",
+    "geo_point_2d": { "lon": -1.5662334131522355, "lat": 47.211303028534275 }
+  },
+  {
+    "cha_id": 5417,
+    "cha_lib": "50 Otages I3",
+    "geo_point_2d": { "lon": -1.556681002198479, "lat": 47.216942367636264 }
+  },
+  {
+    "cha_id": 418,
+    "cha_lib": "50 Otages P3",
+    "geo_point_2d": { "lon": -1.556154365251279, "lat": 47.215005534001 }
+  },
+  {
+    "cha_id": 5424,
+    "cha_lib": "Clisson (Cours)",
+    "geo_point_2d": { "lon": -1.5547080746123174, "lat": 47.21317376728934 }
+  },
+  {
+    "cha_id": 550,
+    "cha_lib": "Gache P3",
+    "geo_point_2d": { "lon": -1.5459568067854481, "lat": 47.20627607268012 }
+  },
+  {
+    "cha_id": 5330,
+    "cha_lib": "Martyrs P2",
+    "geo_point_2d": { "lon": -1.5478526573729234, "lat": 47.20556830115913 }
+  },
+  {
+    "cha_id": 5331,
+    "cha_lib": "Martyrs P1",
+    "geo_point_2d": { "lon": -1.548520132123885, "lat": 47.2064822180419 }
+  },
+  {
+    "cha_id": 5317,
+    "cha_lib": "Maison Rouge I",
+    "geo_point_2d": { "lon": -1.551568683046556, "lat": 47.21275125186687 }
+  },
+  {
+    "cha_id": 5375,
+    "cha_lib": "Hoche I",
+    "geo_point_2d": { "lon": -1.5517076785550232, "lat": 47.206701268644906 }
+  },
+  {
+    "cha_id": 100102,
+    "cha_lib": "HALIMI I4",
+    "geo_point_2d": { "lon": -1.5549316867370009, "lat": 47.202864609615695 }
+  },
+  {
+    "cha_id": 5444,
+    "cha_lib": "Pasteur P1",
+    "geo_point_2d": { "lon": -1.579953397082114, "lat": 47.21255561611825 }
+  },
+  {
+    "cha_id": 5029,
+    "cha_lib": "Fosse P1",
+    "geo_point_2d": { "lon": -1.5641937021217405, "lat": 47.20989971082036 }
+  },
+  {
+    "cha_id": 83,
+    "cha_lib": "Bellamy I6",
+    "geo_point_2d": { "lon": -1.5568248102087296, "lat": 47.22226866640522 }
+  },
+  {
+    "cha_id": 416,
+    "cha_lib": "50 Otages P1",
+    "geo_point_2d": { "lon": -1.5564953610854944, "lat": 47.21906297822206 }
+  },
+  {
+    "cha_id": 429,
+    "cha_lib": "De Lattre",
+    "geo_point_2d": { "lon": -1.5608341852199419, "lat": 47.21194744504561 }
+  },
+  {
+    "cha_id": 327,
+    "cha_lib": "Monnet P2",
+    "geo_point_2d": { "lon": -1.551166473707208, "lat": 47.2097166095237 }
+  },
+  {
+    "cha_id": 141,
+    "cha_lib": "Babin Chevaye P1",
+    "geo_point_2d": { "lon": -1.5493956935860305, "lat": 47.205924368894486 }
+  },
+  {
+    "cha_id": 343,
+    "cha_lib": "Henri IV P2",
+    "geo_point_2d": { "lon": -1.548846404832823, "lat": 47.218972809931955 }
+  },
+  {
+    "cha_id": 30,
+    "cha_lib": "Morice I3",
+    "geo_point_2d": { "lon": -1.54690524241127, "lat": 47.20937414916523 }
+  },
+  {
+    "cha_id": 27,
+    "cha_lib": "Morice I1",
+    "geo_point_2d": { "lon": -1.5568858655439506, "lat": 47.209164911548605 }
+  },
+  {
+    "cha_id": 5030,
+    "cha_lib": "Morice P1",
+    "geo_point_2d": { "lon": -1.5470611558038103, "lat": 47.209621810858884 }
+  },
+  {
+    "cha_id": 232,
+    "cha_lib": "Nations Unies I",
+    "geo_point_2d": { "lon": -1.5598926075639934, "lat": 47.21052695299636 }
+  },
+  {
+    "cha_id": 5325,
+    "cha_lib": "Madeleine P2",
+    "geo_point_2d": { "lon": -1.5511288084866184, "lat": 47.21019873459361 }
+  },
+  {
+    "cha_id": 44,
+    "cha_lib": "Anglais P4",
+    "geo_point_2d": { "lon": -1.584002317039521, "lat": 47.22518601045463 }
+  },
+  {
+    "cha_id": 312,
+    "cha_lib": "Estuaire I3",
+    "geo_point_2d": { "lon": -1.5600428325621674, "lat": 47.20379666037069 }
+  },
+  {
+    "cha_id": 5307,
+    "cha_lib": "Babin Chevaye I1",
+    "geo_point_2d": { "lon": -1.5523620953961839, "lat": 47.20537438243957 }
+  },
+  {
+    "cha_id": 5,
+    "cha_lib": "D'Orves P",
+    "geo_point_2d": { "lon": -1.5513866002969952, "lat": 47.21383769692088 }
+  },
+  {
+    "cha_id": 5022,
+    "cha_lib": "Churchill",
+    "geo_point_2d": { "lon": -1.6114252179527377, "lat": 47.20910736959238 }
+  },
+  {
+    "cha_id": 319,
+    "cha_lib": "Bonduelle I1",
+    "geo_point_2d": { "lon": -1.5442569117111775, "lat": 47.21294296623785 }
+  },
+  {
+    "cha_id": 202,
+    "cha_lib": "Hugo I3",
+    "geo_point_2d": { "lon": -1.550228536956616, "lat": 47.2033191803522 }
+  },
+  {
+    "cha_id": 228,
+    "cha_lib": "Patton I",
+    "geo_point_2d": { "lon": -1.5466344351747414, "lat": 47.21572175446954 }
+  },
+  {
+    "cha_id": 5404,
+    "cha_lib": "Guist'hau P2",
+    "geo_point_2d": { "lon": -1.5650045358610596, "lat": 47.21591328126527 }
+  },
+  {
+    "cha_id": 185,
+    "cha_lib": "Roch I1",
+    "geo_point_2d": { "lon": -1.5528920851791157, "lat": 47.20265660253346 }
+  },
+  {
+    "cha_id": 5791,
+    "cha_lib": "Anglais I1",
+    "geo_point_2d": { "lon": -1.5846795340970512, "lat": 47.223149167572764 }
+  },
+  {
+    "cha_id": 404,
+    "cha_lib": "Guist'hau I4",
+    "geo_point_2d": { "lon": -1.565270485628273, "lat": 47.21568706657193 }
+  },
+  {
+    "cha_id": 777,
+    "cha_lib": "Viarme I3",
+    "geo_point_2d": { "lon": -1.5632237792141317, "lat": 47.22121634198307 }
+  },
+  {
+    "cha_id": 5353,
+    "cha_lib": "Strasbourg P2",
+    "geo_point_2d": { "lon": -1.552005346721003, "lat": 47.21711312392312 }
+  },
+  {
+    "cha_id": 354,
+    "cha_lib": "Strasbourg I3",
+    "geo_point_2d": { "lon": -1.551008176859632, "lat": 47.21538485071986 }
+  },
+  {
+    "cha_id": 5420,
+    "cha_lib": "Calvaire P2",
+    "geo_point_2d": { "lon": -1.5621079252278485, "lat": 47.21533903820562 }
+  },
+  {
+    "cha_id": 363,
+    "cha_lib": "Berruyer I",
+    "geo_point_2d": { "lon": -1.563360221196233, "lat": 47.216029795737 }
+  },
+  {
+    "cha_id": 5769,
+    "cha_lib": "Guist'hau P3",
+    "geo_point_2d": { "lon": -1.5663149708440576, "lat": 47.216593802718265 }
+  },
+  {
+    "cha_id": 5799,
+    "cha_lib": "Haudaudine P",
+    "geo_point_2d": { "lon": -1.555476660773577, "lat": 47.2081528013409 }
+  },
+  {
+    "cha_id": 799,
+    "cha_lib": "Haudaudine I",
+    "geo_point_2d": { "lon": -1.555010341102933, "lat": 47.208143270616254 }
+  },
+  {
+    "cha_id": 5108,
+    "cha_lib": "Paris P1",
+    "geo_point_2d": { "lon": -1.5200644938085566, "lat": 47.249340832839884 }
+  },
+  {
+    "cha_id": 5829,
+    "cha_lib": "Paris P2",
+    "geo_point_2d": { "lon": -1.517899487652426, "lat": 47.25113380335729 }
+  },
+  {
+    "cha_id": 417,
+    "cha_lib": "50 Otages P2",
+    "geo_point_2d": { "lon": -1.556964926253173, "lat": 47.21684816219229 }
+  },
+  {
+    "cha_id": 2139,
+    "cha_lib": "Gigant",
+    "geo_point_2d": { "lon": -1.5697392167439463, "lat": 47.21431875054593 }
+  },
+  {
+    "cha_id": 5433,
+    "cha_lib": "Fosse P3",
+    "geo_point_2d": { "lon": -1.5684943588261524, "lat": 47.208710185079354 }
+  },
+  {
+    "cha_id": 5210,
+    "cha_lib": "Lamoricière P1",
+    "geo_point_2d": { "lon": -1.5709279051504814, "lat": 47.21124144709854 }
+  },
+  {
+    "cha_id": 5355,
+    "cha_lib": "Kennedy I",
+    "geo_point_2d": { "lon": -1.5487937095981874, "lat": 47.21477030068822 }
+  },
+  {
+    "cha_id": 565,
+    "cha_lib": "Descartes P1",
+    "geo_point_2d": { "lon": -1.564165242980744, "lat": 47.21714537646976 }
+  },
+  {
+    "cha_id": 5566,
+    "cha_lib": "Descartes I1",
+    "geo_point_2d": { "lon": -1.565142012426314, "lat": 47.21656283781911 }
+  },
+  {
+    "cha_id": 568,
+    "cha_lib": "Rosière I2",
+    "geo_point_2d": { "lon": -1.5674865681592651, "lat": 47.21209104986826 }
+  },
+  {
+    "cha_id": 564,
+    "cha_lib": "Gresset P2",
+    "geo_point_2d": { "lon": -1.56648757150563, "lat": 47.21075990570138 }
+  },
+  {
+    "cha_id": 434,
+    "cha_lib": "Gresset P1",
+    "geo_point_2d": { "lon": -1.5686748246748774, "lat": 47.2101559186937 }
+  },
+  {
+    "cha_id": 5418,
+    "cha_lib": "50 Otages I2",
+    "geo_point_2d": { "lon": -1.5558820864800338, "lat": 47.215140320033285 }
+  },
+  {
+    "cha_id": 424,
+    "cha_lib": "Clisson (Cours)",
+    "geo_point_2d": { "lon": -1.554416766992434, "lat": 47.21332801745727 }
+  },
+  {
+    "cha_id": 307,
+    "cha_lib": "Babin Chevaye P2",
+    "geo_point_2d": { "lon": -1.5523556060539536, "lat": 47.20563927640545 }
+  },
+  {
+    "cha_id": 5141,
+    "cha_lib": "Babin Chevaye I2",
+    "geo_point_2d": { "lon": -1.5493146653865306, "lat": 47.205663457607486 }
+  },
+  {
+    "cha_id": 330,
+    "cha_lib": "Martyrs I3",
+    "geo_point_2d": { "lon": -1.5472880039565164, "lat": 47.205549156649425 }
+  },
+  {
+    "cha_id": 375,
+    "cha_lib": "Hoche P",
+    "geo_point_2d": { "lon": -1.551752944923961, "lat": 47.20681085897801 }
+  },
+  {
+    "cha_id": 5308,
+    "cha_lib": "Doumergue P1",
+    "geo_point_2d": { "lon": -1.5474897814923692, "lat": 47.207296528681766 }
+  },
+  {
+    "cha_id": 308,
+    "cha_lib": "Doumergue I3",
+    "geo_point_2d": { "lon": -1.5475607337733894, "lat": 47.20749173948161 }
+  },
+  {
+    "cha_id": 5403,
+    "cha_lib": "Doumergue P2",
+    "geo_point_2d": { "lon": -1.54483763984398, "lat": 47.20813141072115 }
+  },
+  {
+    "cha_id": 100054,
+    "cha_lib": "Baudry P1",
+    "geo_point_2d": { "lon": -1.5442744896411569, "lat": 47.21707657815489 }
+  },
+  {
+    "cha_id": 587,
+    "cha_lib": "Rieux P",
+    "geo_point_2d": { "lon": -1.5442467662431325, "lat": 47.21151933551849 }
+  },
+  {
+    "cha_id": 5139,
+    "cha_lib": "Bureau P",
+    "geo_point_2d": { "lon": -1.5636988362172635, "lat": 47.205543764454525 }
+  },
+  {
+    "cha_id": 100052,
+    "cha_lib": "Baudry P2",
+    "geo_point_2d": { "lon": -1.5438707807125018, "lat": 47.2189350941798 }
+  },
+  {
+    "cha_id": 100055,
+    "cha_lib": "Baudry I3",
+    "geo_point_2d": { "lon": -1.5443530058186965, "lat": 47.21715247439368 }
+  },
+  {
+    "cha_id": 130,
+    "cha_lib": "Briand I2",
+    "geo_point_2d": { "lon": -1.542281839617474, "lat": 47.2105985126583 }
+  },
+  {
+    "cha_id": 100101,
+    "cha_lib": "HALIMI P4",
+    "geo_point_2d": { "lon": -1.555115940047989, "lat": 47.20319642445309 }
+  }
+]

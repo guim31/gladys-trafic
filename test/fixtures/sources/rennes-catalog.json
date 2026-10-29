@@ -1,0 +1,4184 @@
+[
+  {
+    "predefinedlocationreference": "10273_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6502152435538264, "lat": 48.044792756860865 }
+  },
+  {
+    "predefinedlocationreference": "10273_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6501987288374653, "lat": 48.04490011863635 }
+  },
+  {
+    "predefinedlocationreference": "10274_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6428939526652688, "lat": 48.04524378343284 }
+  },
+  {
+    "predefinedlocationreference": "10274_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6429232180244475, "lat": 48.045349915808416 }
+  },
+  {
+    "predefinedlocationreference": "10275_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6399234873467938, "lat": 48.045645642320295 }
+  },
+  {
+    "predefinedlocationreference": "10275_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6399570004461081, "lat": 48.045751208426495 }
+  },
+  {
+    "predefinedlocationreference": "10277_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.635224917314191, "lat": 48.04616734157628 }
+  },
+  {
+    "predefinedlocationreference": "10277_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6352298552259004, "lat": 48.04627468522579 }
+  },
+  {
+    "predefinedlocationreference": "10279_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6305428001813604, "lat": 48.04585017291146 }
+  },
+  {
+    "predefinedlocationreference": "10279_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6305129267523073, "lat": 48.04595622911455 }
+  },
+  {
+    "predefinedlocationreference": "10281_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.626100671092705, "lat": 48.04534138277834 }
+  },
+  {
+    "predefinedlocationreference": "10281_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6260771440570991, "lat": 48.04544815642694 }
+  },
+  {
+    "predefinedlocationreference": "10315_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6478302559610478, "lat": 48.044721629564314 }
+  },
+  {
+    "predefinedlocationreference": "10315_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6478414070565799, "lat": 48.04482919776599 }
+  },
+  {
+    "predefinedlocationreference": "11777_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.66548269877037, "lat": 48.04408857934558 }
+  },
+  {
+    "predefinedlocationreference": "11777_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.665513084355858, "lat": 48.04419457000906 }
+  },
+  {
+    "predefinedlocationreference": "12060_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6453972138989261, "lat": 48.04495500708082 }
+  },
+  {
+    "predefinedlocationreference": "12060_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6454229473772497, "lat": 48.045061550130484 }
+  },
+  {
+    "predefinedlocationreference": "1242_D",
+    "denomination": "Route départementale 34",
+    "insee": 35352,
+    "geo_point_2d": { "lon": -1.6115202124333143, "lat": 48.044691685444704 }
+  },
+  {
+    "predefinedlocationreference": "1242_G",
+    "denomination": "Route départementale 34",
+    "insee": 35352,
+    "geo_point_2d": { "lon": -1.611523358456343, "lat": 48.0445837746568 }
+  },
+  {
+    "predefinedlocationreference": "1285_D",
+    "denomination": "Route départementale 34",
+    "insee": 35352,
+    "geo_point_2d": { "lon": -1.6148580100536973, "lat": 48.04470777286132 }
+  },
+  {
+    "predefinedlocationreference": "1285_G",
+    "denomination": "Route départementale 34",
+    "insee": 35352,
+    "geo_point_2d": { "lon": -1.6148607299545983, "lat": 48.04459985685961 }
+  },
+  {
+    "predefinedlocationreference": "13514",
+    "denomination": "Rond-point",
+    "insee": 35196,
+    "geo_point_2d": { "lon": -1.7944973057785276, "lat": 48.08052762422041 }
+  },
+  {
+    "predefinedlocationreference": "13515",
+    "denomination": "Rond-point",
+    "insee": 35196,
+    "geo_point_2d": { "lon": -1.7943573961527377, "lat": 48.08012937066682 }
+  },
+  {
+    "predefinedlocationreference": "13516",
+    "denomination": "Rond-point",
+    "insee": 35196,
+    "geo_point_2d": { "lon": -1.794096406730662, "lat": 48.08069710582918 }
+  },
+  {
+    "predefinedlocationreference": "15029_D",
+    "denomination": "Route départementale 34",
+    "insee": 35076,
+    "geo_point_2d": { "lon": -1.7709009302957024, "lat": 48.06085155217433 }
+  },
+  {
+    "predefinedlocationreference": "15029_G",
+    "denomination": "Route départementale 34",
+    "insee": 35076,
+    "geo_point_2d": { "lon": -1.7709184741592452, "lat": 48.06095885196895 }
+  },
+  {
+    "predefinedlocationreference": "15113",
+    "denomination": "Rond-point",
+    "insee": 35076,
+    "geo_point_2d": { "lon": -1.7938891971882505, "lat": 48.080193190663294 }
+  },
+  {
+    "predefinedlocationreference": "15114",
+    "denomination": "Rond-point",
+    "insee": 35076,
+    "geo_point_2d": { "lon": -1.793818446450926, "lat": 48.08055757553529 }
+  },
+  {
+    "predefinedlocationreference": "15117",
+    "denomination": "Rond-point",
+    "insee": 35076,
+    "geo_point_2d": { "lon": -1.793272401717373, "lat": 48.078079410572364 }
+  },
+  {
+    "predefinedlocationreference": "15118",
+    "denomination": "Rond-point",
+    "insee": 35076,
+    "geo_point_2d": { "lon": -1.7929298576311015, "lat": 48.07791099584271 }
+  },
+  {
+    "predefinedlocationreference": "15119",
+    "denomination": "Rond-point",
+    "insee": 35076,
+    "geo_point_2d": { "lon": -1.7929655387535064, "lat": 48.077590340701725 }
+  },
+  {
+    "predefinedlocationreference": "15120",
+    "denomination": "Rond-point",
+    "insee": 35076,
+    "geo_point_2d": { "lon": -1.7934782229578308, "lat": 48.077430125677125 }
+  },
+  {
+    "predefinedlocationreference": "15121",
+    "denomination": "Rond-point",
+    "insee": 35076,
+    "geo_point_2d": { "lon": -1.7938736098649377, "lat": 48.07763496075057 }
+  },
+  {
+    "predefinedlocationreference": "15122",
+    "denomination": "Rond-point",
+    "insee": 35076,
+    "geo_point_2d": { "lon": -1.7937687347457671, "lat": 48.07796911041048 }
+  },
+  {
+    "predefinedlocationreference": "1601898",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5728567047486834, "lat": 48.11811646620949 }
+  },
+  {
+    "predefinedlocationreference": "1601931_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.659101560961114, "lat": 48.136179418099985 }
+  },
+  {
+    "predefinedlocationreference": "1601931_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6592574265370907, "lat": 48.136207054944784 }
+  },
+  {
+    "predefinedlocationreference": "1602158_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6585478664242883, "lat": 48.138458602052715 }
+  },
+  {
+    "predefinedlocationreference": "1602158_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.658708682992582, "lat": 48.13846649648495 }
+  },
+  {
+    "predefinedlocationreference": "1602398",
+    "denomination": "Rond-point",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6865327734072781, "lat": 48.14041887939144 }
+  },
+  {
+    "predefinedlocationreference": "1627",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6327339945633106, "lat": 48.07799743978861 }
+  },
+  {
+    "predefinedlocationreference": "1628",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.63204219483465, "lat": 48.077890423628155 }
+  },
+  {
+    "predefinedlocationreference": "1629",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6319617795191668, "lat": 48.078191621416366 }
+  },
+  {
+    "predefinedlocationreference": "1630",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6322870204195798, "lat": 48.07837442195841 }
+  },
+  {
+    "predefinedlocationreference": "1631",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.63263853113968, "lat": 48.07829960085891 }
+  },
+  {
+    "predefinedlocationreference": "1639",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6398588385143449, "lat": 48.08249340800858 }
+  },
+  {
+    "predefinedlocationreference": "1677687",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.633309525780181, "lat": 48.12487653336689 }
+  },
+  {
+    "predefinedlocationreference": "1677691",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6334376578265224, "lat": 48.124826781097184 }
+  },
+  {
+    "predefinedlocationreference": "1677693",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6335178820773453, "lat": 48.12491461832435 }
+  },
+  {
+    "predefinedlocationreference": "1678750",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6333886639673136, "lat": 48.12497989568794 }
+  },
+  {
+    "predefinedlocationreference": "1680014",
+    "denomination": "Route nationale 136",
+    "insee": 35334,
+    "geo_point_2d": { "lon": -1.5816792286474723, "lat": 48.13995255340565 }
+  },
+  {
+    "predefinedlocationreference": "1680016",
+    "denomination": "Route nationale 136",
+    "insee": 35334,
+    "geo_point_2d": { "lon": -1.5840336278448837, "lat": 48.141305920270675 }
+  },
+  {
+    "predefinedlocationreference": "1680022",
+    "denomination": "Route nationale 136",
+    "insee": 35334,
+    "geo_point_2d": { "lon": -1.5815442059749671, "lat": 48.14007434920366 }
+  },
+  {
+    "predefinedlocationreference": "1680024",
+    "denomination": "Route nationale 136",
+    "insee": 35334,
+    "geo_point_2d": { "lon": -1.579833626981153, "lat": 48.138928674131655 }
+  },
+  {
+    "predefinedlocationreference": "1680116",
+    "denomination": "Rond-point",
+    "insee": 35210,
+    "geo_point_2d": { "lon": -1.7623575963410743, "lat": 48.14472815506634 }
+  },
+  {
+    "predefinedlocationreference": "1680119",
+    "denomination": "Rond-point",
+    "insee": 35210,
+    "geo_point_2d": { "lon": -1.7619448698289395, "lat": 48.14485988077912 }
+  },
+  {
+    "predefinedlocationreference": "1680121",
+    "denomination": "Rond-point",
+    "insee": 35210,
+    "geo_point_2d": { "lon": -1.762542884001303, "lat": 48.145004722417234 }
+  },
+  {
+    "predefinedlocationreference": "1680123",
+    "denomination": "Rond-point",
+    "insee": 35210,
+    "geo_point_2d": { "lon": -1.762174370569614, "lat": 48.14516878556811 }
+  },
+  {
+    "predefinedlocationreference": "1680337",
+    "denomination": "Rue de l'Hôtel Dieu",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6788489129380106, "lat": 48.1172903764637 }
+  },
+  {
+    "predefinedlocationreference": "1680514_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6530396435527654, "lat": 48.126831269696 }
+  },
+  {
+    "predefinedlocationreference": "1680514_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6531406270504703, "lat": 48.12691540096655 }
+  },
+  {
+    "predefinedlocationreference": "1680549_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6501903785456624, "lat": 48.127815351538494 }
+  },
+  {
+    "predefinedlocationreference": "1680549_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6502401974005123, "lat": 48.127918185872005 }
+  },
+  {
+    "predefinedlocationreference": "1680561_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6523357202027116, "lat": 48.12721059145786 }
+  },
+  {
+    "predefinedlocationreference": "1680561_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6524383031139382, "lat": 48.12729385133293 }
+  },
+  {
+    "predefinedlocationreference": "1721",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6280618292231892, "lat": 48.0842461925046 }
+  },
+  {
+    "predefinedlocationreference": "1722",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6281739031817217, "lat": 48.084047845418716 }
+  },
+  {
+    "predefinedlocationreference": "1723",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6278855915233645, "lat": 48.084072901170785 }
+  },
+  {
+    "predefinedlocationreference": "18391_D",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7659231356965897, "lat": 48.0612003666321 }
+  },
+  {
+    "predefinedlocationreference": "18391_G",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7659449059211372, "lat": 48.06130730653658 }
+  },
+  {
+    "predefinedlocationreference": "1853",
+    "denomination": "Route nationale 136",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6177329941084748, "lat": 48.09726318169511 }
+  },
+  {
+    "predefinedlocationreference": "1855",
+    "denomination": "Route nationale 136",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6147515223053275, "lat": 48.09879903945 }
+  },
+  {
+    "predefinedlocationreference": "1856",
+    "denomination": "Route nationale 136",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6166575873153912, "lat": 48.09771321933456 }
+  },
+  {
+    "predefinedlocationreference": "19040",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6323992701865915, "lat": 48.07780828611783 }
+  },
+  {
+    "predefinedlocationreference": "1910886",
+    "denomination": "Quai de la Prévalaye",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6931050465813777, "lat": 48.10726404985382 }
+  },
+  {
+    "predefinedlocationreference": "19628",
+    "denomination": "Rond-point",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6945478528783566, "lat": 48.076678238197196 }
+  },
+  {
+    "predefinedlocationreference": "19629",
+    "denomination": "Rond-point",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6948547078269884, "lat": 48.0771253193131 }
+  },
+  {
+    "predefinedlocationreference": "19630",
+    "denomination": "Rond-point",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6951394219319085, "lat": 48.07688864865558 }
+  },
+  {
+    "predefinedlocationreference": "19631",
+    "denomination": "Rond-point",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6950088554269314, "lat": 48.076604126295386 }
+  },
+  {
+    "predefinedlocationreference": "19632",
+    "denomination": "Rond-point",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6945456646652068, "lat": 48.077078975336036 }
+  },
+  {
+    "predefinedlocationreference": "20525",
+    "denomination": "Rond-point",
+    "insee": 35210,
+    "geo_point_2d": { "lon": -1.7559595940228894, "lat": 48.14768258436725 }
+  },
+  {
+    "predefinedlocationreference": "20526",
+    "denomination": "Rond-point",
+    "insee": 35210,
+    "geo_point_2d": { "lon": -1.7556202406228663, "lat": 48.147865580467446 }
+  },
+  {
+    "predefinedlocationreference": "20527",
+    "denomination": "Rond-point",
+    "insee": 35210,
+    "geo_point_2d": { "lon": -1.7559359294721106, "lat": 48.14809372599633 }
+  },
+  {
+    "predefinedlocationreference": "20528",
+    "denomination": "Rond-point",
+    "insee": 35210,
+    "geo_point_2d": { "lon": -1.7562605398535087, "lat": 48.147886259789 }
+  },
+  {
+    "predefinedlocationreference": "25930",
+    "denomination": "Rond-point",
+    "insee": 35353,
+    "geo_point_2d": { "lon": -1.7743601261058037, "lat": 48.12153259743827 }
+  },
+  {
+    "predefinedlocationreference": "25931",
+    "denomination": "Rond-point",
+    "insee": 35353,
+    "geo_point_2d": { "lon": -1.7745213162394715, "lat": 48.12118378345071 }
+  },
+  {
+    "predefinedlocationreference": "25932",
+    "denomination": "Rond-point",
+    "insee": 35353,
+    "geo_point_2d": { "lon": -1.7739446882672587, "lat": 48.12142001399114 }
+  },
+  {
+    "predefinedlocationreference": "25933",
+    "denomination": "Rond-point",
+    "insee": 35353,
+    "geo_point_2d": { "lon": -1.7740543247732574, "lat": 48.1211053184496 }
+  },
+  {
+    "predefinedlocationreference": "25989",
+    "denomination": "Rond-point",
+    "insee": 35353,
+    "geo_point_2d": { "lon": -1.760069487024459, "lat": 48.118969685274735 }
+  },
+  {
+    "predefinedlocationreference": "25990",
+    "denomination": "Rond-point",
+    "insee": 35353,
+    "geo_point_2d": { "lon": -1.7603210785177243, "lat": 48.119011272751926 }
+  },
+  {
+    "predefinedlocationreference": "25991",
+    "denomination": "Rond-point",
+    "insee": 35353,
+    "geo_point_2d": { "lon": -1.7604165477237057, "lat": 48.11883062999138 }
+  },
+  {
+    "predefinedlocationreference": "25992",
+    "denomination": "Rond-point",
+    "insee": 35353,
+    "geo_point_2d": { "lon": -1.760156910684207, "lat": 48.118773371507544 }
+  },
+  {
+    "predefinedlocationreference": "26393",
+    "denomination": "Rond-point",
+    "insee": 35353,
+    "geo_point_2d": { "lon": -1.7532573516074765, "lat": 48.11942114190589 }
+  },
+  {
+    "predefinedlocationreference": "26394",
+    "denomination": "Rond-point",
+    "insee": 35353,
+    "geo_point_2d": { "lon": -1.753439369179912, "lat": 48.11941001621525 }
+  },
+  {
+    "predefinedlocationreference": "26395",
+    "denomination": "Rond-point",
+    "insee": 35353,
+    "geo_point_2d": { "lon": -1.7534093087219191, "lat": 48.11927052719554 }
+  },
+  {
+    "predefinedlocationreference": "26396",
+    "denomination": "Rond-point",
+    "insee": 35353,
+    "geo_point_2d": { "lon": -1.7532306549913699, "lat": 48.11928778528131 }
+  },
+  {
+    "predefinedlocationreference": "282910_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6574809651641396, "lat": 48.141660553892095 }
+  },
+  {
+    "predefinedlocationreference": "282910_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6576399122546435, "lat": 48.14167884812595 }
+  },
+  {
+    "predefinedlocationreference": "28854",
+    "denomination": "Rond-point",
+    "insee": 35024,
+    "geo_point_2d": { "lon": -1.625374992555523, "lat": 48.1550947052561 }
+  },
+  {
+    "predefinedlocationreference": "28855",
+    "denomination": "Rond-point",
+    "insee": 35024,
+    "geo_point_2d": { "lon": -1.62504886669379, "lat": 48.1553328208545 }
+  },
+  {
+    "predefinedlocationreference": "28867",
+    "denomination": "Rond-point",
+    "insee": 35024,
+    "geo_point_2d": { "lon": -1.624659197549357, "lat": 48.155342196115285 }
+  },
+  {
+    "predefinedlocationreference": "28868",
+    "denomination": "Rond-point",
+    "insee": 35024,
+    "geo_point_2d": { "lon": -1.6243721687556982, "lat": 48.1551852942165 }
+  },
+  {
+    "predefinedlocationreference": "30022",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.68802737060896, "lat": 48.140712483660224 }
+  },
+  {
+    "predefinedlocationreference": "30023",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6781068587055181, "lat": 48.14130932172157 }
+  },
+  {
+    "predefinedlocationreference": "31550",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.69720179098366, "lat": 48.139507492294165 }
+  },
+  {
+    "predefinedlocationreference": "31551",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6942107718589572, "lat": 48.14019147247709 }
+  },
+  {
+    "predefinedlocationreference": "31553",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.697695744619142, "lat": 48.139529485348234 }
+  },
+  {
+    "predefinedlocationreference": "31673",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6508202473042064, "lat": 48.14229514676823 }
+  },
+  {
+    "predefinedlocationreference": "31674",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6507802476536237, "lat": 48.1424472435923 }
+  },
+  {
+    "predefinedlocationreference": "31880",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6671678711189721, "lat": 48.1416601782766 }
+  },
+  {
+    "predefinedlocationreference": "32118",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6533752245595332, "lat": 48.14242125120678 }
+  },
+  {
+    "predefinedlocationreference": "32785",
+    "denomination": "Rond-point",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.686645406116068, "lat": 48.139843640698274 }
+  },
+  {
+    "predefinedlocationreference": "32786",
+    "denomination": "Rond-point",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6864313727315847, "lat": 48.13980940377718 }
+  },
+  {
+    "predefinedlocationreference": "32788",
+    "denomination": "Rond-point",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6863986964882607, "lat": 48.14000084466786 }
+  },
+  {
+    "predefinedlocationreference": "32790",
+    "denomination": "Rond-point",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6866410573911688, "lat": 48.13998904737191 }
+  },
+  {
+    "predefinedlocationreference": "32791",
+    "denomination": "Rond-point",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6865029421955609, "lat": 48.14028611914501 }
+  },
+  {
+    "predefinedlocationreference": "32794",
+    "denomination": "Rond-point",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.686728722274995, "lat": 48.140406700727716 }
+  },
+  {
+    "predefinedlocationreference": "32796",
+    "denomination": "Rond-point",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6867095545113795, "lat": 48.140237179498655 }
+  },
+  {
+    "predefinedlocationreference": "34744",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.58434706281888, "lat": 48.112162897911006 }
+  },
+  {
+    "predefinedlocationreference": "34745",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5832977632748815, "lat": 48.11264544402535 }
+  },
+  {
+    "predefinedlocationreference": "35072",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6106091861307457, "lat": 48.10123071207282 }
+  },
+  {
+    "predefinedlocationreference": "35077",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6080088218809732, "lat": 48.102416870861745 }
+  },
+  {
+    "predefinedlocationreference": "35086",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5953370871073027, "lat": 48.10832463753719 }
+  },
+  {
+    "predefinedlocationreference": "35096",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6043547248359256, "lat": 48.104424162976244 }
+  },
+  {
+    "predefinedlocationreference": "35098",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.595878215020458, "lat": 48.1079838763868 }
+  },
+  {
+    "predefinedlocationreference": "35942",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6286248677597701, "lat": 48.11411720306193 }
+  },
+  {
+    "predefinedlocationreference": "35943",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6287997948081487, "lat": 48.114131538624456 }
+  },
+  {
+    "predefinedlocationreference": "35944",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.628875176148201, "lat": 48.11399559058625 }
+  },
+  {
+    "predefinedlocationreference": "35945",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6286578574616764, "lat": 48.1139599086812 }
+  },
+  {
+    "predefinedlocationreference": "35953",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6336476130407087, "lat": 48.114202493930414 }
+  },
+  {
+    "predefinedlocationreference": "35954",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.633938161219838, "lat": 48.114235780563405 }
+  },
+  {
+    "predefinedlocationreference": "35955",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6336598440826926, "lat": 48.113945868081906 }
+  },
+  {
+    "predefinedlocationreference": "35956",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6340567482562607, "lat": 48.114009101007966 }
+  },
+  {
+    "predefinedlocationreference": "36005",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6226589335113288, "lat": 48.11424151679964 }
+  },
+  {
+    "predefinedlocationreference": "36006",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6227475951253614, "lat": 48.114124969409445 }
+  },
+  {
+    "predefinedlocationreference": "36007",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6228231759794614, "lat": 48.11424539336598 }
+  },
+  {
+    "predefinedlocationreference": "37207",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6251089498790288, "lat": 48.11150662697974 }
+  },
+  {
+    "predefinedlocationreference": "37208",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6251701969878276, "lat": 48.11136303824839 }
+  },
+  {
+    "predefinedlocationreference": "37209",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6252884234048341, "lat": 48.11148620780891 }
+  },
+  {
+    "predefinedlocationreference": "37730",
+    "denomination": "Rond-point",
+    "insee": 35024,
+    "geo_point_2d": { "lon": -1.6243769030219273, "lat": 48.15480690853228 }
+  },
+  {
+    "predefinedlocationreference": "37737",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6173333108083698, "lat": 48.14606263975556 }
+  },
+  {
+    "predefinedlocationreference": "37749",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6174978754359501, "lat": 48.145749376891004 }
+  },
+  {
+    "predefinedlocationreference": "37750",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6274858301935504, "lat": 48.140952280830795 }
+  },
+  {
+    "predefinedlocationreference": "37751",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6303361083045242, "lat": 48.140447651774565 }
+  },
+  {
+    "predefinedlocationreference": "37753",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6275368838540276, "lat": 48.14079032941409 }
+  },
+  {
+    "predefinedlocationreference": "37784",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.597097983748568, "lat": 48.13193251673514 }
+  },
+  {
+    "predefinedlocationreference": "37785",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5968794050126869, "lat": 48.13203240931764 }
+  },
+  {
+    "predefinedlocationreference": "37786",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5969793303619828, "lat": 48.131754111038 }
+  },
+  {
+    "predefinedlocationreference": "37818",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6032910577449386, "lat": 48.14960023276872 }
+  },
+  {
+    "predefinedlocationreference": "37819",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6022678015614742, "lat": 48.14916392030126 }
+  },
+  {
+    "predefinedlocationreference": "37822",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5938135488864182, "lat": 48.1476474723565 }
+  },
+  {
+    "predefinedlocationreference": "37826",
+    "denomination": "Rond-point",
+    "insee": 35024,
+    "geo_point_2d": { "lon": -1.624608927474465, "lat": 48.1546409945608 }
+  },
+  {
+    "predefinedlocationreference": "37827",
+    "denomination": "Rond-point",
+    "insee": 35024,
+    "geo_point_2d": { "lon": -1.6242802453360443, "lat": 48.155011043265674 }
+  },
+  {
+    "predefinedlocationreference": "37941",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5726416321062393, "lat": 48.11571885101699 }
+  },
+  {
+    "predefinedlocationreference": "37947",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5726331964136582, "lat": 48.12094337402129 }
+  },
+  {
+    "predefinedlocationreference": "37948",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5750233255967763, "lat": 48.13047680321842 }
+  },
+  {
+    "predefinedlocationreference": "37949",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5747908428808493, "lat": 48.13046537312072 }
+  },
+  {
+    "predefinedlocationreference": "37950",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5728583942067973, "lat": 48.12092741645794 }
+  },
+  {
+    "predefinedlocationreference": "37970",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.575659285533363, "lat": 48.11520194577846 }
+  },
+  {
+    "predefinedlocationreference": "38067",
+    "denomination": "Route nationale 136",
+    "insee": 35334,
+    "geo_point_2d": { "lon": -1.5840394522711925, "lat": 48.14111264403818 }
+  },
+  {
+    "predefinedlocationreference": "38070",
+    "denomination": "Route nationale 136",
+    "insee": 35334,
+    "geo_point_2d": { "lon": -1.5796041681455444, "lat": 48.1390084430544 }
+  },
+  {
+    "predefinedlocationreference": "38310",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5967444665527557, "lat": 48.13177268765834 }
+  },
+  {
+    "predefinedlocationreference": "38311",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.59668090988203, "lat": 48.13192672322151 }
+  },
+  {
+    "predefinedlocationreference": "38317",
+    "denomination": "Route nationale 136",
+    "insee": 35334,
+    "geo_point_2d": { "lon": -1.5925568514029567, "lat": 48.146722776413554 }
+  },
+  {
+    "predefinedlocationreference": "38318",
+    "denomination": "Route nationale 136",
+    "insee": 35334,
+    "geo_point_2d": { "lon": -1.589141024554101, "lat": 48.14463247792939 }
+  },
+  {
+    "predefinedlocationreference": "38319",
+    "denomination": "Route nationale 136",
+    "insee": 35334,
+    "geo_point_2d": { "lon": -1.5896727235530346, "lat": 48.14477564600544 }
+  },
+  {
+    "predefinedlocationreference": "39618",
+    "denomination": "Route nationale 136",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.5866288506357757, "lat": 48.14268832666744 }
+  },
+  {
+    "predefinedlocationreference": "39619",
+    "denomination": "Route nationale 136",
+    "insee": 35334,
+    "geo_point_2d": { "lon": -1.585944332278645, "lat": 48.142221588924514 }
+  },
+  {
+    "predefinedlocationreference": "40185_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6656770301736297, "lat": 48.044069505011365 }
+  },
+  {
+    "predefinedlocationreference": "40185_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.665694666551147, "lat": 48.04417678654144 }
+  },
+  {
+    "predefinedlocationreference": "41729",
+    "denomination": "Rond-point",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.711642781645105, "lat": 48.08225840444472 }
+  },
+  {
+    "predefinedlocationreference": "42375",
+    "denomination": "Rond-point",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.7115675839102613, "lat": 48.08212644367848 }
+  },
+  {
+    "predefinedlocationreference": "42383",
+    "denomination": "Rond-point",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.7115423691038616, "lat": 48.082336229003936 }
+  },
+  {
+    "predefinedlocationreference": "42384",
+    "denomination": "Rond-point",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.711354722618535, "lat": 48.08231977725971 }
+  },
+  {
+    "predefinedlocationreference": "42385",
+    "denomination": "Rond-point",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.7112772888975987, "lat": 48.08219542322129 }
+  },
+  {
+    "predefinedlocationreference": "42386",
+    "denomination": "Rond-point",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.7113721525817918, "lat": 48.08211143504347 }
+  },
+  {
+    "predefinedlocationreference": "42938_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6668901637999216, "lat": 48.11945682233113 }
+  },
+  {
+    "predefinedlocationreference": "42938_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6669756614652165, "lat": 48.11954831834052 }
+  },
+  {
+    "predefinedlocationreference": "42939_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6650269439380059, "lat": 48.12047692723941 }
+  },
+  {
+    "predefinedlocationreference": "42939_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6651349688083983, "lat": 48.12055703441813 }
+  },
+  {
+    "predefinedlocationreference": "42940_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.663310839664752, "lat": 48.121440228103445 }
+  },
+  {
+    "predefinedlocationreference": "42940_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.663404909171332, "lat": 48.12152787351391 }
+  },
+  {
+    "predefinedlocationreference": "42941_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6624831598830019, "lat": 48.1218536961776 }
+  },
+  {
+    "predefinedlocationreference": "42941_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6625899030638869, "lat": 48.12193481999932 }
+  },
+  {
+    "predefinedlocationreference": "42978_D",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6692069380001269, "lat": 48.11841947137069 }
+  },
+  {
+    "predefinedlocationreference": "42978_G",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6692671952907454, "lat": 48.11851888789944 }
+  },
+  {
+    "predefinedlocationreference": "42983_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6658445078651474, "lat": 48.11998502193399 }
+  },
+  {
+    "predefinedlocationreference": "42983_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6659482232980243, "lat": 48.12006768592727 }
+  },
+  {
+    "predefinedlocationreference": "43027_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6643441273313349, "lat": 48.12089138100954 }
+  },
+  {
+    "predefinedlocationreference": "43027_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.664452547642554, "lat": 48.12097124886114 }
+  },
+  {
+    "predefinedlocationreference": "43046_D",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6739597249721077, "lat": 48.1167925930055 }
+  },
+  {
+    "predefinedlocationreference": "43046_G",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.674115441526704, "lat": 48.1168207155813 }
+  },
+  {
+    "predefinedlocationreference": "43047_D",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6737023309668244, "lat": 48.117323214947774 }
+  },
+  {
+    "predefinedlocationreference": "43047_G",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6738514805635818, "lat": 48.117364133742065 }
+  },
+  {
+    "predefinedlocationreference": "43048_D",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6728005090056288, "lat": 48.11800294276418 }
+  },
+  {
+    "predefinedlocationreference": "43048_G",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.672862000450662, "lat": 48.118102709882436 }
+  },
+  {
+    "predefinedlocationreference": "43049_D",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.670390252690463, "lat": 48.118249727799196 }
+  },
+  {
+    "predefinedlocationreference": "43049_G",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6704038775388954, "lat": 48.118357271351854 }
+  },
+  {
+    "predefinedlocationreference": "43099",
+    "denomination": "Rue de l'Hôtel Dieu",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6780035339059518, "lat": 48.117348628142366 }
+  },
+  {
+    "predefinedlocationreference": "43352_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6926580691009356, "lat": 48.11455497375023 }
+  },
+  {
+    "predefinedlocationreference": "43451_D",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6927611761272696, "lat": 48.10950505671718 }
+  },
+  {
+    "predefinedlocationreference": "43627",
+    "denomination": "Pont Robert Schuman",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6945682974549359, "lat": 48.10753856063214 }
+  },
+  {
+    "predefinedlocationreference": "43658_D",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.692918883811261, "lat": 48.108338447312285 }
+  },
+  {
+    "predefinedlocationreference": "43658_G",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6930795268260936, "lat": 48.10834703905798 }
+  },
+  {
+    "predefinedlocationreference": "43718_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.666868921918733, "lat": 48.124970626355235 }
+  },
+  {
+    "predefinedlocationreference": "43718_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6669917721498604, "lat": 48.12504051052309 }
+  },
+  {
+    "predefinedlocationreference": "43719_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.666155524294166, "lat": 48.12552103659583 }
+  },
+  {
+    "predefinedlocationreference": "43719_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6662866684302384, "lat": 48.12558364531466 }
+  },
+  {
+    "predefinedlocationreference": "43720_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6655243087753095, "lat": 48.12625104562798 }
+  },
+  {
+    "predefinedlocationreference": "43720_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6656724841304313, "lat": 48.12629356180952 }
+  },
+  {
+    "predefinedlocationreference": "43724_D",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.67161656198667, "lat": 48.118178227843714 }
+  },
+  {
+    "predefinedlocationreference": "43724_G",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6716349125817493, "lat": 48.11828548008548 }
+  },
+  {
+    "predefinedlocationreference": "43736_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6652198528509234, "lat": 48.12672742821174 }
+  },
+  {
+    "predefinedlocationreference": "43736_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.665368109774999, "lat": 48.12676981890077 }
+  },
+  {
+    "predefinedlocationreference": "43743_G",
+    "denomination": "Rue d'Antrain",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6746601698079082, "lat": 48.119387883192424 }
+  },
+  {
+    "predefinedlocationreference": "43744_D",
+    "denomination": "Rue d'Antrain",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6724053035295763, "lat": 48.1204889432967 }
+  },
+  {
+    "predefinedlocationreference": "43744_G",
+    "denomination": "Rue d'Antrain",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6724771052974798, "lat": 48.1205855701633 }
+  },
+  {
+    "predefinedlocationreference": "43748",
+    "denomination": "Rue de Vincennes",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6736669665343968, "lat": 48.11792416261374 }
+  },
+  {
+    "predefinedlocationreference": "43757",
+    "denomination": "Rue Saint-Martin",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6764503436415406, "lat": 48.118330237089154 }
+  },
+  {
+    "predefinedlocationreference": "43758",
+    "denomination": "Rue Saint-Martin",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.677821547948905, "lat": 48.11900254801505 }
+  },
+  {
+    "predefinedlocationreference": "43786_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6608078160216837, "lat": 48.122715906791754 }
+  },
+  {
+    "predefinedlocationreference": "43786_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6609090038128675, "lat": 48.12279995510704 }
+  },
+  {
+    "predefinedlocationreference": "43787_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6597419748874818, "lat": 48.12335977391385 }
+  },
+  {
+    "predefinedlocationreference": "43787_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6598584466515462, "lat": 48.123434390763926 }
+  },
+  {
+    "predefinedlocationreference": "43788_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6568160244959311, "lat": 48.12495211544637 }
+  },
+  {
+    "predefinedlocationreference": "43788_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.656908200985327, "lat": 48.1250406608263 }
+  },
+  {
+    "predefinedlocationreference": "43789_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6562081100576433, "lat": 48.12521062232675 }
+  },
+  {
+    "predefinedlocationreference": "43789_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.656292248201997, "lat": 48.12530268538823 }
+  },
+  {
+    "predefinedlocationreference": "43790_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6553970307303103, "lat": 48.12556753362232 }
+  },
+  {
+    "predefinedlocationreference": "43790_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6554923750967911, "lat": 48.125654551931284 }
+  },
+  {
+    "predefinedlocationreference": "43791_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.654840560176928, "lat": 48.1258591771794 }
+  },
+  {
+    "predefinedlocationreference": "43791_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.654943373190771, "lat": 48.12594230828073 }
+  },
+  {
+    "predefinedlocationreference": "43792_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6541730532947718, "lat": 48.1262214907311 }
+  },
+  {
+    "predefinedlocationreference": "43792_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6542740374535745, "lat": 48.126305621018375 }
+  },
+  {
+    "predefinedlocationreference": "43819",
+    "denomination": "Rue Lesage",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.674877764575337, "lat": 48.11676018434001 }
+  },
+  {
+    "predefinedlocationreference": "43821",
+    "denomination": "Rue Saint-Martin",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6769358300644128, "lat": 48.11865642845282 }
+  },
+  {
+    "predefinedlocationreference": "43828_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.658837535666942, "lat": 48.123940537397566 }
+  },
+  {
+    "predefinedlocationreference": "43828_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.658942348521085, "lat": 48.12402250901151 }
+  },
+  {
+    "predefinedlocationreference": "43972",
+    "denomination": "Rue de Brest",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6956033580187875, "lat": 48.11318946725705 }
+  },
+  {
+    "predefinedlocationreference": "44231_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6434349137003372, "lat": 48.12947194146542 }
+  },
+  {
+    "predefinedlocationreference": "44231_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.643496078613397, "lat": 48.12957180202828 }
+  },
+  {
+    "predefinedlocationreference": "44232_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6350985727040435, "lat": 48.131987188510266 }
+  },
+  {
+    "predefinedlocationreference": "44232_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.635167114852905, "lat": 48.13208487927046 }
+  },
+  {
+    "predefinedlocationreference": "44234_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6341722168182304, "lat": 48.13232388589261 }
+  },
+  {
+    "predefinedlocationreference": "44234_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6342482501923417, "lat": 48.132419062652566 }
+  },
+  {
+    "predefinedlocationreference": "44293",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6601121170245692, "lat": 48.13397644135597 }
+  },
+  {
+    "predefinedlocationreference": "44303_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6648636692563792, "lat": 48.127288752990935 }
+  },
+  {
+    "predefinedlocationreference": "44303_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.665012500360484, "lat": 48.12733023463186 }
+  },
+  {
+    "predefinedlocationreference": "44304_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6644767538851004, "lat": 48.127903218974325 }
+  },
+  {
+    "predefinedlocationreference": "44304_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6646252430714081, "lat": 48.12794524902299 }
+  },
+  {
+    "predefinedlocationreference": "44322_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.639189311175417, "lat": 48.13064381739121 }
+  },
+  {
+    "predefinedlocationreference": "44322_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6392572993747736, "lat": 48.130741708463034 }
+  },
+  {
+    "predefinedlocationreference": "44328",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6608549886684005, "lat": 48.13319768428018 }
+  },
+  {
+    "predefinedlocationreference": "44868",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7169943490101878, "lat": 48.12433476267433 }
+  },
+  {
+    "predefinedlocationreference": "44880",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7181111383707786, "lat": 48.12357425201556 }
+  },
+  {
+    "predefinedlocationreference": "44882",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7200335535214981, "lat": 48.12078397854293 }
+  },
+  {
+    "predefinedlocationreference": "44884",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7148657448618767, "lat": 48.12605881131734 }
+  },
+  {
+    "predefinedlocationreference": "44920",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7170083555465014, "lat": 48.105091098409375 }
+  },
+  {
+    "predefinedlocationreference": "44948",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.720042461708936, "lat": 48.11850460189402 }
+  },
+  {
+    "predefinedlocationreference": "44966",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7179784266464226, "lat": 48.109427520319215 }
+  },
+  {
+    "predefinedlocationreference": "45012_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.651421167598684, "lat": 48.12756408726585 }
+  },
+  {
+    "predefinedlocationreference": "45012_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.651493054024383, "lat": 48.12766069292896 }
+  },
+  {
+    "predefinedlocationreference": "45028_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6470164396128188, "lat": 48.128528996948425 }
+  },
+  {
+    "predefinedlocationreference": "45028_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6470759421019439, "lat": 48.12862930637081 }
+  },
+  {
+    "predefinedlocationreference": "45029_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6449493209912642, "lat": 48.129073962590546 }
+  },
+  {
+    "predefinedlocationreference": "45029_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6450072541483505, "lat": 48.12917468304358 }
+  },
+  {
+    "predefinedlocationreference": "45106_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6487698757376545, "lat": 48.12807160752601 }
+  },
+  {
+    "predefinedlocationreference": "45106_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6488225022452407, "lat": 48.128173624728305 }
+  },
+  {
+    "predefinedlocationreference": "45169",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6908732361492398, "lat": 48.13266391064662 }
+  },
+  {
+    "predefinedlocationreference": "45240",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7188826647039146, "lat": 48.12308503091738 }
+  },
+  {
+    "predefinedlocationreference": "45241",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.719501263636411, "lat": 48.122218472463096 }
+  },
+  {
+    "predefinedlocationreference": "45306",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7177571283587447, "lat": 48.12408143148442 }
+  },
+  {
+    "predefinedlocationreference": "45327",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6997567731429595, "lat": 48.1386347674053 }
+  },
+  {
+    "predefinedlocationreference": "45630",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7176878067372534, "lat": 48.10893702316738 }
+  },
+  {
+    "predefinedlocationreference": "46771",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6281474751398404, "lat": 48.091226652357086 }
+  },
+  {
+    "predefinedlocationreference": "46821_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6580875428973407, "lat": 48.1394791120729 }
+  },
+  {
+    "predefinedlocationreference": "46821_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6582455957110225, "lat": 48.13950187054989 }
+  },
+  {
+    "predefinedlocationreference": "46923_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6576834706124781, "lat": 48.14051377497904 }
+  },
+  {
+    "predefinedlocationreference": "46923_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.657843896007605, "lat": 48.14052470831198 }
+  },
+  {
+    "predefinedlocationreference": "47061",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6657213675799998, "lat": 48.081122231399306 }
+  },
+  {
+    "predefinedlocationreference": "47239",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6571371257605154, "lat": 48.08135260084903 }
+  },
+  {
+    "predefinedlocationreference": "47410",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6560778367695579, "lat": 48.14231215123605 }
+  },
+  {
+    "predefinedlocationreference": "47411",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6608010897701737, "lat": 48.141946770288854 }
+  },
+  {
+    "predefinedlocationreference": "47416",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6607958399121951, "lat": 48.14210490746622 }
+  },
+  {
+    "predefinedlocationreference": "47418",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6556233291271765, "lat": 48.142172494502674 }
+  },
+  {
+    "predefinedlocationreference": "47480",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6403464669112011, "lat": 48.14113785522121 }
+  },
+  {
+    "predefinedlocationreference": "47481",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.640501653790027, "lat": 48.14099838751635 }
+  },
+  {
+    "predefinedlocationreference": "47537_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.657445810983693, "lat": 48.124650825378275 }
+  },
+  {
+    "predefinedlocationreference": "47537_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.657539981792231, "lat": 48.124738424776176 }
+  },
+  {
+    "predefinedlocationreference": "48758",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7136515079491015, "lat": 48.11800292278028 }
+  },
+  {
+    "predefinedlocationreference": "48759",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.713900923319243, "lat": 48.118054593025384 }
+  },
+  {
+    "predefinedlocationreference": "489972",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6682013932376494, "lat": 48.14176161839803 }
+  },
+  {
+    "predefinedlocationreference": "49026",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.691248385663468, "lat": 48.13234794404758 }
+  },
+  {
+    "predefinedlocationreference": "491005_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6441349002450831, "lat": 48.12928390511931 }
+  },
+  {
+    "predefinedlocationreference": "491005_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.644192832048511, "lat": 48.12938462597752 }
+  },
+  {
+    "predefinedlocationreference": "491714_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6576350059190927, "lat": 48.1408323337085 }
+  },
+  {
+    "predefinedlocationreference": "491714_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6577954322947432, "lat": 48.140843267112665 }
+  },
+  {
+    "predefinedlocationreference": "491735_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6575676631133915, "lat": 48.1412711148747 }
+  },
+  {
+    "predefinedlocationreference": "491735_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6577278449793504, "lat": 48.14128357499812 }
+  },
+  {
+    "predefinedlocationreference": "491794_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6614374224566317, "lat": 48.1325216331235 }
+  },
+  {
+    "predefinedlocationreference": "491794_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6615840402986977, "lat": 48.132566530357856 }
+  },
+  {
+    "predefinedlocationreference": "491877",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.713839210243247, "lat": 48.117769053674714 }
+  },
+  {
+    "predefinedlocationreference": "49315_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6619977897268958, "lat": 48.122087658557916 }
+  },
+  {
+    "predefinedlocationreference": "49315_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6620916038160876, "lat": 48.12217542718025 }
+  },
+  {
+    "predefinedlocationreference": "50571",
+    "denomination": "Rue de Brest",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6948342086583785, "lat": 48.11295973075965 }
+  },
+  {
+    "predefinedlocationreference": "50625",
+    "denomination": "Rue de Brest",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.69425463699057, "lat": 48.112828091755695 }
+  },
+  {
+    "predefinedlocationreference": "5064_D",
+    "denomination": "Route départementale 34",
+    "insee": 35352,
+    "geo_point_2d": { "lon": -1.6225120424790878, "lat": 48.04499690424194 }
+  },
+  {
+    "predefinedlocationreference": "5064_G",
+    "denomination": "Route départementale 34",
+    "insee": 35352,
+    "geo_point_2d": { "lon": -1.622491281532632, "lat": 48.04510393404717 }
+  },
+  {
+    "predefinedlocationreference": "51474_D",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.657995495808336, "lat": 48.12438470192854 }
+  },
+  {
+    "predefinedlocationreference": "51474_G",
+    "denomination": "Rue de Fougères",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6580910011212482, "lat": 48.12447165104957 }
+  },
+  {
+    "predefinedlocationreference": "52107_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6572305790364859, "lat": 48.14242418204982 }
+  },
+  {
+    "predefinedlocationreference": "52107_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6573880187081755, "lat": 48.14244754550416 }
+  },
+  {
+    "predefinedlocationreference": "53428",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7047102988965854, "lat": 48.135573632114934 }
+  },
+  {
+    "predefinedlocationreference": "53623",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6253292757695896, "lat": 48.154777547795426 }
+  },
+  {
+    "predefinedlocationreference": "53624",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6250803934984588, "lat": 48.154628032620174 }
+  },
+  {
+    "predefinedlocationreference": "53625",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6248211959425631, "lat": 48.1546075634926 }
+  },
+  {
+    "predefinedlocationreference": "53702",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.655119418272073, "lat": 48.08151829286671 }
+  },
+  {
+    "predefinedlocationreference": "53944",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7140274969829372, "lat": 48.117855828102726 }
+  },
+  {
+    "predefinedlocationreference": "53946",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7140357779865196, "lat": 48.117962446567574 }
+  },
+  {
+    "predefinedlocationreference": "53987",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6913438583192448, "lat": 48.132676754189966 }
+  },
+  {
+    "predefinedlocationreference": "54067",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6655863276448233, "lat": 48.14187794557363 }
+  },
+  {
+    "predefinedlocationreference": "54223_D",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.670762942130402, "lat": 48.118228367690776 }
+  },
+  {
+    "predefinedlocationreference": "54223_G",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.670776936159382, "lat": 48.11833588998299 }
+  },
+  {
+    "predefinedlocationreference": "54227",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6649666831620793, "lat": 48.14176335948779 }
+  },
+  {
+    "predefinedlocationreference": "54234",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7136292272147646, "lat": 48.11782658590653 }
+  },
+  {
+    "predefinedlocationreference": "54239",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6910271114342326, "lat": 48.132344668102256 }
+  },
+  {
+    "predefinedlocationreference": "54241",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6908341648642604, "lat": 48.132455367316716 }
+  },
+  {
+    "predefinedlocationreference": "54438_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6641184107224103, "lat": 48.128463699375665 }
+  },
+  {
+    "predefinedlocationreference": "54438_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6642644253194945, "lat": 48.128509452695326 }
+  },
+  {
+    "predefinedlocationreference": "54440_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6638506163737952, "lat": 48.128804045414064 }
+  },
+  {
+    "predefinedlocationreference": "54440_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6639924484429574, "lat": 48.12885535886345 }
+  },
+  {
+    "predefinedlocationreference": "54444_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.663593562104581, "lat": 48.129127611452546 }
+  },
+  {
+    "predefinedlocationreference": "54444_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6637389766761792, "lat": 48.129174216000315 }
+  },
+  {
+    "predefinedlocationreference": "54447_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6631405388406626, "lat": 48.129808625452604 }
+  },
+  {
+    "predefinedlocationreference": "54447_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6632883508927252, "lat": 48.1298517286064 }
+  },
+  {
+    "predefinedlocationreference": "54448_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.662611240918547, "lat": 48.13069298678209 }
+  },
+  {
+    "predefinedlocationreference": "54448_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6627618796049775, "lat": 48.13073150822242 }
+  },
+  {
+    "predefinedlocationreference": "54449_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6621397916672584, "lat": 48.131467759010015 }
+  },
+  {
+    "predefinedlocationreference": "54449_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6622876151282693, "lat": 48.131510843686236 }
+  },
+  {
+    "predefinedlocationreference": "54453_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6616741889884232, "lat": 48.13217515296861 }
+  },
+  {
+    "predefinedlocationreference": "54453_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6618208060521504, "lat": 48.13222004990487 }
+  },
+  {
+    "predefinedlocationreference": "54455",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6613458005467516, "lat": 48.1328477157309 }
+  },
+  {
+    "predefinedlocationreference": "54457",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6608595980977714, "lat": 48.1333558513383 }
+  },
+  {
+    "predefinedlocationreference": "54460",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6601938947029242, "lat": 48.13402136687301 }
+  },
+  {
+    "predefinedlocationreference": "54463_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6597033934023158, "lat": 48.13469838450203 }
+  },
+  {
+    "predefinedlocationreference": "54463_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6598582223900307, "lat": 48.13472850890987 }
+  },
+  {
+    "predefinedlocationreference": "54466_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.65868144587855, "lat": 48.13742881637264 }
+  },
+  {
+    "predefinedlocationreference": "54466_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6588397660406655, "lat": 48.13744994968556 }
+  },
+  {
+    "predefinedlocationreference": "54489",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6340698631836752, "lat": 48.11412402130398 }
+  },
+  {
+    "predefinedlocationreference": "54882",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6463287396415127, "lat": 48.111546253304795 }
+  },
+  {
+    "predefinedlocationreference": "54883",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.646168968463261, "lat": 48.1115834445809 }
+  },
+  {
+    "predefinedlocationreference": "54884",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6460945819182862, "lat": 48.111676781750546 }
+  },
+  {
+    "predefinedlocationreference": "54885",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6461184946026273, "lat": 48.11176858836323 }
+  },
+  {
+    "predefinedlocationreference": "54886",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6462747873762278, "lat": 48.11183892570059 }
+  },
+  {
+    "predefinedlocationreference": "54887",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6464920137708574, "lat": 48.11178509938392 }
+  },
+  {
+    "predefinedlocationreference": "54888",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6465414129110614, "lat": 48.11166178633919 }
+  },
+  {
+    "predefinedlocationreference": "54889",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6464765090781246, "lat": 48.11158670662047 }
+  },
+  {
+    "predefinedlocationreference": "55591",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6511367467797546, "lat": 48.122090015090876 }
+  },
+  {
+    "predefinedlocationreference": "55592",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6510238439666811, "lat": 48.12214476468672 }
+  },
+  {
+    "predefinedlocationreference": "55593",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6510408136221735, "lat": 48.12226839444693 }
+  },
+  {
+    "predefinedlocationreference": "55595",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6512918994524224, "lat": 48.12226525602787 }
+  },
+  {
+    "predefinedlocationreference": "55596",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6513261484769526, "lat": 48.12218470181479 }
+  },
+  {
+    "predefinedlocationreference": "55597",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6512595801784737, "lat": 48.12211233686099 }
+  },
+  {
+    "predefinedlocationreference": "563844_D",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.6973072104713394, "lat": 48.04341463345303 }
+  },
+  {
+    "predefinedlocationreference": "563844_G",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.697220183093829, "lat": 48.04350534568853 }
+  },
+  {
+    "predefinedlocationreference": "564067_D",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7315470890970488, "lat": 48.0543242805308 }
+  },
+  {
+    "predefinedlocationreference": "564067_G",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7315121863680858, "lat": 48.05442969150695 }
+  },
+  {
+    "predefinedlocationreference": "5651",
+    "denomination": "Rond-point",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7550784155482968, "lat": 48.06215022436908 }
+  },
+  {
+    "predefinedlocationreference": "5652",
+    "denomination": "Rond-point",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.755098006573538, "lat": 48.0620276298323 }
+  },
+  {
+    "predefinedlocationreference": "5653",
+    "denomination": "Rond-point",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7552399015794151, "lat": 48.062149956810146 }
+  },
+  {
+    "predefinedlocationreference": "5654",
+    "denomination": "Rond-point",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7552445858992591, "lat": 48.06203878927909 }
+  },
+  {
+    "predefinedlocationreference": "565682_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.661572286087751, "lat": 48.044510932387645 }
+  },
+  {
+    "predefinedlocationreference": "565682_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.661599478656452, "lat": 48.04461731249601 }
+  },
+  {
+    "predefinedlocationreference": "5663_D",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7601023826310689, "lat": 48.061732946463 }
+  },
+  {
+    "predefinedlocationreference": "5663_G",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7601196934235959, "lat": 48.06184036752845 }
+  },
+  {
+    "predefinedlocationreference": "566419",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6511778054114097, "lat": 48.122308785242986 }
+  },
+  {
+    "predefinedlocationreference": "5664_D",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7652242556504198, "lat": 48.06137486610774 }
+  },
+  {
+    "predefinedlocationreference": "5664_G",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7652011323466472, "lat": 48.06126805390348 }
+  },
+  {
+    "predefinedlocationreference": "566706_D",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6734279735583846, "lat": 48.11771607813583 }
+  },
+  {
+    "predefinedlocationreference": "566706_G",
+    "denomination": "Rue Jean Guéhenno",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6735628429041314, "lat": 48.11777518986419 }
+  },
+  {
+    "predefinedlocationreference": "566924_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6593779312796102, "lat": 48.13548104984568 }
+  },
+  {
+    "predefinedlocationreference": "566924_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.659533794894339, "lat": 48.13550868632065 }
+  },
+  {
+    "predefinedlocationreference": "56872",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7191891602478362, "lat": 48.11466217112456 }
+  },
+  {
+    "predefinedlocationreference": "56874",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7181515969676497, "lat": 48.110935912196396 }
+  },
+  {
+    "predefinedlocationreference": "56926",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6297642350197772, "lat": 48.09031849527958 }
+  },
+  {
+    "predefinedlocationreference": "57009",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7167397727630898, "lat": 48.10488752650471 }
+  },
+  {
+    "predefinedlocationreference": "57011",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7174816830456758, "lat": 48.1071618746385 }
+  },
+  {
+    "predefinedlocationreference": "63308",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6913993787981934, "lat": 48.132477977005195 }
+  },
+  {
+    "predefinedlocationreference": "63903",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6537655044232586, "lat": 48.14240532653342 }
+  },
+  {
+    "predefinedlocationreference": "64104_D",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.665006803915344, "lat": 48.1270613981614 }
+  },
+  {
+    "predefinedlocationreference": "64104_G",
+    "denomination": "Avenue Général George S. Patton",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6651550615058697, "lat": 48.12710378930667 }
+  },
+  {
+    "predefinedlocationreference": "6615_D",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7348009892278138, "lat": 48.05459923872089 }
+  },
+  {
+    "predefinedlocationreference": "6615_G",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7348312333462566, "lat": 48.054704626503515 }
+  },
+  {
+    "predefinedlocationreference": "6616",
+    "denomination": "Rond-point",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7359339830710268, "lat": 48.05451754514913 }
+  },
+  {
+    "predefinedlocationreference": "6619",
+    "denomination": "Rond-point",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7364844936643236, "lat": 48.05414037015076 }
+  },
+  {
+    "predefinedlocationreference": "6620",
+    "denomination": "Rond-point",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.735982944142742, "lat": 48.054166707162835 }
+  },
+  {
+    "predefinedlocationreference": "6621",
+    "denomination": "Rond-point",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.736241662222223, "lat": 48.05458640983103 }
+  },
+  {
+    "predefinedlocationreference": "6622",
+    "denomination": "Rond-point",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7365303316610088, "lat": 48.05448750387578 }
+  },
+  {
+    "predefinedlocationreference": "6623",
+    "denomination": "Rond-point",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7366161522094827, "lat": 48.0543394465528 }
+  },
+  {
+    "predefinedlocationreference": "6643",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7373925655061484, "lat": 48.055057853315034 }
+  },
+  {
+    "predefinedlocationreference": "6644",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7374940165423403, "lat": 48.05499607832978 }
+  },
+  {
+    "predefinedlocationreference": "6669_D",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7469255669929744, "lat": 48.059250081541954 }
+  },
+  {
+    "predefinedlocationreference": "6669_G",
+    "denomination": "Route départementale 34",
+    "insee": 35047,
+    "geo_point_2d": { "lon": -1.7469900729552206, "lat": 48.0591504968448 }
+  },
+  {
+    "predefinedlocationreference": "67816",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6280091720550667, "lat": 48.134541996633196 }
+  },
+  {
+    "predefinedlocationreference": "67820",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6279485432846619, "lat": 48.134575050360844 }
+  },
+  {
+    "predefinedlocationreference": "67821",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6280249788880368, "lat": 48.13460253028383 }
+  },
+  {
+    "predefinedlocationreference": "68070",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6339296504786918, "lat": 48.11392099360977 }
+  },
+  {
+    "predefinedlocationreference": "68815",
+    "denomination": "Rue de l'Hôtel Dieu",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6782354794177823, "lat": 48.11733264657238 }
+  },
+  {
+    "predefinedlocationreference": "71494",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.624983593692061, "lat": 48.0880188688717 }
+  },
+  {
+    "predefinedlocationreference": "71496",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6246744843508585, "lat": 48.08797577523898 }
+  },
+  {
+    "predefinedlocationreference": "71497",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.624950204719636, "lat": 48.087786757370964 }
+  },
+  {
+    "predefinedlocationreference": "74067",
+    "denomination": "Rond-point",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.7029619322314618, "lat": 48.056001082462544 }
+  },
+  {
+    "predefinedlocationreference": "74457_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6577748610504044, "lat": 48.044842535948796 }
+  },
+  {
+    "predefinedlocationreference": "74457_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.657791782822934, "lat": 48.04494988718428 }
+  },
+  {
+    "predefinedlocationreference": "75348",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6315486903975087, "lat": 48.120133269372026 }
+  },
+  {
+    "predefinedlocationreference": "75353",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6316072012148868, "lat": 48.12020882151427 }
+  },
+  {
+    "predefinedlocationreference": "75358",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6314972733179678, "lat": 48.12026214230948 }
+  },
+  {
+    "predefinedlocationreference": "75359",
+    "denomination": "Rond-point",
+    "insee": 35051,
+    "geo_point_2d": { "lon": -1.6314225672612557, "lat": 48.120168951985235 }
+  },
+  {
+    "predefinedlocationreference": "75385",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7122244785226535, "lat": 48.103860515506994 }
+  },
+  {
+    "predefinedlocationreference": "75812",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.718419505810502, "lat": 48.11129723984722 }
+  },
+  {
+    "predefinedlocationreference": "75813",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7183552254102954, "lat": 48.11183110809571 }
+  },
+  {
+    "predefinedlocationreference": "75814",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7185280962091212, "lat": 48.111814959828635 }
+  },
+  {
+    "predefinedlocationreference": "75815",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7187899738701762, "lat": 48.11381383515807 }
+  },
+  {
+    "predefinedlocationreference": "75821",
+    "denomination": "Route nationale 136",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.7051424667576445, "lat": 48.090373205383514 }
+  },
+  {
+    "predefinedlocationreference": "75823",
+    "denomination": "Route nationale 136",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.7042685702267544, "lat": 48.089696532429514 }
+  },
+  {
+    "predefinedlocationreference": "75866",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.694499988943714, "lat": 48.14029997224623 }
+  },
+  {
+    "predefinedlocationreference": "75867",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6906885920328434, "lat": 48.14057696428892 }
+  },
+  {
+    "predefinedlocationreference": "75869",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.677749262537083, "lat": 48.141177646082696 }
+  },
+  {
+    "predefinedlocationreference": "75883",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7171644327137263, "lat": 48.10584649988032 }
+  },
+  {
+    "predefinedlocationreference": "75884",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7172492852067185, "lat": 48.107053291475395 }
+  },
+  {
+    "predefinedlocationreference": "75885",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.716975197033797, "lat": 48.10496391644891 }
+  },
+  {
+    "predefinedlocationreference": "75886",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7169506147533065, "lat": 48.10580765534703 }
+  },
+  {
+    "predefinedlocationreference": "7864_D",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.719177396781467, "lat": 48.05173539959262 }
+  },
+  {
+    "predefinedlocationreference": "7864_G",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.7191270411743176, "lat": 48.05183795396579 }
+  },
+  {
+    "predefinedlocationreference": "790_D",
+    "denomination": "Route départementale 34",
+    "insee": 35352,
+    "geo_point_2d": { "lon": -1.6132260874871645, "lat": 48.04468782386913 }
+  },
+  {
+    "predefinedlocationreference": "790_G",
+    "denomination": "Route départementale 34",
+    "insee": 35352,
+    "geo_point_2d": { "lon": -1.6132292397316736, "lat": 48.04457991649775 }
+  },
+  {
+    "predefinedlocationreference": "791_D",
+    "denomination": "Route départementale 34",
+    "insee": 35352,
+    "geo_point_2d": { "lon": -1.609828512377522, "lat": 48.04470721706178 }
+  },
+  {
+    "predefinedlocationreference": "791_G",
+    "denomination": "Route départementale 34",
+    "insee": 35352,
+    "geo_point_2d": { "lon": -1.6098184720181645, "lat": 48.04459944156994 }
+  },
+  {
+    "predefinedlocationreference": "7995_D",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.7273955328815354, "lat": 48.05357849008502 }
+  },
+  {
+    "predefinedlocationreference": "7995_G",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.7273539204842563, "lat": 48.05368275321151 }
+  },
+  {
+    "predefinedlocationreference": "862_D",
+    "denomination": "Route départementale 34",
+    "insee": 35352,
+    "geo_point_2d": { "lon": -1.6169330788674185, "lat": 48.04467849900242 }
+  },
+  {
+    "predefinedlocationreference": "862_G",
+    "denomination": "Route départementale 34",
+    "insee": 35352,
+    "geo_point_2d": { "lon": -1.616923033275604, "lat": 48.04478622000436 }
+  },
+  {
+    "predefinedlocationreference": "863_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6202285927055518, "lat": 48.04483907585822 }
+  },
+  {
+    "predefinedlocationreference": "863_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6202154110735068, "lat": 48.04494664471319 }
+  },
+  {
+    "predefinedlocationreference": "8963_D",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.688841489902116, "lat": 48.04045109555107 }
+  },
+  {
+    "predefinedlocationreference": "8963_G",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.6888207933221082, "lat": 48.0405581313702 }
+  },
+  {
+    "predefinedlocationreference": "8974_D",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.685113686062141, "lat": 48.04026727540582 }
+  },
+  {
+    "predefinedlocationreference": "8974_G",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.6851333632808398, "lat": 48.04016015330801 }
+  },
+  {
+    "predefinedlocationreference": "8976_D",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.686137154484343, "lat": 48.04034550529661 }
+  },
+  {
+    "predefinedlocationreference": "8976_G",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.6861549553582873, "lat": 48.04023823601001 }
+  },
+  {
+    "predefinedlocationreference": "8977_D",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.6873820903831354, "lat": 48.040438977612304 }
+  },
+  {
+    "predefinedlocationreference": "8977_G",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.6873998275399344, "lat": 48.040331703569336 }
+  },
+  {
+    "predefinedlocationreference": "9057_D",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.7052684465907602, "lat": 48.04750724531895 }
+  },
+  {
+    "predefinedlocationreference": "9057_G",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.7051695071366757, "lat": 48.04759238032035 }
+  },
+  {
+    "predefinedlocationreference": "9058_D",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.7024474678673678, "lat": 48.04604731080367 }
+  },
+  {
+    "predefinedlocationreference": "9058_G",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.702349079301171, "lat": 48.04613273169684 }
+  },
+  {
+    "predefinedlocationreference": "9059_D",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.6995150550040405, "lat": 48.04452580857174 }
+  },
+  {
+    "predefinedlocationreference": "9059_G",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.69941645950805, "lat": 48.04461111990081 }
+  },
+  {
+    "predefinedlocationreference": "9068_D",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.6926221106902917, "lat": 48.04120289106085 }
+  },
+  {
+    "predefinedlocationreference": "9068_G",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.692551647203125, "lat": 48.04129797595798 }
+  },
+  {
+    "predefinedlocationreference": "9070_D",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.7094131149688814, "lat": 48.04922720242578 }
+  },
+  {
+    "predefinedlocationreference": "9070_G",
+    "denomination": "Route départementale 34",
+    "insee": 35066,
+    "geo_point_2d": { "lon": -1.709334307694008, "lat": 48.049321037503425 }
+  },
+  {
+    "predefinedlocationreference": "9073",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6535942412498774, "lat": 48.081549058467274 }
+  },
+  {
+    "predefinedlocationreference": "9074",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6544559568587887, "lat": 48.081413878061085 }
+  },
+  {
+    "predefinedlocationreference": "9082_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.651976972435628, "lat": 48.04492075840815 }
+  },
+  {
+    "predefinedlocationreference": "9082_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6519569693580862, "lat": 48.045027853098745 }
+  },
+  {
+    "predefinedlocationreference": "9090_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6689650267411755, "lat": 48.04335241990722 }
+  },
+  {
+    "predefinedlocationreference": "9090_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6690181755716076, "lat": 48.04345436466386 }
+  },
+  {
+    "predefinedlocationreference": "9199",
+    "denomination": "Rond-point",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.7029600890567875, "lat": 48.05619886469143 }
+  },
+  {
+    "predefinedlocationreference": "9200",
+    "denomination": "Rond-point",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.7034672803867774, "lat": 48.05583603845101 }
+  },
+  {
+    "predefinedlocationreference": "9201",
+    "denomination": "Rond-point",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.7031526338962053, "lat": 48.05584317662502 }
+  },
+  {
+    "predefinedlocationreference": "9202",
+    "denomination": "Rond-point",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.7032179118516975, "lat": 48.0563386563485 }
+  },
+  {
+    "predefinedlocationreference": "9203",
+    "denomination": "Rond-point",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.7035984188561923, "lat": 48.056301994493886 }
+  },
+  {
+    "predefinedlocationreference": "9204",
+    "denomination": "Rond-point",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.703735629214315, "lat": 48.056057811451566 }
+  },
+  {
+    "predefinedlocationreference": "9378",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6602276599617305, "lat": 48.0813966450948 }
+  },
+  {
+    "predefinedlocationreference": "9379",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6602565221319652, "lat": 48.08128098252723 }
+  },
+  {
+    "predefinedlocationreference": "9588_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6535047196148203, "lat": 48.045011541270256 }
+  },
+  {
+    "predefinedlocationreference": "9588_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.653499849555254, "lat": 48.04511939068053 }
+  },
+  {
+    "predefinedlocationreference": "9625_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6552725346544082, "lat": 48.044983665237545 }
+  },
+  {
+    "predefinedlocationreference": "9625_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6552862493171645, "lat": 48.04509120412289 }
+  },
+  {
+    "predefinedlocationreference": "9745_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6662045558775285, "lat": 48.04400015336488 }
+  },
+  {
+    "predefinedlocationreference": "9745_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.666238607092225, "lat": 48.04410564179176 }
+  },
+  {
+    "predefinedlocationreference": "9757_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.664687602101565, "lat": 48.04416592824745 }
+  },
+  {
+    "predefinedlocationreference": "9757_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6647101629427863, "lat": 48.044272794121355 }
+  },
+  {
+    "predefinedlocationreference": "9758_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6638846850157512, "lat": 48.044251943649655 }
+  },
+  {
+    "predefinedlocationreference": "9758_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6639110597677367, "lat": 48.04435841614219 }
+  },
+  {
+    "predefinedlocationreference": "9834_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6747347801156682, "lat": 48.041717985952715 }
+  },
+  {
+    "predefinedlocationreference": "9834_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6747984179863522, "lat": 48.04181712325215 }
+  },
+  {
+    "predefinedlocationreference": "9917_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.684458029974121, "lat": 48.04021174691233 }
+  },
+  {
+    "predefinedlocationreference": "9917_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6844768175847273, "lat": 48.04010455334258 }
+  },
+  {
+    "predefinedlocationreference": "9921_D",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6808048996880347, "lat": 48.04023708589987 }
+  },
+  {
+    "predefinedlocationreference": "9921_G",
+    "denomination": "Route départementale 34",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6808351424601335, "lat": 48.0403424698998 }
+  },
+  {
+    "predefinedlocationreference": "1637",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6404480340841217, "lat": 48.08248105768378 }
+  },
+  {
+    "predefinedlocationreference": "1640",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.639699786096324, "lat": 48.0820746203607 }
+  },
+  {
+    "predefinedlocationreference": "1641",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6400633987514488, "lat": 48.08195414175555 }
+  },
+  {
+    "predefinedlocationreference": "1642",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6404356328802656, "lat": 48.082046472436204 }
+  },
+  {
+    "predefinedlocationreference": "1680594",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6439980676031538, "lat": 48.086223110747994 }
+  },
+  {
+    "predefinedlocationreference": "1680595",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6440578874126077, "lat": 48.08608213380834 }
+  },
+  {
+    "predefinedlocationreference": "1680596",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6439650265960672, "lat": 48.0861309044017 }
+  },
+  {
+    "predefinedlocationreference": "1680597",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6441073071143941, "lat": 48.08623998231869 }
+  },
+  {
+    "predefinedlocationreference": "1680604",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6441711476946972, "lat": 48.08614658783702 }
+  },
+  {
+    "predefinedlocationreference": "1852",
+    "denomination": "Route nationale 136",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6227983683731881, "lat": 48.094399485168175 }
+  },
+  {
+    "predefinedlocationreference": "1857",
+    "denomination": "Route nationale 136",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6206919791184178, "lat": 48.095434954445516 }
+  },
+  {
+    "predefinedlocationreference": "1858",
+    "denomination": "Route nationale 136",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6256560799822817, "lat": 48.09277339069735 }
+  },
+  {
+    "predefinedlocationreference": "1859",
+    "denomination": "Route nationale 136",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.625163755903546, "lat": 48.09290636940121 }
+  },
+  {
+    "predefinedlocationreference": "41721",
+    "denomination": "Route nationale 136",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.7067000482886707, "lat": 48.09157634312081 }
+  },
+  {
+    "predefinedlocationreference": "41722",
+    "denomination": "Route nationale 136",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.7093024683481919, "lat": 48.09360218087068 }
+  },
+  {
+    "predefinedlocationreference": "41758",
+    "denomination": "Route nationale 136",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.7091516290779925, "lat": 48.09365823498355 }
+  },
+  {
+    "predefinedlocationreference": "41759",
+    "denomination": "Route nationale 136",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.701078158693934, "lat": 48.08730510395246 }
+  },
+  {
+    "predefinedlocationreference": "41760",
+    "denomination": "Route nationale 136",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.7011637217871873, "lat": 48.08717256571865 }
+  },
+  {
+    "predefinedlocationreference": "43449_D",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6927059809026563, "lat": 48.11118199942426 }
+  },
+  {
+    "predefinedlocationreference": "43449_G",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6928646541258972, "lat": 48.11116262425022 }
+  },
+  {
+    "predefinedlocationreference": "43450_D",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.693170348491684, "lat": 48.11237027373706 }
+  },
+  {
+    "predefinedlocationreference": "43450_G",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6933262988977589, "lat": 48.112343036180086 }
+  },
+  {
+    "predefinedlocationreference": "43451_G",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6929216959826778, "lat": 48.10951465267231 }
+  },
+  {
+    "predefinedlocationreference": "43452_D",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.692619059132723, "lat": 48.110682300563326 }
+  },
+  {
+    "predefinedlocationreference": "43452_G",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.692780280668078, "lat": 48.11068075338721 }
+  },
+  {
+    "predefinedlocationreference": "43622_D",
+    "denomination": "Rue Malakoff",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6932812136101503, "lat": 48.10687076161968 }
+  },
+  {
+    "predefinedlocationreference": "43622_G",
+    "denomination": "Rue Malakoff",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6931208709562575, "lat": 48.10685997260136 }
+  },
+  {
+    "predefinedlocationreference": "43623_D",
+    "denomination": "Rue Malakoff",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6933372383547587, "lat": 48.10653015262328 }
+  },
+  {
+    "predefinedlocationreference": "43623_G",
+    "denomination": "Rue Malakoff",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.693178433475467, "lat": 48.106511358218185 }
+  },
+  {
+    "predefinedlocationreference": "43624_D",
+    "denomination": "Rue Malakoff",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6934209350447904, "lat": 48.1059742422418 }
+  },
+  {
+    "predefinedlocationreference": "43624_G",
+    "denomination": "Rue Malakoff",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.693260073088426, "lat": 48.105967825250296 }
+  },
+  {
+    "predefinedlocationreference": "43625_D",
+    "denomination": "Pont Malakoff",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6931975905518168, "lat": 48.107455380819964 }
+  },
+  {
+    "predefinedlocationreference": "43625_G",
+    "denomination": "Pont Malakoff",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.69303711280624, "lat": 48.10744551840427 }
+  },
+  {
+    "predefinedlocationreference": "43657_D",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6929586526691514, "lat": 48.10801596361865 }
+  },
+  {
+    "predefinedlocationreference": "43657_G",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.693119174862949, "lat": 48.10802550713393 }
+  },
+  {
+    "predefinedlocationreference": "43659_D",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6928651841991103, "lat": 48.10874481231338 }
+  },
+  {
+    "predefinedlocationreference": "43659_G",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6930255559509302, "lat": 48.108755445205226 }
+  },
+  {
+    "predefinedlocationreference": "44071_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.69333195951679, "lat": 48.113134832426894 }
+  },
+  {
+    "predefinedlocationreference": "44071_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6934936179517042, "lat": 48.113130972171476 }
+  },
+  {
+    "predefinedlocationreference": "44080",
+    "denomination": "Rue de Brest",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6936406129658428, "lat": 48.112792136542076 }
+  },
+  {
+    "predefinedlocationreference": "44934",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7156769542395318, "lat": 48.101905370194885 }
+  },
+  {
+    "predefinedlocationreference": "45637",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7164078553500324, "lat": 48.103175235730504 }
+  },
+  {
+    "predefinedlocationreference": "45642",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7125220045078076, "lat": 48.096928797741185 }
+  },
+  {
+    "predefinedlocationreference": "45725",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7134483009139514, "lat": 48.097946843067675 }
+  },
+  {
+    "predefinedlocationreference": "46230",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6984426512645108, "lat": 48.08387656111076 }
+  },
+  {
+    "predefinedlocationreference": "46265",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.696500683340068, "lat": 48.08151919483246 }
+  },
+  {
+    "predefinedlocationreference": "46266",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6995093932301164, "lat": 48.085559013323255 }
+  },
+  {
+    "predefinedlocationreference": "46267",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6992518215827281, "lat": 48.084855986237194 }
+  },
+  {
+    "predefinedlocationreference": "46268",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6974937076978436, "lat": 48.08225050025644 }
+  },
+  {
+    "predefinedlocationreference": "46716",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6299598427563107, "lat": 48.09037714349108 }
+  },
+  {
+    "predefinedlocationreference": "46717",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6348407708970791, "lat": 48.087607689814845 }
+  },
+  {
+    "predefinedlocationreference": "46718",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6283276121063266, "lat": 48.09126935825255 }
+  },
+  {
+    "predefinedlocationreference": "47057",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6689887244704782, "lat": 48.08111190698971 }
+  },
+  {
+    "predefinedlocationreference": "47058",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6648004489526926, "lat": 48.081269803213324 }
+  },
+  {
+    "predefinedlocationreference": "47059",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6752220201254702, "lat": 48.080572847357544 }
+  },
+  {
+    "predefinedlocationreference": "47060",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6706952223368354, "lat": 48.08091064743762 }
+  },
+  {
+    "predefinedlocationreference": "47107",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.678665706340567, "lat": 48.08024043782155 }
+  },
+  {
+    "predefinedlocationreference": "47111",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6749886364378594, "lat": 48.08069243469604 }
+  },
+  {
+    "predefinedlocationreference": "47238",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.656970178138267, "lat": 48.08147671348206 }
+  },
+  {
+    "predefinedlocationreference": "47240",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6497071356229793, "lat": 48.081598667051296 }
+  },
+  {
+    "predefinedlocationreference": "47241",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6412141963339253, "lat": 48.08444306126348 }
+  },
+  {
+    "predefinedlocationreference": "47242",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6453151124510836, "lat": 48.082542335847215 }
+  },
+  {
+    "predefinedlocationreference": "47243",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6501867191172594, "lat": 48.08166318791009 }
+  },
+  {
+    "predefinedlocationreference": "47299",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6427299742605312, "lat": 48.084459655773976 }
+  },
+  {
+    "predefinedlocationreference": "47306",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6430845857074245, "lat": 48.08340772937213 }
+  },
+  {
+    "predefinedlocationreference": "48958_D",
+    "denomination": "Rue Malakoff",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6934847033450797, "lat": 48.1054022640345 }
+  },
+  {
+    "predefinedlocationreference": "48958_G",
+    "denomination": "Rue Malakoff",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.693324266373057, "lat": 48.105392155889604 }
+  },
+  {
+    "predefinedlocationreference": "50079_D",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6929268904530201, "lat": 48.11175063523419 }
+  },
+  {
+    "predefinedlocationreference": "50079_G",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6930826414340534, "lat": 48.11172289537288 }
+  },
+  {
+    "predefinedlocationreference": "50573_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.693154821189283, "lat": 48.113738674078796 }
+  },
+  {
+    "predefinedlocationreference": "50573_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6933087942062421, "lat": 48.11377081775036 }
+  },
+  {
+    "predefinedlocationreference": "53675",
+    "denomination": "Rond-point",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.6405708736401075, "lat": 48.082243111900624 }
+  },
+  {
+    "predefinedlocationreference": "53676",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.642993100229653, "lat": 48.084163152069195 }
+  },
+  {
+    "predefinedlocationreference": "53678",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6432261180350385, "lat": 48.08425512919957 }
+  },
+  {
+    "predefinedlocationreference": "54334_D",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6933239232027617, "lat": 48.11276461388701 }
+  },
+  {
+    "predefinedlocationreference": "54334_G",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6934798747588204, "lat": 48.11273737626676 }
+  },
+  {
+    "predefinedlocationreference": "54337",
+    "denomination": "Rue de Brest",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6948253564975448, "lat": 48.112886906876675 }
+  },
+  {
+    "predefinedlocationreference": "55446",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6498702469091493, "lat": 48.104026619610416 }
+  },
+  {
+    "predefinedlocationreference": "55447",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6500001940037554, "lat": 48.10415913010749 }
+  },
+  {
+    "predefinedlocationreference": "55448",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6501717224373946, "lat": 48.104067900148536 }
+  },
+  {
+    "predefinedlocationreference": "55449",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6500525593133273, "lat": 48.10393894425556 }
+  },
+  {
+    "predefinedlocationreference": "55820",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6445105889900191, "lat": 48.08726764469713 }
+  },
+  {
+    "predefinedlocationreference": "55821",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6443043023779347, "lat": 48.087391407332 }
+  },
+  {
+    "predefinedlocationreference": "55822",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6443818982950444, "lat": 48.08765766062284 }
+  },
+  {
+    "predefinedlocationreference": "55823",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.644622995982419, "lat": 48.08771700468546 }
+  },
+  {
+    "predefinedlocationreference": "55824",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6448029687187307, "lat": 48.08766131748117 }
+  },
+  {
+    "predefinedlocationreference": "55827",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6433178359861342, "lat": 48.08440416354626 }
+  },
+  {
+    "predefinedlocationreference": "55830",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6431862030599889, "lat": 48.08459891177733 }
+  },
+  {
+    "predefinedlocationreference": "56019",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6449168262063711, "lat": 48.08749637768752 }
+  },
+  {
+    "predefinedlocationreference": "56118",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6609816350530595, "lat": 48.08342715328623 }
+  },
+  {
+    "predefinedlocationreference": "56124",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6609656025171478, "lat": 48.08352922909401 }
+  },
+  {
+    "predefinedlocationreference": "56125",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.66104526117062, "lat": 48.083484648654476 }
+  },
+  {
+    "predefinedlocationreference": "56170",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.658620934482524, "lat": 48.09129971841223 }
+  },
+  {
+    "predefinedlocationreference": "56179",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6584178554954205, "lat": 48.0912335812877 }
+  },
+  {
+    "predefinedlocationreference": "56180",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6581761175128706, "lat": 48.091369528938685 }
+  },
+  {
+    "predefinedlocationreference": "56181",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6582629582447574, "lat": 48.09152655103642 }
+  },
+  {
+    "predefinedlocationreference": "56182",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6585384081758932, "lat": 48.091554214249896 }
+  },
+  {
+    "predefinedlocationreference": "56183",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6586843905517978, "lat": 48.09144080959226 }
+  },
+  {
+    "predefinedlocationreference": "56223",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6609955886745393, "lat": 48.08632236869278 }
+  },
+  {
+    "predefinedlocationreference": "56229",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6608672294668627, "lat": 48.086463133430065 }
+  },
+  {
+    "predefinedlocationreference": "56231",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6611024232598797, "lat": 48.08652965535205 }
+  },
+  {
+    "predefinedlocationreference": "56232",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6611299999967808, "lat": 48.086376757907324 }
+  },
+  {
+    "predefinedlocationreference": "56247",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6509051117816556, "lat": 48.09117828389859 }
+  },
+  {
+    "predefinedlocationreference": "56254",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6505854184070328, "lat": 48.091254658657505 }
+  },
+  {
+    "predefinedlocationreference": "56255",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.650746928685818, "lat": 48.091334377144555 }
+  },
+  {
+    "predefinedlocationreference": "56256",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.650918660254166, "lat": 48.09126862530117 }
+  },
+  {
+    "predefinedlocationreference": "56298",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6507555086572165, "lat": 48.09112400943835 }
+  },
+  {
+    "predefinedlocationreference": "56300",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6506085686114897, "lat": 48.091171742024585 }
+  },
+  {
+    "predefinedlocationreference": "56333",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.644757782001789, "lat": 48.087304790851256 }
+  },
+  {
+    "predefinedlocationreference": "566457",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6582578252743305, "lat": 48.09127540544485 }
+  },
+  {
+    "predefinedlocationreference": "56925",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6346733397687385, "lat": 48.087835208995116 }
+  },
+  {
+    "predefinedlocationreference": "59837",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.660901981476697, "lat": 48.0834716622322 }
+  },
+  {
+    "predefinedlocationreference": "63045_D",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6926576784583733, "lat": 48.11027918058576 }
+  },
+  {
+    "predefinedlocationreference": "63045_G",
+    "denomination": "Rue Vaneau",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6928181853878943, "lat": 48.11028889080939 }
+  },
+  {
+    "predefinedlocationreference": "63934",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7122311812887239, "lat": 48.103593320457435 }
+  },
+  {
+    "predefinedlocationreference": "63940",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.712041815852336, "lat": 48.10355530688312 }
+  },
+  {
+    "predefinedlocationreference": "63941",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7118374557208458, "lat": 48.103644121830996 }
+  },
+  {
+    "predefinedlocationreference": "63942",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.711813682144825, "lat": 48.10379003683591 }
+  },
+  {
+    "predefinedlocationreference": "63943",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.711982394600823, "lat": 48.10388812197535 }
+  },
+  {
+    "predefinedlocationreference": "63944",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7179197559980615, "lat": 48.10150488534205 }
+  },
+  {
+    "predefinedlocationreference": "63950",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7177451110854802, "lat": 48.10167966638224 }
+  },
+  {
+    "predefinedlocationreference": "63951",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.717895372410422, "lat": 48.10175928651237 }
+  },
+  {
+    "predefinedlocationreference": "63952",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7180657421122942, "lat": 48.10173859240613 }
+  },
+  {
+    "predefinedlocationreference": "63953",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7181566610974859, "lat": 48.10163122716796 }
+  },
+  {
+    "predefinedlocationreference": "65682",
+    "denomination": "Route nationale 136",
+    "insee": 35055,
+    "geo_point_2d": { "lon": -1.625128245948569, "lat": 48.09277983106422 }
+  },
+  {
+    "predefinedlocationreference": "75387",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7123164697853397, "lat": 48.10371399906007 }
+  },
+  {
+    "predefinedlocationreference": "75820",
+    "denomination": "Route nationale 136",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.7052170573295207, "lat": 48.09061079242515 }
+  },
+  {
+    "predefinedlocationreference": "75825",
+    "denomination": "Route nationale 136",
+    "insee": 35281,
+    "geo_point_2d": { "lon": -1.7032277754407597, "lat": 48.088893524969244 }
+  },
+  {
+    "predefinedlocationreference": "75829",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6916736838133852, "lat": 48.078796705879824 }
+  },
+  {
+    "predefinedlocationreference": "9128",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6856255761508414, "lat": 48.07955070720634 }
+  },
+  {
+    "predefinedlocationreference": "9131",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6805932968543307, "lat": 48.080171193780195 }
+  },
+  {
+    "predefinedlocationreference": "9132",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6854150155568606, "lat": 48.079689551284076 }
+  },
+  {
+    "predefinedlocationreference": "9146",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6801020499445753, "lat": 48.08010147392979 }
+  },
+  {
+    "predefinedlocationreference": "9179",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6934627560593571, "lat": 48.07917743958171 }
+  },
+  {
+    "predefinedlocationreference": "9180",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6923303463355701, "lat": 48.07949133369489 }
+  },
+  {
+    "predefinedlocationreference": "9182",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.6942167343481724, "lat": 48.077248704354915 }
+  },
+  {
+    "predefinedlocationreference": "9183",
+    "denomination": "Route nationale 136",
+    "insee": 35206,
+    "geo_point_2d": { "lon": -1.693572493671101, "lat": 48.07794671067033 }
+  },
+  {
+    "predefinedlocationreference": "1677832",
+    "denomination": "Rue de l'Hôtel Dieu",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6802536449269703, "lat": 48.117194171017616 }
+  },
+  {
+    "predefinedlocationreference": "1679794",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6977301094646484, "lat": 48.10922426843804 }
+  },
+  {
+    "predefinedlocationreference": "1679796",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.697658217637476, "lat": 48.109117392368965 }
+  },
+  {
+    "predefinedlocationreference": "1679798",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6975225100436095, "lat": 48.10913547214851 }
+  },
+  {
+    "predefinedlocationreference": "1679800",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6975566708146494, "lat": 48.10925866251048 }
+  },
+  {
+    "predefinedlocationreference": "1680335",
+    "denomination": "Rue Saint-Martin",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.679730267436287, "lat": 48.11960429562633 }
+  },
+  {
+    "predefinedlocationreference": "1680340",
+    "denomination": "Rue de l'Hôtel Dieu",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6794724713153941, "lat": 48.117247406615796 }
+  },
+  {
+    "predefinedlocationreference": "31552",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6914263031012746, "lat": 48.14068984092456 }
+  },
+  {
+    "predefinedlocationreference": "43105_D",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6807500199714738, "lat": 48.11747649703213 }
+  },
+  {
+    "predefinedlocationreference": "43105_G",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6809112277905505, "lat": 48.117476710739915 }
+  },
+  {
+    "predefinedlocationreference": "43338_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6886895078066533, "lat": 48.118818126449945 }
+  },
+  {
+    "predefinedlocationreference": "43338_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6888296045516644, "lat": 48.11887150195612 }
+  },
+  {
+    "predefinedlocationreference": "43339_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6870261851875576, "lat": 48.12072141537639 }
+  },
+  {
+    "predefinedlocationreference": "43339_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6871642982355837, "lat": 48.120777066183564 }
+  },
+  {
+    "predefinedlocationreference": "43340_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6873101874574399, "lat": 48.120406040293005 }
+  },
+  {
+    "predefinedlocationreference": "43340_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6874479598527634, "lat": 48.12046206745504 }
+  },
+  {
+    "predefinedlocationreference": "43341_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6875337545568168, "lat": 48.120153722478754 }
+  },
+  {
+    "predefinedlocationreference": "43341_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6876726883803324, "lat": 48.12020844794756 }
+  },
+  {
+    "predefinedlocationreference": "43342_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6877861646953511, "lat": 48.11986534457749 }
+  },
+  {
+    "predefinedlocationreference": "43342_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6879254773379389, "lat": 48.11991963567618 }
+  },
+  {
+    "predefinedlocationreference": "43343_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.688204945571127, "lat": 48.1193816123527 }
+  },
+  {
+    "predefinedlocationreference": "43343_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6883444364414828, "lat": 48.11943569638393 }
+  },
+  {
+    "predefinedlocationreference": "43345_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6907182827592777, "lat": 48.11653325858908 }
+  },
+  {
+    "predefinedlocationreference": "43345_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6908567937692345, "lat": 48.116588451606944 }
+  },
+  {
+    "predefinedlocationreference": "43347_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6898723602777448, "lat": 48.11749031105442 }
+  },
+  {
+    "predefinedlocationreference": "43347_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6900100716777477, "lat": 48.11754639686814 }
+  },
+  {
+    "predefinedlocationreference": "43352_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6925189204380648, "lat": 48.114500510932515 }
+  },
+  {
+    "predefinedlocationreference": "43353_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6918023595265541, "lat": 48.1153173055169 }
+  },
+  {
+    "predefinedlocationreference": "43353_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6919410293519905, "lat": 48.11537231574225 }
+  },
+  {
+    "predefinedlocationreference": "43379_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6902268666693903, "lat": 48.117090509923564 }
+  },
+  {
+    "predefinedlocationreference": "43379_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6903660032488192, "lat": 48.11714499456099 }
+  },
+  {
+    "predefinedlocationreference": "43413_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6911606099556242, "lat": 48.11603861973091 }
+  },
+  {
+    "predefinedlocationreference": "43413_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6912985107699667, "lat": 48.11609449220522 }
+  },
+  {
+    "predefinedlocationreference": "43743_D",
+    "denomination": "Rue d'Antrain",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6745546892234293, "lat": 48.11930581244119 }
+  },
+  {
+    "predefinedlocationreference": "43746",
+    "denomination": "Rue de Vincennes",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6759297381888802, "lat": 48.118094658268376 }
+  },
+  {
+    "predefinedlocationreference": "43747",
+    "denomination": "Rue de Vincennes",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6747753332012993, "lat": 48.11796268337867 }
+  },
+  {
+    "predefinedlocationreference": "43751",
+    "denomination": "Rue Lesage",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.676690151921463, "lat": 48.11714137918617 }
+  },
+  {
+    "predefinedlocationreference": "43774_D",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6827124204152657, "lat": 48.121307519975645 }
+  },
+  {
+    "predefinedlocationreference": "43774_G",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.682834228784555, "lat": 48.1212368297863 }
+  },
+  {
+    "predefinedlocationreference": "43775_D",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6812220220975618, "lat": 48.12034898449283 }
+  },
+  {
+    "predefinedlocationreference": "43775_G",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.681324940539888, "lat": 48.120265917986856 }
+  },
+  {
+    "predefinedlocationreference": "43826_D",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6821348415833612, "lat": 48.120899236398266 }
+  },
+  {
+    "predefinedlocationreference": "43826_G",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.682248960325773, "lat": 48.120823010856 }
+  },
+  {
+    "predefinedlocationreference": "44939",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7190690494856675, "lat": 48.12058509721304 }
+  },
+  {
+    "predefinedlocationreference": "45242",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7120878333116976, "lat": 48.12836668437383 }
+  },
+  {
+    "predefinedlocationreference": "45246",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.712786047554572, "lat": 48.12809517198827 }
+  },
+  {
+    "predefinedlocationreference": "48915_D",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6805478608101498, "lat": 48.11988512703185 }
+  },
+  {
+    "predefinedlocationreference": "48915_G",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.680691300543048, "lat": 48.11983588957966 }
+  },
+  {
+    "predefinedlocationreference": "48916",
+    "denomination": "Rue Saint-Martin",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.680481836699541, "lat": 48.11989080378378 }
+  },
+  {
+    "predefinedlocationreference": "48993_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6893872751613372, "lat": 48.118030262890144 }
+  },
+  {
+    "predefinedlocationreference": "48993_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6895255556255444, "lat": 48.11808571895975 }
+  },
+  {
+    "predefinedlocationreference": "50087",
+    "denomination": "Rue Saint-Martin",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6787652003669526, "lat": 48.11929905473721 }
+  },
+  {
+    "predefinedlocationreference": "50107_D",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6803417644843694, "lat": 48.119073770925205 }
+  },
+  {
+    "predefinedlocationreference": "50107_G",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6805014666269193, "lat": 48.11907061213573 }
+  },
+  {
+    "predefinedlocationreference": "53130_D",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6805972379713794, "lat": 48.11809822641774 }
+  },
+  {
+    "predefinedlocationreference": "53130_G",
+    "denomination": "Rue de Saint-Malo",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6807547466024335, "lat": 48.11812105525954 }
+  },
+  {
+    "predefinedlocationreference": "53375_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6914286981518514, "lat": 48.11573960308823 }
+  },
+  {
+    "predefinedlocationreference": "53375_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6915673453347495, "lat": 48.11579464017723 }
+  },
+  {
+    "predefinedlocationreference": "53427",
+    "denomination": "Route nationale 136",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.7060569083915176, "lat": 48.134194007928976 }
+  },
+  {
+    "predefinedlocationreference": "53989",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6911224357842132, "lat": 48.13274947952624 }
+  },
+  {
+    "predefinedlocationreference": "53995",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.68537397693727, "lat": 48.13355837208078 }
+  },
+  {
+    "predefinedlocationreference": "53997",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6852104145462798, "lat": 48.1334738720281 }
+  },
+  {
+    "predefinedlocationreference": "53999",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6852441144620518, "lat": 48.133573886883106 }
+  },
+  {
+    "predefinedlocationreference": "56598",
+    "denomination": "Rond-point",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6853455561187665, "lat": 48.133456427108875 }
+  },
+  {
+    "predefinedlocationreference": "63409_D",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6889435027291546, "lat": 48.118525719023566 }
+  },
+  {
+    "predefinedlocationreference": "63409_G",
+    "denomination": "Boulevard de Verdun",
+    "insee": 35238,
+    "geo_point_2d": { "lon": -1.6890815549700362, "lat": 48.11858143093815 }
+  },
+  {
+    "predefinedlocationreference": "75868",
+    "denomination": "Route nationale 136",
+    "insee": 35278,
+    "geo_point_2d": { "lon": -1.6887454327067166, "lat": 48.14083217949567 }
+  }
+]

@@ -1,45 +1,78 @@
 // -----------------------------------------------------------------------------
-// Integration configuration.
-//
-// The configuration is filled in by the user in Gladys, from the `config_schema`
-// declared in `gladys-assistant-integration.json`. The SDK fetches it for you
-// (`gladys.getConfig()`) and notifies you of every change through
-// `gladys.onConfigUpdated()`.
-//
-// This module only provides defaults and normalizes the received object, so the
-// rest of the code never has to deal with `undefined`.
+// Integration configuration: defaults (they mirror the `default` values of the
+// manifest `config_schema`, see test/manifest.test.js) and normalization, so
+// the rest of the code never deals with strings, blanks or `undefined`.
 // -----------------------------------------------------------------------------
 
-// Defaults: they MUST stay consistent with the `default` values declared in the
-// `config_schema` of the manifest.
+import { SOURCE_KEYS } from './sources.js';
+
+export const LANGUAGES = ['en', 'fr', 'de', 'es'];
+
+// Seconds between two readings: two to five minutes, the pace of the portals.
+// The integration drives its own timer (devices are published with
+// should_poll: false, the core only polls up to one minute).
+export const REFRESH_INTERVALS = ['120', '180', '300'];
+
+// Radius of the "around the house" device, in metres; "0" = no such device.
+export const HOME_RADII = ['0', '500', '1000', '2000', '3000'];
+
 export const DEFAULT_CONFIG = {
-  latitude: 48.8566, // Paris
-  longitude: 2.3522,
-  unit: 'celsius', // 'celsius' | 'fahrenheit'
-  // Seconds between two reads of the polled sensors. Gladys polls at most once
-  // a minute: slower intervals are applied by skipping polls (see
-  // createPoller in src/devices/index.js).
-  poll_frequency: 300,
-  // Reserved key (NOT in config_schema): because the manifest declares both
-  // 'local' and 'cloud' in its `transports` field, Gladys shows a standard
-  // "Prefer the local connection" toggle and sends the user's choice here.
-  // Read-only for the integration; defaults to true.
-  GLADYS_PREFER_LOCAL: true,
+  cities: [],
+  roads: '',
+  home_radius: '1000',
+  language: 'fr',
+  refresh_interval: '180',
 };
 
+// A search term shorter than this would match half the roads of a city.
+export const MIN_TERM = 3;
+
+/** Lower case, without accents: what the road search compares. */
+export const fold = (value) =>
+  String(value ?? '')
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .trim();
+
+/** The cities chosen: an array from the form, tolerating a JSON or comma-separated string. */
+function citiesOf(value) {
+  let list = value;
+  if (typeof value === 'string') {
+    try {
+      list = JSON.parse(value);
+    } catch {
+      list = value.split(',');
+    }
+  }
+  if (!Array.isArray(list)) {
+    return [];
+  }
+  const wanted = list.map((item) => String(item).trim());
+  return SOURCE_KEYS.filter((key) => wanted.includes(key));
+}
+
+/** "Rocade, Lorient; patton" → ["rocade", "lorient", "patton"]. */
+export function termsOf(value) {
+  const terms = String(value ?? '')
+    .split(/[,;\n]/)
+    .map(fold)
+    .filter((term) => term.length >= MIN_TERM);
+  return [...new Set(terms)];
+}
+
 /**
- * Merge the user config with the defaults.
- * @param {Record<string, unknown>} raw config returned by the SDK
+ * @param {Record<string, unknown>} raw the configuration returned by the SDK
  */
 export function normalizeConfig(raw = {}) {
+  const source = raw && typeof raw === 'object' ? raw : {};
+  const pick = (key, allowed) =>
+    allowed.includes(String(source[key])) ? String(source[key]) : DEFAULT_CONFIG[key];
   return {
-    ...DEFAULT_CONFIG,
-    ...raw,
-    // Force the types: config may arrive as strings from a form.
-    latitude: Number(raw.latitude ?? DEFAULT_CONFIG.latitude),
-    longitude: Number(raw.longitude ?? DEFAULT_CONFIG.longitude),
-    poll_frequency: Number(raw.poll_frequency ?? DEFAULT_CONFIG.poll_frequency),
-    // The preference is a boolean; anything but an explicit false means true.
-    GLADYS_PREFER_LOCAL: raw.GLADYS_PREFER_LOCAL !== false,
+    cities: citiesOf(source.cities),
+    terms: termsOf(source.roads),
+    homeRadius: Number(pick('home_radius', HOME_RADII)),
+    language: LANGUAGES.includes(source.language) ? source.language : DEFAULT_CONFIG.language,
+    refreshSeconds: Number(pick('refresh_interval', REFRESH_INTERVALS)),
   };
 }
