@@ -1,0 +1,847 @@
+[
+  {
+    "ident": 17,
+    "name": "Schirmeck17 - Entree Ville",
+    "geo_point_2d": { "lon": 7.7244175806, "lat": 48.57423938565 }
+  },
+  {
+    "ident": 18,
+    "name": "Schirmeck18 - Sortie Ville",
+    "geo_point_2d": { "lon": 7.7244160061, "lat": 48.57437876355001 }
+  },
+  {
+    "ident": 16,
+    "name": "Schirmeck16 - Sortie Ville",
+    "geo_point_2d": { "lon": 7.7202852907, "lat": 48.57363215715 }
+  },
+  {
+    "ident": 15,
+    "name": "Schirmeck15 - Entree Ville",
+    "geo_point_2d": { "lon": 7.7203134788500005, "lat": 48.5734622031 }
+  },
+  {
+    "ident": 14,
+    "name": "Schirmeck14 - Sortie Ville",
+    "geo_point_2d": { "lon": 7.71523150105, "lat": 48.5725436548 }
+  },
+  {
+    "ident": 13,
+    "name": "Schirmeck13 - Entree Ville",
+    "geo_point_2d": { "lon": 7.7153526355499995, "lat": 48.5724026085 }
+  },
+  {
+    "ident": 12,
+    "name": "Schirmeck12 - Sortie Ville",
+    "geo_point_2d": { "lon": 7.7121144092585165, "lat": 48.57118877605229 }
+  },
+  {
+    "ident": 11,
+    "name": "Schirmeck11 - Entree Ville",
+    "geo_point_2d": { "lon": 7.71225191006707, "lat": 48.5710650666233 }
+  },
+  {
+    "ident": 10,
+    "name": "Schirmeck10 - Sortie Ville",
+    "geo_point_2d": { "lon": 7.7100345749592885, "lat": 48.56889045370592 }
+  },
+  {
+    "ident": 9,
+    "name": "Schirmeck9 - Entree Ville",
+    "geo_point_2d": { "lon": 7.710224913599999, "lat": 48.56883925855 }
+  },
+  {
+    "ident": 7,
+    "name": "Schirmeck7 - Entree Ville",
+    "geo_point_2d": { "lon": 7.7092024856000005, "lat": 48.5676049589 }
+  },
+  {
+    "ident": 8,
+    "name": "Schirmeck8 - Sortie Ville",
+    "geo_point_2d": { "lon": 7.7089661055, "lat": 48.56766298055 }
+  },
+  {
+    "ident": 6,
+    "name": "Schirmeck6 - Sortie Ville",
+    "geo_point_2d": { "lon": 7.707909233452802, "lat": 48.56634333976427 }
+  },
+  {
+    "ident": 5,
+    "name": "Schirmeck5 - Entree Ville",
+    "geo_point_2d": { "lon": 7.708155213918222, "lat": 48.56628617802461 }
+  },
+  {
+    "ident": 3,
+    "name": "Schirmeck3 - Entree Ville",
+    "geo_point_2d": { "lon": 7.7036326511467585, "lat": 48.563494678871834 }
+  },
+  {
+    "ident": 4,
+    "name": "Schirmeck4 - Sortie Ville",
+    "geo_point_2d": { "lon": 7.703528853642415, "lat": 48.56363155708494 }
+  },
+  {
+    "ident": 2,
+    "name": "Schirmeck2 - Sortie Ville",
+    "geo_point_2d": { "lon": 7.697829959308189, "lat": 48.56222541647475 }
+  },
+  {
+    "ident": 1,
+    "name": "Schirmeck1 - Entree Ville",
+    "geo_point_2d": { "lon": 7.698018165358953, "lat": 48.562080319436454 }
+  },
+  {
+    "ident": 100,
+    "name": "Tanneurs",
+    "geo_point_2d": { "lon": 7.744031678349999, "lat": 48.583282391699996 }
+  },
+  {
+    "ident": 101,
+    "name": "St.Jean",
+    "geo_point_2d": { "lon": 7.73971046385, "lat": 48.5839967187 }
+  },
+  {
+    "ident": 104,
+    "name": "Fbg de Pierre -> Clémenceau",
+    "geo_point_2d": { "lon": 7.74577487699361, "lat": 48.58878981619327 }
+  },
+  {
+    "ident": 106,
+    "name": "Division Leclerc",
+    "geo_point_2d": { "lon": 7.7477805327, "lat": 48.57976486735 }
+  },
+  {
+    "ident": 107,
+    "name": "Rue des Serruriers",
+    "geo_point_2d": { "lon": 7.747756569601801, "lat": 48.580989130696516 }
+  },
+  {
+    "ident": 108,
+    "name": "Quai Kléber",
+    "geo_point_2d": { "lon": 7.74495657615, "lat": 48.58641127345 }
+  },
+  {
+    "ident": 109,
+    "name": "Rue du Fbg de Pierre->Nuée Bleue",
+    "geo_point_2d": { "lon": 7.7454737394100714, "lat": 48.58873365400397 }
+  },
+  {
+    "ident": 313,
+    "name": "Rue d'Obernai",
+    "geo_point_2d": { "lon": 7.7327659568, "lat": 48.57827517249999 }
+  },
+  {
+    "ident": 307,
+    "name": "Rue de Molsheim",
+    "geo_point_2d": { "lon": 7.733093927, "lat": 48.577297312300004 }
+  },
+  {
+    "ident": 201,
+    "name": "Quai Pasteur vers Quai Fustel",
+    "geo_point_2d": { "lon": 7.743844057344955, "lat": 48.574136726848856 }
+  },
+  {
+    "ident": 204,
+    "name": "Quai St.Nicolas -> Finkwiller",
+    "geo_point_2d": { "lon": 7.749862753316022, "lat": 48.57898738064737 }
+  },
+  {
+    "ident": 205,
+    "name": "Centre Administratif -> Bourse",
+    "geo_point_2d": { "lon": 7.7540159620524705, "lat": 48.573599786646504 }
+  },
+  {
+    "ident": 206,
+    "name": "Centre Administratif -> Neudorf",
+    "geo_point_2d": { "lon": 7.753663000267671, "lat": 48.57360048094644 }
+  },
+  {
+    "ident": 207,
+    "name": "Rue de la Porte de l'Hôpital",
+    "geo_point_2d": { "lon": 7.749913071530913, "lat": 48.57636586776576 }
+  },
+  {
+    "ident": 208,
+    "name": "Rte de l'Hôpital->Av. Colmar",
+    "geo_point_2d": { "lon": 7.75084477955, "lat": 48.57023838170001 }
+  },
+  {
+    "ident": 210,
+    "name": "Rue de Vienne -> Pont d'Austerlitz",
+    "geo_point_2d": { "lon": 7.7550806409, "lat": 48.574296501250004 }
+  },
+  {
+    "ident": 230,
+    "name": "Rte de l'Hopital -> Quai Fustel",
+    "geo_point_2d": { "lon": 7.7503027077, "lat": 48.57309048895 }
+  },
+  {
+    "ident": 231,
+    "name": "Rte de l'Hopital -> Hôtel de Police",
+    "geo_point_2d": { "lon": 7.749855940250001, "lat": 48.57384742755 }
+  },
+  {
+    "ident": 232,
+    "name": "Rte de l'Hôpital -> Pont Adenauer",
+    "geo_point_2d": { "lon": 7.750188575235164, "lat": 48.57266783249695 }
+  },
+  {
+    "ident": 301,
+    "name": "Place de la Gare -> Bld de Nancy",
+    "geo_point_2d": { "lon": 7.733212273435734, "lat": 48.58310480935942 }
+  },
+  {
+    "ident": 302,
+    "name": "Bld Wilson vers Fbg de Saverne",
+    "geo_point_2d": { "lon": 7.737647690499999, "lat": 48.58652614905 }
+  },
+  {
+    "ident": 303,
+    "name": "Pont Matthis -> Rue de Molsheim",
+    "geo_point_2d": { "lon": 7.7365434947505, "lat": 48.57793276108026 }
+  },
+  {
+    "ident": 304,
+    "name": "Pont Matthis -> Rue Humann",
+    "geo_point_2d": { "lon": 7.736445318679236, "lat": 48.57775902188162 }
+  },
+  {
+    "ident": 305,
+    "name": "Plaine des Bouchers -> Rue Humann",
+    "geo_point_2d": { "lon": 7.736917723831441, "lat": 48.57187175453707 }
+  },
+  {
+    "ident": 112,
+    "name": "Faubourg de Saverne vers Bld Wilson",
+    "geo_point_2d": { "lon": 7.73991828655, "lat": 48.586203759 }
+  },
+  {
+    "ident": 310,
+    "name": "Rue de Fouday",
+    "geo_point_2d": { "lon": 7.731456377300001, "lat": 48.574554803 }
+  },
+  {
+    "ident": 314,
+    "name": "Rue de Wasselonne",
+    "geo_point_2d": { "lon": 7.7329484523000005, "lat": 48.579249025950006 }
+  },
+  {
+    "ident": 113,
+    "name": "Faubourg de Saverne vers Pont de Savern",
+    "geo_point_2d": { "lon": 7.7396392054, "lat": 48.58606835675001 }
+  },
+  {
+    "ident": 320,
+    "name": "Bld Lyon (Obernai) -> Rue de Molsheim",
+    "geo_point_2d": { "lon": 7.7315962752, "lat": 48.577364879550004 }
+  },
+  {
+    "ident": 401,
+    "name": "Av.des Voges vers Av. Forêt-Noire",
+    "geo_point_2d": { "lon": 7.7476374571, "lat": 48.590469191400004 }
+  },
+  {
+    "ident": 817,
+    "name": "Bld Wilson -> Place de la Gare",
+    "geo_point_2d": { "lon": 7.73730140235, "lat": 48.58668233675 }
+  },
+  {
+    "ident": 422,
+    "name": "Av.de la Liberté vers Pl. Université",
+    "geo_point_2d": { "lon": 7.757417531649999, "lat": 48.586117994199995 }
+  },
+  {
+    "ident": 423,
+    "name": "Av.de la Liberté vers Pl.République",
+    "geo_point_2d": { "lon": 7.75759773405, "lat": 48.5863154474 }
+  },
+  {
+    "ident": 415,
+    "name": "Quai des Pêcheurs -> Rue de Zurich",
+    "geo_point_2d": { "lon": 7.757807406159876, "lat": 48.583199349365216 }
+  },
+  {
+    "ident": 416,
+    "name": "Quai des Pêcheurs -> Pont Royal",
+    "geo_point_2d": { "lon": 7.758013274011821, "lat": 48.58311218933887 }
+  },
+  {
+    "ident": 233,
+    "name": "Rte du Rhin (av.233)->Allemagne",
+    "geo_point_2d": { "lon": 7.767962675400001, "lat": 48.5719417814 }
+  },
+  {
+    "ident": 220,
+    "name": "Montee Contournement Sud (Hôpital)",
+    "geo_point_2d": { "lon": 7.748407441262649, "lat": 48.571857949517984 }
+  },
+  {
+    "ident": 806,
+    "name": "Petite Rue des Magasins",
+    "geo_point_2d": { "lon": 7.73868586465, "lat": 48.588963912850005 }
+  },
+  {
+    "ident": 226,
+    "name": "Cyclistes Rue de Vienne -> Centre",
+    "geo_point_2d": { "lon": 7.75549089085, "lat": 48.5743222932 }
+  },
+  {
+    "ident": 227,
+    "name": "Cyclistes Rue de Vienne -> Neudorf",
+    "geo_point_2d": { "lon": 7.7552951371, "lat": 48.5742987382 }
+  },
+  {
+    "ident": 110,
+    "name": "Cyclistes Fbd Pierre -> Clémenceau",
+    "geo_point_2d": { "lon": 7.74597922705, "lat": 48.588791962 }
+  },
+  {
+    "ident": 111,
+    "name": "Cycliste Fbg Pierre -> Nuée Bleue",
+    "geo_point_2d": { "lon": 7.74534532965, "lat": 48.58862723205 }
+  },
+  {
+    "ident": 249,
+    "name": "Cyclistes Quai Pasteur->Pont Pasteur",
+    "geo_point_2d": { "lon": 7.743916472520557, "lat": 48.57402372542483 }
+  },
+  {
+    "ident": 250,
+    "name": "Cyclistes Quai Pasteur->Porte Hôpital",
+    "geo_point_2d": { "lon": 7.7439574576163706, "lat": 48.573908622280086 }
+  },
+  {
+    "ident": 331,
+    "name": "Cyclistes Quai Bloch -> Centre ville",
+    "geo_point_2d": { "lon": 7.736290941888603, "lat": 48.577841555703884 }
+  },
+  {
+    "ident": 332,
+    "name": "Cyclistes Quai Bloch -> Elsau",
+    "geo_point_2d": { "lon": 7.736100440094763, "lat": 48.577757911974466 }
+  },
+  {
+    "ident": 1001,
+    "name": "Rte de Lyon (Baumann)->Industrie",
+    "geo_point_2d": { "lon": 7.728770128836041, "lat": 48.537260070110754 }
+  },
+  {
+    "ident": 1002,
+    "name": "Rte de Lyon (Industrie)->Baumann",
+    "geo_point_2d": { "lon": 7.72860788216911, "lat": 48.53743697661544 }
+  },
+  {
+    "ident": 1003,
+    "name": "Rte de Lyon (Mairie) -> Strasbourg",
+    "geo_point_2d": { "lon": 7.7092999636999995, "lat": 48.5262375518 }
+  },
+  {
+    "ident": 1004,
+    "name": "Rte de Lyon (Mairie)->Pont du Péage",
+    "geo_point_2d": { "lon": 7.708999063600001, "lat": 48.526315923499986 }
+  },
+  {
+    "ident": 333,
+    "name": "Cyclistes Rte des Romains -> C.Ville",
+    "geo_point_2d": { "lon": 7.719306724200001, "lat": 48.58032947455 }
+  },
+  {
+    "ident": 334,
+    "name": "Cycliste Rte des Romains->Eckbolsheim",
+    "geo_point_2d": { "lon": 7.719283739649999, "lat": 48.580463812350004 }
+  },
+  {
+    "ident": 424,
+    "name": "Cyclistes Pl.Haguenau -> Schiltigheim",
+    "geo_point_2d": { "lon": 7.741640590476598, "lat": 48.593163647832846 }
+  },
+  {
+    "ident": 425,
+    "name": "Cyclistes Pl.Haguenau -> C.Ville",
+    "geo_point_2d": { "lon": 7.741445526165339, "lat": 48.593163362575716 }
+  },
+  {
+    "ident": 537,
+    "name": "Cyclistes chemin Goeb -> Orangerie",
+    "geo_point_2d": { "lon": 7.783227495823053, "lat": 48.59267988387075 }
+  },
+  {
+    "ident": 538,
+    "name": "Cyclistes Chemin Goeb -> Robertsau",
+    "geo_point_2d": { "lon": 7.783401732448141, "lat": 48.592619168054014 }
+  },
+  {
+    "ident": 722,
+    "name": "Cyclistes Rue du Doubs - Centre ville",
+    "geo_point_2d": { "lon": 7.733350652349999, "lat": 48.555787498499996 }
+  },
+  {
+    "ident": 723,
+    "name": "Cyclistes Rue du Doubs -> Illkirch",
+    "geo_point_2d": { "lon": 7.73311150355, "lat": 48.55579468745 }
+  },
+  {
+    "ident": 815,
+    "name": "Cyclistes Piste J.Robic->Centre Ville",
+    "geo_point_2d": { "lon": 7.732703347376662, "lat": 48.590621510113756 }
+  },
+  {
+    "ident": 816,
+    "name": "Cyclistes Piste J.Robic -> Cronenbourg",
+    "geo_point_2d": { "lon": 7.732730556310751, "lat": 48.590747781627755 }
+  },
+  {
+    "ident": 217,
+    "name": "Rte du Rhin (UGC)->Allemagne",
+    "geo_point_2d": { "lon": 7.7644858081, "lat": 48.5724752822 }
+  },
+  {
+    "ident": 214,
+    "name": "Rte du Rhin (UGC)->Ville",
+    "geo_point_2d": { "lon": 7.7645582946500005, "lat": 48.57267926755 }
+  },
+  {
+    "ident": 229,
+    "name": "Rte du Rhin (Danube)->Churchill",
+    "geo_point_2d": { "lon": 7.76822220935, "lat": 48.57222139975 }
+  },
+  {
+    "ident": 222,
+    "name": "Rte du Rhin->Contournement Sud",
+    "geo_point_2d": { "lon": 7.75940894383256, "lat": 48.572903482787765 }
+  },
+  {
+    "ident": 225,
+    "name": "Sortie Tunnel -> Rte du Rhin",
+    "geo_point_2d": { "lon": 7.748750789000001, "lat": 48.57164389815 }
+  },
+  {
+    "ident": 215,
+    "name": "Sortie Rte du Rhin -> Pl.Etoile",
+    "geo_point_2d": { "lon": 7.757542575606811, "lat": 48.57323292366726 }
+  },
+  {
+    "ident": 221,
+    "name": "Pl. Etoile -> Contournemend Sud",
+    "geo_point_2d": { "lon": 7.75234656086407, "lat": 48.57224541721638 }
+  },
+  {
+    "ident": 642,
+    "name": "Cyclistes Rhin Tortu -> Offenstein",
+    "geo_point_2d": { "lon": 7.7577024742, "lat": 48.550033928999994 }
+  },
+  {
+    "ident": 643,
+    "name": "Cyclistes Rhin Tortu -> Provence",
+    "geo_point_2d": { "lon": 7.757472997790872, "lat": 48.550033033051704 }
+  },
+  {
+    "ident": 223,
+    "name": "Descente Contournement Sud Rte Hopital",
+    "geo_point_2d": { "lon": 7.7488088276500005, "lat": 48.57149265455 }
+  },
+  {
+    "ident": 224,
+    "name": "Descente contournement Sud Pl.Etoile",
+    "geo_point_2d": { "lon": 7.752167532626438, "lat": 48.57194483720913 }
+  },
+  {
+    "ident": 1021,
+    "name": "Rte de Lyon(Gast)->Glaciere",
+    "geo_point_2d": { "lon": 7.71511702896936, "lat": 48.53130511614631 }
+  },
+  {
+    "ident": 1022,
+    "name": "Rte de Lyon(Gast)->23 Novembre",
+    "geo_point_2d": { "lon": 7.714980819545343, "lat": 48.531506822752846 }
+  },
+  {
+    "ident": 923,
+    "name": "Cyc.Hausbergen->Schiltigheim",
+    "geo_point_2d": { "lon": 7.7275823198, "lat": 48.60620484054999 }
+  },
+  {
+    "ident": 924,
+    "name": "Cyc. Hausbergen->EEE",
+    "geo_point_2d": { "lon": 7.727695344849999, "lat": 48.60666093615 }
+  },
+  {
+    "ident": 253,
+    "name": "Cyclistes Corbeau->Austerlitz",
+    "geo_point_2d": { "lon": 7.751366773015807, "lat": 48.57898201570533 }
+  },
+  {
+    "ident": 254,
+    "name": "Cycliste Corbeau->Pt Corbeau",
+    "geo_point_2d": { "lon": 7.7515476906629734, "lat": 48.578998676203064 }
+  },
+  {
+    "ident": 430,
+    "name": "Cyclistes Kablé->Bordeaux",
+    "geo_point_2d": { "lon": 7.74884761365, "lat": 48.59306807385 }
+  },
+  {
+    "ident": 431,
+    "name": "Cyclistes Kablé->Haguenau",
+    "geo_point_2d": { "lon": 7.7488153095, "lat": 48.593193707249995 }
+  },
+  {
+    "ident": 337,
+    "name": "Cyclistes Remparts->Koenigshoffen",
+    "geo_point_2d": { "lon": 7.728364026617952, "lat": 48.58231972606313 }
+  },
+  {
+    "ident": 338,
+    "name": "Cyclistes Remparts->Wodli",
+    "geo_point_2d": { "lon": 7.728562784315089, "lat": 48.58227554427263 }
+  },
+  {
+    "ident": 251,
+    "name": "Cyclistes Schluthfeld->Pl.Etoile",
+    "geo_point_2d": { "lon": 7.7537951892122265, "lat": 48.57119477444815 }
+  },
+  {
+    "ident": 252,
+    "name": "Cyclistes Schluthfeld->Av.Colmar",
+    "geo_point_2d": { "lon": 7.753627874547131, "lat": 48.571236218831395 }
+  },
+  {
+    "ident": 202,
+    "name": "Quai Pasteur vers Pont Pasteur",
+    "geo_point_2d": { "lon": 7.743845174515238, "lat": 48.57432431525828 }
+  },
+  {
+    "ident": 1142,
+    "name": "Cyclistes M.Garin->Lemire",
+    "geo_point_2d": { "lon": 7.720551185550001, "lat": 48.5742774716 }
+  },
+  {
+    "ident": 1143,
+    "name": "Cyclistes M.Garin->Schirmeck",
+    "geo_point_2d": { "lon": 7.7204925721999995, "lat": 48.5744021934 }
+  },
+  {
+    "ident": 818,
+    "name": "Cyclistes Rte d'Oberh.(SDIS)->CV",
+    "geo_point_2d": { "lon": 7.72677929692224, "lat": 48.59025917156142 }
+  },
+  {
+    "ident": 819,
+    "name": "Cycl.Rte d'Oberh.(SDIS)->Cronenb.",
+    "geo_point_2d": { "lon": 7.7268081698316875, "lat": 48.590385692841565 }
+  },
+  {
+    "ident": 820,
+    "name": "Cycl.Rte d'Oberh. (DDT) -> CV",
+    "geo_point_2d": { "lon": 7.726903581485293, "lat": 48.59070774654437 }
+  },
+  {
+    "ident": 821,
+    "name": "Cycl. Rte d'Oberh. (DDT)->Cronenb.",
+    "geo_point_2d": { "lon": 7.726922365627631, "lat": 48.5908359539111 }
+  },
+  {
+    "ident": 724,
+    "name": "Cycl.Plaine des Bouchers->M.Verte",
+    "geo_point_2d": { "lon": 7.7387645853, "lat": 48.5672415013 }
+  },
+  {
+    "ident": 725,
+    "name": "Cycl.Plaine des Bouchers->Fédérat.",
+    "geo_point_2d": { "lon": 7.73854770765, "lat": 48.56726159995 }
+  },
+  {
+    "ident": 434,
+    "name": "Cyclistes Eg.Rouge->Kablé",
+    "geo_point_2d": { "lon": 7.746116523054556, "lat": 48.593540525275316 }
+  },
+  {
+    "ident": 435,
+    "name": "Cyclistes Eglise Rouge->Schiltigheim",
+    "geo_point_2d": { "lon": 7.746288350917925, "lat": 48.593560009621385 }
+  },
+  {
+    "ident": 648,
+    "name": "Cyclistes Rte Neuhof->Schuhansen",
+    "geo_point_2d": { "lon": 7.75843520445276, "lat": 48.54023220397047 }
+  },
+  {
+    "ident": 649,
+    "name": "Cyclistes Rte Neuhof->Illkirch",
+    "geo_point_2d": { "lon": 7.758582735691659, "lat": 48.54018177464391 }
+  },
+  {
+    "ident": 1025,
+    "name": "Cyclistes 23 Nov.-> Vigie",
+    "geo_point_2d": { "lon": 7.70698752775, "lat": 48.5317776966 }
+  },
+  {
+    "ident": 1026,
+    "name": "Cyclistes 23 Nov.->Illkirch",
+    "geo_point_2d": { "lon": 7.706921952249999, "lat": 48.53166103905 }
+  },
+  {
+    "ident": 1144,
+    "name": "Cyc. Ile Pêcheurs->Gal Leclerc",
+    "geo_point_2d": { "lon": 7.71307652055, "lat": 48.5505107274 }
+  },
+  {
+    "ident": 1145,
+    "name": "Cyc.Ile Pêcheurs->Rivage",
+    "geo_point_2d": { "lon": 7.71306369415, "lat": 48.55039156875 }
+  },
+  {
+    "ident": 263,
+    "name": "Cyclistes A.Kastler->Av.Rhin",
+    "geo_point_2d": { "lon": 7.771089523479872, "lat": 48.5728268123934 }
+  },
+  {
+    "ident": 261,
+    "name": "Cyclistes E.Michelet->Av.Rhin",
+    "geo_point_2d": { "lon": 7.766149204966607, "lat": 48.57357460220952 }
+  },
+  {
+    "ident": 262,
+    "name": "Cyclistes E.Michelet->Quai des Alpes",
+    "geo_point_2d": { "lon": 7.766314883079921, "lat": 48.57350961880679 }
+  },
+  {
+    "ident": 436,
+    "name": "Cyc.Pl.Haguenau->Kablé",
+    "geo_point_2d": { "lon": 7.7439583107, "lat": 48.592664923550004 }
+  },
+  {
+    "ident": 437,
+    "name": "Cyc.Haguenau->Bischwiller",
+    "geo_point_2d": { "lon": 7.744130134600001, "lat": 48.59270195445 }
+  },
+  {
+    "ident": 847,
+    "name": "P.R.Magasins->Cronenbourg",
+    "geo_point_2d": { "lon": 7.737272309892251, "lat": 48.58932823452931 }
+  },
+  {
+    "ident": 848,
+    "name": "P.R.Magasins->Wilson",
+    "geo_point_2d": { "lon": 7.737244780013299, "lat": 48.589211899141034 }
+  },
+  {
+    "ident": 541,
+    "name": "Cyc.Av.Europe->Robertsau",
+    "geo_point_2d": { "lon": 7.7742412744500005, "lat": 48.59514054459999 }
+  },
+  {
+    "ident": 542,
+    "name": "Cyc.Av.Europe->Bosquets",
+    "geo_point_2d": { "lon": 7.7741000295, "lat": 48.5952243977 }
+  },
+  {
+    "ident": 543,
+    "name": "Cyc.Europe(Sforza)->Robertsau",
+    "geo_point_2d": { "lon": 7.77386353835, "lat": 48.59546924695 }
+  },
+  {
+    "ident": 544,
+    "name": "Cyc.Europe(Sforza)->Sforza",
+    "geo_point_2d": { "lon": 7.773715737650001, "lat": 48.595555680800004 }
+  },
+  {
+    "ident": 266,
+    "name": "Orphelins->Sengenwald",
+    "geo_point_2d": { "lon": 7.754833230354883, "lat": 48.57912215489985 }
+  },
+  {
+    "ident": 265,
+    "name": "Orphelins->Zurich",
+    "geo_point_2d": { "lon": 7.755047612818899, "lat": 48.57903603926636 }
+  },
+  {
+    "ident": 732,
+    "name": "Cyc.Montagne-Verte->Unterelsau",
+    "geo_point_2d": { "lon": 7.730608237085423, "lat": 48.56931446280861 }
+  },
+  {
+    "ident": 733,
+    "name": "Cyc.Montagne-Verte->Pl.Bouchers",
+    "geo_point_2d": { "lon": 7.730541721352853, "lat": 48.56921285255895 }
+  },
+  {
+    "ident": 852,
+    "name": "Poincaré-WWilson",
+    "geo_point_2d": { "lon": 7.7434302524500005, "lat": 48.59034007434999 }
+  },
+  {
+    "ident": 850,
+    "name": "Wilson 884-881",
+    "geo_point_2d": { "lon": 7.740189364500001, "lat": 48.5892012452 }
+  },
+  {
+    "ident": 851,
+    "name": "Poincaré 884-405",
+    "geo_point_2d": { "lon": 7.7435120132, "lat": 48.590112265 }
+  },
+  {
+    "ident": 359,
+    "name": "Rue de Koenigshoffen -> C.Ville",
+    "geo_point_2d": { "lon": 7.7290871962344685, "lat": 48.57981377286935 }
+  },
+  {
+    "ident": 360,
+    "name": "Koenigshoffen -> Remparts",
+    "geo_point_2d": { "lon": 7.729245926911133, "lat": 48.58002210564831 }
+  },
+  {
+    "ident": 361,
+    "name": "Bld Nancy -> Gare",
+    "geo_point_2d": { "lon": 7.731899702036364, "lat": 48.58079039531414 }
+  },
+  {
+    "ident": 362,
+    "name": "Bld Nancy -> Bld Lyon",
+    "geo_point_2d": { "lon": 7.731562372119511, "lat": 48.58090565997781 }
+  },
+  {
+    "ident": 344,
+    "name": "Cyc.Romains Sud-> CV",
+    "geo_point_2d": { "lon": 7.71958234275, "lat": 48.57982774115 }
+  },
+  {
+    "ident": 345,
+    "name": "Cyc.Romains Sud -> Eckbo",
+    "geo_point_2d": { "lon": 7.71947243395, "lat": 48.5799588405 }
+  },
+  {
+    "ident": 666,
+    "name": "Cyc. Polygone->CV",
+    "geo_point_2d": { "lon": 7.757074481292429, "lat": 48.570049717130445 }
+  },
+  {
+    "ident": 667,
+    "name": "Cyc. Polygone->Neuhof",
+    "geo_point_2d": { "lon": 7.756910544924394, "lat": 48.57005348886874 }
+  },
+  {
+    "ident": 354,
+    "name": "Cyclistes Salles->Lyon",
+    "geo_point_2d": { "lon": 7.7335126405, "lat": 48.57445465385 }
+  },
+  {
+    "ident": 355,
+    "name": "Cyclistes Saales-> Porte de Schirmeck",
+    "geo_point_2d": { "lon": 7.7333386596999985, "lat": 48.574515661 }
+  },
+  {
+    "ident": 426,
+    "name": "Cyclistes Herrenschmidt->Mendes France",
+    "geo_point_2d": { "lon": 7.75512622135, "lat": 48.59690120345 }
+  },
+  {
+    "ident": 427,
+    "name": "Cyclistes Herrenschmidt->Bordeaux",
+    "geo_point_2d": { "lon": 7.754986461450001, "lat": 48.59681201425 }
+  },
+  {
+    "ident": 428,
+    "name": "Cyc.Herrenschmidt->Mendes France PMC",
+    "geo_point_2d": { "lon": 7.7559642107, "lat": 48.5973644622 }
+  },
+  {
+    "ident": 429,
+    "name": "Cyc.Herrenschmidt->Bordeaux (PMC)",
+    "geo_point_2d": { "lon": 7.755764863599999, "lat": 48.597258947849994 }
+  },
+  {
+    "ident": 438,
+    "name": "Cyc.Forêt-Noire->Brant",
+    "geo_point_2d": { "lon": 7.767957271649999, "lat": 48.58532029715 }
+  },
+  {
+    "ident": 439,
+    "name": "Cyc.Forêt-Noire->Pl. Islande",
+    "geo_point_2d": { "lon": 7.7679006559, "lat": 48.585198381699996 }
+  },
+  {
+    "ident": 550,
+    "name": "Cyc.voie TRAM->Jardiniers",
+    "geo_point_2d": { "lon": 7.784858809999999, "lat": 48.60007060405 }
+  },
+  {
+    "ident": 551,
+    "name": "Cyc.Voie TRAM->Docteur François",
+    "geo_point_2d": { "lon": 7.7850093028, "lat": 48.59994656305 }
+  },
+  {
+    "ident": 552,
+    "name": "Cyc.Voie TRAM->Médiane",
+    "geo_point_2d": { "lon": 7.78473604725, "lat": 48.609105665849995 }
+  },
+  {
+    "ident": 553,
+    "name": "Cyc. VoieTRAM->Renaissance",
+    "geo_point_2d": { "lon": 7.7849851168, "lat": 48.6090697371 }
+  },
+  {
+    "ident": 651,
+    "name": "Cyc.Av.Rhin->Allemagne",
+    "geo_point_2d": { "lon": 7.787324267099995, "lat": 48.57102309862108 }
+  },
+  {
+    "ident": 652,
+    "name": "Cyc.Av.Rhin->Pt.Vauban (Petit Rhin)",
+    "geo_point_2d": { "lon": 7.786553104598782, "lat": 48.57147295373508 }
+  },
+  {
+    "ident": 653,
+    "name": "Cyc.Av.Rhin->Allemagne (Petit Rhin)",
+    "geo_point_2d": { "lon": 7.786710226141005, "lat": 48.57141339145447 }
+  },
+  {
+    "ident": 654,
+    "name": "Cyc.Montée Rhin Napoléon->Av.Rhin",
+    "geo_point_2d": { "lon": 7.785151374850001, "lat": 48.569905034 }
+  },
+  {
+    "ident": 655,
+    "name": "Cyc.Av.Rhin->Rhin Napoléon",
+    "geo_point_2d": { "lon": 7.785159236, "lat": 48.569769082250005 }
+  },
+  {
+    "ident": 925,
+    "name": "Cyc.Rte de Brumath->Strasbourg",
+    "geo_point_2d": { "lon": 7.725379973849999, "lat": 48.6420874711 }
+  },
+  {
+    "ident": 926,
+    "name": "Cyc.Rte de Brumath->Vendenheim",
+    "geo_point_2d": { "lon": 7.7256214247, "lat": 48.6420983572 }
+  },
+  {
+    "ident": 1149,
+    "name": "Cyc.Ettore Bugatti->Vigie",
+    "geo_point_2d": { "lon": 7.699972274639316, "lat": 48.547529319523065 }
+  },
+  {
+    "ident": 1148,
+    "name": "Cyc.Ettore Bugatti->Lingolsheim",
+    "geo_point_2d": { "lon": 7.70013411715995, "lat": 48.547464353608774 }
+  },
+  {
+    "ident": 737,
+    "name": "Cycl/trot Doubs Ecluse > Eberts",
+    "geo_point_2d": { "lon": 7.7347858158000005, "lat": 48.569881930150004 }
+  },
+  {
+    "ident": 738,
+    "name": "Cycl/trot Doubs ecluse > Pasteur",
+    "geo_point_2d": { "lon": 7.734984890700001, "lat": 48.56989065665 }
+  },
+  {
+    "ident": 1043,
+    "name": "Cyclises rue du Fort ->Vigie",
+    "geo_point_2d": { "lon": 7.6895177761, "lat": 48.529549141299995 }
+  },
+  {
+    "ident": 1042,
+    "name": "Cyclistes Rue du Fort=>Décathlon",
+    "geo_point_2d": { "lon": 7.68937709425, "lat": 48.529649163100004 }
+  }
+]

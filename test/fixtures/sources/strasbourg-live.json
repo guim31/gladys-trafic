@@ -1,0 +1,501 @@
+[
+  { "ident": 17, "etat": 2, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 18,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 14.534883,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 16, "etat": 2, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 15,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 48.30287,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 14,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 29.069767,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 13, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 12, "etat": 1, "etatexp": 0, "vitessebrp": 50.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 11, "etat": 2, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 10, "etat": 2, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 9,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 18.767406,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 7, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 8,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 17.700607,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 6, "etat": 2, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 5,
+    "etat": 2,
+    "etatexp": 0,
+    "vitessebrp": 9.813542,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 3,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 23.403084,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 4,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 19.834114,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 2, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 1, "etat": 2, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 100,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 8.113589,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 101,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 20.100502,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 104, "etat": 2, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 106, "etat": 1, "etatexp": 0, "vitessebrp": 50.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 107,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 37.17472,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 108, "etat": 1, "etatexp": 0, "vitessebrp": 50.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 109,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 44.74708,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 313,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 9.357567,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 307,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 15.564202,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 201,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 21.289179,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 204, "etat": 1, "etatexp": 0, "vitessebrp": 50.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 205, "etat": 1, "etatexp": 0, "vitessebrp": 50.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 206,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 3.031353,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 207,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 46.72897,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 208,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 23.542194,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 210,
+    "etat": 2,
+    "etatexp": 0,
+    "vitessebrp": 1.4037057,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 230,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 9.868422,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 231, "etat": 2, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 232,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 18.697615,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 301, "etat": 2, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 302,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 39.13491,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 303,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 17.216642,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 304,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 5.966587,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 305,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 12.594459,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 112,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 11.594203,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 310,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 17.574692,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 314,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 18.64641,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 113,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 12.609457,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 320,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 9.425071,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 401, "etat": 2, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 817,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 39.215687,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 422,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 20.20202,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 423,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 16.430172,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 415, "etat": 1, "etatexp": 0, "vitessebrp": 50.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 416, "etat": 2, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 233,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 20.116228,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 220, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 806,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 11.554015,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 226, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 227, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 110, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 111, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 249, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 250, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 331, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 332, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 1001,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 31.149519,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 1002,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 24.492651,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 1003,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 41.322315,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 1004,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 41.469196,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 333, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 334, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 424, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 425, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 537, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 538, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 722, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 723, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 815, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 816, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 217,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 20.39488,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 214,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 16.84533,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 229,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 15.251243,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 222,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 51.13025,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 225,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 17.506706,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 215, "etat": 1, "etatexp": 0, "vitessebrp": 40.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 221,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 21.96688,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 642, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 643, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 223,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 28.58399,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 224,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 18.2835,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 1021,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 14.619883,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 1022,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 19.834114,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 923, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 924, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 253, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 254, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 430, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 431, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 337, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 338, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 251, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 252, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 202,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 24.691359,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 1142, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 1143, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 818, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 819, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 820, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 821, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 724, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 725, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 434, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 435, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 648, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 649, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 1025, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 1026, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 1144, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 1145, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 263, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 261, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 262, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 436, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 437, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 847, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 848, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 541, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 542, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 543, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 544, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 266,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 37.85489,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 265,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 36.69725,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 732, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 733, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 852, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 850, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 851,
+    "etat": 2,
+    "etatexp": 0,
+    "vitessebrp": 4.534877,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  {
+    "ident": 359,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 12.257405,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 360, "etat": 2, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 361, "etat": 1, "etatexp": 0, "vitessebrp": 40.0, "ts": "2026-10-29T10:54:30+00:00" },
+  {
+    "ident": 362,
+    "etat": 1,
+    "etatexp": 0,
+    "vitessebrp": 22.346369,
+    "ts": "2026-10-29T10:54:30+00:00"
+  },
+  { "ident": 344, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 345, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 666, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 667, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 354, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 355, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 426, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 427, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 428, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 429, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 438, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 439, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 550, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 551, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 552, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 553, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 651, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 652, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 653, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 654, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 655, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 925, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 926, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 1149, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 1148, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 737, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 738, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 1043, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" },
+  { "ident": 1042, "etat": 1, "etatexp": 0, "vitessebrp": 0.0, "ts": "2026-10-29T10:54:30+00:00" }
+]

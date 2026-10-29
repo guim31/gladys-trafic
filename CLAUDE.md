@@ -31,16 +31,21 @@ pushing.
 ## Architecture
 
 ```
-index.js                          SDK wiring only: handlers registered before connect()
-src/devices/index.js              registry of the device blueprints + dispatch helpers
-src/devices/<type>.js             one device type per file (buildDevice, onPoll, onSetValue...)
-src/scenes.js                     scene action handlers (manifest `scene_actions`)
-src/widgets.js                    dashboard widget handlers (manifest `widgets`)
+index.js                          SDK wiring only: registerHandlers() then connect()
+src/app.js                        every SDK handler -> service; configuration action
+src/service.js                    catalogs, live reads, timer, discovery, states, triggers, status
+src/sources.js                    one adapter per open data portal -> segments and measures
+src/devices.js                    the Gladys device of a road, aggregation of its segments, states
+src/scenes.js                     scene action handler (manifest `scene_actions`)
+src/widgets.js                    dashboard widget handler (manifest `widgets`)
+src/http.js                       downloads: timeouts, size caps
+src/messages.js                   texts sent from the container (en, fr, de, es)
 src/config.js                     DEFAULT_CONFIG (mirrors the manifest defaults) + normalization
-src/weather.js                    example driver (Open-Meteo)
-gladys-assistant-integration.json manifest: name, config_schema, actions, image...
-docs/en.md, docs/fr.md            user documentation, re-hosted by Gladys (mandatory)
+gladys-assistant-integration.json manifest: config, action, widget, scene triggers and action
+docs/{en,fr,de,es}.md             user documentation, re-hosted by Gladys (en and fr mandatory)
 test/                             node --test, against the SDK's fake Gladys (integration-sdk/testing)
+test/helpers/world.js             fake Gladys + fake ODS exports on the fixtures + manual clock
+test/fixtures/sources             real answers of the four portals (2026-10-29, ~11:59 Paris)
 .github/scripts/release.mjs       release helpers (manifest bump, changelog), tested in test/
 ```
 
@@ -70,8 +75,9 @@ test/                             node --test, against the SDK's fake Gladys (in
   `type: "provider"`: 5.1.0). `test/manifest.test.js` ties the manifest to the
   code (defaults, action, scene and widget handlers): change both sides
   together.
-- **User-facing text** is bilingual (English and French): action messages,
-  manifest texts, and `docs/en.md` / `docs/fr.md`, kept in sync.
+- **User-facing text** is in four languages (English, French, German,
+  Spanish): action messages, manifest texts, and `docs/{en,fr,de,es}.md`,
+  kept in sync.
 - **Style.** Prettier formats, ESLint catches mistakes. Comments explain why,
   in English. Tests never touch the network.
 
@@ -250,3 +256,35 @@ long, et sur un « Sie »/« Ihr… » de politesse en allemand. Le store exige 
 - Docs `en`, `fr`, `de`, `es` avec les mêmes sections.
 - Chauffe, ouverture, sécurité : ne rien rendre pilotable « comme un thermostat » ou par un assistant
   vocal quand une erreur serait dangereuse (leçon d'OctoPrint).
+
+## Trafic routier : sources et choix (29/10/2026)
+
+- **Sources vérifiées en direct le 29/10/2026** (Opendatasoft Explore v2.1, sans clé) :
+  Rennes `etat-du-trafic-en-temps-reel` (~2 900 tronçons, véhicules traceurs,
+  `trafficstatus` freeFlow/heavy/congested/impossible/unknown), Nantes
+  `244400404_fluidite-axes-routiers-nantes-metropole` (~890, `etat_trafic` Fluide/Dense/Saturé/
+  Bloqué/Indéterminé ; `couleur_tp` n'est pas dans les fixtures), Strasbourg `sirac_flux_trafic`
+  (~480 capteurs du SIRAC, `etat` 0-3, `etatexp` 1 = fermé ; les compteurs vélo « Cyc… » écartés),
+  Bordeaux `ci_tpstj_a` (16 itinéraires, temps actuel et de référence en secondes, pas d'état :
+  niveau calculé par le rapport, seuils 1,3 et 1,8).
+- **Écartées** : Lyon (WFS `pvo_patrimoine_voirie.pvotrafic` désormais authentifié), Grenoble
+  (`data.mobilites-m.fr/api/dyn/trr/json` donne des niveaux sans nom de tronçon), Paris (comptages
+  horaires), Toulouse (archives), Lille, Montpellier, Marseille (rien en temps réel).
+- **Requêtes** : le catalogue (noms, positions) par l'export `exports/json` une fois par jour ; à
+  chaque cycle, l'export avec `where=<id> in (...)` sur les seuls tronçons des axes ajoutés, par
+  paquets de 100. Jamais tout le jeu à chaque cycle (consigne du brief).
+- **Axe** = tous les tronçons d'un même nom : Rennes, routes nationales/départementales par nom,
+  rues par nom + commune (INSEE → nom en dur dans `sources.js`), « Rond-point » et voies sans nom
+  exclus ; Nantes, `cha_lib` sans le code de sens final (`I5`, `P2`) ; Strasbourg, le nom sans le
+  numéro de capteur. La clé d'axe dérive du nom : un renommage par la ville crée un nouvel appareil.
+- **Niveau d'un axe** : le pire atteint sur au moins 25 % de la longueur mesurée (longueur = vitesse ×
+  temps à Rennes, `cha_long` à Nantes, un vote par capteur à Strasbourg). **Pas de temps de parcours
+  sur les axes agrégés** (somme de tronçons épars et des deux sens : faux), seulement pour Bordeaux.
+  La fiabilité de Rennes n'est pas publiée (un `level-sensor` seul de son type s'afficherait
+  « Niveau du liquide »).
+- Mesure de plus de 30 min → niveau 0 « Inconnu », rien d'autre publié (la vitesse garde sa dernière
+  valeur), l'âge continue de grandir.
+- **Autour de la maison** : `getHouses()` (manifeste `location: true`, cœur ≥ 5.2.0), première maison
+  localisée, les 40 tronçons les plus proches dans le rayon, calculés dans le conteneur. Au centre de
+  Rennes, aucun tronçon à moins de 500 m (rues piétonnes) : 1 km par défaut.
+- `gladys_version` `>=5.3.0` pour `countries` et `keywords`.
