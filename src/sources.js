@@ -235,6 +235,8 @@ const DIR_MAX_PENDING = 1e6;
 // (said in the docs).
 export const DIR_FREE_KMH = 60;
 export const DIR_HEAVY_KMH = 30;
+// Above this, no measure: the feed carries a 9999999 km/h sentinel.
+export const DIR_MAX_KMH = 250;
 
 /**
  * The status of a national road measuring point, from its speed. 0 km/h is
@@ -242,7 +244,7 @@ export const DIR_HEAVY_KMH = 30;
  * 16:48, 14 points said 0 km/h with up to 27,100 vehicles per hour counted).
  */
 export function dirStatus(speed) {
-  if (speed === null || speed <= 0) {
+  if (speed === null || speed <= 0 || speed > DIR_MAX_KMH) {
     return STATUS.UNKNOWN;
   }
   if (speed >= DIR_FREE_KMH) {
@@ -376,27 +378,33 @@ export function dirCatalog(rows) {
   }
   const areaOf = (key) =>
     [...(areas.get(key) ?? new Map()).entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? null;
-  return segments.map(({ id, axisKey, road, department, direction, lat, lon, length }) => {
-    const area = areaOf(axisKey);
-    const place = area ?? (department ? `(${department})` : '');
+  const placeOf = (segment) => {
+    const area = areaOf(segment.axisKey);
+    return area ?? (segment.department ? `(${segment.department})` : '');
+  };
+  // The same road, area and direction in two départements (the A47 of
+  // Saint-Étienne in the Loire and the Rhône): the département tells them apart.
+  const keysByLabel = new Map();
+  for (const segment of segments) {
+    const label = `${segment.road} ${placeOf(segment)} ${segment.direction}`;
+    keysByLabel.set(label, (keysByLabel.get(label) ?? new Set()).add(segment.axisKey));
+  }
+  return segments.map((segment) => {
+    const { id, axisKey, road, department, direction, lat, lon, length } = segment;
+    let place = placeOf(segment);
+    if (department && keysByLabel.get(`${road} ${place} ${direction}`).size > 1) {
+      place = `${place} (${department})`;
+    }
+    const where = `${road}${place ? ` ${place}` : ''}`;
     const names = Object.fromEntries(
       Object.entries(DIRECTIONS).map(([language, words]) => [
         language,
-        [`${road}${place ? ` ${place}` : ''}`, direction ? words[direction] : null]
-          .filter(Boolean)
-          .join(' · '),
+        [where, direction ? words[direction] : null].filter(Boolean).join(' · '),
       ]),
     );
-    return {
-      id,
-      axisKey,
-      axisName: names.fr,
-      axisNames: names,
-      search: Object.values(names).join(' '),
-      lat,
-      lon,
-      length,
-    };
+    // The search matches the road and its place, not the direction words:
+    // "est" or "nord" would match half the roads.
+    return { id, axisKey, axisName: names.fr, axisNames: names, search: where, lat, lon, length };
   });
 }
 
@@ -723,7 +731,7 @@ SOURCES.dir = {
       { maxBytes: DIR_LIVE_MAX_BYTES, since: cached?.since ?? null, timeoutMs: 60000 },
       (text) => parser.push(text),
     );
-    if (notModified) {
+    if (notModified && cached) {
       return cached.measures;
     }
     if (parser.blocks === 0) {

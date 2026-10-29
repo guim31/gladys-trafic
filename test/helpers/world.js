@@ -1,6 +1,6 @@
 // -----------------------------------------------------------------------------
 // A complete test world: the SDK's fake Gladys, a fake `fetch` serving the
-// real answers of the four portals and of the national roads (captured on 2026-10-29 around 11:59 in
+// real answers of the four portals and the files of the national roads (captured on 2026-10-29 around 11:59 in
 // Paris, see test/fixtures/sources), a manual clock, and the integration wired
 // on top through registerHandlers. Nothing touches the network.
 // -----------------------------------------------------------------------------

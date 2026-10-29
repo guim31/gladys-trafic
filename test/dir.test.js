@@ -109,11 +109,32 @@ test('the catalog: one road per number, département and direction, named in fou
   assert.equal(rennes.axisKey, 'n136-35-s1');
   assert.equal(rennes.axisName, 'N136 (35) · sens 1');
   assert.equal(rennes.lat, null);
+  // The search is the road and its place, not the direction words.
+  assert.equal(ring[0].search, 'A620 Toulouse');
   // A point without a road is no road.
   assert.equal(
     segments.find((s) => s.id === 'A0027010102'),
     undefined,
   );
+});
+
+test('the same road, area and direction in two départements: the département in the name', () => {
+  const row = (code_pme, source_2) => ({
+    code_pme,
+    source_2,
+    axe: 'A47',
+    sens_cardinal: 'OUEST_EST',
+    code_traficolor: 'ST42',
+  });
+  const segments = dirCatalog([row('P1', '734242218'), row('P2', '736969199')]);
+  assert.deepEqual(
+    segments.map((s) => [s.axisKey, s.axisName]),
+    [
+      ['a47-42-w-e', "A47 Saint-Étienne (42) · vers l'est"],
+      ['a47-69-w-e', "A47 Saint-Étienne (69) · vers l'est"],
+    ],
+  );
+  assert.equal(dirCatalog([row('P1', '734242218')])[0].axisName, "A47 Saint-Étienne · vers l'est");
 });
 
 test('the status of a point is deduced from its speed; 0 km/h is no measure', () => {
@@ -122,6 +143,9 @@ test('the status of a point is deduced from its speed; 0 km/h is no measure', ()
   assert.equal(dirStatus(30), STATUS.HEAVY);
   assert.equal(dirStatus(29.9), STATUS.CONGESTED);
   assert.equal(dirStatus(0), STATUS.UNKNOWN);
+  assert.equal(dirStatus(132.9), STATUS.FREE);
+  // The sentinel of the feed (seen on 2026-10-29).
+  assert.equal(dirStatus(9999999), STATUS.UNKNOWN);
   assert.equal(dirStatus(null), STATUS.UNKNOWN);
 });
 

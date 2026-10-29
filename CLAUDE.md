@@ -313,4 +313,8 @@ long, et sur un « Sie »/« Ihr… » de politesse en allemand. Le store exige 
 - **État** déduit de la vitesse : ≥ 60 fluide, ≥ 30 dense, sinon saturé. **0 km/h = pas de mesure** :
   le 29/10 à 16 h 48, 14 points à 0 km/h avec jusqu'à 27 100 véh/h (boucles en panne). Pondération
   par `longueur` du référentiel. `TRAFICOLOR-DIR/` (fichiers horodatés par région, pas de Toulouse)
-  écarté.
+  écarté. Vitesse > 250 km/h = pas de mesure (sentinelle `9999999.0` dans le flux).
+- Même route + zone + sens dans deux départements (A47 Saint-Étienne, 42 et 69) : « (42) » ajouté au
+  nom. La recherche porte sur route + lieu, pas sur les mots de sens (« est », « nord »).
+- Connu, laissé tel quel : sur quelques routes (A630-33, N230-33…), des points sans sens giratoire ni
+  cardinal font un axe « sens 1 / sens 2 » à part ; un point qui gagnerait un sens changerait d'axe.
