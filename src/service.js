@@ -439,9 +439,10 @@ export class Traffic {
       if (this.blocked(city)) {
         continue;
       }
+      const refusedAt = city.refusedAt;
       await this.readCatalog(city);
-      if (city.credentials) {
-        // Refused at the daily catalog read: not a second 401 for the measures.
+      if (city.refusedAt !== refusedAt) {
+        // Refused by this catalog read: not a second 401 for the measures.
         continue;
       }
       const ids = new Set();

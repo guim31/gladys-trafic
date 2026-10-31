@@ -310,3 +310,21 @@ test('a network error does not hide refused credentials; refused at the daily ca
   assert.equal(lyonCalls(world).length, before + 1);
   assert.deepEqual(world.fake.connectionStatus, { connected: false, message: REFUSED });
 });
+
+test('a known catalog, the measures refused: tried again after an hour', async (t) => {
+  const world = await createWorld({ config: { ...LYON, ...LYON_ACCOUNT } });
+  t.after(() => world.app.stop());
+  await create(world, 'RTE DE LYON');
+  // The password changed on the portal, the settings did not.
+  world.network.status.set('lyon', 401);
+  await cycle(world);
+  assert.deepEqual(world.fake.connectionStatus, { connected: false, message: REFUSED });
+  const before = lyonCalls(world).length;
+  await cycle(world);
+  assert.equal(lyonCalls(world).length, before);
+  world.network.status.delete('lyon');
+  world.clock.advance(CREDENTIALS_RETRY_MS);
+  await cycle(world);
+  assert.equal(lyonCalls(world).length, before + 1);
+  assert.deepEqual(world.fake.connectionStatus, { connected: true });
+});
