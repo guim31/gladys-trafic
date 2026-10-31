@@ -440,6 +440,10 @@ export class Traffic {
         continue;
       }
       await this.readCatalog(city);
+      if (city.credentials) {
+        // Refused at the daily catalog read: not a second 401 for the measures.
+        continue;
+      }
       const ids = new Set();
       for (const entry of watched.filter((w) => w.key === key)) {
         for (const id of this.axis(city, entry.axisKey)?.ids ?? []) {
@@ -606,8 +610,12 @@ export class Traffic {
       logger.warn(`${city.source.name}: data unavailable: ${err.message}`);
     }
     city.error = err.message;
-    city.credentials = credentials;
-    city.refusedAt = credentials === 'refused' ? this.now() : null;
+    // A network error does not clear a credentials problem: only a success
+    // or new credentials do.
+    if (credentials) {
+      city.credentials = credentials;
+      city.refusedAt = credentials === 'refused' ? this.now() : null;
+    }
   }
 
   /** The trigger events of a road since its last known level. */

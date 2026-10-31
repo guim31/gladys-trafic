@@ -287,3 +287,26 @@ test('Lyon not chosen: no account asked, the connection status untouched', async
   assert.deepEqual(world.fake.connectionStatuses, []);
   assert.doesNotMatch((await action(world, 'status')).fr, /Grand Lyon/);
 });
+
+test('a network error does not hide refused credentials; refused at the daily catalog, one request only', async (t) => {
+  const wrong = { grandlyon_username: 'gladys-test', grandlyon_password: 'wrong password' };
+  const world = await createWorld({ config: { ...LYON, ...wrong } });
+  t.after(() => world.app.stop());
+  world.clock.advance(CREDENTIALS_RETRY_MS);
+  world.network.down.add('lyon');
+  await cycle(world);
+  assert.deepEqual(world.fake.connectionStatus, { connected: false, message: REFUSED });
+  assert.match((await action(world, 'status')).fr, /identifiants Grand Lyon refusés/);
+  assert.equal(world.fake.connectionStatuses.length, 1);
+
+  // A working account, a road added; a day later the password no longer works.
+  world.network.down.delete('lyon');
+  await world.fake.configUpdated({ ...LYON, ...LYON_ACCOUNT });
+  await create(world, 'RTE DE LYON');
+  await world.fake.configUpdated({ ...LYON, ...wrong });
+  world.clock.advance(24 * 3600 * 1000);
+  const before = lyonCalls(world).length;
+  await cycle(world);
+  assert.equal(lyonCalls(world).length, before + 1);
+  assert.deepEqual(world.fake.connectionStatus, { connected: false, message: REFUSED });
+});

@@ -871,7 +871,8 @@ async function lyonFeatures(fetch, query, state, maxBytes) {
     const data = await getJson(fetch, lyonUrl(query), { maxBytes, authorization });
     return Array.isArray(data?.features) ? data.features : [];
   } catch (err) {
-    if (err?.status === 401 || err?.status === 403) {
+    // Only a 401 is about the account: a 403 may be a firewall or a quota.
+    if (err?.status === 401) {
       throw new CredentialsError('refused');
     }
     throw err;
