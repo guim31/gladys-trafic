@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-10-31
+
 ### Added
 
 - Lyon: the live traffic of the Métropole de Lyon (Criter, data.grandlyon.com),
@@ -51,6 +53,7 @@ the notes of the version's GitHub Release.
 - Feature names, messages and documentation in English, French, German and
   Spanish.
 
-[Unreleased]: https://github.com/guim31/gladys-trafic/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/guim31/gladys-trafic/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/guim31/gladys-trafic/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/guim31/gladys-trafic/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/guim31/gladys-trafic/releases/tag/v1.0.0
