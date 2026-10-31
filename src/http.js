@@ -119,11 +119,21 @@ export async function streamText(fetchImpl, url, options = {}, onText) {
   return { lastModified: response.headers?.get?.('last-modified') ?? null, notModified: false };
 }
 
-/** Sends a GET; resolves the response when 2xx or 304, throws an HttpError otherwise. */
+/**
+ * Sends a GET; resolves the response when 2xx or 304, throws an HttpError
+ * otherwise. `authorization` is a header value (HTTP Basic for Grand Lyon):
+ * fetch drops it on a redirect to another host, and no message carries it.
+ */
 async function open(
   fetchImpl,
   url,
-  { timeoutMs = 20000, etag = null, since = null, accept = 'application/json' } = {},
+  {
+    timeoutMs = 20000,
+    etag = null,
+    since = null,
+    accept = 'application/json',
+    authorization = null,
+  } = {},
 ) {
   let response;
   try {
@@ -133,6 +143,7 @@ async function open(
         accept,
         ...(etag ? { 'if-none-match': etag } : {}),
         ...(since ? { 'if-modified-since': since } : {}),
+        ...(authorization ? { authorization } : {}),
       },
       redirect: 'follow',
       signal: AbortSignal.timeout(timeoutMs),

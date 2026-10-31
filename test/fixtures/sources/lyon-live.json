@@ -1,0 +1,1530 @@
+[
+  {
+    "code": "LYO02330",
+    "etat": "G",
+    "vitesse": "Vitesse réglementaire",
+    "longueur": 206,
+    "last_update": "2026-10-28T09:57:28+01:00",
+    "est_a_jour": false
+  },
+  {
+    "code": "LYO01244",
+    "etat": "V",
+    "vitesse": "Vitesse réglementaire",
+    "longueur": 1228,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01085",
+    "etat": "V",
+    "vitesse": "105 km/h",
+    "longueur": 6624,
+    "last_update": "2026-10-31T08:30:00+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01460",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 1290,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02294",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 913,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00884",
+    "etat": "V",
+    "vitesse": "16 km/h",
+    "longueur": 925,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00293",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 441,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00865",
+    "etat": "V",
+    "vitesse": "57 km/h",
+    "longueur": 1955,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01741",
+    "etat": "V",
+    "vitesse": "Vitesse réglementaire",
+    "longueur": 1054,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01747",
+    "etat": "R",
+    "vitesse": "15 km/h",
+    "longueur": 1073,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02467",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 230,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00636",
+    "etat": "V",
+    "vitesse": "17 km/h",
+    "longueur": 331,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00455",
+    "etat": "O",
+    "vitesse": "11 km/h",
+    "longueur": 807,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01458",
+    "etat": "R",
+    "vitesse": "53 km/h",
+    "longueur": 2435,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00877",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 175,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00811",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 702,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00881",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 537,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00882",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 517,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00292",
+    "etat": "O",
+    "vitesse": "4 km/h",
+    "longueur": 434,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00293",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 441,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00883",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 918,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01744",
+    "etat": "V",
+    "vitesse": "Vitesse réglementaire",
+    "longueur": 623,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00883",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 920,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01757",
+    "etat": "R",
+    "vitesse": "15 km/h",
+    "longueur": 1095,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01005",
+    "etat": "R",
+    "vitesse": "44 km/h",
+    "longueur": 1910,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00866",
+    "etat": "V",
+    "vitesse": "38 km/h",
+    "longueur": 1935,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO0114",
+    "etat": "V",
+    "vitesse": "78 km/h",
+    "longueur": 1190,
+    "last_update": "2026-10-31T08:30:00+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01085",
+    "etat": "V",
+    "vitesse": "105 km/h",
+    "longueur": 6613,
+    "last_update": "2026-10-31T08:30:00+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00456",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 977,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02293",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 921,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00810",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 685,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01461",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 938,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00638",
+    "etat": "V",
+    "vitesse": "17 km/h",
+    "longueur": 539,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01957",
+    "etat": "R",
+    "vitesse": "50 km/h",
+    "longueur": 1239,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00294",
+    "etat": "V",
+    "vitesse": "17 km/h",
+    "longueur": 357,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00811",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 701,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00637",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 539,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01957",
+    "etat": "R",
+    "vitesse": "50 km/h",
+    "longueur": 1242,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01461",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 931,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00866",
+    "etat": "V",
+    "vitesse": "38 km/h",
+    "longueur": 1932,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01727",
+    "etat": "V",
+    "vitesse": "Vitesse réglementaire",
+    "longueur": 2058,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00593",
+    "etat": "R",
+    "vitesse": "4 km/h",
+    "longueur": 464,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01746",
+    "etat": "V",
+    "vitesse": "33 km/h",
+    "longueur": 1108,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01727",
+    "etat": "V",
+    "vitesse": "Vitesse réglementaire",
+    "longueur": 2059,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02292",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 694,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00881",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 534,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02230",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 798,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02231",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 805,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01758",
+    "etat": "R",
+    "vitesse": "15 km/h",
+    "longueur": 1106,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01725",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 996,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01726",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 998,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01728",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 2069,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01742",
+    "etat": "G",
+    "vitesse": "",
+    "longueur": 1072,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01743",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 623,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01745",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 906,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01748",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 909,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00279",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 416,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01456",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1033,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02068",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1873,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00297",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 340,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01810",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 1536,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02466",
+    "etat": "V",
+    "vitesse": "16 km/h",
+    "longueur": 235,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01333",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 588,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00809",
+    "etat": "G",
+    "vitesse": "",
+    "longueur": 1472,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01460",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 1293,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02067",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1897,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00639",
+    "etat": "V",
+    "vitesse": "17 km/h",
+    "longueur": 853,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01791",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 965,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01757",
+    "etat": "R",
+    "vitesse": "15 km/h",
+    "longueur": 1096,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01457",
+    "etat": "V",
+    "vitesse": "41 km/h",
+    "longueur": 1036,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01511",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1917,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01361",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1610,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00296",
+    "etat": "V",
+    "vitesse": "16 km/h",
+    "longueur": 344,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01743",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 621,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00452",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 531,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01746",
+    "etat": "V",
+    "vitesse": "33 km/h",
+    "longueur": 1108,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00453",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 523,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02436",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 148,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01459",
+    "etat": "V",
+    "vitesse": "64 km/h",
+    "longueur": 2407,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02293",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 921,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01747",
+    "etat": "R",
+    "vitesse": "15 km/h",
+    "longueur": 1077,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00290",
+    "etat": "V",
+    "vitesse": "16 km/h",
+    "longueur": 387,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01365",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1147,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00830",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1509,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00831",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1165,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00592",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 466,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01934",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1141,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02467",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 229,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00865",
+    "etat": "V",
+    "vitesse": "57 km/h",
+    "longueur": 1956,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00774",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 602,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01741",
+    "etat": "V",
+    "vitesse": "Vitesse réglementaire",
+    "longueur": 1051,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00290",
+    "etat": "V",
+    "vitesse": "16 km/h",
+    "longueur": 387,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01739",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1113,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01284",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 742,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01285",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 741,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01244",
+    "etat": "V",
+    "vitesse": "Vitesse réglementaire",
+    "longueur": 1223,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01960",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 789,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00879",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 190,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02294",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 913,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00880",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 188,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02426",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 160,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00884",
+    "etat": "V",
+    "vitesse": "16 km/h",
+    "longueur": 925,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01364",
+    "etat": "V",
+    "vitesse": "Vitesse réglementaire",
+    "longueur": 1151,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01793",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 970,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01994",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 793,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01549",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 513,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01335",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 2524,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01286",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1929,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01287",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1905,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01288",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 2619,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01289",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 2622,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00808",
+    "etat": "V",
+    "vitesse": "66 km/h",
+    "longueur": 1477,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01334",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 2921,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02062",
+    "etat": "N",
+    "vitesse": "",
+    "longueur": 516,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01360",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1624,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00812",
+    "etat": "O",
+    "vitesse": "35 km/h",
+    "longueur": 799,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00952",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1053,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01933",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1122,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02063",
+    "etat": "G",
+    "vitesse": "",
+    "longueur": 127,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01006",
+    "etat": "V",
+    "vitesse": "35 km/h",
+    "longueur": 1906,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01510",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1947,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01547",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 887,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01546",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 888,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01564",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1565,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01758",
+    "etat": "R",
+    "vitesse": "15 km/h",
+    "longueur": 1107,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01725",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 997,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01726",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 998,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01728",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 2068,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01742",
+    "etat": "G",
+    "vitesse": "",
+    "longueur": 1075,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01745",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 908,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00774",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 602,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01333",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 586,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00809",
+    "etat": "G",
+    "vitesse": "",
+    "longueur": 1475,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00830",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1513,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00831",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1164,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01459",
+    "etat": "V",
+    "vitesse": "64 km/h",
+    "longueur": 2404,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00295",
+    "etat": "G",
+    "vitesse": "",
+    "longueur": 353,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01548",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 513,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00640",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 509,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00882",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 520,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00810",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 689,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO0114",
+    "etat": "V",
+    "vitesse": "78 km/h",
+    "longueur": 1191,
+    "last_update": "2026-10-31T08:30:00+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01809",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 1558,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01958",
+    "etat": "R",
+    "vitesse": "82 km/h",
+    "longueur": 1247,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00454",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 1102,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02466",
+    "etat": "V",
+    "vitesse": "16 km/h",
+    "longueur": 235,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00775",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 608,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00877",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 176,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00878",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 169,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00297",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 340,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00591",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 576,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01958",
+    "etat": "R",
+    "vitesse": "82 km/h",
+    "longueur": 1248,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01995",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 786,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01146",
+    "etat": "V",
+    "vitesse": "66 km/h",
+    "longueur": 2255,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02291",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 691,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01748",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 907,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01147",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 2239,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01875",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 392,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00812",
+    "etat": "O",
+    "vitesse": "35 km/h",
+    "longueur": 800,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00813",
+    "etat": "R",
+    "vitesse": "30 km/h",
+    "longueur": 809,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01955",
+    "etat": "G",
+    "vitesse": "",
+    "longueur": 1228,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01956",
+    "etat": "G",
+    "vitesse": "",
+    "longueur": 1219,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01504",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 2055,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01505",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 2049,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01146",
+    "etat": "V",
+    "vitesse": "66 km/h",
+    "longueur": 2255,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00813",
+    "etat": "R",
+    "vitesse": "30 km/h",
+    "longueur": 806,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01458",
+    "etat": "R",
+    "vitesse": "53 km/h",
+    "longueur": 2434,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00879",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 190,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00294",
+    "etat": "V",
+    "vitesse": "17 km/h",
+    "longueur": 357,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00457",
+    "etat": "V",
+    "vitesse": "17 km/h",
+    "longueur": 976,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01147",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 2241,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00280",
+    "etat": "G",
+    "vitesse": "",
+    "longueur": 460,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00953",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 1072,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01565",
+    "etat": "G",
+    "vitesse": "",
+    "longueur": 1594,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02292",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 694,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00279",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 416,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00295",
+    "etat": "G",
+    "vitesse": "",
+    "longueur": 353,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01744",
+    "etat": "V",
+    "vitesse": "Vitesse réglementaire",
+    "longueur": 621,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00291",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 389,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00280",
+    "etat": "G",
+    "vitesse": "",
+    "longueur": 460,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00878",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 169,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00291",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 389,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00775",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 608,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00590",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 576,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01332",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 602,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01332",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 601,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00880",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 188,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO01998",
+    "etat": "*",
+    "vitesse": "",
+    "longueur": 320,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00292",
+    "etat": "O",
+    "vitesse": "4 km/h",
+    "longueur": 434,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO00296",
+    "etat": "V",
+    "vitesse": "16 km/h",
+    "longueur": 344,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  },
+  {
+    "code": "LYO02291",
+    "etat": "V",
+    "vitesse": "18 km/h",
+    "longueur": 691,
+    "last_update": "2026-10-31T08:34:30+01:00",
+    "est_a_jour": true
+  }
+]

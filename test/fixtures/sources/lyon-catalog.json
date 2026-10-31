@@ -1,0 +1,4322 @@
+{
+  "type": "FeatureCollection",
+  "totalFeatures": 191,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1252",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.786522, 45.773013],
+          [4.786815, 45.772647],
+          [4.786956, 45.772284],
+          [4.787059, 45.771227]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02330",
+        "libelle": "SORTIE A6 DE PARIS A VALVERT",
+        "longueur": 206
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1484",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.785875, 45.764364],
+          [4.786639, 45.765154],
+          [4.78766, 45.765647],
+          [4.789846, 45.766428],
+          [4.790446, 45.766565],
+          [4.791697, 45.766705],
+          [4.793257, 45.766684],
+          [4.795545, 45.766383],
+          [4.798547, 45.765764],
+          [4.79919, 45.765574],
+          [4.800121, 45.765141]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01244",
+        "libelle": "BRETELLE TASSIN VOIE SUD",
+        "longueur": 1228
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2484",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.82725, 45.642407],
+          [4.825589, 45.640834],
+          [4.823242, 45.638347],
+          [4.821185, 45.635829],
+          [4.819627, 45.633649],
+          [4.818234, 45.631436],
+          [4.816667, 45.628658],
+          [4.812409, 45.619919],
+          [4.810306, 45.616376],
+          [4.808586, 45.613862],
+          [4.807137, 45.612085],
+          [4.805621, 45.610504],
+          [4.803208, 45.608327],
+          [4.798763, 45.604836],
+          [4.797338, 45.603439],
+          [4.796332, 45.602048],
+          [4.795862, 45.600981],
+          [4.795625, 45.599847],
+          [4.79559, 45.599026],
+          [4.795711, 45.597655],
+          [4.795961, 45.595827],
+          [4.796684, 45.592498],
+          [4.797864, 45.588875]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01085",
+        "libelle": "SOLAIZE _ JONCTION A7N/A46S/A47",
+        "longueur": 6624
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1924",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.766677, 45.669715],
+          [4.768299, 45.670317],
+          [4.770569, 45.670926],
+          [4.771175, 45.670959],
+          [4.772272, 45.67067],
+          [4.772638, 45.670748],
+          [4.772864, 45.670988],
+          [4.772748, 45.672717],
+          [4.772483, 45.673727],
+          [4.77098, 45.676512],
+          [4.77025, 45.677277],
+          [4.770253, 45.677433]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01460",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 1290
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2192",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.914354, 45.703378],
+          [4.923195, 45.697981]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02294",
+        "libelle": "RTE DE LYON",
+        "longueur": 913
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.758",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.876943, 45.800138],
+          [4.876779, 45.799904],
+          [4.876271, 45.798965],
+          [4.875604, 45.797266],
+          [4.875684, 45.796384],
+          [4.875517, 45.796072],
+          [4.874025, 45.795029],
+          [4.873149, 45.794692],
+          [4.871865, 45.794383],
+          [4.871552, 45.794182],
+          [4.871046, 45.793622]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00884",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 925
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.588",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.879191, 45.733362],
+          [4.874039, 45.735011]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00293",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 441
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.73",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.880849, 45.80295],
+          [4.881456, 45.803363],
+          [4.882099, 45.804056],
+          [4.882579, 45.804756],
+          [4.882797, 45.805395],
+          [4.882779, 45.80584],
+          [4.882596, 45.806294],
+          [4.881827, 45.807093],
+          [4.881353, 45.807854],
+          [4.881265, 45.808357],
+          [4.881464, 45.808771],
+          [4.881855, 45.809065],
+          [4.882617, 45.809359],
+          [4.884112, 45.809565],
+          [4.884526, 45.809744],
+          [4.885631, 45.811199],
+          [4.886833, 45.812313],
+          [4.890896, 45.816511],
+          [4.891272, 45.816672],
+          [4.891442, 45.816886]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00865",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1955
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.3000",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.913427, 45.843356],
+          [4.914476, 45.841774],
+          [4.914728, 45.840049],
+          [4.914605, 45.838156],
+          [4.914354, 45.837234],
+          [4.913886, 45.83637],
+          [4.912145, 45.834474]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01741",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1054
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.21",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.89149, 45.816938],
+          [4.891416, 45.817189],
+          [4.89149, 45.817285],
+          [4.893956, 45.818989],
+          [4.895323, 45.820082],
+          [4.895803, 45.820295],
+          [4.898511, 45.821072],
+          [4.901142, 45.822141],
+          [4.902091, 45.822666]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01747",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1073
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1886",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.769924, 45.754067],
+          [4.769998, 45.754014],
+          [4.770757, 45.752087]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02467",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 230
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1879",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.829664, 45.747945],
+          [4.827467, 45.745394]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00636",
+        "libelle": "QU PERRACHE",
+        "longueur": 331
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2800",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.897095, 45.750406],
+          [4.897083, 45.750007],
+          [4.896808, 45.749209],
+          [4.896414, 45.747022],
+          [4.895327, 45.744868],
+          [4.894667, 45.743616],
+          [4.894468, 45.743455]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00455",
+        "libelle": "BD PINEL",
+        "longueur": 807
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.677",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.76616, 45.698603],
+          [4.766237, 45.69827],
+          [4.766005, 45.697228],
+          [4.766007, 45.696541],
+          [4.76641, 45.695266],
+          [4.766683, 45.693809],
+          [4.766304, 45.692397],
+          [4.765854, 45.692102],
+          [4.766021, 45.691574],
+          [4.765304, 45.689329],
+          [4.765233, 45.688196],
+          [4.766573, 45.684224],
+          [4.766497, 45.683929],
+          [4.766768, 45.68366],
+          [4.768069, 45.680193],
+          [4.768578, 45.679243],
+          [4.769544, 45.677784],
+          [4.769465, 45.677499]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01458",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 2435
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2728",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.86061, 45.79091],
+          [4.861452, 45.79109],
+          [4.862806, 45.791259]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00877",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 175
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.366",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.958232, 45.717202],
+          [4.95785, 45.717162],
+          [4.957175, 45.717403],
+          [4.956602, 45.717602],
+          [4.955813, 45.717868],
+          [4.955659, 45.717917],
+          [4.955511, 45.717974],
+          [4.955115, 45.718174],
+          [4.954995, 45.718229],
+          [4.954936, 45.718289],
+          [4.954838, 45.71834],
+          [4.954713, 45.718367],
+          [4.954611, 45.718365],
+          [4.954517, 45.718343],
+          [4.954444, 45.718323],
+          [4.954366, 45.71831],
+          [4.954265, 45.71831],
+          [4.954069, 45.71831],
+          [4.953937, 45.7183],
+          [4.953784, 45.718295],
+          [4.953618, 45.718297],
+          [4.953418, 45.718309],
+          [4.95314, 45.71833],
+          [4.952627, 45.718337],
+          [4.95142, 45.718268],
+          [4.950223, 45.718062],
+          [4.949748, 45.718126]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00811",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 702
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1466",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.865219, 45.791604],
+          [4.866661, 45.791781],
+          [4.870387, 45.792726],
+          [4.870877, 45.79304],
+          [4.871311, 45.793521]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00881",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 537
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1482",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.871014, 45.793638],
+          [4.870532, 45.793123],
+          [4.87018, 45.792925],
+          [4.866615, 45.79199],
+          [4.865122, 45.79182]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00882",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 517
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2881",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.873927, 45.734837],
+          [4.878987, 45.733203]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00292",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 434
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2661",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.879207, 45.733387],
+          [4.874055, 45.735036]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00293",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 441
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1127",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.871252, 45.793518],
+          [4.874388, 45.794984],
+          [4.875798, 45.796008],
+          [4.875954, 45.796348],
+          [4.87584, 45.797009],
+          [4.875877, 45.797377],
+          [4.876479, 45.798895],
+          [4.87696, 45.799765],
+          [4.877158, 45.800035]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00883",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 918
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2950",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.908501, 45.829521],
+          [4.908579, 45.830088],
+          [4.912338, 45.834383]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01744",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 623
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1237",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.871274, 45.793495],
+          [4.874413, 45.794963],
+          [4.875832, 45.795994],
+          [4.875994, 45.796346],
+          [4.875879, 45.79701],
+          [4.875915, 45.797372],
+          [4.876516, 45.798887],
+          [4.876995, 45.799754],
+          [4.877192, 45.800023]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00883",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 920
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.880",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.826015, 45.891313],
+          [4.825553, 45.891535],
+          [4.822028, 45.894519],
+          [4.821444, 45.895218],
+          [4.821365, 45.895481],
+          [4.82084, 45.895754],
+          [4.818764, 45.898173],
+          [4.81788, 45.898971],
+          [4.817751, 45.899179]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01757",
+        "libelle": "RTE DE TREVOUX",
+        "longueur": 1095
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2165",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.969854, 45.712912],
+          [4.97202, 45.712109],
+          [4.972367, 45.711851],
+          [4.973044, 45.711809],
+          [4.991817, 45.705391]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01005",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 1910
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2280",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.890461, 45.817],
+          [4.89056, 45.816624],
+          [4.890231, 45.81611],
+          [4.885374, 45.811242],
+          [4.884435, 45.809962],
+          [4.883971, 45.809728],
+          [4.882661, 45.809558],
+          [4.88189, 45.809307],
+          [4.88148, 45.809091],
+          [4.881132, 45.808728],
+          [4.880989, 45.808346],
+          [4.881087, 45.807832],
+          [4.881589, 45.807023],
+          [4.882343, 45.806241],
+          [4.882509, 45.805861],
+          [4.882544, 45.805437],
+          [4.882418, 45.804982],
+          [4.881925, 45.804203],
+          [4.881424, 45.803625],
+          [4.880618, 45.803042]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00866",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1935
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1723",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.801029, 45.764864],
+          [4.795974, 45.7679],
+          [4.792152, 45.770456],
+          [4.789499, 45.771897]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO0114",
+        "libelle": "A6_GORGE DE LOUP_PORTE DE VALVERT",
+        "longueur": 1190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2545",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.827384, 45.642338],
+          [4.825726, 45.640766],
+          [4.823384, 45.638286],
+          [4.821332, 45.635773],
+          [4.819778, 45.633599],
+          [4.818388, 45.631391],
+          [4.816823, 45.628618],
+          [4.812565, 45.619877],
+          [4.810458, 45.616328],
+          [4.808734, 45.613807],
+          [4.807278, 45.612023],
+          [4.805756, 45.610436],
+          [4.803336, 45.608252],
+          [4.798894, 45.604763],
+          [4.797481, 45.603378],
+          [4.796487, 45.602004],
+          [4.796025, 45.600955],
+          [4.795791, 45.599837],
+          [4.795757, 45.599028],
+          [4.795877, 45.597664],
+          [4.796127, 45.595842],
+          [4.796848, 45.59252],
+          [4.798027, 45.588901]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01085",
+        "libelle": "SOLAIZE _ JONCTION A7N/A46S/A47",
+        "longueur": 6613
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2983",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.892049, 45.739026],
+          [4.889595, 45.735092],
+          [4.888512, 45.733021],
+          [4.887876, 45.731178],
+          [4.887613, 45.730827]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00456",
+        "libelle": "BD PINEL",
+        "longueur": 977
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1555",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.923512, 45.698168],
+          [4.922109, 45.698989],
+          [4.917989, 45.701645],
+          [4.914623, 45.70363]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02293",
+        "libelle": "RTE DE LYON",
+        "longueur": 921
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2522",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.949908, 45.717647],
+          [4.95026, 45.717832],
+          [4.951676, 45.718054],
+          [4.952684, 45.718107],
+          [4.953021, 45.718103],
+          [4.953354, 45.718085],
+          [4.953615, 45.718073],
+          [4.953798, 45.71807],
+          [4.953991, 45.718081],
+          [4.954156, 45.718087],
+          [4.954274, 45.718076],
+          [4.954408, 45.718039],
+          [4.954481, 45.717997],
+          [4.954595, 45.71796],
+          [4.954727, 45.717948],
+          [4.954828, 45.717962],
+          [4.954889, 45.717967],
+          [4.954956, 45.717956],
+          [4.955094, 45.71791],
+          [4.955149, 45.717887],
+          [4.955359, 45.717773],
+          [4.955522, 45.71771],
+          [4.955689, 45.717654],
+          [4.956093, 45.71752],
+          [4.957179, 45.717126],
+          [4.957349, 45.717071],
+          [4.957554, 45.717015],
+          [4.957668, 45.716979],
+          [4.957779, 45.716931],
+          [4.958049, 45.716739]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00810",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 685
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.856",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.76967, 45.677261],
+          [4.770089, 45.67708],
+          [4.770757, 45.676315],
+          [4.771532, 45.674984],
+          [4.77215, 45.673594],
+          [4.772338, 45.672124],
+          [4.772214, 45.671866],
+          [4.771885, 45.671659],
+          [4.768948, 45.67077]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01461",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 938
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1910",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.824087, 45.741162],
+          [4.827627, 45.745329]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00638",
+        "libelle": "QU PERRACHE",
+        "longueur": 539
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1294",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.03854, 45.769057],
+          [5.038556, 45.768821],
+          [5.038421, 45.768535],
+          [5.035337, 45.76277],
+          [5.034967, 45.762233],
+          [5.034435, 45.761778],
+          [5.033572, 45.761382],
+          [5.031482, 45.761081],
+          [5.031151, 45.760907],
+          [5.030689, 45.760399],
+          [5.030494, 45.760302]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01957",
+        "libelle": "RD 302",
+        "longueur": 1239
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2786",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.878971, 45.733179],
+          [4.883143, 45.73184]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00294",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 357
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2516",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.958226, 45.717229],
+          [4.957857, 45.71719],
+          [4.957192, 45.717427],
+          [4.956619, 45.717626],
+          [4.95583, 45.717893],
+          [4.955676, 45.717941],
+          [4.955532, 45.717997],
+          [4.955137, 45.718196],
+          [4.955022, 45.718248],
+          [4.954964, 45.718308],
+          [4.954856, 45.718364],
+          [4.954718, 45.718394],
+          [4.954604, 45.718392],
+          [4.954504, 45.718368],
+          [4.954433, 45.718349],
+          [4.954362, 45.718337],
+          [4.954265, 45.718337],
+          [4.954067, 45.718337],
+          [4.953934, 45.718327],
+          [4.953784, 45.718322],
+          [4.95362, 45.718324],
+          [4.953422, 45.718335],
+          [4.953142, 45.718357],
+          [4.952625, 45.718364],
+          [4.951414, 45.718294],
+          [4.950222, 45.718089],
+          [4.949755, 45.718153]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00811",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 701
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.844",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.82747, 45.745393],
+          [4.823931, 45.741229]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00637",
+        "libelle": "QU PERRACHE",
+        "longueur": 539
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2140",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.038579, 45.769058],
+          [5.038595, 45.768818],
+          [5.038458, 45.768526],
+          [5.035372, 45.762759],
+          [5.034999, 45.762219],
+          [5.034461, 45.761758],
+          [5.033587, 45.761357],
+          [5.031498, 45.761056],
+          [5.03118, 45.760889],
+          [5.030718, 45.76038],
+          [5.030516, 45.76028]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01957",
+        "libelle": "RD 302",
+        "longueur": 1242
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1818",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.769649, 45.677238],
+          [4.770061, 45.67706],
+          [4.770722, 45.676302],
+          [4.771496, 45.674975],
+          [4.772112, 45.673588],
+          [4.772299, 45.672128],
+          [4.77218, 45.671881],
+          [4.771864, 45.671683],
+          [4.768933, 45.670794]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01461",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 931
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2393",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.890423, 45.816996],
+          [4.89052, 45.816628],
+          [4.890197, 45.816123],
+          [4.885341, 45.811256],
+          [4.884405, 45.80998],
+          [4.883955, 45.809753],
+          [4.882649, 45.809584],
+          [4.88187, 45.809331],
+          [4.881452, 45.80911],
+          [4.881096, 45.80874],
+          [4.88095, 45.808348],
+          [4.881049, 45.807825],
+          [4.881555, 45.80701],
+          [4.882308, 45.80623],
+          [4.882471, 45.805856],
+          [4.882505, 45.805439],
+          [4.882381, 45.804991],
+          [4.881891, 45.804215],
+          [4.881393, 45.803641],
+          [4.88059, 45.803061]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00866",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1932
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2443",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.84044, 45.862602],
+          [4.841195, 45.859624],
+          [4.840999, 45.858172],
+          [4.840642, 45.857681],
+          [4.83841, 45.853073],
+          [4.837507, 45.85018],
+          [4.837172, 45.849735],
+          [4.837169, 45.849407],
+          [4.835527, 45.846239],
+          [4.834936, 45.844844]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01727",
+        "libelle": "RTE DE LYON",
+        "longueur": 2058
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1079",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.818051, 45.771936],
+          [4.823523, 45.773596]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00593",
+        "libelle": "BD DE LA CROIX-ROUSSE",
+        "longueur": 464
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2465",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.901709, 45.822864],
+          [4.901556, 45.822682],
+          [4.900964, 45.822309],
+          [4.898634, 45.821356],
+          [4.895168, 45.820284],
+          [4.892242, 45.818047],
+          [4.891321, 45.817563],
+          [4.891022, 45.817323],
+          [4.890618, 45.817245],
+          [4.890444, 45.817063]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01746",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1108
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2498",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.840478, 45.862607],
+          [4.841234, 45.859625],
+          [4.841037, 45.858164],
+          [4.840678, 45.85767],
+          [4.838447, 45.853066],
+          [4.837543, 45.850171],
+          [4.83721, 45.849728],
+          [4.837207, 45.849402],
+          [4.835563, 45.84623],
+          [4.834973, 45.844836]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01727",
+        "libelle": "RTE DE LYON",
+        "longueur": 2059
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.848",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.907599, 45.707456],
+          [4.914354, 45.703377]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02292",
+        "libelle": "RTE DE LYON",
+        "longueur": 694
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1643",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.865212, 45.79163],
+          [4.866651, 45.791807],
+          [4.870367, 45.792749],
+          [4.870848, 45.793057],
+          [4.871278, 45.793535]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00881",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 534
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2119",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.982793, 45.734627],
+          [4.986685, 45.734767],
+          [4.988239, 45.734534],
+          [4.989731, 45.734191],
+          [4.990834, 45.733701],
+          [4.992202, 45.733238],
+          [4.992389, 45.73301]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02230",
+        "libelle": "RTE DE LYON",
+        "longueur": 798
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.760",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.992644, 45.733276],
+          [4.990996, 45.733777],
+          [4.98946, 45.734418],
+          [4.986958, 45.734868],
+          [4.98278, 45.7348]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02231",
+        "libelle": "RTE DE LYON",
+        "longueur": 805
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2372",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.817355, 45.899016],
+          [4.818924, 45.897548],
+          [4.820271, 45.895931],
+          [4.820659, 45.895112],
+          [4.821171, 45.894946],
+          [4.823829, 45.892661],
+          [4.825022, 45.89114],
+          [4.82513, 45.890834]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01758",
+        "libelle": "RTE DE TREVOUX",
+        "longueur": 1106
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.943",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.840786, 45.862654],
+          [4.84043, 45.863997],
+          [4.839981, 45.865306],
+          [4.83978, 45.866299],
+          [4.839772, 45.867962],
+          [4.83993, 45.868288],
+          [4.839871, 45.86857],
+          [4.839968, 45.869666],
+          [4.839881, 45.871522]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01725",
+        "libelle": "RTE DE LYON",
+        "longueur": 996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.3014",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.839534, 45.871499],
+          [4.839645, 45.869807],
+          [4.839532, 45.86856],
+          [4.839388, 45.86832],
+          [4.839419, 45.86657],
+          [4.839627, 45.865426],
+          [4.840439, 45.862605]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01726",
+        "libelle": "RTE DE LYON",
+        "longueur": 998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.908",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.835283, 45.844779],
+          [4.835854, 45.8462],
+          [4.837684, 45.849612],
+          [4.838733, 45.853047],
+          [4.841439, 45.858331],
+          [4.841542, 45.859638],
+          [4.840786, 45.862655]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01728",
+        "libelle": "RTE DE LYON",
+        "longueur": 2069
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.182",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.91234, 45.834384],
+          [4.91357, 45.835654],
+          [4.914107, 45.836339],
+          [4.914593, 45.837253],
+          [4.914835, 45.838208],
+          [4.914957, 45.83986],
+          [4.914713, 45.841751],
+          [4.914501, 45.84221],
+          [4.913634, 45.843413]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01742",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1072
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1359",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.912144, 45.834472],
+          [4.908609, 45.830495],
+          [4.90815, 45.830122],
+          [4.907617, 45.829905]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01743",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 623
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1758",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.907534, 45.829858],
+          [4.90749, 45.8293],
+          [4.902381, 45.823479],
+          [4.901716, 45.822874]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01745",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 906
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1981",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.902101, 45.822727],
+          [4.902142, 45.822892],
+          [4.907762, 45.829184],
+          [4.907936, 45.82931],
+          [4.908258, 45.829357],
+          [4.90847, 45.829479]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01748",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 909
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2099",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.823997, 45.732546],
+          [4.819024, 45.733916]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00279",
+        "libelle": "PONT PASTEUR",
+        "longueur": 416
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2241",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.770221, 45.677412],
+          [4.770367, 45.677605],
+          [4.772533, 45.678466],
+          [4.772951, 45.678469],
+          [4.773397, 45.678813],
+          [4.775389, 45.679637],
+          [4.776656, 45.680415],
+          [4.781302, 45.682322]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01456",
+        "libelle": "RTE DE LYON",
+        "longueur": 1033
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.769",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.060557, 45.799549],
+          [5.06077, 45.799655],
+          [5.061443, 45.799705],
+          [5.062651, 45.799593],
+          [5.064045, 45.799648],
+          [5.064562, 45.799804],
+          [5.065679, 45.800399],
+          [5.06633, 45.800538],
+          [5.070511, 45.80064],
+          [5.073635, 45.800831],
+          [5.077675, 45.800946],
+          [5.079437, 45.801165],
+          [5.080647, 45.801103],
+          [5.082251, 45.800863],
+          [5.084136, 45.800807]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02068",
+        "libelle": "RTE DE LYON",
+        "longueur": 1873
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2805",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.887294, 45.73078],
+          [4.883316, 45.732037]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00297",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 340
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.763",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.821129, 45.807335],
+          [4.820617, 45.805898],
+          [4.820474, 45.803307],
+          [4.819604, 45.799919],
+          [4.819587, 45.79951],
+          [4.818905, 45.79811],
+          [4.81771, 45.796995],
+          [4.817062, 45.796631],
+          [4.816055, 45.796247],
+          [4.814665, 45.794932]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01810",
+        "libelle": "RTE DE LYON",
+        "longueur": 1536
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.716",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.77103, 45.752188],
+          [4.770162, 45.754212]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02466",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 235
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.396",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.750997, 45.654648],
+          [4.750976, 45.655142],
+          [4.751542, 45.658848],
+          [4.751718, 45.659341],
+          [4.752056, 45.659847]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01333",
+        "libelle": "RTE DE LYON",
+        "longueur": 588
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1645",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.949644, 45.718132],
+          [4.949353, 45.717962],
+          [4.948323, 45.717774],
+          [4.94764, 45.717706],
+          [4.946477, 45.717717],
+          [4.944911, 45.717975],
+          [4.943462, 45.718512],
+          [4.942469, 45.719134],
+          [4.941879, 45.719662],
+          [4.941402, 45.720257],
+          [4.940334, 45.722005],
+          [4.93989, 45.722531],
+          [4.939242, 45.723096],
+          [4.938061, 45.72381],
+          [4.935491, 45.724778]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00809",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 1472
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.788",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.766695, 45.669691],
+          [4.768315, 45.670293],
+          [4.770578, 45.670899],
+          [4.771169, 45.670932],
+          [4.772271, 45.670641],
+          [4.772663, 45.670725],
+          [4.772903, 45.670981],
+          [4.772786, 45.67272],
+          [4.772521, 45.673734],
+          [4.771014, 45.676525],
+          [4.770289, 45.677285],
+          [4.770292, 45.677432]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01460",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 1293
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2310",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.08413, 45.800957],
+          [5.082197, 45.800984],
+          [5.080112, 45.801368],
+          [5.079619, 45.801398],
+          [5.078564, 45.801153],
+          [5.077823, 45.801077],
+          [5.066145, 45.800644],
+          [5.065555, 45.800494],
+          [5.064378, 45.799875],
+          [5.063683, 45.79973],
+          [5.06242, 45.799723],
+          [5.061529, 45.799824],
+          [5.060735, 45.799775],
+          [5.060301, 45.799903]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02067",
+        "libelle": "RTE DE LYON",
+        "longueur": 1897
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.673",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.823931, 45.741229],
+          [4.81837, 45.734614]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00639",
+        "libelle": "QU PERRACHE",
+        "longueur": 853
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1687",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.818798, 45.814666],
+          [4.818827, 45.814558],
+          [4.819352, 45.814368],
+          [4.819384, 45.814245],
+          [4.819304, 45.814168],
+          [4.818744, 45.813986],
+          [4.818667, 45.813602],
+          [4.818042, 45.813091],
+          [4.817948, 45.812758],
+          [4.818206, 45.812492],
+          [4.818805, 45.812133],
+          [4.819162, 45.811249],
+          [4.820136, 45.809723],
+          [4.821142, 45.808782],
+          [4.8213, 45.808272],
+          [4.821129, 45.807331]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01791",
+        "libelle": "RTE DE LYON",
+        "longueur": 965
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2386",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.825993, 45.891291],
+          [4.825526, 45.891515],
+          [4.821996, 45.894503],
+          [4.821407, 45.895209],
+          [4.82133, 45.895466],
+          [4.820811, 45.895736],
+          [4.818732, 45.898157],
+          [4.817846, 45.898957],
+          [4.817716, 45.899168]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01757",
+        "libelle": "RTE DE TREVOUX",
+        "longueur": 1096
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1216",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.781195, 45.682453],
+          [4.776529, 45.680501],
+          [4.776119, 45.680461],
+          [4.77584, 45.680084],
+          [4.774749, 45.679504],
+          [4.770818, 45.677923],
+          [4.770262, 45.677734],
+          [4.769942, 45.67776]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01457",
+        "libelle": "RTE DE LYON",
+        "longueur": 1036
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2488",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.813854, 45.673578],
+          [4.811368, 45.673348],
+          [4.810629, 45.672805],
+          [4.809994, 45.671837],
+          [4.80975, 45.671742],
+          [4.808885, 45.671933],
+          [4.807434, 45.672433],
+          [4.806987, 45.672499],
+          [4.805446, 45.672497],
+          [4.802914, 45.67317],
+          [4.802471, 45.673206],
+          [4.800299, 45.673096],
+          [4.798808, 45.673451],
+          [4.798031, 45.673405],
+          [4.796196, 45.672861],
+          [4.794504, 45.672938],
+          [4.793326, 45.672604],
+          [4.792814, 45.672532],
+          [4.7913, 45.672702]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01511",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 1917
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.218",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.758047, 45.62957],
+          [4.7617, 45.625124],
+          [4.765041, 45.621991],
+          [4.765784, 45.621195],
+          [4.766317, 45.620406],
+          [4.767531, 45.617983],
+          [4.767719, 45.617752],
+          [4.768176, 45.617435],
+          [4.768022, 45.617119]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01361",
+        "libelle": "RTE DE LYON",
+        "longueur": 1610
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2794",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.883141, 45.731841],
+          [4.885949, 45.730901],
+          [4.887171, 45.730565]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00296",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 344
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.654",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.912111, 45.834486],
+          [4.908578, 45.830511],
+          [4.908125, 45.830143],
+          [4.907598, 45.829929]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01743",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 621
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2920",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.89446, 45.743452],
+          [4.894301, 45.743299],
+          [4.893715, 45.74219],
+          [4.893553, 45.742076],
+          [4.89356, 45.741895],
+          [4.892048, 45.739022]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00452",
+        "libelle": "BD PINEL",
+        "longueur": 531
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.535",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.901742, 45.82285],
+          [4.901587, 45.822665],
+          [4.900987, 45.822287],
+          [4.898652, 45.821332],
+          [4.895191, 45.820261],
+          [4.892268, 45.818027],
+          [4.891348, 45.817543],
+          [4.891044, 45.8173],
+          [4.890642, 45.817222],
+          [4.890476, 45.817048]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01746",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1108
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2850",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.892271, 45.73896],
+          [4.894712, 45.743346]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00453",
+        "libelle": "BD PINEL",
+        "longueur": 523
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.959",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.909222, 45.706849],
+          [4.908925, 45.707103],
+          [4.908855, 45.707152],
+          [4.908155, 45.707579],
+          [4.908096, 45.70763],
+          [4.908068, 45.707675],
+          [4.908093, 45.707737],
+          [4.90816, 45.707832]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02436",
+        "libelle": "RTE DE LYON",
+        "longueur": 148
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1443",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.770018, 45.677741],
+          [4.768869, 45.679241],
+          [4.768188, 45.680541],
+          [4.767061, 45.683737],
+          [4.76717, 45.68406],
+          [4.766798, 45.684447],
+          [4.765521, 45.688142],
+          [4.765481, 45.68874],
+          [4.765607, 45.689417],
+          [4.766357, 45.691646],
+          [4.766685, 45.691946],
+          [4.766607, 45.692256],
+          [4.766943, 45.693482],
+          [4.76691, 45.694067],
+          [4.766216, 45.696746],
+          [4.766368, 45.697785],
+          [4.766535, 45.698344],
+          [4.766696, 45.698559]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01459",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 2407
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.373",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.923537, 45.698188],
+          [4.922134, 45.699009],
+          [4.918015, 45.701666],
+          [4.914648, 45.70365]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02293",
+        "libelle": "RTE DE LYON",
+        "longueur": 921
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1556",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.891452, 45.816933],
+          [4.891376, 45.817193],
+          [4.891459, 45.817301],
+          [4.893928, 45.819007],
+          [4.895297, 45.820102],
+          [4.895786, 45.820319],
+          [4.898494, 45.821096],
+          [4.90112, 45.822163],
+          [4.902067, 45.822687]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01747",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1077
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2861",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.869388, 45.736263],
+          [4.873912, 45.734812]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00290",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 387
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1456",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.772699, 45.607241],
+          [4.772696, 45.607781],
+          [4.772457, 45.608466],
+          [4.768498, 45.61647],
+          [4.76844, 45.616778],
+          [4.768588, 45.617055]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01365",
+        "libelle": "RTE DE LYON",
+        "longueur": 1147
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2018",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.937164, 45.743175],
+          [4.945391, 45.741505],
+          [4.947806, 45.741076],
+          [4.953635, 45.739693],
+          [4.954309, 45.739436],
+          [4.954985, 45.738987],
+          [4.955018, 45.73865]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00830",
+        "libelle": "RTE DE LYON",
+        "longueur": 1509
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1599",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.956149, 45.73883],
+          [4.955892, 45.7391],
+          [4.955235, 45.739162],
+          [4.954485, 45.739624],
+          [4.953951, 45.739845],
+          [4.949007, 45.741061],
+          [4.9437, 45.742099],
+          [4.943046, 45.742307],
+          [4.942502, 45.742679]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00831",
+        "libelle": "RTE DE LYON",
+        "longueur": 1165
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.721",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.823475, 45.773726],
+          [4.817978, 45.772048]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00592",
+        "libelle": "BD DE LA CROIX-ROUSSE",
+        "longueur": 466
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2277",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.060255, 45.799906],
+          [5.059886, 45.799833],
+          [5.059315, 45.799899],
+          [5.058228, 45.799832],
+          [5.055839, 45.799096],
+          [5.054536, 45.798937],
+          [5.053333, 45.798689],
+          [5.052356, 45.798191],
+          [5.048135, 45.79669],
+          [5.046756, 45.796294]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01934",
+        "libelle": "RTE DE LYON",
+        "longueur": 1141
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2023",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.769896, 45.754048],
+          [4.769963, 45.754],
+          [4.77072, 45.75208]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02467",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 229
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2430",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.880875, 45.802931],
+          [4.881486, 45.803345],
+          [4.882133, 45.804042],
+          [4.882615, 45.804747],
+          [4.882836, 45.805392],
+          [4.882818, 45.805844],
+          [4.882632, 45.806305],
+          [4.881861, 45.807106],
+          [4.88139, 45.807861],
+          [4.881304, 45.808355],
+          [4.881498, 45.808756],
+          [4.881879, 45.809043],
+          [4.88263, 45.809333],
+          [4.884127, 45.809539],
+          [4.884555, 45.809725],
+          [4.885663, 45.811184],
+          [4.886864, 45.812298],
+          [4.890923, 45.816491],
+          [4.891301, 45.816653],
+          [4.891476, 45.816873]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00865",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1956
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1553",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.901753, 45.711004],
+          [4.907601, 45.707457]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00774",
+        "libelle": "RTE DE LYON",
+        "longueur": 602
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2924",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.913392, 45.843345],
+          [4.914439, 45.841767],
+          [4.914689, 45.840048],
+          [4.914566, 45.838159],
+          [4.914317, 45.837241],
+          [4.913851, 45.836383],
+          [4.912112, 45.834489]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01741",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1051
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2716",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.869404, 45.736288],
+          [4.873928, 45.734837]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00290",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 387
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.714",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.913613, 45.843402],
+          [4.910153, 45.850631],
+          [4.909686, 45.851183],
+          [4.908631, 45.852015],
+          [4.908252, 45.852592]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01739",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1113
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2509",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.724299, 45.844203],
+          [4.724728, 45.844272],
+          [4.72593, 45.844212],
+          [4.728023, 45.843834],
+          [4.729989, 45.84388],
+          [4.730742, 45.844016],
+          [4.731995, 45.844576],
+          [4.732708, 45.844699],
+          [4.733489, 45.844717]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01284",
+        "libelle": "RTE DE LYON",
+        "longueur": 742
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2417",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.73345, 45.845003],
+          [4.732974, 45.844874],
+          [4.731673, 45.844744],
+          [4.730463, 45.844145],
+          [4.729384, 45.843989],
+          [4.727866, 45.844004],
+          [4.726215, 45.844331],
+          [4.724694, 45.844428],
+          [4.724359, 45.844545]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01285",
+        "libelle": "RTE DE LYON",
+        "longueur": 741
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2232",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.785907, 45.764348],
+          [4.786667, 45.765134],
+          [4.787679, 45.765623],
+          [4.789861, 45.766403],
+          [4.790455, 45.766539],
+          [4.7917, 45.766678],
+          [4.793253, 45.766657],
+          [4.795536, 45.766357],
+          [4.798534, 45.765738],
+          [4.799172, 45.765551],
+          [4.8001, 45.765118]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01244",
+        "libelle": "BRETELLE TASSIN VOIE SUD",
+        "longueur": 1223
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2009",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.989825, 45.761131],
+          [4.990734, 45.765927],
+          [4.991302, 45.767859],
+          [4.991592, 45.768069]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01960",
+        "libelle": "RD 302",
+        "longueur": 789
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1771",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.862802, 45.791286],
+          [4.865193, 45.791635]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00879",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.228",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.914379, 45.703399],
+          [4.92322, 45.698002]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02294",
+        "libelle": "RTE DE LYON",
+        "longueur": 913
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2016",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.865115, 45.791798],
+          [4.862745, 45.791463]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00880",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 188
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.456",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.903602, 45.710274],
+          [4.90308, 45.710642],
+          [4.902208, 45.711179],
+          [4.902184, 45.711283]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02426",
+        "libelle": "RTE DE LYON",
+        "longueur": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2404",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.876908, 45.80015],
+          [4.876743, 45.799915],
+          [4.876234, 45.798973],
+          [4.875565, 45.797269],
+          [4.875645, 45.796388],
+          [4.875484, 45.796087],
+          [4.874002, 45.79505],
+          [4.873133, 45.794716],
+          [4.871845, 45.794406],
+          [4.871522, 45.794199],
+          [4.871013, 45.793636]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00884",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 925
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2752",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.768024, 45.61709],
+          [4.768323, 45.616333],
+          [4.772309, 45.608352],
+          [4.77245, 45.607863],
+          [4.772437, 45.60725]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01364",
+        "libelle": "RTE DE LYON",
+        "longueur": 1151
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1287",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.821304, 45.807318],
+          [4.821466, 45.808152],
+          [4.821348, 45.808817],
+          [4.820226, 45.809895],
+          [4.819389, 45.811194],
+          [4.818918, 45.812247],
+          [4.818128, 45.812801],
+          [4.818191, 45.813044],
+          [4.818854, 45.813603],
+          [4.818892, 45.813892],
+          [4.81941, 45.814082],
+          [4.819589, 45.814249],
+          [4.819463, 45.81451],
+          [4.818946, 45.814713]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01793",
+        "libelle": "RTE DE LYON",
+        "longueur": 970
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1961",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.887428, 45.730459],
+          [4.886761, 45.729745],
+          [4.886611, 45.729329],
+          [4.887115, 45.723486]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01994",
+        "libelle": "BD PINEL",
+        "longueur": 793
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.955",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.860934, 45.677584],
+          [4.860624, 45.674899],
+          [4.860143, 45.67301]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01549",
+        "libelle": "RTE DE LYON",
+        "longueur": 513
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1582",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.751099, 45.651023],
+          [4.751634, 45.644743],
+          [4.751852, 45.643542],
+          [4.752193, 45.642854],
+          [4.752717, 45.642192],
+          [4.755429, 45.639978],
+          [4.755955, 45.639289],
+          [4.756143, 45.638678],
+          [4.756151, 45.637586],
+          [4.756072, 45.636325],
+          [4.755724, 45.634873],
+          [4.755757, 45.634283],
+          [4.757341, 45.630714],
+          [4.758044, 45.629574]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01335",
+        "libelle": "RTE DE LYON",
+        "longueur": 2524
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.510",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.711659, 45.857801],
+          [4.712839, 45.857495],
+          [4.713356, 45.85717],
+          [4.71429, 45.856431],
+          [4.715467, 45.855054],
+          [4.716699, 45.854292],
+          [4.717047, 45.853937],
+          [4.717271, 45.853299],
+          [4.717075, 45.852293],
+          [4.717106, 45.851832],
+          [4.717406, 45.851203],
+          [4.718445, 45.849644],
+          [4.718655, 45.847829],
+          [4.719024, 45.847067],
+          [4.719759, 45.846438],
+          [4.722747, 45.844787],
+          [4.724254, 45.844208]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01286",
+        "libelle": "RTE DE LYON",
+        "longueur": 1929
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1299",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.724333, 45.84455],
+          [4.723663, 45.844591],
+          [4.722838, 45.844925],
+          [4.719992, 45.84648],
+          [4.719265, 45.847063],
+          [4.718971, 45.847506],
+          [4.71884, 45.847904],
+          [4.718648, 45.849662],
+          [4.717705, 45.85111],
+          [4.717504, 45.85161],
+          [4.717421, 45.852197],
+          [4.717479, 45.85337],
+          [4.717259, 45.853988],
+          [4.716903, 45.854363],
+          [4.715416, 45.855341],
+          [4.714464, 45.85648],
+          [4.713744, 45.857084],
+          [4.712296, 45.85798],
+          [4.712022, 45.858044]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01287",
+        "libelle": "RTE DE LYON",
+        "longueur": 1905
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1872",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.67911, 45.855634],
+          [4.68015, 45.854733],
+          [4.680565, 45.854884],
+          [4.684012, 45.855207],
+          [4.69202, 45.855932],
+          [4.692639, 45.855896],
+          [4.693172, 45.856036],
+          [4.698721, 45.856558],
+          [4.699915, 45.856808],
+          [4.701328, 45.856663],
+          [4.702331, 45.856865],
+          [4.704656, 45.857123],
+          [4.705116, 45.857013],
+          [4.705545, 45.857175],
+          [4.711691, 45.857799]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01288",
+        "libelle": "RTE DE LYON",
+        "longueur": 2619
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2112",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.711984, 45.858044],
+          [4.710392, 45.857761],
+          [4.705353, 45.857311],
+          [4.705035, 45.857379],
+          [4.704608, 45.857262],
+          [4.702236, 45.856976],
+          [4.701318, 45.856792],
+          [4.699872, 45.856937],
+          [4.698553, 45.856665],
+          [4.693114, 45.856147],
+          [4.692592, 45.856163],
+          [4.69226, 45.856071],
+          [4.680246, 45.854959],
+          [4.679941, 45.855056],
+          [4.679292, 45.85578]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01289",
+        "libelle": "RTE DE LYON",
+        "longueur": 2622
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2169",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.935401, 45.724387],
+          [4.936395, 45.724202],
+          [4.9374, 45.723905],
+          [4.93819, 45.723559],
+          [4.939007, 45.723049],
+          [4.94002, 45.722095],
+          [4.941161, 45.720254],
+          [4.941725, 45.719543],
+          [4.9424, 45.718957],
+          [4.943502, 45.718311],
+          [4.944698, 45.717869],
+          [4.946398, 45.717567],
+          [4.947748, 45.717553],
+          [4.949407, 45.717796],
+          [4.949829, 45.717718]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00808",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 1477
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1718",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.758241, 45.629647],
+          [4.757501, 45.630811],
+          [4.755938, 45.63439],
+          [4.755922, 45.63491],
+          [4.756302, 45.636724],
+          [4.756369, 45.638425],
+          [4.756179, 45.639294],
+          [4.755658, 45.640014],
+          [4.752822, 45.64232],
+          [4.752278, 45.643042],
+          [4.75202, 45.643619],
+          [4.75178, 45.645359],
+          [4.750971, 45.654651]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01334",
+        "libelle": "RTE DE LYON",
+        "longueur": 2921
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.264",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.830987, 45.769654],
+          [4.830916, 45.769872],
+          [4.830974, 45.773428],
+          [4.83087, 45.774289]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02062",
+        "libelle": "TUNNEL ROUTIER DE LE RUE TERME",
+        "longueur": 516
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1293",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.768589, 45.617087],
+          [4.768333, 45.617592],
+          [4.767946, 45.617822],
+          [4.767704, 45.618082],
+          [4.766506, 45.62044],
+          [4.765882, 45.621351],
+          [4.761939, 45.625147],
+          [4.758238, 45.629651]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01360",
+        "libelle": "RTE DE LYON",
+        "longueur": 1624
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.274",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.958126, 45.716713],
+          [4.958443, 45.716687],
+          [4.96743, 45.71371]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00812",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 799
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2073",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.956056, 45.738872],
+          [4.956156, 45.739101],
+          [4.956361, 45.739155],
+          [4.958205, 45.738909],
+          [4.961886, 45.738697],
+          [4.964828, 45.738626],
+          [4.969243, 45.738219]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00952",
+        "libelle": "RTE DE LYON",
+        "longueur": 1053
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.984",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.046831, 45.796185],
+          [5.048087, 45.796543],
+          [5.05237, 45.798059],
+          [5.053396, 45.798577],
+          [5.056111, 45.799032],
+          [5.058292, 45.799718],
+          [5.059443, 45.79977],
+          [5.059765, 45.799713],
+          [5.059991, 45.799538]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01933",
+        "libelle": "RTE DE LYON",
+        "longueur": 1122
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2026",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.830861, 45.774253],
+          [4.832485, 45.77438]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02063",
+        "libelle": "BD DE LA CROIX-ROUSSE",
+        "longueur": 127
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1537",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.991947, 45.705612],
+          [4.972987, 45.711983],
+          [4.9726, 45.712247],
+          [4.972021, 45.712294],
+          [4.970017, 45.713119]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01006",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 1906
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.783",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.791281, 45.672475],
+          [4.7915, 45.672515],
+          [4.793028, 45.67243],
+          [4.794621, 45.672827],
+          [4.796287, 45.672744],
+          [4.797664, 45.673202],
+          [4.798196, 45.673315],
+          [4.798723, 45.673334],
+          [4.799111, 45.673295],
+          [4.799811, 45.673057],
+          [4.800306, 45.67298],
+          [4.80267, 45.673081],
+          [4.80537, 45.672385],
+          [4.807149, 45.672364],
+          [4.809391, 45.671696],
+          [4.809933, 45.67146],
+          [4.810633, 45.672594],
+          [4.811364, 45.673202],
+          [4.811616, 45.673281],
+          [4.813928, 45.673398]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01510",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 1947
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.956",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.860757, 45.685474],
+          [4.860951, 45.685273],
+          [4.861094, 45.684708],
+          [4.861514, 45.682084],
+          [4.861461, 45.681478],
+          [4.861185, 45.680395],
+          [4.861, 45.677584]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01547",
+        "libelle": "RTE DE LYON",
+        "longueur": 887
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2508",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.861038, 45.67759],
+          [4.861217, 45.680359],
+          [4.861563, 45.681946],
+          [4.861051, 45.685219],
+          [4.861219, 45.685521]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01546",
+        "libelle": "RTE DE LYON",
+        "longueur": 888
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.3008",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.898734, 45.676147],
+          [4.898433, 45.676025],
+          [4.898221, 45.676059],
+          [4.897131, 45.676665],
+          [4.896136, 45.676862],
+          [4.895993, 45.677055],
+          [4.894416, 45.680738],
+          [4.893343, 45.684792],
+          [4.892389, 45.685808],
+          [4.892331, 45.686123],
+          [4.891932, 45.68635],
+          [4.891497, 45.687693],
+          [4.891546, 45.688221]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01564",
+        "libelle": "RTE DE LYON",
+        "longueur": 1565
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1855",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.817386, 45.899032],
+          [4.818956, 45.897563],
+          [4.820306, 45.895942],
+          [4.82069, 45.895132],
+          [4.821196, 45.894968],
+          [4.823861, 45.892676],
+          [4.825058, 45.89115],
+          [4.825168, 45.89084]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01758",
+        "libelle": "RTE DE TREVOUX",
+        "longueur": 1107
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1381",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.840748, 45.862649],
+          [4.840392, 45.863992],
+          [4.839943, 45.865301],
+          [4.839741, 45.866298],
+          [4.839734, 45.867966],
+          [4.839891, 45.868291],
+          [4.839832, 45.868569],
+          [4.839929, 45.869666],
+          [4.839842, 45.871521]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01725",
+        "libelle": "RTE DE LYON",
+        "longueur": 997
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2915",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.839573, 45.8715],
+          [4.839684, 45.869806],
+          [4.83957, 45.868553],
+          [4.839426, 45.868315],
+          [4.839457, 45.866571],
+          [4.839665, 45.865431],
+          [4.840477, 45.862611]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01726",
+        "libelle": "RTE DE LYON",
+        "longueur": 998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1514",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.835245, 45.844787],
+          [4.835817, 45.846209],
+          [4.837646, 45.84962],
+          [4.838696, 45.853054],
+          [4.8414, 45.858337],
+          [4.841503, 45.859637],
+          [4.840748, 45.86265]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01728",
+        "libelle": "RTE DE LYON",
+        "longueur": 2068
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.263",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.912372, 45.834369],
+          [4.913603, 45.83564],
+          [4.914143, 45.836328],
+          [4.914631, 45.837246],
+          [4.914873, 45.838205],
+          [4.914995, 45.83986],
+          [4.914751, 45.841756],
+          [4.914537, 45.84222],
+          [4.913668, 45.843425]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01742",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 1075
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1049",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.907573, 45.829856],
+          [4.907528, 45.829292],
+          [4.902413, 45.823464],
+          [4.901747, 45.822857]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01745",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 908
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.780",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.901778, 45.711025],
+          [4.907626, 45.707477]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00774",
+        "libelle": "RTE DE LYON",
+        "longueur": 602
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.113",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.751035, 45.654648],
+          [4.751015, 45.655141],
+          [4.75158, 45.658843],
+          [4.751754, 45.659332],
+          [4.752091, 45.659835]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01333",
+        "libelle": "RTE DE LYON",
+        "longueur": 586
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2521",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.949669, 45.718111],
+          [4.949371, 45.717938],
+          [4.94833, 45.717747],
+          [4.947643, 45.717679],
+          [4.946472, 45.71769],
+          [4.944897, 45.71795],
+          [4.94344, 45.71849],
+          [4.94244, 45.719115],
+          [4.941846, 45.719647],
+          [4.941367, 45.720245],
+          [4.940299, 45.721993],
+          [4.939858, 45.722516],
+          [4.939214, 45.723077],
+          [4.938039, 45.723787],
+          [4.935473, 45.724754]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00809",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 1475
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.668",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.937175, 45.743201],
+          [4.945401, 45.741531],
+          [4.947817, 45.741101],
+          [4.953651, 45.739718],
+          [4.954332, 45.739458],
+          [4.955022, 45.738999],
+          [4.955056, 45.738651]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00830",
+        "libelle": "RTE DE LYON",
+        "longueur": 1513
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.641",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.956117, 45.738815],
+          [4.95587, 45.739075],
+          [4.955218, 45.739137],
+          [4.954463, 45.739602],
+          [4.953935, 45.73982],
+          [4.948996, 45.741035],
+          [4.943686, 45.742073],
+          [4.943023, 45.742285],
+          [4.942475, 45.742659]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00831",
+        "libelle": "RTE DE LYON",
+        "longueur": 1164
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.552",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.770052, 45.677754],
+          [4.768904, 45.679252],
+          [4.768225, 45.680549],
+          [4.7671, 45.683737],
+          [4.767211, 45.684065],
+          [4.766834, 45.684458],
+          [4.765559, 45.688146],
+          [4.76552, 45.688739],
+          [4.765645, 45.689412],
+          [4.766392, 45.691634],
+          [4.766726, 45.691939],
+          [4.766646, 45.692256],
+          [4.766981, 45.69348],
+          [4.766948, 45.69407],
+          [4.766255, 45.696747],
+          [4.766406, 45.697781],
+          [4.766572, 45.698335],
+          [4.766731, 45.698546]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01459",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 2404
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2999",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.883332, 45.732061],
+          [4.879207, 45.733387]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00295",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 353
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1621",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.860314, 45.673007],
+          [4.860782, 45.674832],
+          [4.861104, 45.677585]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01548",
+        "libelle": "RTE DE LYON",
+        "longueur": 513
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1018",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.820737, 45.737231],
+          [4.824087, 45.741162]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00640",
+        "libelle": "QU PERRACHE",
+        "longueur": 509
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.180",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.871047, 45.793623],
+          [4.870561, 45.793105],
+          [4.870199, 45.792901],
+          [4.866625, 45.791964],
+          [4.865128, 45.791794]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00882",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 520
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.384",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.949885, 45.717668],
+          [4.950244, 45.717857],
+          [4.951671, 45.718081],
+          [4.952683, 45.718134],
+          [4.953023, 45.71813],
+          [4.953357, 45.718112],
+          [4.953617, 45.7181],
+          [4.953797, 45.718097],
+          [4.953988, 45.718108],
+          [4.954158, 45.718115],
+          [4.954284, 45.718102],
+          [4.954428, 45.718063],
+          [4.954501, 45.71802],
+          [4.954606, 45.717986],
+          [4.954725, 45.717975],
+          [4.954822, 45.717989],
+          [4.954891, 45.717995],
+          [4.954969, 45.717982],
+          [4.955113, 45.717934],
+          [4.955171, 45.717909],
+          [4.95538, 45.717795],
+          [4.955539, 45.717734],
+          [4.955705, 45.717679],
+          [4.95611, 45.717544],
+          [4.957196, 45.71715],
+          [4.957364, 45.717095],
+          [4.957569, 45.71704],
+          [4.957686, 45.717002],
+          [4.957804, 45.716952],
+          [4.958076, 45.716758]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00810",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 689
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1176",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.801138, 45.764953],
+          [4.796086, 45.767986],
+          [4.792262, 45.770545],
+          [4.789601, 45.771989]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO0114",
+        "libelle": "A6_GORGE DE LOUP_PORTE DE VALVERT",
+        "longueur": 1191
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1588",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.814833, 45.794857],
+          [4.816125, 45.79612],
+          [4.817126, 45.796525],
+          [4.817845, 45.796919],
+          [4.818996, 45.797901],
+          [4.819587, 45.799233],
+          [4.820034, 45.799499],
+          [4.819803, 45.799936],
+          [4.820685, 45.803557],
+          [4.820713, 45.805489],
+          [4.821301, 45.807313]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01809",
+        "libelle": "RTE DE LYON",
+        "longueur": 1558
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.795",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.031114, 45.760056],
+          [5.031239, 45.760486],
+          [5.031627, 45.760801],
+          [5.032037, 45.760915],
+          [5.033189, 45.761017],
+          [5.033846, 45.761182],
+          [5.034694, 45.761585],
+          [5.035247, 45.762053],
+          [5.035755, 45.762801],
+          [5.038865, 45.768559],
+          [5.039264, 45.768906]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01958",
+        "libelle": "RD 302",
+        "longueur": 1247
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1698",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.894712, 45.743348],
+          [4.896655, 45.747003],
+          [4.897303, 45.750165],
+          [4.897784, 45.751595],
+          [4.898427, 45.752868]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00454",
+        "libelle": "BD PINEL",
+        "longueur": 1102
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1575",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.771067, 45.752196],
+          [4.770199, 45.754219]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02466",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 235
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1586",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.907934, 45.707722],
+          [4.902032, 45.711304]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00775",
+        "libelle": "RTE DE LYON",
+        "longueur": 608
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2724",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.860599, 45.790936],
+          [4.861442, 45.791117],
+          [4.8628, 45.791285]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00877",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 176
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1847",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.862752, 45.791464],
+          [4.860598, 45.791289]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00878",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 169
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2750",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.88731, 45.730804],
+          [4.883332, 45.732061]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00297",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 340
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.42",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.823522, 45.773595],
+          [4.823774, 45.773665],
+          [4.830866, 45.77421]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00591",
+        "libelle": "BD DE LA CROIX-ROUSSE",
+        "longueur": 576
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.478",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.031076, 45.760061],
+          [5.031203, 45.760498],
+          [5.031604, 45.760823],
+          [5.032027, 45.760941],
+          [5.03318, 45.761043],
+          [5.033828, 45.761206],
+          [5.034667, 45.761605],
+          [5.035215, 45.762068],
+          [5.03572, 45.762812],
+          [5.038831, 45.768572],
+          [5.039233, 45.768923]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01958",
+        "libelle": "RD 302",
+        "longueur": 1248
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.171",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.887345, 45.723479],
+          [4.886827, 45.729156],
+          [4.886954, 45.729648],
+          [4.887673, 45.730376]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01995",
+        "libelle": "BD PINEL",
+        "longueur": 786
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.755",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.777117, 45.716947],
+          [4.776222, 45.716214],
+          [4.775209, 45.714849],
+          [4.772436, 45.712315],
+          [4.76835, 45.707114],
+          [4.76792, 45.706199],
+          [4.767771, 45.705641],
+          [4.767674, 45.703538],
+          [4.767388, 45.701999],
+          [4.766372, 45.698832],
+          [4.766177, 45.698653]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01146",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 2255
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1043",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.914623, 45.703629],
+          [4.907935, 45.707721]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02291",
+        "libelle": "RTE DE LYON",
+        "longueur": 691
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1171",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.902139, 45.822722],
+          [4.902178, 45.822882],
+          [4.907793, 45.829167],
+          [4.907956, 45.829285],
+          [4.908275, 45.829332],
+          [4.908495, 45.829458]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01748",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 907
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.250",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.766743, 45.698601],
+          [4.766702, 45.698841],
+          [4.767826, 45.702552],
+          [4.767998, 45.703832],
+          [4.768071, 45.705808],
+          [4.768551, 45.706956],
+          [4.772554, 45.712112],
+          [4.775469, 45.714783],
+          [4.776397, 45.716062],
+          [4.777309, 45.716808]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01147",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 2239
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2086",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.942466, 45.742635],
+          [4.940775, 45.744551],
+          [4.940027, 45.744945],
+          [4.939168, 45.745089]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01875",
+        "libelle": "RTE DE LYON",
+        "longueur": 392
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1513",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.95813, 45.716739],
+          [4.958454, 45.716713],
+          [4.967447, 45.713735]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00812",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 800
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1971",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.967544, 45.713936],
+          [4.966753, 45.714118],
+          [4.959073, 45.716726],
+          [4.958484, 45.716945],
+          [4.958325, 45.717168]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00813",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 809
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.407",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.039228, 45.768975],
+          [5.039127, 45.769322],
+          [5.039175, 45.769548],
+          [5.040922, 45.77529],
+          [5.041034, 45.775994],
+          [5.040925, 45.777406],
+          [5.040062, 45.779502],
+          [5.040043, 45.779795]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01955",
+        "libelle": "RD 302",
+        "longueur": 1228
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1888",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.039643, 45.779707],
+          [5.039998, 45.779226],
+          [5.040659, 45.777717],
+          [5.040851, 45.7768],
+          [5.040858, 45.775967],
+          [5.040616, 45.774845],
+          [5.038968, 45.76947],
+          [5.038612, 45.769091]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01956",
+        "libelle": "RD 302",
+        "longueur": 1219
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2603",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.82605, 45.665074],
+          [4.826116, 45.664846],
+          [4.825295, 45.663229],
+          [4.82372, 45.661183],
+          [4.821114, 45.659103],
+          [4.817787, 45.65615],
+          [4.817026, 45.65566],
+          [4.815982, 45.655279],
+          [4.815693, 45.655086],
+          [4.81559, 45.65491],
+          [4.815621, 45.65423],
+          [4.815504, 45.65396],
+          [4.813634, 45.65252],
+          [4.812533, 45.6506],
+          [4.81197, 45.65004]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01504",
+        "libelle": "RTE DE LYON",
+        "longueur": 2055
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.728",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.81229, 45.649997],
+          [4.813749, 45.652412],
+          [4.815687, 45.653923],
+          [4.815816, 45.654241],
+          [4.815783, 45.654834],
+          [4.815884, 45.655017],
+          [4.816155, 45.655189],
+          [4.817147, 45.65556],
+          [4.817836, 45.656006],
+          [4.821125, 45.658894],
+          [4.823907, 45.661154],
+          [4.825337, 45.663003],
+          [4.82641, 45.665042]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01505",
+        "libelle": "RTE DE LYON",
+        "longueur": 2049
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.213",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.777088, 45.716965],
+          [4.776189, 45.71623],
+          [4.775176, 45.714863],
+          [4.772404, 45.71233],
+          [4.768315, 45.707124],
+          [4.767883, 45.706205],
+          [4.767733, 45.705644],
+          [4.767636, 45.70354],
+          [4.76735, 45.702004],
+          [4.766337, 45.698844],
+          [4.766147, 45.698669]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01146",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 2255
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1060",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.967556, 45.713962],
+          [4.966767, 45.714143],
+          [4.95909, 45.71675],
+          [4.958513, 45.716965],
+          [4.95836, 45.71718]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00813",
+        "libelle": "RTE DE GRENOBLE",
+        "longueur": 806
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2493",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.766122, 45.698598],
+          [4.766198, 45.698269],
+          [4.765966, 45.69723],
+          [4.765969, 45.696539],
+          [4.766372, 45.695261],
+          [4.766644, 45.69381],
+          [4.766268, 45.69241],
+          [4.765812, 45.692111],
+          [4.765982, 45.691574],
+          [4.765265, 45.689332],
+          [4.765194, 45.688194],
+          [4.766533, 45.684223],
+          [4.766456, 45.683922],
+          [4.766733, 45.683649],
+          [4.768032, 45.680184],
+          [4.768543, 45.679233],
+          [4.769504, 45.677781],
+          [4.769428, 45.677504]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01458",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 2434
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.58",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.86281, 45.791259],
+          [4.865201, 45.791609]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00879",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2793",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.878987, 45.733203],
+          [4.883159, 45.731865]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00294",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 357
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2648",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.887968, 45.730733],
+          [4.888643, 45.732786],
+          [4.889023, 45.733563],
+          [4.889865, 45.735143],
+          [4.892271, 45.738958]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00457",
+        "libelle": "BD PINEL",
+        "longueur": 976
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.479",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.766705, 45.698598],
+          [4.766663, 45.698842],
+          [4.767788, 45.702556],
+          [4.76796, 45.703834],
+          [4.768032, 45.705813],
+          [4.768515, 45.706966],
+          [4.772522, 45.712127],
+          [4.775436, 45.714797],
+          [4.776365, 45.716077],
+          [4.77728, 45.716825]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01147",
+        "libelle": "RTE DE BRIGNAIS",
+        "longueur": 2241
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.338",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.818449, 45.733834],
+          [4.823941, 45.732308]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00280",
+        "libelle": "PONT PASTEUR",
+        "longueur": 460
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.111",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.969285, 45.738349],
+          [4.964504, 45.738771],
+          [4.962431, 45.738812],
+          [4.958194, 45.739061],
+          [4.956235, 45.739303],
+          [4.955674, 45.739093]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00953",
+        "libelle": "RTE DE LYON",
+        "longueur": 1072
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.600",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.891143, 45.68818],
+          [4.891272, 45.688003],
+          [4.891788, 45.686224],
+          [4.893186, 45.684751],
+          [4.894298, 45.680569],
+          [4.895928, 45.676797],
+          [4.896097, 45.676689],
+          [4.896984, 45.67656],
+          [4.89819, 45.675896],
+          [4.898857, 45.67575]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01565",
+        "libelle": "RTE DE LYON",
+        "longueur": 1594
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1535",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.907624, 45.707476],
+          [4.91438, 45.703397]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02292",
+        "libelle": "RTE DE LYON",
+        "longueur": 694
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1129",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.823983, 45.732521],
+          [4.81901, 45.733891]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00279",
+        "libelle": "PONT PASTEUR",
+        "longueur": 416
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2653",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.883316, 45.732036],
+          [4.879191, 45.733362]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00295",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 353
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2840",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.90854, 45.829519],
+          [4.908617, 45.830079],
+          [4.912371, 45.834369]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01744",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 621
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2772",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.874041, 45.735012],
+          [4.869499, 45.736472]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00291",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 389
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1994",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.818435, 45.733809],
+          [4.823926, 45.732283]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00280",
+        "libelle": "PONT PASTEUR",
+        "longueur": 460
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1048",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.862748, 45.791491],
+          [4.860593, 45.791316]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00878",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 169
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2821",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.874057, 45.735037],
+          [4.869515, 45.736497]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00291",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 389
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.918",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.90796, 45.707742],
+          [4.902058, 45.711324]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00775",
+        "libelle": "RTE DE LYON",
+        "longueur": 608
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.393",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.83082, 45.774356],
+          [4.823791, 45.773806],
+          [4.82348, 45.773727]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00590",
+        "libelle": "BD DE LA CROIX-ROUSSE",
+        "longueur": 576
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1061",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.751745, 45.659969],
+          [4.75143, 45.659497],
+          [4.751268, 45.658975],
+          [4.750554, 45.654644]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01332",
+        "libelle": "RTE DE LYON",
+        "longueur": 602
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2520",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.751779, 45.659957],
+          [4.751467, 45.659488],
+          [4.751306, 45.65897],
+          [4.750593, 45.654641]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01332",
+        "libelle": "RTE DE LYON",
+        "longueur": 601
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2181",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.865107, 45.791824],
+          [4.862737, 45.79149]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00880",
+        "libelle": "RTE DE STRASBOURG",
+        "longueur": 188
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2210",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.887562, 45.720598],
+          [4.887345, 45.723476]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO01998",
+        "libelle": "BD PINEL",
+        "longueur": 320
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2869",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.873911, 45.734812],
+          [4.878971, 45.733179]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00292",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 434
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.2674",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.883158, 45.731865],
+          [4.885964, 45.730926],
+          [4.887185, 45.73059]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO00296",
+        "libelle": "AV JEAN MERMOZ",
+        "longueur": 344
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pvo_patrimoine_voirie.pvotrafic.1367",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.914648, 45.703649],
+          [4.90796, 45.707741]
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "code": "LYO02291",
+        "libelle": "RTE DE LYON",
+        "longueur": 691
+      }
+    }
+  ]
+}

@@ -1,8 +1,9 @@
 # Straßenverkehr
 
 Der **Straßenverkehr in Echtzeit** mehrerer französischer Großstädte, gelesen aus ihren Open-Data-
-Portalen: Rennes Métropole, Nantes Métropole, Straßburg und Bordeaux Métropole. Flüssig, dicht,
-Stau oder gesperrt, Straße für Straße und rund um dein Haus. **Kein Konto, kein Schlüssel.**
+Portalen: Rennes Métropole, Nantes Métropole, Straßburg, Bordeaux Métropole und Lyon. Flüssig,
+dicht, Stau oder gesperrt, Straße für Straße und rund um dein Haus. **Kein Konto, kein
+Schlüssel**, außer für Lyon (ein kostenloses Grand-Lyon-Datenkonto).
 
 Inoffizielle Integration, ohne Verbindung zu den Städten oder ihren Verkehrszentralen. Die Quellen
 wurden am 29.10.2026 live geprüft; Rückmeldungen aus jeder Stadt sind willkommen.
@@ -11,7 +12,7 @@ wurden am 29.10.2026 live geprüft; Rückmeldungen aus jeder Stadt sind willkomm
 
 - Die **Nationalstraßen** in staatlicher Hand (DIR): Ringstraßen und Schnellstraßen wie die Ringstraße von Toulouse (A620, A61, A621, A624), die N118 oder die N136, ein Gerät pro Straße, Richtung und Département.
 - Ein **Gerät pro Straße**, der du folgst: Verkehrsstufe und ihr Name (flüssig, dicht, Stau,
-  gesperrt), Durchschnittsgeschwindigkeit (Rennes, Nantes, Straßburg) oder Fahrzeit und ihr
+  gesperrt), Durchschnittsgeschwindigkeit (Rennes, Nantes, Straßburg, Lyon) oder Fahrzeit und ihr
   üblicher Wert (Bordeaux) sowie das Alter der Messung.
 - Ein **Gerät „Rund ums Haus“** pro Stadt: die Straßenabschnitte im gewählten Umkreis des in Gladys
   verorteten Hauses, zu einer einzigen Stufe zusammengefasst.
@@ -24,7 +25,8 @@ wurden am 29.10.2026 live geprüft; Rückmeldungen aus jeder Stadt sind willkomm
 
 - Gladys Assistant **5.3.0** oder neuer.
 - Internetzugang für Gladys: die Daten kommen von den Open-Data-Portalen.
-- Kein Konto, kein API-Schlüssel. Für das Gerät „Rund ums Haus“ ein in Gladys verortetes Haus
+- Kein Konto, kein API-Schlüssel, außer für Lyon: ein kostenloses Konto auf data.grandlyon.com
+  (siehe unten). Für das Gerät „Rund ums Haus“ ein in Gladys verortetes Haus
   (Einstellungen → Häuser): die Integration bittet bei der Installation um Zugriff auf seinen
   Standort.
 
@@ -45,6 +47,8 @@ wurden am 29.10.2026 live geprüft; Rückmeldungen aus jeder Stadt sind willkomm
 | Rund ums Haus                     | aus, 500 m, 1 km (Standard), 2 km oder 3 km um das Haus                       |
 | Aktualisierung                    | alle 2, 3 (Standard) oder 5 Minuten                                           |
 | Sprache der Namen und Nachrichten | Sprache der Funktionsnamen, des Widgets und der Szenensätze (Französisch)     |
+| Grand-Lyon-Benutzername           | nur für Lyon: der Benutzername deines Kontos auf data.grandlyon.com           |
+| Grand-Lyon-Datenpasswort          | nur für Lyon: das Passwort des Datenportals, nicht das von GrandLyon Connect  |
 
 Die Namen der Funktionen werden beim Hinzufügen festgelegt: wähle zuerst die Sprache.
 
@@ -75,6 +79,29 @@ Toulouse · Innenring“: Innen- oder Außenring bei einer Ringstraße, sonst �
 angibt. Die Stadt ist die Verkehrsinformationszone des Messpunkts; ohne sie die Nummer des
 Départements („N136 (35)“). Die Richtung steht im Namen, in der gewählten Sprache.
 
+### Lyon (Grand-Lyon-Konto)
+
+Die Métropole de Lyon veröffentlicht ihren Echtzeitverkehr (Criter) auf data.grandlyon.com nur für
+angemeldete Nutzer. Das Konto ist kostenlos:
+
+1. Lege ein Konto auf [data.grandlyon.com](https://data.grandlyon.com) an, falls du keins hast.
+2. Das Datenportal hat **ein eigenes Passwort, getrennt von GrandLyon Connect** (dem Konto der
+   Online-Dienste der Métropole): lege es auf [der Seite „Passwort vergessen“](https://data.grandlyon.com/portail/fr/mot-de-passe-oublie) des Portals
+   fest, auch wenn du GrandLyon Connect schon nutzt.
+3. Kreuze in den Einstellungen **Lyon** an, fülle **Grand-Lyon-Benutzername** (meist deine
+   E-Mail-Adresse) und **Grand-Lyon-Datenpasswort** aus und speichere.
+
+Beide Felder sind optional: nur Lyon braucht sie, sonst lass sie leer. Ohne sie, oder wenn Grand
+Lyon sie ablehnt, wird Lyon nicht gelesen, der Verbindungsstatus der Integration und die Aktion
+**Status** sagen es („Grand-Lyon-Zugangsdaten abgelehnt“), und die anderen Städte funktionieren
+weiter. Abgelehnte Zugangsdaten werden nach einer Stunde erneut versucht, oder sobald du neue
+speicherst. Gladys speichert das Passwort als Geheimnis; die Integration schickt es nur an
+data.grandlyon.com und protokolliert es nie.
+
+Gib die Straßen wie auf der Verkehrskarte der Stadt ein, ausgeschrieben oder abgekürzt:
+`route de Genas` findet „RTE DE GENAS“, `Croix-Rousse` den Boulevard, die Grande Rue und den
+Tunnel.
+
 ### Prüfen
 
 Die Aktion **Status** im Tab Konfiguration listet die gelesenen Städte, die Zahl der bekannten
@@ -89,7 +116,7 @@ Jede hinzugefügte Straße ist ein schreibgeschütztes Gerät:
 | ---------------------------- | ---------------------- | --------------------------------------------------- |
 | Verkehr                      | Text                   | Flüssig, Dicht, Stau, Gesperrt oder Unbekannt       |
 | Verkehrsstufe                | Risikostufe            | 0 unbekannt, 1 flüssig, 2 dicht, 3 Stau, 4 gesperrt |
-| Durchschnittsgeschwindigkeit | Geschwindigkeit (km/h) | Rennes, Nantes, Straßburg, Nationalstraßen          |
+| Durchschnittsgeschwindigkeit | Geschwindigkeit (km/h) | Rennes, Nantes, Straßburg, Lyon, Nationalstraßen    |
 | Fahrzeit                     | Dauer (Minuten)        | Bordeaux: Fahrzeit der Strecke                      |
 | Übliche Fahrzeit             | Dauer (Minuten)        | Bordeaux: der mit ihr veröffentlichte Referenzwert  |
 | Alter der Daten              | Dauer (Minuten)        | Alter der neuesten Messung                          |
@@ -155,6 +182,7 @@ Der Satz folgt der in der Konfiguration gewählten Sprache.
 | Nantes          | data.nantesmetropole.fr, „Fluidité des axes routiers“                                                                             | alle paar Minuten          | ~890          |
 | Straßburg       | data.strasbourg.eu, „SIRAC - flux trafic en temps réel“                                                                           | alle 3 Minuten             | ~480          |
 | Bordeaux        | opendata.bordeaux-metropole.fr, „Temps de parcours en temps réel“                                                                 | alle 2,5 Minuten           | 16 Strecken   |
+| Lyon            | data.grandlyon.com, „État du trafic temps réel“ (Criter), mit Konto                                                               | jede Minute                | ~2.400        |
 | Nationalstraßen | tipi.bison-fute.gouv.fr (Nationaler Zugangspunkt), „État de circulation en temps réel sur le réseau national routier non concédé“ | alle 6 Minuten             | ~1.000 Punkte |
 
 Die Liste der Abschnitte (Namen, Positionen) wird **einmal am Tag** pro Stadt gelesen. Bei jeder
@@ -178,6 +206,13 @@ Punkte Frankreichs) wird als Datenstrom gelesen, nur die Punkte der hinzugefügt
 behalten, und **nur wenn sie neu veröffentlicht wurde** (Header `If-Modified-Since`). Nur die nicht
 konzessionierten Straßen werden veröffentlicht: keine mautpflichtigen Autobahnen.
 
+**Lyon** veröffentlicht die Farbe jedes Abschnitts seiner Verkehrskarte: grün flüssig, orange
+dicht, rot („chargé“) als Stau gezählt, schwarz gesperrt, grau keine Daten. Ein Abschnitt, den das
+Portal als nicht aktuell markiert, grau oder ohne Farbe, ist unbekannt: nie ein erfundenes
+„flüssig“. Die mitveröffentlichte Geschwindigkeit wird gezeigt, wenn sie eine Zahl ist. Bei jeder
+Aktualisierung eine Anfrage pro hundert Abschnitte der hinzugefügten Straßen, vom Portal gefiltert;
+die Liste der Abschnitte (~1,4 MB) einmal am Tag.
+
 ## Fehlerbehebung
 
 - **Keine Straße in „Entdecken“**: prüfe, ob eine Stadt angekreuzt und eine Straße eingegeben ist
@@ -186,16 +221,21 @@ konzessionierten Straßen werden veröffentlicht: keine mautpflichtigen Autobahn
 - **Kein Gerät „Rund ums Haus“**: das Haus hat in Gladys keinen Standort, oder kein Abschnitt liegt
   im gewählten Umkreis: versuch einen größeren. Die Aktion Status sagt, wie viele Abschnitte
   gefunden wurden.
+- **Lyon: „Grand-Lyon-Zugangsdaten abgelehnt“**: prüfe Benutzername und Passwort des
+  Datenportals; es ist nicht das von GrandLyon Connect, lege es auf [der Seite „Passwort
+  vergessen“](https://data.grandlyon.com/portail/fr/mot-de-passe-oublie) fest.
 - **Stufe „Unbekannt“**: das Portal hat seit mehr als 30 Minuten keine Messung für diese Straße
   veröffentlicht (nachts werden manche Abschnitte nicht gemessen).
 - Für mehr Details setze `LOG_LEVEL=debug`: jede Abfrage wird dann protokolliert.
 
 ## Einschränkungen
 
-- Nur die aufgeführten Städte werden unterstützt. **Lyon** verlangt jetzt ein Konto für seinen
-  Verkehrsfeed, **Grenoble** veröffentlicht Stufen ohne die Namen der Abschnitte, **Paris** und
-  **Toulouse** veröffentlichen nur stündliche oder archivierte Zählungen: diese Städte können
-  hinzugefügt werden, wenn ihre Daten es erlauben.
+- Nur die aufgeführten Städte werden unterstützt. **Grenoble** veröffentlicht Stufen ohne die Namen
+  der Abschnitte, **Paris** und **Toulouse** veröffentlichen nur stündliche oder archivierte
+  Zählungen: diese Städte können hinzugefügt werden, wenn ihre Daten es erlauben.
+- **Lyon** braucht ein Grand-Lyon-Datenkonto. Eine Straße fasst alle Abschnitte mit derselben
+  Bezeichnung zusammen, egal in welcher Gemeinde: eine lange Straße wie „RTE DE LYON“ ist ein Gerät;
+  „Rund ums Haus“ ist dann genauer. Die Namen sind die des Portals, in Großbuchstaben.
 - Die Straßen sind die Abschnitte und Namen der Portale: eine von der Stadt umbenannte Straße wird
   ein neues Gerät.
 - Die Stufen sind die der Städte (Floating Car Data in Rennes, Sensoren anderswo): sie können von
@@ -209,6 +249,8 @@ konzessionierten Straßen werden veröffentlicht: keine mautpflichtigen Autobahn
 - Daten: Rennes Métropole, Nantes Métropole, Eurométropole de Strasbourg (SIRAC), Bordeaux
   Métropole, unter ihren jeweiligen offenen Lizenzen (Licence Ouverte / ODbL). Gemeindenamen:
   geo.api.gouv.fr.
+- Lyon: Métropole de Lyon (Verkehrszentrale Criter), data.grandlyon.com, zu den Bedingungen ihrer
+  Datenplattform.
 - Erstellt aus der offiziellen
   [Integrationsvorlage](https://github.com/GladysAssistant/integration-template-js).
 - Nationalstraßen: Directions interdépartementales des routes (DIR), französisches Verkehrsministerium, über den Nationalen Zugangspunkt (transport.data.gouv.fr), Licence Ouverte. Lambert-93-Projektion: Formeln des IGN.

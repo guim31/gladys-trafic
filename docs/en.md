@@ -1,8 +1,9 @@
 # Road traffic
 
 The **live road traffic** of several French metropolises, read from their open data portals: Rennes
-Métropole, Nantes Métropole, Strasbourg and Bordeaux Métropole. Free flow, heavy, congested or
-closed, road by road, and around your house. **No account, no key.**
+Métropole, Nantes Métropole, Strasbourg, Bordeaux Métropole and Lyon. Free flow, heavy, congested or
+closed, road by road, and around your house. **No account, no key**, except for Lyon (a free
+Grand Lyon data account).
 
 Unofficial integration, not affiliated with the metropolises or their traffic centres. The sources
 were checked live on 2026-10-29; feedback from users of each city is welcome.
@@ -11,7 +12,7 @@ were checked live on 2026-10-29; feedback from users of each city is welcome.
 
 - The **national roads** run by the State (DIR): ring roads and expressways such as the Toulouse ring road (A620, A61, A621, A624), the N118 or the N136, one device per road, direction and département.
 - One **device per road** you follow: traffic level and its name (free flow, heavy, congested,
-  closed), average speed (Rennes, Nantes, Strasbourg) or travel time and its usual value
+  closed), average speed (Rennes, Nantes, Strasbourg, Lyon) or travel time and its usual value
   (Bordeaux), and the age of the measure.
 - One **"Around the house" device** per city: the road segments within the chosen distance of the
   house located in Gladys, gathered in a single level.
@@ -23,7 +24,7 @@ were checked live on 2026-10-29; feedback from users of each city is welcome.
 
 - Gladys Assistant **5.3.0** or later.
 - Internet access from Gladys: the data comes from the open data portals.
-- No account, no API key. For the "Around the house" device, a house located in Gladys
+- No account, no API key, except for Lyon: a free account on data.grandlyon.com (see below). For the "Around the house" device, a house located in Gladys
   (Settings → Houses): the integration asks for access to its location at install.
 
 ## Installation
@@ -43,6 +44,8 @@ were checked live on 2026-10-29; feedback from users of each city is welcome.
 | Around the house               | off, 500 m, 1 km (default), 2 km or 3 km around the house                  |
 | Refresh                        | every 2, 3 (default) or 5 minutes                                          |
 | Language of names and messages | language of the feature names, the widget and the scene sentences (French) |
+| Grand Lyon username            | only for Lyon: the username of your data.grandlyon.com account             |
+| Grand Lyon data password       | only for Lyon: the password of the data portal, not GrandLyon Connect      |
 
 Feature names are fixed when a device is added: pick the language first.
 
@@ -71,6 +74,27 @@ ring": inner or outer ring for a ring road, else "northbound", "southbound"… o
 area of the point; without one, the département number ("N136 (35)"). The direction is part of the
 name, its words in the language chosen.
 
+### Lyon (Grand Lyon account)
+
+The Métropole de Lyon publishes its live traffic (Criter) on data.grandlyon.com to signed-in users
+only. The account is free:
+
+1. Create an account on [data.grandlyon.com](https://data.grandlyon.com) if you have none.
+2. The data portal has **its own password, distinct from GrandLyon Connect** (the account of the
+   Métropole's online services): set it on [the "forgotten password" page](https://data.grandlyon.com/portail/fr/mot-de-passe-oublie) of the portal,
+   even if you already use GrandLyon Connect.
+3. In the settings, tick **Lyon**, fill in **Grand Lyon username** (usually your e-mail address)
+   and **Grand Lyon data password**, and save.
+
+Both fields are optional: only Lyon needs them, leave them empty otherwise. Without them, or when
+Grand Lyon refuses them, Lyon is not read, the connection status of the integration and the
+**Status** action say so ("Grand Lyon credentials refused"), and the other cities keep working.
+Refused credentials are tried again after an hour, or as soon as you save new ones. Gladys stores
+the password as a secret; the integration only sends it to data.grandlyon.com and never logs it.
+
+Type the roads as on the city's traffic map, in full or abbreviated: `route de Genas` finds
+"RTE DE GENAS", `Croix-Rousse` the boulevard, the Grande Rue and the tunnel.
+
 ### Check
 
 The **Status** action of the Configuration tab lists the cities read, the number of roads known,
@@ -85,7 +109,7 @@ Each road added is a read-only device:
 | ----------------- | ------------------ | ------------------------------------------------------ |
 | Traffic           | text               | Free flow, Heavy, Congested, Closed or Unknown         |
 | Traffic level     | risk level         | 0 unknown, 1 free flow, 2 heavy, 3 congested, 4 closed |
-| Average speed     | speed (km/h)       | Rennes, Nantes, Strasbourg, national roads             |
+| Average speed     | speed (km/h)       | Rennes, Nantes, Strasbourg, Lyon, national roads       |
 | Travel time       | duration (minutes) | Bordeaux: travel time of the route                     |
 | Usual travel time | duration (minutes) | Bordeaux: the reference value published with it        |
 | Data age          | duration (minutes) | age of the newest measure                              |
@@ -146,6 +170,7 @@ The sentence follows the language chosen in the configuration.
 | Nantes         | data.nantesmetropole.fr, "Fluidité des axes routiers"                                                                           | every few minutes   | ~890          |
 | Strasbourg     | data.strasbourg.eu, "SIRAC - flux trafic en temps réel"                                                                         | every 3 minutes     | ~480          |
 | Bordeaux       | opendata.bordeaux-metropole.fr, "Temps de parcours en temps réel"                                                               | every 2.5 minutes   | 16 routes     |
+| Lyon           | data.grandlyon.com, "État du trafic temps réel" (Criter), with an account                                                       | every minute        | ~2,400        |
 | National roads | tipi.bison-fute.gouv.fr (National Access Point), "État de circulation en temps réel sur le réseau national routier non concédé" | every 6 minutes     | ~1,000 points |
 
 The list of the segments (names, positions) is read **once a day** per city. At each refresh, one
@@ -166,6 +191,12 @@ file (`qtvDir.xml`, ~1.5 MB, every point in France) is read as a stream, keeping
 the roads added, and **only when republished** since the previous read (`If-Modified-Since`
 header). Only the non-conceded roads are published: no toll motorways.
 
+**Lyon** publishes the colour of each segment of its traffic map: green free flow, orange heavy,
+red ("chargé") counted as congested, black closed, grey no data. A segment the portal marks as out
+of date, grey or without a colour is unknown: never a made-up free flow. The speed published with
+it is shown when it is a number. At each refresh, one request per hundred segments of the roads
+added, filtered by the portal; the segment list (~1.4 MB) once a day.
+
 ## Troubleshooting
 
 - **No road in Discover**: check that a city is ticked and a road typed (3 letters at least), then
@@ -173,15 +204,20 @@ header). Only the non-conceded roads are published: no toll motorways.
   later.
 - **No "Around the house" device**: the house has no location in Gladys, or no segment lies within
   the chosen distance: try a larger one. The Status action says how many segments were found.
+- **Lyon: "Grand Lyon credentials refused"**: check the username and the password of the data
+  portal; it is not the GrandLyon Connect one, set it on [the "forgotten password" page](https://data.grandlyon.com/portail/fr/mot-de-passe-oublie).
 - **"Unknown" level**: the portal has published no measure for this road for more than 30 minutes
   (at night, some segments are not measured).
 - For more details, set `LOG_LEVEL=debug`: every reading is then logged.
 
 ## Limitations
 
-- Only the cities listed are supported. **Lyon** now requires an account for its traffic feed,
-  **Grenoble** publishes levels without the names of the segments, **Paris** and **Toulouse** only
-  publish hourly or archived counts: these cities can be added if their data allows it.
+- Only the cities listed are supported. **Grenoble** publishes levels without the names of the
+  segments, **Paris** and **Toulouse** only publish hourly or archived counts: these cities can be
+  added if their data allows it.
+- **Lyon** needs a Grand Lyon data account. A road gathers every segment bearing the same label,
+  whatever the commune: a long road such as "RTE DE LYON" is one device; "Around the house" is then
+  more precise. The names are the portal's, in upper case.
 - The roads are the portals' own segments and names: a road renamed by the city becomes a new
   device.
 - The levels are the cities' own (floating car data in Rennes, sensors elsewhere): they may differ
@@ -194,6 +230,8 @@ header). Only the non-conceded roads are published: no toll motorways.
 
 - Data: Rennes Métropole, Nantes Métropole, Eurométropole de Strasbourg (SIRAC), Bordeaux
   Métropole, under their respective open licences (Licence Ouverte / ODbL). Commune names: geo.api.gouv.fr.
+- Lyon: Métropole de Lyon (Criter traffic centre), data.grandlyon.com, under the terms of its data
+  platform.
 - Built from the official
   [integration template](https://github.com/GladysAssistant/integration-template-js).
 - National roads: Directions interdépartementales des routes (DIR), French ministry of transport, through the National Access Point (transport.data.gouv.fr), Licence Ouverte. Lambert-93 projection: IGN formulas.

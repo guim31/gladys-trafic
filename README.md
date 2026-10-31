@@ -3,9 +3,10 @@
 External integration for [Gladys Assistant](https://gladysassistant.com): the
 **live road traffic** of French metropolises, road by road, read from their
 open data portals: **Rennes Métropole, Nantes Métropole, Strasbourg** and
-**Bordeaux Métropole** (travel times of 16 routes), and the **national roads**
-run by the State's DIR (ring roads and expressways: Toulouse ring road, N118,
-N136…). **No account, no key.**
+**Bordeaux Métropole** (travel times of 16 routes), **Lyon** (with a free
+Grand Lyon data account), and the **national roads** run by the State's DIR
+(ring roads and expressways: Toulouse ring road, N118, N136…). No account, no
+key, except for Lyon.
 
 Unofficial: not affiliated with the metropolises or their traffic centres. The
 four sources were checked live on 2026-10-29, not yet on many Gladys
@@ -58,14 +59,17 @@ tab.
 | Nantes               | [Fluidité des axes routiers](https://data.nantesmetropole.fr/explore/dataset/244400404_fluidite-axes-routiers-nantes-metropole/information/)                                                         | every few minutes |
 | Strasbourg           | [SIRAC - flux trafic en temps réel](https://data.strasbourg.eu/explore/dataset/sirac_flux_trafic/information/)                                                                                       | every 3 minutes   |
 | Bordeaux             | [Temps de parcours en temps réel](https://opendata.bordeaux-metropole.fr/explore/dataset/ci_tpstj_a/information/)                                                                                    | every 2.5 minutes |
+| Lyon                 | [État du trafic temps réel](https://www.data.gouv.fr/datasets/etat-du-trafic-de-la-metropole-de-lyon-disponibilites-temps-reel) (data.grandlyon.com, account required)                               | every minute      |
 | National roads (DIR) | [État de circulation en temps réel sur le réseau national routier non concédé](https://transport.data.gouv.fr/datasets/etat-de-circulation-en-temps-reel-sur-le-reseau-national-routier-non-concede) | every 6 minutes   |
 
 ## Limitations
 
-- **Lyon** now requires an account for its traffic feed, **Grenoble**
-  publishes levels without the names of the segments, **Paris** and
-  **Toulouse** only publish hourly or archived counts: their city streets are
-  not supported for now (the Toulouse ring road is, as a national road).
+- **Grenoble** publishes levels without the names of the segments, **Paris**
+  and **Toulouse** only publish hourly or archived counts: their city streets
+  are not supported for now (the Toulouse ring road is, as a national road).
+- **Lyon** needs a free Grand Lyon data account: username and password in the
+  settings, the data portal password being distinct from GrandLyon Connect. A
+  road gathers every segment of the same label, whatever the commune.
 - Bordeaux publishes no level: it is computed from the travel time compared
   with its usual value.
 - The national roads publish speeds, no level: 60 km/h or more is free flow,
@@ -94,6 +98,8 @@ of the national roads files, captured on 2026-10-29 (a subset of the segments).
 - Data: Rennes Métropole, Nantes Métropole, Eurométropole de Strasbourg
   (SIRAC) and Bordeaux Métropole, under their open licences (Licence Ouverte /
   ODbL). Commune names of Rennes Métropole: geo.api.gouv.fr.
+- Lyon: Métropole de Lyon (Criter traffic centre), data.grandlyon.com, under
+  the terms of its data platform.
 - National roads: Directions interdépartementales des routes (DIR), French
   ministry of transport, through the National Access Point
   (transport.data.gouv.fr), Licence Ouverte. Lambert-93 projection: IGN

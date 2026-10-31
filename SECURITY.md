@@ -32,7 +32,11 @@ In scope: the code of this repository and the Docker image it publishes.
 
 What the integration handles:
 
-- **No secret**: the open data portals it reads need no account and no key.
+- **One optional secret, for Lyon only**: the username and password of a
+  Grand Lyon data account (data.grandlyon.com). Gladys stores them in its
+  configuration (the password as a `secret` field); the integration keeps them
+  in memory, sends them only to data.grandlyon.com (HTTP Basic, over HTTPS)
+  and never logs them. The other portals need no account and no key.
 - **Nothing stored in `/data`**: the cities and roads chosen live in the
   Gladys configuration, the segment lists and the last measures in memory only.
 - **Location of the house**: read from Gladys (`location: true`) to find the
@@ -41,7 +45,8 @@ What the integration handles:
   ids.
 - **Network**: outgoing HTTPS requests only, to the open data portals
   (data.rennesmetropole.fr, data.nantesmetropole.fr, data.strasbourg.eu,
-  opendata.bordeaux-metropole.fr), with a timeout and a size cap on every
+  opendata.bordeaux-metropole.fr, data.grandlyon.com,
+  tipi.bison-fute.gouv.fr), with a timeout and a size cap on every
   answer. No port is opened.
 
 Out of scope: Gladys Assistant itself (see its

@@ -1,8 +1,9 @@
 # Trafic routier
 
 Le **trafic routier en temps réel** de plusieurs métropoles françaises, lu sur leurs portails open
-data : Rennes Métropole, Nantes Métropole, Strasbourg et Bordeaux Métropole. Fluide, dense, saturé
-ou coupé, axe par axe, et autour de votre maison. **Sans compte ni clé.**
+data : Rennes Métropole, Nantes Métropole, Strasbourg, Bordeaux Métropole et Lyon. Fluide, dense,
+saturé ou coupé, axe par axe, et autour de votre maison. **Sans compte ni clé**, sauf pour Lyon (un
+compte data Grand Lyon gratuit).
 
 Intégration non officielle, sans lien avec les métropoles ni leurs centres de gestion du trafic.
 Les sources ont été vérifiées en direct le 29/10/2026 ; les retours des utilisateurs de chaque
@@ -12,7 +13,7 @@ ville sont les bienvenus.
 
 - Les **routes nationales** gérées par l'État (DIR) : rocades et voies rapides comme la rocade de Toulouse (A620, A61, A621, A624), la N118 ou la N136, un appareil par route, par sens et par département.
 - Un **appareil par axe** suivi : niveau de trafic et son nom (fluide, dense, saturé, coupé),
-  vitesse moyenne (Rennes, Nantes, Strasbourg) ou temps de parcours et sa valeur habituelle
+  vitesse moyenne (Rennes, Nantes, Strasbourg, Lyon) ou temps de parcours et sa valeur habituelle
   (Bordeaux), et l'âge de la mesure.
 - Un **appareil « Autour de la maison »** par ville : les tronçons situés à la distance choisie de
   la maison localisée dans Gladys, réunis en un seul niveau.
@@ -24,7 +25,8 @@ ville sont les bienvenus.
 
 - Gladys Assistant **5.3.0** ou plus récent.
 - Un accès Internet depuis Gladys : les données viennent des portails open data.
-- Ni compte, ni clé d'API. Pour l'appareil « Autour de la maison », une maison localisée dans
+- Ni compte, ni clé d'API, sauf pour Lyon : un compte gratuit sur data.grandlyon.com (voir plus
+  bas). Pour l'appareil « Autour de la maison », une maison localisée dans
   Gladys (Paramètres → Maisons) : l'intégration demande l'accès à sa position à l'installation.
 
 ## Installation
@@ -37,13 +39,15 @@ ville sont les bienvenus.
 
 ### Réglages
 
-| Réglage                     | Effet                                                                        |
-| --------------------------- | ---------------------------------------------------------------------------- |
-| Villes                      | les métropoles dont les axes sont proposés dans l'onglet Découverte          |
-| Axes à suivre               | une partie du nom de vos axes, séparée par des virgules (3 lettres au moins) |
-| Autour de la maison         | désactivé, 500 m, 1 km (par défaut), 2 km ou 3 km autour de la maison        |
-| Rafraîchissement            | toutes les 2, 3 (par défaut) ou 5 minutes                                    |
-| Langue des noms et messages | langue des fonctionnalités, du widget et des phrases de scène (français)     |
+| Réglage                      | Effet                                                                                 |
+| ---------------------------- | ------------------------------------------------------------------------------------- |
+| Villes                       | les métropoles dont les axes sont proposés dans l'onglet Découverte                   |
+| Axes à suivre                | une partie du nom de vos axes, séparée par des virgules (3 lettres au moins)          |
+| Autour de la maison          | désactivé, 500 m, 1 km (par défaut), 2 km ou 3 km autour de la maison                 |
+| Rafraîchissement             | toutes les 2, 3 (par défaut) ou 5 minutes                                             |
+| Langue des noms et messages  | langue des fonctionnalités, du widget et des phrases de scène (français)              |
+| Identifiant Grand Lyon       | seulement pour Lyon : l'identifiant de votre compte data.grandlyon.com                |
+| Mot de passe data Grand Lyon | seulement pour Lyon : le mot de passe du portail data, pas celui de GrandLyon Connect |
 
 Les noms des fonctionnalités sont figés à l'ajout de l'appareil : choisissez la langue d'abord.
 
@@ -72,6 +76,28 @@ sud »… ou « sens 1 » et « sens 2 » quand le référentiel ne donne pas d'
 celle de la zone d'information trafic du point ; sans elle, le numéro du département (« N136 (35)
 »). Le sens est dans le nom, les mots suivant la langue choisie.
 
+### Lyon (compte Grand Lyon)
+
+La Métropole de Lyon publie son trafic en temps réel (Criter) sur data.grandlyon.com, réservé aux
+utilisateurs connectés. Le compte est gratuit :
+
+1. Créez un compte sur [data.grandlyon.com](https://data.grandlyon.com) si vous n'en avez pas.
+2. Le portail data a **son propre mot de passe, distinct de GrandLyon Connect** (le compte des
+   services en ligne de la Métropole) : définissez-le sur [la page « mot de passe oublié »](https://data.grandlyon.com/portail/fr/mot-de-passe-oublie)
+   du portail, même si vous utilisez déjà GrandLyon Connect.
+3. Dans les réglages, cochez **Lyon**, remplissez **Identifiant Grand Lyon** (en général votre
+   adresse e-mail) et **Mot de passe data Grand Lyon**, puis enregistrez.
+
+Les deux champs sont facultatifs : seule Lyon en a besoin, laissez-les vides sinon. Sans eux, ou si
+Grand Lyon les refuse, Lyon n'est pas lue, l'état de connexion de l'intégration et l'action **État**
+le disent (« identifiants Grand Lyon refusés »), et les autres villes continuent de fonctionner. Des
+identifiants refusés sont réessayés au bout d'une heure, ou dès que vous en enregistrez de
+nouveaux. Gladys garde le mot de passe comme un secret ; l'intégration ne l'envoie qu'à
+data.grandlyon.com et ne le journalise jamais.
+
+Tapez les axes comme sur la carte du trafic de la ville, en entier ou abrégés : `route de Genas`
+trouve « RTE DE GENAS », `Croix-Rousse` le boulevard, la Grande Rue et le tunnel.
+
 ### Vérifier
 
 L'action **État** de l'onglet Configuration liste les villes lues, le nombre d'axes connus,
@@ -82,14 +108,14 @@ maison et le nombre d'axes ajoutés.
 
 Chaque axe ajouté est un appareil en lecture seule :
 
-| Fonctionnalité             | Type Gladys      | Valeur                                             |
-| -------------------------- | ---------------- | -------------------------------------------------- |
-| Trafic                     | texte            | Fluide, Dense, Saturé, Coupé ou Inconnu            |
-| Niveau de trafic           | niveau de risque | 0 inconnu, 1 fluide, 2 dense, 3 saturé, 4 coupé    |
-| Vitesse moyenne            | vitesse (km/h)   | Rennes, Nantes, Strasbourg, routes nationales      |
-| Temps de parcours          | durée (minutes)  | Bordeaux : temps de parcours de l'itinéraire       |
-| Temps de parcours habituel | durée (minutes)  | Bordeaux : la valeur de référence publiée avec lui |
-| Âge de la donnée           | durée (minutes)  | âge de la mesure la plus récente                   |
+| Fonctionnalité             | Type Gladys      | Valeur                                              |
+| -------------------------- | ---------------- | --------------------------------------------------- |
+| Trafic                     | texte            | Fluide, Dense, Saturé, Coupé ou Inconnu             |
+| Niveau de trafic           | niveau de risque | 0 inconnu, 1 fluide, 2 dense, 3 saturé, 4 coupé     |
+| Vitesse moyenne            | vitesse (km/h)   | Rennes, Nantes, Strasbourg, Lyon, routes nationales |
+| Temps de parcours          | durée (minutes)  | Bordeaux : temps de parcours de l'itinéraire        |
+| Temps de parcours habituel | durée (minutes)  | Bordeaux : la valeur de référence publiée avec lui  |
+| Âge de la donnée           | durée (minutes)  | âge de la mesure la plus récente                    |
 
 Le **niveau d'un axe** est le pire niveau atteint sur **au moins un quart de sa longueur** (chaque
 tronçon compte une fois à Strasbourg, qui ne publie pas les longueurs) : un carrefour bouché ne
@@ -151,6 +177,7 @@ La phrase suit la langue choisie dans la configuration.
 | Nantes            | data.nantesmetropole.fr, « Fluidité des axes routiers »                                                                            | toutes les quelques min  | ~890           |
 | Strasbourg        | data.strasbourg.eu, « SIRAC - flux trafic en temps réel »                                                                          | toutes les 3 minutes     | ~480           |
 | Bordeaux          | opendata.bordeaux-metropole.fr, « Temps de parcours en temps réel »                                                                | toutes les 2 min 30      | 16 itinéraires |
+| Lyon              | data.grandlyon.com, « État du trafic temps réel » (Criter), avec un compte                                                         | toutes les minutes       | ~2 400         |
 | Routes nationales | tipi.bison-fute.gouv.fr (Point d'accès national), « État de circulation en temps réel sur le réseau national routier non concédé » | toutes les 6 minutes     | ~1 000 points  |
 
 La liste des tronçons (noms, positions) est lue **une fois par jour** par ville. À chaque
@@ -173,6 +200,13 @@ lu en flux, seuls les points des routes ajoutées étant gardés, et **seulement
 depuis la lecture précédente (en-tête `If-Modified-Since`). Seules les routes non concédées sont
 publiées : pas les autoroutes à péage.
 
+**Lyon** publie la couleur de chaque tronçon de sa carte du trafic : vert fluide, orange dense,
+rouge (« chargé ») compté comme saturé, noir coupé, gris sans donnée. Un tronçon que le portail
+marque comme pas à jour, gris ou sans couleur est inconnu : jamais un faux « fluide ». La vitesse
+publiée avec est affichée quand c'est un nombre. À chaque rafraîchissement, une requête par
+centaine de tronçons des axes ajoutés, filtrés par le portail ; la liste des tronçons (~1,4 Mo) une
+fois par jour.
+
 ## Dépannage
 
 - **Aucun axe dans Découverte** : vérifiez qu'une ville est cochée et un axe tapé (3 lettres au
@@ -181,16 +215,21 @@ publiées : pas les autoroutes à péage.
 - **Pas d'appareil « Autour de la maison »** : la maison n'a pas de position dans Gladys, ou aucun
   tronçon ne se trouve à la distance choisie : essayez-en une plus grande. L'action État dit
   combien de tronçons ont été trouvés.
+- **Lyon : « identifiants Grand Lyon refusés »** : vérifiez l'identifiant et le mot de passe du
+  portail data ; ce n'est pas celui de GrandLyon Connect, définissez-le sur [la page « mot de passe
+  oublié »](https://data.grandlyon.com/portail/fr/mot-de-passe-oublie).
 - **Niveau « Inconnu »** : le portail n'a publié aucune mesure pour cet axe depuis plus de 30
   minutes (la nuit, certains tronçons ne sont pas mesurés).
 - Pour plus de détails, mettez `LOG_LEVEL=debug` : chaque lecture est alors journalisée.
 
 ## Limites
 
-- Seules les villes listées sont prises en charge. **Lyon** demande désormais un compte pour son
-  flux de trafic, **Grenoble** publie des niveaux sans le nom des tronçons, **Paris** et
-  **Toulouse** ne publient que des comptages horaires ou archivés : ces villes pourront être
-  ajoutées si leurs données le permettent.
+- Seules les villes listées sont prises en charge. **Grenoble** publie des niveaux sans le nom des
+  tronçons, **Paris** et **Toulouse** ne publient que des comptages horaires ou archivés : ces
+  villes pourront être ajoutées si leurs données le permettent.
+- **Lyon** demande un compte data Grand Lyon. Un axe regroupe tous les tronçons du même libellé,
+  quelle que soit la commune : une longue route comme « RTE DE LYON » est un seul appareil ;
+  « Autour de la maison » est alors plus précis. Les noms sont ceux du portail, en majuscules.
 - Les axes sont les tronçons et les noms des portails : un axe renommé par la ville devient un
   nouvel appareil.
 - Les niveaux sont ceux des villes (véhicules traceurs à Rennes, capteurs ailleurs) : ils peuvent
@@ -204,6 +243,8 @@ publiées : pas les autoroutes à péage.
 - Données : Rennes Métropole, Nantes Métropole, Eurométropole de Strasbourg (SIRAC), Bordeaux
   Métropole, sous leurs licences ouvertes respectives (Licence Ouverte / ODbL). Noms des communes :
   geo.api.gouv.fr.
+- Lyon : Métropole de Lyon (centre de gestion du trafic Criter), data.grandlyon.com, selon les
+  conditions de sa plateforme data.
 - Construite à partir du
   [modèle d'intégration](https://github.com/GladysAssistant/integration-template-js) officiel.
 - Routes nationales : Directions interdépartementales des routes (DIR), ministère chargé des transports, via le Point d'accès national (transport.data.gouv.fr), Licence Ouverte. Projection Lambert-93 : formules de l'IGN.

@@ -67,7 +67,7 @@ test('Gladys 5.3.0 at least: countries and keywords (location: 5.2.0, widgets: 5
 
 test('the cities offered are the sources of the code', () => {
   assert.deepEqual(optionValues(field(manifest.config_schema, 'cities')), SOURCE_KEYS);
-  assert.equal(Object.keys(SOURCES).length, 5);
+  assert.equal(Object.keys(SOURCES).length, 6);
 });
 
 test('every manifest action has a handler, and vice versa', () => {

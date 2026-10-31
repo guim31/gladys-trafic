@@ -15,7 +15,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { LANGUAGES } from '../src/config.js';
 import { SOURCE_KEYS } from '../src/sources.js';
-import { createWorld } from './helpers/world.js';
+import { LYON_ACCOUNT, createWorld } from './helpers/world.js';
 
 const table = JSON.parse(
   await readFile(new URL('./fixtures/gladys-feature-table.json', import.meta.url), 'utf8'),
@@ -27,6 +27,7 @@ for (const language of LANGUAGES) {
       config: {
         language,
         cities: SOURCE_KEYS,
+        ...LYON_ACCOUNT,
         roads: 'Route, Rue, Avenue, Anglais, Pasteur, Churchill, Schirmeck, Rhin, Lyon, Toulouse',
       },
     });

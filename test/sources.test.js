@@ -16,7 +16,7 @@ import {
   rennesAxis,
   strasbourgAxis,
 } from '../src/sources.js';
-import { FIXTURE_TIME, createFetch } from './helpers/world.js';
+import { FIXTURE_TIME, LYON_ACCOUNT, createFetch } from './helpers/world.js';
 
 test('Rennes: national roads cross communes, streets are one road per commune', () => {
   assert.deepEqual(rennesAxis('Route nationale 136', 35238), {
@@ -52,7 +52,14 @@ test('Bordeaux: the status is the ratio of the travel time to its usual value', 
 test('every catalog of the fixtures reads, with positions except for Bordeaux and some national road points', async () => {
   const { fetch } = createFetch();
   for (const [key, source] of Object.entries(SOURCES)) {
-    const segments = await source.catalog(fetch);
+    // The Lyon portal wants its account (the others ignore it).
+    const state = {
+      credentials: {
+        user: LYON_ACCOUNT.grandlyon_username,
+        password: LYON_ACCOUNT.grandlyon_password,
+      },
+    };
+    const segments = await source.catalog(fetch, state);
     assert.ok(segments.length >= 16, key);
     for (const segment of segments) {
       assert.match(segment.axisKey, /^[a-z0-9-]+$/, `${key}: ${segment.axisKey}`);
@@ -146,6 +153,7 @@ test('configuration: search terms, radius and pace fall back on the defaults', (
     homeRadius: 1000,
     language: 'fr',
     refreshSeconds: 180,
+    grandLyon: null,
   });
   assert.deepEqual(
     normalizeConfig({
@@ -154,6 +162,23 @@ test('configuration: search terms, radius and pace fall back on the defaults', (
       refresh_interval: '7',
       language: 'it',
     }),
-    { cities: ['nantes'], terms: [], homeRadius: 0, language: 'fr', refreshSeconds: 180 },
+    {
+      cities: ['nantes'],
+      terms: [],
+      homeRadius: 0,
+      language: 'fr',
+      refreshSeconds: 180,
+      grandLyon: null,
+    },
   );
+  // The Grand Lyon account: both or nothing, the username trimmed, the password as typed.
+  const account = (grandlyon_username, grandlyon_password) =>
+    normalizeConfig({ grandlyon_username, grandlyon_password }).grandLyon;
+  assert.deepEqual(account(' me@example.org ', ' pass word'), {
+    user: 'me@example.org',
+    password: ' pass word',
+  });
+  assert.equal(account('me@example.org', ''), null);
+  assert.equal(account('  ', 'secret'), null);
+  assert.equal(account('me@example.org', null), null);
 });

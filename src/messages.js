@@ -12,6 +12,36 @@ export const INIT_FAILED = {
   es: 'La inicialización ha fallado, consulte los registros de la integración.',
 };
 
+// The Grand Lyon data account (Lyon only): the connection status of the
+// integration and the "Status" action. The data portal has its own password,
+// not the GrandLyon Connect one.
+export const CREDENTIALS = {
+  en: {
+    missing:
+      'Lyon: enter the username and password of your Grand Lyon data account (data.grandlyon.com) in the settings. The other cities keep working.',
+    refused:
+      'Lyon: Grand Lyon credentials refused. Check the username and password of your data.grandlyon.com account (not GrandLyon Connect). The other cities keep working.',
+  },
+  fr: {
+    missing:
+      "Lyon : saisissez l'identifiant et le mot de passe de votre compte data Grand Lyon (data.grandlyon.com) dans les réglages. Les autres villes continuent de fonctionner.",
+    refused:
+      "Lyon : identifiants Grand Lyon refusés. Vérifiez l'identifiant et le mot de passe de votre compte data.grandlyon.com (distinct de GrandLyon Connect). Les autres villes continuent de fonctionner.",
+  },
+  de: {
+    missing:
+      'Lyon: Gib in den Einstellungen Benutzername und Passwort deines Grand-Lyon-Datenkontos (data.grandlyon.com) ein. Die anderen Städte funktionieren weiter.',
+    refused:
+      'Lyon: Grand-Lyon-Zugangsdaten abgelehnt. Prüfe Benutzername und Passwort deines Kontos auf data.grandlyon.com (nicht GrandLyon Connect). Die anderen Städte funktionieren weiter.',
+  },
+  es: {
+    missing:
+      'Lyon: introduzca el usuario y la contraseña de su cuenta de datos Grand Lyon (data.grandlyon.com) en los ajustes. Las demás ciudades siguen funcionando.',
+    refused:
+      'Lyon: credenciales de Grand Lyon rechazadas. Compruebe el usuario y la contraseña de su cuenta de data.grandlyon.com (no GrandLyon Connect). Las demás ciudades siguen funcionando.',
+  },
+};
+
 // Feature names, frozen when the device is created (configured language),
 // and the name of the "around the house" device.
 export const NAMES = {

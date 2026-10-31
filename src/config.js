@@ -22,6 +22,10 @@ export const DEFAULT_CONFIG = {
   home_radius: '1000',
   language: 'fr',
   refresh_interval: '180',
+  // The Grand Lyon data account, only for Lyon (no default in the manifest:
+  // the password is a `secret`).
+  grandlyon_username: '',
+  grandlyon_password: '',
 };
 
 // A search term shorter than this would match half the roads of a city.
@@ -74,5 +78,13 @@ export function normalizeConfig(raw = {}) {
     homeRadius: Number(pick('home_radius', HOME_RADII)),
     language: LANGUAGES.includes(source.language) ? source.language : DEFAULT_CONFIG.language,
     refreshSeconds: Number(pick('refresh_interval', REFRESH_INTERVALS)),
+    // Both or nothing. The password is kept as typed: spaces may be part of it.
+    grandLyon:
+      typeof source.grandlyon_username === 'string' &&
+      source.grandlyon_username.trim() &&
+      typeof source.grandlyon_password === 'string' &&
+      source.grandlyon_password
+        ? { user: source.grandlyon_username.trim(), password: source.grandlyon_password }
+        : null,
   };
 }
