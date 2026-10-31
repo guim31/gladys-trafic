@@ -3,10 +3,10 @@
   "type": "device",
   "name": "Trafic routier",
   "description": {
-    "en": "Live road traffic in France (open data): national roads, Rennes, Nantes, Strasbourg, Bordeaux.",
-    "fr": "Trafic en temps réel (open data) : routes nationales, Rennes, Nantes, Strasbourg, Bordeaux.",
-    "de": "Echtzeitverkehr in Frankreich (Open Data): Nationalstraßen, Rennes, Nantes, Straßburg, Bordeaux.",
-    "es": "Tráfico en tiempo real en Francia: carreteras nacionales, Rennes, Nantes, Estrasburgo, Burdeos."
+    "en": "Live road traffic in France: national roads, Rennes, Nantes, Strasbourg, Bordeaux, Lyon.",
+    "fr": "Trafic en temps réel : routes nationales, Rennes, Nantes, Strasbourg, Bordeaux, Lyon.",
+    "de": "Echtzeitverkehr in Frankreich: Nationalstraßen, Rennes, Nantes, Straßburg, Bordeaux, Lyon.",
+    "es": "Tráfico en tiempo real: carreteras nacionales, Rennes, Nantes, Estrasburgo, Burdeos, Lyon."
   },
   "version": "1.1.0",
   "docker_image": "ghcr.io/guim31/gladys-trafic:1.1.0",
@@ -17,7 +17,7 @@
   "countries": ["FR"],
   "keywords": [
     "trafic",
-    "bouchons",
+    "Lyon",
     "traffic jam",
     "rocade",
     "route nationale",
@@ -39,10 +39,10 @@
         "es": "Funcionamiento"
       },
       "description": {
-        "en": "Tick your cities, type the roads you take and save: they appear in the Discover tab, with the segments around your house. Add the ones you want to Gladys. No account, no key.",
-        "fr": "Cochez vos villes, tapez les axes que vous empruntez et enregistrez : ils apparaissent dans l'onglet Découverte, avec les tronçons autour de votre maison. Ajoutez ceux qui vous intéressent à Gladys. Sans compte ni clé.",
-        "de": "Kreuze deine Städte an, gib die Straßen ein, die du fährst, und speichere: Die Straßen erscheinen im Tab „Entdecken“, mit den Abschnitten rund um dein Haus. Füge die gewünschten zu Gladys hinzu. Kein Konto, kein Schlüssel.",
-        "es": "Marque sus ciudades, escriba las vías que usa y guarde: aparecen en la pestaña Descubrir, con los tramos alrededor de su casa. Añada a Gladys las que le interesen. Sin cuenta ni clave."
+        "en": "Tick your cities, type the roads you take and save: they appear in the Discover tab, with the segments around your house. Add the ones you want to Gladys. No account, no key, except for Lyon (below).",
+        "fr": "Cochez vos villes, tapez les axes que vous empruntez et enregistrez : ils apparaissent dans l'onglet Découverte, avec les tronçons autour de votre maison. Ajoutez ceux qui vous intéressent à Gladys. Sans compte ni clé, sauf pour Lyon (plus bas).",
+        "de": "Kreuze deine Städte an, gib die Straßen ein, die du fährst, und speichere: Die Straßen erscheinen im Tab „Entdecken“, mit den Abschnitten rund um dein Haus. Füge die gewünschten zu Gladys hinzu. Kein Konto, kein Schlüssel, außer für Lyon (unten).",
+        "es": "Marque sus ciudades, escriba las vías que usa y guarde: aparecen en la pestaña Descubrir, con los tramos alrededor de su casa. Añada a Gladys las que le interesen. Sin cuenta ni clave, salvo para Lyon (más abajo)."
       },
       "links": [
         {
@@ -116,6 +116,15 @@
             "de": "Nationalstraßen (DIR): Ringstraßen, Schnellstraßen",
             "es": "Carreteras nacionales (DIR): rondas, vías rápidas"
           }
+        },
+        {
+          "value": "lyon",
+          "label": {
+            "en": "Lyon (Grand Lyon data account)",
+            "fr": "Lyon (compte data Grand Lyon)",
+            "de": "Lyon (Grand-Lyon-Datenkonto)",
+            "es": "Lyon (cuenta de datos Grand Lyon)"
+          }
         }
       ]
     },
@@ -129,16 +138,77 @@
         "es": "Vías a seguir"
       },
       "description": {
-        "en": "Part of their name, separated by commas, 3 letters at least. National roads: number or city (A620, Toulouse). Bordeaux: every route is offered.",
-        "fr": "Une partie de leur nom, séparée par des virgules, 3 lettres au moins. Routes nationales : numéro ou ville (A620, Toulouse). Bordeaux : tous les itinéraires sont proposés.",
-        "de": "Ein Teil ihres Namens, durch Kommas getrennt, mindestens 3 Buchstaben. Nationalstraßen: Nummer oder Stadt (A620, Toulouse). Bordeaux: alle Strecken werden angeboten.",
-        "es": "Parte de su nombre, separada por comas, 3 letras como mínimo. Carreteras nacionales: número o ciudad (A620, Toulouse). Burdeos: se ofrecen todos los itinerarios."
+        "en": "Part of their name, separated by commas, 3 letters at least. National roads: number or city (A620, Toulouse). Bordeaux: every route is offered. Lyon: as on its traffic map (route de Genas, A6).",
+        "fr": "Une partie de leur nom, séparée par des virgules, 3 lettres au moins. Routes nationales : numéro ou ville (A620, Toulouse). Bordeaux : tous les itinéraires sont proposés. Lyon : comme sur sa carte du trafic (route de Genas, A6).",
+        "de": "Ein Teil ihres Namens, durch Kommas getrennt, mindestens 3 Buchstaben. Nationalstraßen: Nummer oder Stadt (A620, Toulouse). Bordeaux: alle Strecken werden angeboten. Lyon: wie auf seiner Verkehrskarte (route de Genas, A6).",
+        "es": "Parte de su nombre, separada por comas, 3 letras como mínimo. Carreteras nacionales: número o ciudad (A620, Toulouse). Burdeos: se ofrecen todos los itinerarios. Lyon: como en su mapa del tráfico (route de Genas, A6)."
       },
       "placeholder": {
         "en": "Route nationale 136, Patton, A620 Toulouse",
         "fr": "Route nationale 136, Patton, A620 Toulouse",
         "de": "Route nationale 136, Patton, A620 Toulouse",
         "es": "Route nationale 136, Patton, A620 Toulouse"
+      }
+    },
+    {
+      "key": "lyon_account",
+      "type": "section",
+      "label": {
+        "en": "Lyon: Grand Lyon data account",
+        "fr": "Lyon : compte data Grand Lyon",
+        "de": "Lyon: Grand-Lyon-Datenkonto",
+        "es": "Lyon: cuenta de datos Grand Lyon"
+      },
+      "description": {
+        "en": "Only for Lyon: the Métropole publishes its traffic to signed-in users. Free account on data.grandlyon.com; its password is not the GrandLyon Connect one (set it with “forgotten password”). Leave empty otherwise.",
+        "fr": "Seulement pour Lyon : la Métropole réserve son trafic aux utilisateurs connectés. Compte gratuit sur data.grandlyon.com ; son mot de passe n'est pas celui de GrandLyon Connect (définissez-le par « mot de passe oublié »). Sinon, laissez vide.",
+        "de": "Nur für Lyon: Die Métropole gibt ihren Verkehr nur angemeldeten Nutzern heraus. Kostenloses Konto auf data.grandlyon.com; sein Passwort ist nicht das von GrandLyon Connect (lege es über „Passwort vergessen“ fest). Sonst leer lassen.",
+        "es": "Solo para Lyon: la Métropole reserva su tráfico a usuarios conectados. Cuenta gratuita en data.grandlyon.com; su contraseña no es la de GrandLyon Connect (defínala con «contraseña olvidada»). Si no, déjelo vacío."
+      },
+      "links": [
+        {
+          "url": "https://data.grandlyon.com/portail/fr/mot-de-passe-oublie",
+          "label": {
+            "en": "Set the data portal password",
+            "fr": "Définir le mot de passe du portail data",
+            "de": "Passwort des Datenportals festlegen",
+            "es": "Definir la contraseña del portal de datos"
+          }
+        }
+      ]
+    },
+    {
+      "key": "grandlyon_username",
+      "type": "string",
+      "required": false,
+      "label": {
+        "en": "Grand Lyon username",
+        "fr": "Identifiant Grand Lyon",
+        "de": "Grand-Lyon-Benutzername",
+        "es": "Usuario de Grand Lyon"
+      },
+      "description": {
+        "en": "Usually the e-mail address of the data.grandlyon.com account.",
+        "fr": "En général l'adresse e-mail du compte data.grandlyon.com.",
+        "de": "Meist die E-Mail-Adresse des Kontos auf data.grandlyon.com.",
+        "es": "Normalmente la dirección de correo de la cuenta de data.grandlyon.com."
+      }
+    },
+    {
+      "key": "grandlyon_password",
+      "type": "secret",
+      "required": false,
+      "label": {
+        "en": "Grand Lyon data password",
+        "fr": "Mot de passe data Grand Lyon",
+        "de": "Grand-Lyon-Datenpasswort",
+        "es": "Contraseña de datos Grand Lyon"
+      },
+      "description": {
+        "en": "The password of data.grandlyon.com, not the GrandLyon Connect one.",
+        "fr": "Le mot de passe de data.grandlyon.com, pas celui de GrandLyon Connect.",
+        "de": "Das Passwort von data.grandlyon.com, nicht das von GrandLyon Connect.",
+        "es": "La contraseña de data.grandlyon.com, no la de GrandLyon Connect."
       }
     },
     {

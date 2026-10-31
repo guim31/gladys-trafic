@@ -10,6 +10,16 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+### Added
+
+- Lyon: the live traffic of the Métropole de Lyon (Criter, data.grandlyon.com),
+  road by road and around the house, with the same level, average speed, data
+  age and scene triggers as the other cities. The portal needs a free Grand
+  Lyon data account: two optional settings (username, password), only for Lyon;
+  the data portal password is distinct from GrandLyon Connect. Missing or
+  refused credentials are said in the connection status and the Status action,
+  and the other cities keep working.
+
 ## [1.1.0] - 2026-10-29
 
 ### Added

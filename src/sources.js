@@ -742,4 +742,203 @@ SOURCES.dir = {
   },
 };
 
+// --- Lyon (Grand Lyon) -----------------------------------------------------------
+
+const LYON_WFS = 'https://data.grandlyon.com/geoserver/metropole-de-lyon/ows';
+const LYON_LAYER = 'metropole-de-lyon:pvo_patrimoine_voirie.pvotrafic';
+// About 3,000 rows (2,400 segments) without their geometry details: 1.4 MB.
+const LYON_CATALOG_MAX_BYTES = 6e6;
+// A segment is published once per zoom level of the map (four at most).
+const LYON_ROWS_PER_SEGMENT = 4;
+
+/** The Grand Lyon data account is missing or refused: the user has to act. */
+export class CredentialsError extends Error {
+  /** @param {'missing'|'refused'} reason */
+  constructor(reason) {
+    super(
+      reason === 'missing' ? 'Grand Lyon credentials missing' : 'Grand Lyon credentials refused',
+    );
+    this.reason = reason;
+  }
+}
+
+// etat of Grand Lyon, the colors of its map (dataset description): V green
+// free flow, O orange heavy, R red "chargé" (the worst before closed), N black
+// closed road, G grey no data. "*" (a third of the rows, never a speed) is no
+// measure either. Anything else, unknown: never a made-up free flow.
+const LYON_STATUS = {
+  V: STATUS.FREE,
+  O: STATUS.HEAVY,
+  R: STATUS.CONGESTED,
+  N: STATUS.CLOSED,
+};
+
+// The abbreviations of the Grand Lyon labels ("RTE DE LYON"), spelt out for
+// the road search ("route de lyon" finds it). Only the search: the device
+// keys come from the label as published.
+const LYON_WORDS = {
+  ALL: 'allée',
+  AV: 'avenue',
+  BD: 'boulevard',
+  CH: 'chemin',
+  CHE: 'chemin',
+  CRS: 'cours',
+  GDE: 'grande',
+  GR: 'grande rue',
+  IMP: 'impasse',
+  MTE: 'montée',
+  PL: 'place',
+  Q: 'quai',
+  QU: 'quai',
+  R: 'rue',
+  RD: 'route départementale',
+  RTE: 'route',
+};
+
+/** The road of a Grand Lyon segment: its label, the search spelling out the abbreviation. */
+export function lyonAxis(label) {
+  const name = String(label ?? '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (!name) {
+    return null;
+  }
+  const first = /^([A-Z]+)(?=[\s\d])/.exec(name)?.[1];
+  const spelt = LYON_WORDS[first] ? `${LYON_WORDS[first]}${name.slice(first.length)}` : null;
+  return {
+    axisKey: slug(name),
+    axisName: name,
+    search: spelt ? `${name} ${spelt}` : name,
+  };
+}
+
+/** The speed of a Grand Lyon segment: "18 km/h" → 18; "Vitesse réglementaire", empty → null. */
+export function lyonSpeed(value) {
+  const match = /^\s*(\d+(?:[.,]\d+)?)\s*km\/h/i.exec(String(value ?? ''));
+  return match ? positive(match[1].replace(',', '.')) : null;
+}
+
+/** The measure of a Grand Lyon row: out of date or an unknown letter is no measure. */
+export function lyonMeasure(row) {
+  const status =
+    row.est_a_jour === true ? (LYON_STATUS[row.etat] ?? STATUS.UNKNOWN) : STATUS.UNKNOWN;
+  return {
+    status,
+    speed: status === STATUS.UNKNOWN || status === STATUS.CLOSED ? null : lyonSpeed(row.vitesse),
+    time: null,
+    usual: null,
+    length: positive(row.longueur),
+    at: time(row.last_update),
+  };
+}
+
+/** The middle of a line string ([lon, lat] pairs), or no position. */
+export function lineMiddle(coordinates) {
+  const points = (Array.isArray(coordinates) ? coordinates : []).filter(
+    (c) => Array.isArray(c) && num(c[0]) !== null && num(c[1]) !== null,
+  );
+  if (points.length === 0) {
+    return { lat: null, lon: null };
+  }
+  const half = points.length / 2;
+  const [a, b] = Number.isInteger(half)
+    ? [points[half - 1], points[half]]
+    : [points[Math.floor(half)], points[Math.floor(half)]];
+  return { lat: (num(a[1]) + num(b[1])) / 2, lon: (num(a[0]) + num(b[0])) / 2 };
+}
+
+/** The URL of a GetFeature request on the Grand Lyon traffic layer. */
+export function lyonUrl(query) {
+  return `${LYON_WFS}?${new URLSearchParams({
+    SERVICE: 'WFS',
+    VERSION: '2.0.0',
+    request: 'GetFeature',
+    typename: LYON_LAYER,
+    outputFormat: 'application/json',
+    SRSNAME: 'EPSG:4171',
+    ...query,
+  })}`;
+}
+
+/** The features of a Grand Lyon request, with the account of the configuration. */
+async function lyonFeatures(fetch, query, state, maxBytes) {
+  const { user, password } = state.credentials ?? {};
+  if (!user || !password) {
+    throw new CredentialsError('missing');
+  }
+  const authorization = `Basic ${Buffer.from(`${user}:${password}`).toString('base64')}`;
+  try {
+    const data = await getJson(fetch, lyonUrl(query), { maxBytes, authorization });
+    return Array.isArray(data?.features) ? data.features : [];
+  } catch (err) {
+    // Only a 401 is about the account: a 403 may be a firewall or a quota.
+    if (err?.status === 401) {
+      throw new CredentialsError('refused');
+    }
+    throw err;
+  }
+}
+
+// data.grandlyon.com, "État du trafic temps réel" of the Criter system (the
+// Métropole de Lyon's traffic centre): about 2,400 segments, refreshed every
+// minute. Free to use, but read with a Grand Lyon data account (HTTP Basic)
+// since 2026: the credentials are two optional settings, `state.credentials`.
+SOURCES.lyon = {
+  name: 'Lyon',
+  publisher: 'Métropole de Lyon',
+  dataset:
+    'https://www.data.gouv.fr/datasets/etat-du-trafic-de-la-metropole-de-lyon-disponibilites-temps-reel',
+  hasSpeed: true,
+  hasTravelTime: false,
+  listAll: false,
+  needsCredentials: true,
+  async catalog(fetch, state = {}) {
+    const features = await lyonFeatures(
+      fetch,
+      { propertyName: 'code,libelle,longueur,the_geom' },
+      state,
+      LYON_CATALOG_MAX_BYTES,
+    );
+    // One row per zoom level of the map: the segment once.
+    const segments = new Map();
+    for (const feature of features) {
+      const code = feature?.properties?.code;
+      const axis = lyonAxis(feature?.properties?.libelle);
+      if (!code || !axis || segments.has(String(code))) {
+        continue;
+      }
+      segments.set(String(code), {
+        id: String(code),
+        ...axis,
+        ...lineMiddle(feature.geometry?.coordinates),
+      });
+    }
+    return [...segments.values()];
+  },
+  async live(fetch, ids, state = {}) {
+    const measures = new Map();
+    for (let start = 0; start < ids.length; start += IDS_PER_REQUEST) {
+      const chunk = ids.slice(start, start + IDS_PER_REQUEST);
+      const quoted = chunk.map((id) => `'${String(id).replace(/'/g, "''")}'`).join(',');
+      const features = await lyonFeatures(
+        fetch,
+        {
+          propertyName: 'code,etat,vitesse,longueur,last_update,est_a_jour',
+          CQL_FILTER: `code IN (${quoted})`,
+          count: String(chunk.length * LYON_ROWS_PER_SEGMENT),
+        },
+        state,
+        LIVE_MAX_BYTES,
+      );
+      for (const feature of features) {
+        const row = feature?.properties ?? {};
+        if (row.code) {
+          measures.set(String(row.code), lyonMeasure(row));
+        }
+      }
+    }
+    return measures;
+  },
+};
+
 export const SOURCE_KEYS = Object.keys(SOURCES);

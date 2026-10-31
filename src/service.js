@@ -13,6 +13,7 @@
 // filtered by the portal itself.
 // -----------------------------------------------------------------------------
 
+import { createHash } from 'node:crypto';
 import { createLogger } from '@gladysassistant/integration-sdk';
 import { DEFAULT_CONFIG, fold, normalizeConfig } from './config.js';
 import {
@@ -23,8 +24,8 @@ import {
   axisStates,
   buildAxisDevice,
 } from './devices.js';
-import { REPORTS, TEXT, levelName, lines, render, say } from './messages.js';
-import { SOURCES, SOURCE_KEYS, STATUS } from './sources.js';
+import { CREDENTIALS, REPORTS, TEXT, levelName, lines, render, say } from './messages.js';
+import { CredentialsError, SOURCES, SOURCE_KEYS, STATUS } from './sources.js';
 
 const logger = createLogger({ name: 'trafic' });
 
@@ -36,6 +37,9 @@ export const CATALOG_MAX_AGE_MS = 24 * 3600 * 1000;
 const CATALOG_RETRY_MS = 3600 * 1000;
 // A city whose catalog was never read: tried again after this.
 export const CATALOG_FIRST_RETRY_MS = 10 * 60 * 1000;
+// Credentials refused: the same ones are tried again after this (the
+// password may be reset on the portal without the settings changing).
+export const CREDENTIALS_RETRY_MS = 3600 * 1000;
 // Roads offered per city in the Discover tab (a short search term).
 export const MAX_DISCOVERED = 50;
 // Segments of the "around the house" device, the nearest ones.
@@ -67,6 +71,9 @@ class City {
     this.state = {}; // the source's own memory between reads (national roads)
     this.okAt = null;
     this.error = null;
+    this.credentials = null; // 'missing' | 'refused' | null (Lyon)
+    this.signature = undefined; // of the credentials last given to the source
+    this.refusedAt = null;
   }
 }
 
@@ -92,6 +99,7 @@ export class Traffic {
     this.publishFailed = false;
     this.discoveryFailed = false;
     this.fireFailed = false;
+    this.connectionProblem = null; // the credentials problem shown in Gladys
     this.timer = null;
     this.stopped = false;
     this.refreshing = null;
@@ -117,6 +125,8 @@ export class Traffic {
     this.config = config;
     await this.locate();
     this.gladys.forgetPublishedStates?.();
+    // The core holds the connection status in memory: said again if needed.
+    this.connectionProblem = null;
     await this.refresh({ discover: true });
   }
 
@@ -426,7 +436,15 @@ export class Traffic {
     const watched = this.watched();
     for (const key of this.activeKeys()) {
       const city = this.city(key);
+      if (this.blocked(city)) {
+        continue;
+      }
+      const refusedAt = city.refusedAt;
       await this.readCatalog(city);
+      if (city.refusedAt !== refusedAt) {
+        // Refused by this catalog read: not a second 401 for the measures.
+        continue;
+      }
       const ids = new Set();
       for (const entry of watched.filter((w) => w.key === key)) {
         for (const id of this.axis(city, entry.axisKey)?.ids ?? []) {
@@ -436,6 +454,7 @@ export class Traffic {
       await this.readLive(city, [...ids]);
     }
     await this.publishDiscovered({ force: forceDiscovery });
+    await this.reportConnection();
     const states = [];
     const events = [];
     for (const entry of watched) {
@@ -449,6 +468,54 @@ export class Traffic {
     await this.publish(states);
     for (const { key, data } of events) {
       await this.fire(key, data);
+    }
+  }
+
+  /**
+   * Whether a city must not be read now: its account (Lyon) is missing, or
+   * was refused less than an hour ago. New credentials are tried at once.
+   */
+  blocked(city) {
+    if (!city.source.needsCredentials) {
+      return false;
+    }
+    const credentials = this.config.grandLyon ?? null;
+    const signature = credentials
+      ? createHash('sha256').update(`${credentials.user}\n${credentials.password}`).digest('hex')
+      : null;
+    if (signature !== city.signature) {
+      city.signature = signature;
+      city.state.credentials = credentials;
+      city.catalogRetryAt = null;
+      city.refusedAt = null;
+      city.credentials = null;
+    }
+    if (!credentials) {
+      this.failed(city, new CredentialsError('missing'));
+      return true;
+    }
+    return city.credentials === 'refused' && this.now() - city.refusedAt < CREDENTIALS_RETRY_MS;
+  }
+
+  /** The connection status of the integration: a Lyon account to fix, or fine. */
+  async reportConnection() {
+    const problem =
+      this.activeKeys()
+        .map((key) => this.cities.get(key)?.credentials)
+        .find(Boolean) ?? null;
+    if (problem === this.connectionProblem) {
+      return;
+    }
+    try {
+      if (problem) {
+        await this.gladys.setConnectionStatus(false, render(CREDENTIALS, problem));
+      } else {
+        await this.gladys.setConnectionStatus(true);
+      }
+      this.connectionProblem = problem;
+    } catch (err) {
+      // Tried again at the next cycle.
+      logger.debug(`Cannot set the connection status: ${err.message}`);
     }
   }
 
@@ -497,6 +564,10 @@ export class Traffic {
       }
       // The catalog already known is still good: tried again later.
       city.catalogAt = now - CATALOG_MAX_AGE_MS + CATALOG_RETRY_MS;
+      if (err instanceof CredentialsError) {
+        this.failed(city, err);
+        return;
+      }
       logger.debug(`${city.source.name}: catalog not refreshed: ${err.message}`);
     }
   }
@@ -529,13 +600,23 @@ export class Traffic {
       logger.info(`${city.source.name}: data back`);
     }
     city.error = null;
+    city.credentials = null;
   }
 
   failed(city, err) {
-    if (!city.error) {
+    // Once per failure, not at every cycle; a credentials problem that
+    // changes (missing, then refused) is said again.
+    const credentials = err instanceof CredentialsError ? err.reason : null;
+    if (!city.error || (credentials && credentials !== city.credentials)) {
       logger.warn(`${city.source.name}: data unavailable: ${err.message}`);
     }
     city.error = err.message;
+    // A network error does not clear a credentials problem: only a success
+    // or new credentials do.
+    if (credentials) {
+      city.credentials = credentials;
+      city.refusedAt = credentials === 'refused' ? this.now() : null;
+    }
   }
 
   /** The trigger events of a road since its last known level. */
@@ -633,7 +714,11 @@ export class Traffic {
         city.okAt === null
           ? render(REPORTS, 'waiting')
           : render(REPORTS, 'read', { age: Math.round((now - city.okAt) / 1000) }),
-        city.error ? render(REPORTS, 'error', { error: city.error }) : null,
+        city.credentials
+          ? render(CREDENTIALS, city.credentials)
+          : city.error
+            ? render(REPORTS, 'error', { error: city.error })
+            : null,
       );
       const matches = city.source.listAll ? 0 : this.matchingAxes(city).length;
       if (this.config.cities.includes(key) && matches > MAX_DISCOVERED) {

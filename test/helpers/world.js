@@ -80,6 +80,32 @@ export function dirXml(records, xml = fixtureText('dir-live.xml')) {
   return xml.slice(0, start) + blocks.join('\n        ') + xml.slice(end);
 }
 
+// Lyon (Grand Lyon WFS): the layer captured on 2026-10-31 at 08:35 in Paris
+// (16 roads, every zoom level of their segments), read with a test account
+// only the fake knows. The measures move to the clock of the other fixtures:
+// the newest one 4 minutes before FIXTURE_TIME, the others as far before it.
+export const LYON_ACCOUNT = {
+  grandlyon_username: 'gladys-test',
+  grandlyon_password: 'not a secret',
+};
+const LYON_AUTH = `Basic ${Buffer.from('gladys-test:not a secret').toString('base64')}`;
+
+/** The live rows of the Lyon capture, dated on the fixture clock. */
+export function lyonRecords(rows = fixtureJson('lyon-live.json')) {
+  const newest = Math.max(...rows.map((r) => Date.parse(r.last_update)));
+  return rows.map((r) => ({
+    ...r,
+    last_update: new Date(
+      Date.parse(r.last_update) + FIXTURE_TIME - 4 * 60 * 1000 - newest,
+    ).toISOString(),
+  }));
+}
+
+/** The codes of a CQL `code IN ('a','b')` filter. */
+function lyonCodes(filter) {
+  return [...String(filter).matchAll(/'((?:[^']|'')*)'/g)].map((m) => m[1].replace(/''/g, "'"));
+}
+
 /** The ids of an ODSQL `field in (a, "b")` clause. */
 function idsOf(where) {
   const list = /\bin \((.*)\)$/.exec(where)?.[1] ?? '';
@@ -103,6 +129,7 @@ export function createFetch() {
             live: fixtureJson(`${city}-live.json`),
           };
   }
+  data.lyon = { catalog: fixtureJson('lyon-catalog.json'), live: lyonRecords() };
   data.dir = {
     catalog: fixtureText('dir-ref.csv'),
     live: dirRecords(fixtureText('dir-live.xml')),
@@ -114,6 +141,9 @@ export function createFetch() {
   const fetch = async (url, init = {}) => {
     calls.push({ url, headers: init.headers ?? {} });
     const parsed = new URL(url);
+    if (parsed.host === 'data.grandlyon.com') {
+      return lyonAnswer(parsed, init.headers ?? {});
+    }
     if (parsed.host === 'tipi.bison-fute.gouv.fr' && parsed.pathname.startsWith(DIR_PATH)) {
       return dirAnswer(parsed.pathname.slice(DIR_PATH.length), init.headers ?? {});
     }
@@ -129,6 +159,39 @@ export function createFetch() {
       return new Response('error', { status: status.get(spec.city) });
     }
     return odsAnswer(spec, parsed);
+  };
+  const lyonAnswer = (parsed, headers) => {
+    if (down.has('lyon')) {
+      throw new TypeError('fetch failed');
+    }
+    if (parsed.pathname !== '/geoserver/metropole-de-lyon/ows') {
+      return new Response('not found', { status: 404 });
+    }
+    if (headers.authorization !== LYON_AUTH) {
+      return new Response('{"detail":"Nom d\'utilisateur et/ou mot de passe non valide(s)."}', {
+        status: 401,
+      });
+    }
+    if (status.has('lyon')) {
+      return new Response('error', { status: status.get('lyon') });
+    }
+    const filter = parsed.searchParams.get('CQL_FILTER');
+    let features;
+    if (filter) {
+      const codes = new Set(lyonCodes(filter));
+      features = data.lyon.live
+        .filter((r) => codes.has(r.code))
+        .map((properties) => ({ type: 'Feature', geometry: null, properties }));
+      const count = Number(parsed.searchParams.get('count'));
+      if (count > 0) {
+        features = features.slice(0, count);
+      }
+    } else {
+      features = data.lyon.catalog.features;
+    }
+    return new Response(JSON.stringify({ type: 'FeatureCollection', features }), {
+      headers: { 'content-type': 'application/json' },
+    });
   };
   const dirAnswer = (file, headers) => {
     if (down.has('dir')) {

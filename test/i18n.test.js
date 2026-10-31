@@ -9,7 +9,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { LANGUAGES } from '../src/config.js';
-import { INIT_FAILED, LEVELS, NAMES, REPORTS, TEXT } from '../src/messages.js';
+import { CREDENTIALS, INIT_FAILED, LEVELS, NAMES, REPORTS, TEXT } from '../src/messages.js';
 
 const manifest = JSON.parse(
   await readFile(new URL('../gladys-assistant-integration.json', import.meta.url), 'utf8'),
@@ -150,6 +150,7 @@ test('every message table of the code has the four languages', () => {
     ...problems(INIT_FAILED, 'INIT_FAILED', MAX.message),
     ...tableProblems(REPORTS, 'REPORTS', MAX.message, renderSample),
     ...tableProblems(TEXT, 'TEXT', MAX.message, renderSample),
+    ...tableProblems(CREDENTIALS, 'CREDENTIALS', MAX.message),
   ];
   assert.deepEqual(found, []);
 });

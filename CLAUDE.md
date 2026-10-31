@@ -47,6 +47,7 @@ test/                             node --test, against the SDK's fake Gladys (in
 test/helpers/world.js             fake Gladys + fake ODS exports and DIR files on the fixtures + manual clock
 test/fixtures/sources             real answers of the four portals (2026-10-29, ~11:59 Paris)
                                   and of the DIR files (dir-*, 17:00 Paris, moved to the same clock)
+                                  and of Lyon (lyon-*, 2026-10-31 08:35 Paris, moved to the same clock)
 .github/scripts/release.mjs       release helpers (manifest bump, changelog), tested in test/
 ```
 
@@ -269,7 +270,7 @@ long, et sur un « Sie »/« Ihr… » de politesse en allemand. Le store exige 
   (~480 capteurs du SIRAC, `etat` 0-3, `etatexp` 1 = fermé ; les compteurs vélo « Cyc… » écartés),
   Bordeaux `ci_tpstj_a` (16 itinéraires, temps actuel et de référence en secondes, pas d'état :
   niveau calculé par le rapport, seuils 1,3 et 1,8).
-- **Écartées** : Lyon (WFS `pvo_patrimoine_voirie.pvotrafic` désormais authentifié), Grenoble
+- **Écartées** : Grenoble
   (`data.mobilites-m.fr/api/dyn/trr/json` donne des niveaux sans nom de tronçon), Paris (comptages
   horaires), Toulouse (archives), Lille, Montpellier, Marseille (rien en temps réel).
 - **Requêtes** : le catalogue (noms, positions) par l'export `exports/json` une fois par jour ; à
@@ -319,3 +320,39 @@ long, et sur un « Sie »/« Ihr… » de politesse en allemand. Le store exige 
   nom. La recherche porte sur route + lieu, pas sur les mots de sens (« est », « nord »).
 - Connu, laissé tel quel : sur quelques routes (A630-33, N230-33…), des points sans sens giratoire ni
   cardinal font un axe « sens 1 / sens 2 » à part ; un point qui gagnerait un sens changerait d'axe.
+
+## Lyon (Grand Lyon), 1.2 (31/10/2026)
+
+- Demande de prohand (forum t/11445). Source : WFS GeoServer
+  `https://data.grandlyon.com/geoserver/metropole-de-lyon/ows`, couche
+  `metropole-de-lyon:pvo_patrimoine_voirie.pvotrafic`, `SRSNAME=EPSG:4171` (coordonnées lon, lat),
+  **HTTP Basic obligatoire** (401 sans identifiants ou avec de mauvais : réponse
+  `{"detail":"Nom d'utilisateur et/ou mot de passe non valide(s)."}`). Le mot de passe du portail
+  data est **distinct de GrandLyon Connect** (défini par
+  `https://data.grandlyon.com/portail/fr/mot-de-passe-oublie`) : le dire partout.
+- Réglages `grandlyon_username` (`string`) et `grandlyon_password` (`secret`), facultatifs, sans
+  `default` ; `config_schema` n'a pas d'affichage conditionnel : une section « Lyon » les présente,
+  et le conteneur ne les exige que si Lyon est active (cochée ou un axe lyonnais ajouté). Sans
+  eux, aucune requête vers Grand Lyon. Compte manquant ou refusé : `setConnectionStatus(false,
+{en,fr,de,es})` (`CREDENTIALS` de `messages.js`), même texte dans l'action État ; les autres
+  villes continuent. Retour à `setConnectionStatus(true)` seulement après un problème signalé : un
+  utilisateur sans Lyon ne voit jamais l'état de connexion changer. Identifiants refusés :
+  réessayés après 1 h, ou tout de suite s'ils changent (empreinte SHA-256 en mémoire).
+- **Couche** : ~3 040 lignes pour ~2 400 codes, **un tronçon répété par niveau de zoom** (`zoom`
+  1-4, mêmes valeurs) : dédoublonner par `code` ; `count = 4 × codes` en direct. Catalogue
+  (`propertyName=code,libelle,longueur,the_geom`, ~1,4 Mo) une fois par jour ; à chaque cycle
+  `CQL_FILTER=code IN ('…')` par paquets de 100, sans géométrie (~1,5 Ko pour 3 codes).
+- **`etat`** : couleurs de la carte (description du jeu sur data.gouv.fr : vert fluide, orange
+  dense, rouge chargé, noir route coupée, gris donnée indisponible) → V 1, O 2, R 3, N 4 ; G, `*`
+  (un tiers des lignes, jamais de vitesse) et toute autre lettre → 0. **`est_a_jour` différent de
+  `true` → 0**, quelle que soit la lettre (le 31/10, 96 lignes G figées au 28/10). `vitesse` est un
+  texte (« 18 km/h », « Vitesse réglementaire », vide) : seul un nombre est publié, et aucun pour
+  un axe coupé. Vitesses urbaines basses même en vert (médiane 18 km/h) : c'est la donnée.
+- **Axe** = le `libelle` tel que publié (majuscules, abréviations : RTE, AV, R, BD, QU, CRS…) ; la
+  recherche ajoute la forme développée (« route de genas » trouve « RTE DE GENAS »), la clé ne
+  dérive que du libellé. Pas de commune dans la couche : « RTE DE LYON » (51 codes, plusieurs
+  communes) est un seul axe. Connu, laissé tel quel.
+- Essai réel du 31/10 avec le compte de Guilhem (fichier hors dépôt) : catalogue 884 axes, « RTE DE
+  GENAS » saturé à 11 km/h, autour de la maison 40 tronçons ; mauvais mot de passe et compte absent
+  donnent le bon état de connexion, Nantes continue. Les tests utilisent un faux compte
+  (`LYON_ACCOUNT` de `test/helpers/world.js`).
