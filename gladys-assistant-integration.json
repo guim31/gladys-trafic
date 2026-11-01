@@ -692,6 +692,17 @@
             "de": "Geschwindigkeit oder Fahrzeit zeigen",
             "es": "Mostrar la velocidad o el tiempo de recorrido"
           }
+        },
+        {
+          "key": "show_age",
+          "type": "boolean",
+          "default": false,
+          "label": {
+            "en": "Show the data age",
+            "fr": "Afficher l'âge de la donnée",
+            "de": "Alter der Daten zeigen",
+            "es": "Mostrar la antigüedad del dato"
+          }
         }
       ]
     }

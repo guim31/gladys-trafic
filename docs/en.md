@@ -126,7 +126,8 @@ made up, the speed keeps its last known value and the data age keeps growing.
 
 Add the **Road traffic** widget to a dashboard. It shows one row per watched road (ten at most),
 with the name given in Gladys, for example "Rocade — Heavy · 42 km/h". In the widget settings you
-can pick the roads shown (empty: all of them) and hide the speed or the travel time.
+can pick the roads shown (empty: all of them), hide the speed or the travel time, and show the
+age of the data ("Heavy · 42 km/h · 3 min ago").
 
 Colors: **green** free flow, **orange** heavy, **red** congested or closed, **grey** unknown.
 

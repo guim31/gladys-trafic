@@ -10,6 +10,12 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+### Added
+
+- Widget: an optional setting "Show the data age" adds the age of the newest
+  measure to each row ("Heavy · 42 km/h · 3 min ago"), as published by the
+  "Data age" feature. Off by default: the widget is unchanged.
+
 ## [1.2.0] - 2026-10-31
 
 ### Added

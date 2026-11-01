@@ -130,8 +130,8 @@ grandir.
 
 Ajoutez le widget **Trafic routier** à un tableau de bord. Il affiche une ligne par axe suivi (dix
 au plus), avec le nom donné dans Gladys, par exemple « Rocade — Dense · 42 km/h ». Dans les
-réglages du widget, vous pouvez choisir les axes affichés (vide : tous) et masquer la vitesse ou le
-temps de parcours.
+réglages du widget, vous pouvez choisir les axes affichés (vide : tous), masquer la vitesse ou le
+temps de parcours, et afficher l'âge de la donnée (« Dense · 42 km/h · il y a 3 min »).
 
 Couleurs : **vert** fluide, **orange** dense, **rouge** saturé ou coupé, **gris** inconnu.
 
