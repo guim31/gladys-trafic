@@ -347,6 +347,21 @@ test('widget: one colored row per road, the name given in Gladys, details option
   assert.deepEqual(plain.data.content.components[0].items, [
     { label: 'Rocade', value: 'Flüssig', color: WIDGET_COLORS.SUCCESS },
   ]);
+  // The data age is opt-in, the same number as the feature `age`.
+  const aged = await world.fake.widgetGet('traffic', {
+    language: 'fr',
+    settings: { axes: [road.external_id], show_age: true },
+  });
+  assert.deepEqual(validateWidgetContent(aged.data.content), []);
+  const [row] = aged.data.content.components[0].items;
+  const age = world.fake.lastState(featureId(road, 'age'));
+  assert.equal(typeof age, 'number');
+  assert.equal(row.value, `Fluide · 88 km/h · il y a ${age} min`);
+  const agedEn = await world.fake.widgetGet('traffic', {
+    language: 'en',
+    settings: { axes: [road.external_id], show_details: false, show_age: true },
+  });
+  assert.equal(agedEn.data.content.components[0].items[0].value, `Free flow · ${age} min ago`);
   assert.ok(world.fake.widgetRefreshes.length >= 3);
 });
 

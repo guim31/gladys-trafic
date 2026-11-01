@@ -130,7 +130,8 @@ creciendo.
 
 Añada el widget **Tráfico** a un panel. Muestra una línea por vía vigilada (diez como máximo), con
 el nombre dado en Gladys, por ejemplo «Rocade — Denso · 42 km/h». En los ajustes del widget puede
-elegir las vías mostradas (vacío: todas) y ocultar la velocidad o el tiempo de recorrido.
+elegir las vías mostradas (vacío: todas), ocultar la velocidad o el tiempo de recorrido y mostrar
+la antigüedad del dato («Denso · 42 km/h · hace 3 min»).
 
 Colores: **verde** fluido, **naranja** denso, **rojo** saturado o cortado, **gris** desconocido.
 

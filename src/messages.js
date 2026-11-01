@@ -149,6 +149,7 @@ const pluralFr = (count, one, many) => (count > 1 ? many : one);
 export const TEXT = {
   en: {
     minutes: ({ minutes }) => `${minutes} min`,
+    ago: ({ minutes }) => `${minutes} min ago`,
     allFree: ({ count }) =>
       `Traffic is flowing freely on your ${count} watched ${plural(count, 'road', 'roads')}.`,
     noData: 'No recent traffic measure for your watched roads.',
@@ -159,6 +160,7 @@ export const TEXT = {
   },
   fr: {
     minutes: ({ minutes }) => `${minutes} min`,
+    ago: ({ minutes }) => `il y a ${minutes} min`,
     allFree: ({ count }) =>
       `Trafic fluide sur ${pluralFr(count, 'votre axe suivi', `vos ${count} axes suivis`)}.`,
     noData: 'Pas de mesure récente du trafic sur vos axes suivis.',
@@ -169,6 +171,7 @@ export const TEXT = {
   },
   de: {
     minutes: ({ minutes }) => `${minutes} Min.`,
+    ago: ({ minutes }) => `vor ${minutes} Min.`,
     allFree: ({ count }) =>
       `Der Verkehr fließt auf ${plural(count, 'deiner überwachten Straße', `deinen ${count} überwachten Straßen`)}.`,
     noData: 'Keine aktuelle Verkehrsmessung für deine überwachten Straßen.',
@@ -179,6 +182,7 @@ export const TEXT = {
   },
   es: {
     minutes: ({ minutes }) => `${minutes} min`,
+    ago: ({ minutes }) => `hace ${minutes} min`,
     allFree: ({ count }) =>
       `Tráfico fluido en ${plural(count, 'su vía vigilada', `sus ${count} vías vigiladas`)}.`,
     noData: 'No hay medida reciente del tráfico en sus vías vigiladas.',

@@ -134,8 +134,9 @@ wächst weiter.
 
 Füge das Widget **Straßenverkehr** einem Dashboard hinzu. Es zeigt eine Zeile pro überwachter
 Straße (höchstens zehn) mit dem in Gladys vergebenen Namen, zum Beispiel „Rocade — Dicht · 42
-km/h“. In den Widget-Einstellungen kannst du die angezeigten Straßen wählen (leer: alle) und die
-Geschwindigkeit oder die Fahrzeit ausblenden.
+km/h“. In den Widget-Einstellungen kannst du die angezeigten Straßen wählen (leer: alle), die
+Geschwindigkeit oder die Fahrzeit ausblenden und das Alter der Daten zeigen („Dicht · 42 km/h ·
+vor 3 Min.“).
 
 Farben: **grün** flüssig, **orange** dicht, **rot** Stau oder gesperrt, **grau** unbekannt.
 

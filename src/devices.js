@@ -164,6 +164,13 @@ export function buildAxisDevice(gladys, sourceKey, source, axis, language) {
   };
 }
 
+/** The age of the newest measure in minutes (feature `age`), null without a measure. */
+export function ageMinutes(summary, now) {
+  return summary?.at === null || summary?.at === undefined
+    ? null
+    : Math.min(MAX_AGE_MINUTES, Math.max(0, Math.floor((now - summary.at) / 60000)));
+}
+
 /**
  * The states of an axis device. A value the measures do not give is not
  * published: the last known one stays, the level says "unknown".
@@ -177,10 +184,7 @@ export function axisStates(gladys, sourceKey, source, axisKey, summary, now, lan
     speed: summary.speed,
     travel_time: summary.time === null ? null : round1(summary.time / 60),
     usual_time: summary.usual === null ? null : round1(summary.usual / 60),
-    age:
-      summary.at === null
-        ? null
-        : Math.min(MAX_AGE_MINUTES, Math.max(0, Math.floor((now - summary.at) / 60000))),
+    age: ageMinutes(summary, now),
   };
   return featureKeys(source)
     .filter((key) => values[key] !== null && values[key] !== undefined)
